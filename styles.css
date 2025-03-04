@@ -1,0 +1,75 @@
+/* Umumiy stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header uchun stil */
+.header {
+    display: flex;
+    justify-content: flex-start; /* Chap tomonga tekislash */
+    align-items: center; /* Vertikal markazlash */
+    margin-bottom: 20px; /* Tugma va sarlavha orasidagi masofa */
+}
+
+.home-button {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #0056b3;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #004085;
+}
+
+h1 {
+    margin-top: 0; /* Sarlavha va tugma orasidagi masofani kamaytirish */
+    color: #333;
+}
+
+/* Fanlar ro'yxati uchun stil */
+.subjects {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Tugmalar orasidagi masofa */
+}
+
+.subject-button {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subject-button:hover {
+    background-color: #0056b3;
+}
+
+.subject-button span {
+    margin-left: 10px; /* Matn va tugma orasidagi masofa */
+}
