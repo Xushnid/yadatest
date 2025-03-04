@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Dynamic Quiz Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="chart.js"></script>
+</head>
+<body>
+    <div class="container">
+	<div class="header">
+            <a href="../index.html" class="home-button">Boshqa fan tanlash</a>
+			<a href="./200/index.html" class="home-button">200 ta yodlash !</a>
+        </div>
+        <h1>TJIM Test</h1>
+
+        <!-- Testlar sonini tanlash uchun radio buttonlar -->
+        <div id="radioGroup" class="radio-group">
+            
+            <label><input type="radio" name="testCount" value="30"> 30 ta test</label>
+            <label><input type="radio" name="testCount" value="50"> 50 ta test</label>
+        </div>
+
+        <!-- Testlarni boshlash tugmasi -->
+        <button id="startBtn">Testni Boshlash</button>
+
+        <!-- Savol va javoblar uchun konteyner -->
+        <div id="quizContainer" style="display: none;">
+            <div id="questionBox"></div>
+            <div id="optionsBox"></div>
+            <div id="feedback" class="feedback"></div> <!-- Ogohlantirish uchun joy -->
+            <button id="nextBtn" disabled>Keyingi Savol</button>
+        </div>
+
+        <!-- Natija ko'rsatish uchun bo'sh joy -->
+        <div id="result" style="display: none;">
+            <div class="dashboard">
+                <h2>Test Yakuniy Natijalari</h2>
+                <div class="result-summary">
+                    <p><strong>To'g'ri javoblar:</strong> <span id="correctCount">0</span></p>
+                    <p><strong>Noto'g'ri javoblar:</strong> <span id="wrongCount">0</span></p>
+                    <p><strong>Umumiy savollar:</strong> <span id="totalQuestions">0</span></p>
+                    <p><strong>Foydalanuvchi balli:</strong> <span id="userScore">0%</span></p>
+                </div>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="resultChart"></canvas>
+                </div>
+                <button id="restartBtn">Qayta Urinish</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+	
+</body>
+</html>
