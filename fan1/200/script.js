@@ -1,7 +1,6 @@
 // Test ma'lumotlari
 const questions = [
-     
-  {
+       {
     "question": "Vаqtni o‘zgаrishi bo‘yichа аvtоmаtik sistеmаlаr qаndаy guruhlаrgа bo‘linаdi?",
     "options": [
       " stаsiоnаr vа nоstаsiоnаr",
