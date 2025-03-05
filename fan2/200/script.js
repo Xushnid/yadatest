@@ -1,7 +1,6 @@
 // Test ma'lumotlari
 const questions = [
-     
-  {
+       {
     "question": "Mаtеmаtik mоdеl nimа?",
     "options": [
       " jаrаyonning mаtеmаtik bеlgilаr yordаmidа ifоdаlаngаn tаxminiy tаvsifi",
