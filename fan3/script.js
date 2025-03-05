@@ -4,1004 +4,1808 @@ const questions = [
   {
     "question": "Deformasiyani o’lchash uchun qaysi o’zgartirgich qo’llaniladi:",
     "options": [
-      "A) Tenzometr",
-      "B) Manometr",
-      "C) Avtomatik potensiometr",
-      "D) Reostatli"
+      " Tenzometr",
+      " Manometr",
+      " Avtomatik potensiometr",
+      " Reostatli"
     ],
-    "answer": "A) Tenzometr"
+    "answer": " Tenzometr"
   },
   {
     "question": "Temperatura datchigini ko’rsating:",
     "options": [
-      "A) Termopara",
-      "B) Putevoy viklyuchatel",
-      "C) Sensorli datchik",
-      "D) Fotoelement"
+      " Termopara",
+      " Putevoy viklyuchatel",
+      " Sensorli datchik",
+      " Fotoelement"
     ],
-    "answer": "A) Termopara"
+    "answer": " Termopara"
   },
   {
     "question": "Temperaturani o’lchash va rostlash uchun qaysi datchik ishlatiladi:",
     "options": [
-      "A) Manometrik termometr",
-      "B) Trubka Burdona",
-      "C) Struyniy datchik",
-      "D) Diffmanometr"
+      " Manometrik termometr",
+      " Trubka Burdona",
+      " Struyniy datchik",
+      " Diffmanometr"
     ],
-    "answer": "A) Manometrik termometr"
+    "answer": " Manometrik termometr"
   },
   {
     "question": "Avtomatikaning qaysi qurilmasi datchikdan signal olib bajaruvchi mexanizmni xarakatga keltira oladi:",
     "options": [
-      "A) Magnit kuchaytirgich",
-      "B) Taxogenerator",
-      "C) Solenoid",
-      "D) Termopara"
+      " Magnit kuchaytirgich",
+      " Taxogenerator",
+      " Solenoid",
+      " Termopara"
     ],
-    "answer": "A) Magnit kuchaytirgich"
+    "answer": " Magnit kuchaytirgich"
   },
   {
     "question": "Suyuqlik va gaz bosimini o’lchash uchun qaysi datchik qo’llaniladi:",
     "options": [
-      "A) Manometr",
-      "B) Taxometr",
-      "C) Termopara",
-      "D) P`yezoelektrik datchik"
+      " Manometr",
+      " Taxometr",
+      " Termopara",
+      " P`yezoelektrik datchik"
     ],
-    "answer": "A) Manometr"
+    "answer": " Manometr"
   },
   {
     "question": "Atmosfera bosimini o’lchash uchun qaysi datchik qo’llaniladi:",
     "options": [
-      "A) Barometr",
-      "B) Diffmanometr",
-      "C) Vakuummetr",
-      "D) Taxometr"
+      " Barometr",
+      " Diffmanometr",
+      " Vakuummetr",
+      " Taxometr"
     ],
-    "answer": "A) Barometr"
+    "answer": " Barometr"
   },
   {
     "question": "Bosimlar farqini o’lchash uchun qaysi datchik qo’llaniladi:",
     "options": [
-      "A) Diffmanometr",
-      "B) Barometr",
-      "C) Vakuummetr",
-      "D) Taxogenerator"
+      " Diffmanometr",
+      " Barometr",
+      " Vakuummetr",
+      " Taxogenerator"
     ],
-    "answer": "A) Diffmanometr"
+    "answer": " Diffmanometr"
   },
   {
     "question": "Elektr zanjirini yuklanishdan qaysi element himoya qiladi:",
     "options": [
-      "A) Issiqlik relesi",
-      "B) Avtomatik  viklyuchatel",
-      "C) Kuchlanish relesi",
-      "D) Transformator"
+      " Issiqlik relesi",
+      " Avtomatik  viklyuchatel",
+      " Kuchlanish relesi",
+      " Transformator"
     ],
-    "answer": "A) Issiqlik relesi"
+    "answer": " Issiqlik relesi"
   },
   {
     "question": "Termoelektrik termoparaning ishlashi fizikaning qaysi qonuniga asoslangan:",
     "options": [
-      "A) Kvant mexanikasi",
-      "B) Akustika",
-      "C) Mexanika",
-      "D) Optika"
+      " Kvant mexanikasi",
+      " Akustika",
+      " Mexanika",
+      " Optika"
     ],
-    "answer": "A) Kvant mexanikasi"
+    "answer": " Kvant mexanikasi"
   },
   {
     "question": "Avtomatikaning qaysi elementi texnologik parametrlari xolati haqida ma`lumotni qabul qiladi va uzgartiradi:",
     "options": [
-      "A) Datchiklar",
-      "B) Kuchaytiruvchi elementlari",
-      "C) Bajaruvchi elemetlar",
-      "D) Rostlovchi organlar"
+      " Datchiklar",
+      " Kuchaytiruvchi elementlari",
+      " Bajaruvchi elemetlar",
+      " Rostlovchi organlar"
     ],
-    "answer": "A) Datchiklar"
+    "answer": " Datchiklar"
   },
   {
     "question": "Mexanik kattalikning o’zgarish tezligini induktiv EYukga aylantiruvchi qurilma qanday ataladi:",
     "options": [
-      "A) Induksion",
-      "B) Sig’im",
-      "C) Reostatli",
-      "D) Termoelektrik"
+      " Induksion",
+      " Sig’im",
+      " Reostatli",
+      " Termoelektrik"
     ],
-    "answer": "A) Induksion"
+    "answer": " Induksion"
   },
   {
     "question": "Qaysi pribor magnitostriksiya effektiga asoslangan:",
     "options": [
-      "A) Gerkon",
-      "B) Element Xolla",
-      "C) Magnit o’zgartirgich",
-      "D) Sig’im o’zgartirgich"
+      " Gerkon",
+      " Element Xolla",
+      " Magnit o’zgartirgich",
+      " Sig’im o’zgartirgich"
     ],
-    "answer": "A) Gerkon"
+    "answer": " Gerkon"
   },
   {
     "question": "Qanday fotoelektrik o’zgartirgich fotoeffekt prinsipga asoslangan:",
     "options": [
-      "A) Fotoqarshilik",
-      "B) Vakuumli fotoelement",
-      "C) Fotodiod",
-      "D) Fototranzistor"
+      " Fotoqarshilik",
+      " Vakuumli fotoelement",
+      " Fotodiod",
+      " Fototranzistor"
     ],
-    "answer": "A) Fotoqarshilik"
+    "answer": " Fotoqarshilik"
   },
   {
     "question": "Burchak siljishiga asoslangan datchikni ko’rsating:",
     "options": [
-      "A) Sel`sin",
-      "B) Polyarografik",
-      "C) Ximotron o’zgartirgich",
-      "D) Avtoelektron o’zgartirgich"
+      " Sel`sin",
+      " Polyarografik",
+      " Ximotron o’zgartirgich",
+      " Avtoelektron o’zgartirgich"
     ],
-    "answer": "A) Sel`sin"
+    "answer": " Sel`sin"
   },
   {
     "question": "Siljishni o’lchovchi datchikni ko’rsating:",
     "options": [
-      "A) Reostatli",
-      "B) Termoelektrik",
-      "C) Fotoelektrik",
-      "D) Taxometrik"
+      " Reostatli",
+      " Termoelektrik",
+      " Fotoelektrik",
+      " Taxometrik"
     ],
-    "answer": "A) Reostatli"
+    "answer": " Reostatli"
   },
   {
     "question": "To’qima maxsulotlarining chiziqli zichlik datchigini ko’rsating:",
     "options": [
-      "A) Rolikli",
-      "B) Dinamometrik",
-      "C) Konduktometrik",
-      "D) Termoelektrik"
+      " Rolikli",
+      " Dinamometrik",
+      " Konduktometrik",
+      " Termoelektrik"
     ],
-    "answer": "A) Rolikli"
+    "answer": " Rolikli"
   },
   {
     "question": "Qanday datchik yordamida satxni, chiziqli zichlikni va suyuqlik koeffisiyentini aniqlash mumkin:",
     "options": [
-      "A) Fotoelektrik",
-      "B) Diel`kometrik",
-      "C) Sigimli",
-      "D) Potensiometrik"
+      " Fotoelektrik",
+      " Diel`kometrik",
+      " Sigimli",
+      " Potensiometrik"
     ],
-    "answer": "A) Fotoelektrik"
+    "answer": " Fotoelektrik"
   },
   {
     "question": "Optoelektron usul yordamida qaysi parametrlarni o’lchash mumkin:",
     "options": [
-      "A) To’qima maxsulotining chiziqli zichligi",
-      "B) Ipning chuziluvchanligi",
-      "C) Materialning xarakat tezligi",
-      "D) Stanokning maxsuldorligi"
+      " To’qima maxsulotining chiziqli zichligi",
+      " Ipning chuziluvchanligi",
+      " Materialning xarakat tezligi",
+      " Stanokning maxsuldorligi"
     ],
-    "answer": "A) To’qima maxsulotining chiziqli zichligi"
+    "answer": " To’qima maxsulotining chiziqli zichligi"
   },
   {
     "question": "O’zgartirgichning statik xarakterichtikasi deb:",
     "options": [
-      "A) Muvozanat xolatda chiqish kattaligini kirish kattaligiga bog’liqligi",
-      "B) Kirish kattaligi sakrashsimon o’zgarganda, chiqish kattaligi o’zgaradi",
-      "C) O’zgartirgichning ichki xossalari o’zgarishi natijasida xosil bo’ladigan tebranishga",
-      "D) O’tkinchi rejimda kirish va chiqish kattaligi orasidagi bog’lanishga"
+      " Muvozanat xolatda chiqish kattaligini kirish kattaligiga bog’liqligi",
+      " Kirish kattaligi sakrashsimon o’zgarganda, chiqish kattaligi o’zgaradi",
+      " O’zgartirgichning ichki xossalari o’zgarishi natijasida xosil bo’ladigan tebranishga",
+      " O’tkinchi rejimda kirish va chiqish kattaligi orasidagi bog’lanishga"
     ],
-    "answer": "A) Muvozanat xolatda chiqish kattaligini kirish kattaligiga bog’liqligi"
+    "answer": " Muvozanat xolatda chiqish kattaligini kirish kattaligiga bog’liqligi"
   },
   {
     "question": "Datchikni tanlashda qaysi kattalik asosiy hisoblanadi:",
     "options": [
-      "A) Sezgirlik",
-      "B) Mustaxkamlik",
-      "C) Uzoq ishlashi",
-      "D) Remontbobligi"
+      " Sezgirlik",
+      " Mustaxkamlik",
+      " Uzoq ishlashi",
+      " Remontbobligi"
     ],
-    "answer": "A) Sezgirlik"
+    "answer": " Sezgirlik"
   },
   {
     "question": "Bosim datchigi va manometrik termometr o’rtasidagi umumiylik nima:",
     "options": [
-      "A) Trubka Burdona",
-      "B) Turli simlar",
-      "C) Dilatometrik  plastina",
-      "D) Element Xolla"
+      " Trubka Burdona",
+      " Turli simlar",
+      " Dilatometrik  plastina",
+      " Element Xolla"
     ],
-    "answer": "A) Trubka Burdona"
+    "answer": " Trubka Burdona"
   },
   {
     "question": "Bir necha kilovatt quvvatni kuchaytiruvchi kuchaytirgich qaysi:",
     "options": [
-      "A) Magnit",
-      "B) Elektron",
-      "C) Pnevmatik",
-      "D) Gidravlik"
+      " Magnit",
+      " Elektron",
+      " Pnevmatik",
+      " Gidravlik"
     ],
-    "answer": "A) Magnit"
+    "answer": " Magnit"
   },
   {
     "question": "Avtomatik elektrik yuritmalarida qaysi kuchaytirgich qo’llanilmaydi:",
     "options": [
-      "A) Gidravlik",
-      "B) Elektron",
-      "C) Elektromagnitli",
-      "D) Poluprovodnik"
+      " Gidravlik",
+      " Elektron",
+      " Elektromagnitli",
+      " Poluprovodnik"
     ],
-    "answer": "A) Gidravlik"
+    "answer": " Gidravlik"
   },
   {
     "question": "Struyniy avtomatika qanday ataladi:",
     "options": [
-      "A) Pnevmonika",
-      "B) Gidravlika",
-      "C) Pnevmatika",
-      "D) Robototexnika"
+      " Pnevmonika",
+      " Gidravlika",
+      " Pnevmatika",
+      " Robototexnika"
     ],
-    "answer": "A) Pnevmonika"
+    "answer": " Pnevmonika"
   },
   {
     "question": "Datchiklarni tanlashda qaysi kattalik asosiy xisoblanadi:",
     "options": [
-      "A) Ishonchlilik",
-      "B) Yukori sezgirlik",
-      "C) Kam inersiyalik",
-      "D) Tashqi xalaqitlar"
+      " Ishonchlilik",
+      " Yukori sezgirlik",
+      " Kam inersiyalik",
+      " Tashqi xalaqitlar"
     ],
-    "answer": "A) Ishonchlilik"
+    "answer": " Ishonchlilik"
   },
   {
     "question": "Qaysi datchik orkali temperatura ulchanmaydi:",
     "options": [
-      "A) P`yezoelektrik datchik",
-      "B) Termoqarshilik",
-      "C) Yarim utkazgichli   tranzistor",
-      "D) Dilatometrik   datchik"
+      " P`yezoelektrik datchik",
+      " Termoqarshilik",
+      " Yarim utkazgichli   tranzistor",
+      " Dilatometrik   datchik"
     ],
-    "answer": "A) P`yezoelektrik datchik"
+    "answer": " P`yezoelektrik datchik"
   },
   {
     "question": "2 taktli magnit kuchaytirgichning ulanish sxemasini ko’rsating:",
     "options": [
-      "A) Differensial va ko’prik",
-      "B) Differensial",
-      "C) Ko’prik",
-      "D) Oddiy"
+      " Differensial va ko’prik",
+      " Differensial",
+      " Ko’prik",
+      " Oddiy"
     ],
-    "answer": "A) Differensial va ko’prik"
+    "answer": " Differensial va ko’prik"
   },
   {
     "question": "Qaysi priborga toyinish drosseli qoyilishi shart:",
     "options": [
-      "A) Magnit  kuchaytirgich",
-      "B) Gidravlik kuchaytirgich",
-      "C) Pnevmatik kuchaytirgich",
-      "D) Elektron kuchaytirgich"
+      " Magnit  kuchaytirgich",
+      " Gidravlik kuchaytirgich",
+      " Pnevmatik kuchaytirgich",
+      " Elektron kuchaytirgich"
     ],
-    "answer": "A) Magnit  kuchaytirgich"
+    "answer": " Magnit  kuchaytirgich"
   },
   {
     "question": "Elektromagnit rele avtomatikaning qaysi elementiga kiritilgan:",
     "options": [
-      "A) Bajaruvchi",
-      "B) Kuchaytirgich",
-      "C) Sezgirlik",
-      "D) Boshqaruvchi organlar"
+      " Bajaruvchi",
+      " Kuchaytirgich",
+      " Sezgirlik",
+      " Boshqaruvchi organlar"
     ],
-    "answer": "A) Bajaruvchi"
+    "answer": " Bajaruvchi"
   },
   {
     "question": "Vaqt relesi uchun qaysi parametr asosli:",
     "options": [
-      "A) Qoyib yuborish parametrlari",
-      "B) Ishlash parametrlari",
-      "C) Ishlab chiqarish vaqti",
-      "D) Ishchi parametr"
+      " Qoyib yuborish parametrlari",
+      " Ishlash parametrlari",
+      " Ishlab chiqarish vaqti",
+      " Ishchi parametr"
     ],
-    "answer": "A) Qoyib yuborish parametrlari"
+    "answer": " Qoyib yuborish parametrlari"
   },
   {
     "question": "Qaysi qurilma bajaruvchi mexanizmga kiritilmaydi:",
     "options": [
-      "A) Avtomatik ko’prik",
-      "B) Qadamli dvigatel`",
-      "C) Elektromagnili  mufta",
-      "D) Servodvigatel`"
+      " Avtomatik ko’prik",
+      " Qadamli dvigatel`",
+      " Elektromagnili  mufta",
+      " Servodvigatel`"
     ],
-    "answer": "A) Avtomatik ko’prik"
+    "answer": " Avtomatik ko’prik"
   },
   {
     "question": "Taxogenerator va temperatura datchigi o’rtasidagi umumiylik:",
     "options": [
-      "A) Ikkalasi xam generatorli datchiklar",
-      "B) Ikkalasi xam temperaturani ulchaydi",
-      "C) Ikkalasi xam tezlikni ulchaydi",
-      "D) Ikkalasi xam parametrik dastchiklar"
+      " Ikkalasi xam generatorli datchiklar",
+      " Ikkalasi xam temperaturani ulchaydi",
+      " Ikkalasi xam tezlikni ulchaydi",
+      " Ikkalasi xam parametrik dastchiklar"
     ],
-    "answer": "A) Ikkalasi xam generatorli datchiklar"
+    "answer": " Ikkalasi xam generatorli datchiklar"
   },
   {
     "question": "Magnit puskatel nima uchun xizmat qiladi:",
     "options": [
-      "A) Dvigatelni masafodan o’chirib yondiradi",
-      "B) Tarmoq kuchlanishini o’lchaydi",
-      "C) Elektrodvigatelni temperatura kuchini rostlaydi",
-      "D) Dvigatelni o’z-o’zidan ulanishidan ximoya qiladi"
+      " Dvigatelni masafodan o’chirib yondiradi",
+      " Tarmoq kuchlanishini o’lchaydi",
+      " Elektrodvigatelni temperatura kuchini rostlaydi",
+      " Dvigatelni o’z-o’zidan ulanishidan ximoya qiladi"
     ],
-    "answer": "A) Dvigatelni masafodan o’chirib yondiradi"
+    "answer": " Dvigatelni masafodan o’chirib yondiradi"
   },
   {
     "question": "Servoprivodga qaysi element kiradi:",
     "options": [
-      "A) Solenoidli elektromagnit",
-      "B) Shagoviy dvigatel`",
-      "C) Bir fazali  elektrodvigatel`",
-      "D) Kondensatorli dvigatel`"
+      " Solenoidli elektromagnit",
+      " Shagoviy dvigatel`",
+      " Bir fazali  elektrodvigatel`",
+      " Kondensatorli dvigatel`"
     ],
-    "answer": "A) Solenoidli elektromagnit"
+    "answer": " Solenoidli elektromagnit"
   },
   {
     "question": "Rostlovchi organni qaysi element  xarakatga keltiradi:",
     "options": [
-      "A) Shagoviy dvigatel`",
-      "B) Magnit usilitel`",
-      "C) Potensiometr",
-      "D) Termopara"
+      " Shagoviy dvigatel`",
+      " Magnit usilitel`",
+      " Potensiometr",
+      " Termopara"
     ],
-    "answer": "A) Shagoviy dvigatel`"
+    "answer": " Shagoviy dvigatel`"
   },
   {
     "question": "Fotoelement ishi fizikaning qaysi qonuniga asoslangan:",
     "options": [
-      "A) Optik",
-      "B) Termodinamik",
-      "C) Mexanik",
-      "D) Kvant mexaniksi"
+      " Optik",
+      " Termodinamik",
+      " Mexanik",
+      " Kvant mexaniksi"
     ],
-    "answer": "A) Optik"
+    "answer": " Optik"
   },
   {
     "question": "Qaysi datchik mexanizmi xolatlarini nazorat qilish uchun xizmat qiladi:",
     "options": [
-      "A) Kontaktli puteviye viklyuchatel",
-      "B) Termopara",
-      "C) Tok relesi",
-      "D) Fotometr"
+      " Kontaktli puteviye viklyuchatel",
+      " Termopara",
+      " Tok relesi",
+      " Fotometr"
     ],
-    "answer": "A) Kontaktli puteviye viklyuchatel"
+    "answer": " Kontaktli puteviye viklyuchatel"
   },
   {
     "question": "Noelektrik kattalikni elektrik kattalikka aylantiruvchi avtomatikaning elementini ko’rsating:",
     "options": [
-      "A) Datchik",
-      "B) Servodapatel`",
-      "C) Rostlovchi organ",
-      "D) Kuchaytirgich"
+      " Datchik",
+      " Servodapatel`",
+      " Rostlovchi organ",
+      " Kuchaytirgich"
     ],
-    "answer": "A) Datchik"
+    "answer": " Datchik"
   },
   {
     "question": "Generatorli datchikni ko’rsating:",
     "options": [
-      "A) Termopara",
-      "B) Manometi termometr",
-      "C) Tenzometr",
-      "D) Taxometr"
+      " Termopara",
+      " Manometi termometr",
+      " Tenzometr",
+      " Taxometr"
     ],
-    "answer": "A) Termopara"
+    "answer": " Termopara"
   },
   {
     "question": "Tezlik parametrli datchikni ko’rsating:",
     "options": [
-      "A) Taxogenerator",
-      "B) Reostat uzgartirgichli markazdan qochma  rele",
-      "C) Tenzorezistor",
-      "D) P`yezoelektrik"
+      " Taxogenerator",
+      " Reostat uzgartirgichli markazdan qochma  rele",
+      " Tenzorezistor",
+      " P`yezoelektrik"
     ],
-    "answer": "A) Taxogenerator"
+    "answer": " Taxogenerator"
   },
   {
     "question": "Qaysi chiziqli siljish datchigi analogliga kiradi:",
     "options": [
-      "A) Potensiometrik",
-      "B) Sigimli",
-      "C) Aylanma",
-      "D) Elektromagnit"
+      " Potensiometrik",
+      " Sigimli",
+      " Aylanma",
+      " Elektromagnit"
     ],
-    "answer": "A) Potensiometrik"
+    "answer": " Potensiometrik"
   },
   {
     "question": "Generatorli datchikda qaysi o’lchov sxemasi qo’llanilgan:",
     "options": [
-      "A) Kompensasion",
-      "B) Differensial",
-      "C) Oddiy",
-      "D) Sozlanmagan ko’prik"
+      " Kompensasion",
+      " Differensial",
+      " Oddiy",
+      " Sozlanmagan ko’prik"
     ],
-    "answer": "A) Kompensasion"
+    "answer": " Kompensasion"
   },
   {
     "question": "Sil`fon qaysi datchikka kiradi:",
     "options": [
-      "A) Gaz bosimi",
-      "B) Kuchlanish",
-      "C) Deformasiya",
-      "D) Satx"
+      " Gaz bosimi",
+      " Kuchlanish",
+      " Deformasiya",
+      " Satx"
     ],
-    "answer": "A) Gaz bosimi"
+    "answer": " Gaz bosimi"
   },
   {
     "question": "Qaysi datchik kuchni elektr kuchlanishga aylantiradi:",
     "options": [
-      "A) P`yezoelektrik",
-      "B) Tenzometrik",
-      "C) Detolokometrik",
-      "D) Magnitli"
+      " P`yezoelektrik",
+      " Tenzometrik",
+      " Detolokometrik",
+      " Magnitli"
     ],
-    "answer": "A) P`yezoelektrik"
+    "answer": " P`yezoelektrik"
   },
   {
     "question": "Kuchlanish relesi nima uchun xizmat qiladi:",
     "options": [
-      "A) Tarmoq kuchlanishi nazorati uchun",
-      "B) Tarmoq toki uchun",
-      "C) Faza mavjudligni aniqlash uchun",
-      "D) Dvigatel ulanganini nazorat qilish uchun"
+      " Tarmoq kuchlanishi nazorati uchun",
+      " Tarmoq toki uchun",
+      " Faza mavjudligni aniqlash uchun",
+      " Dvigatel ulanganini nazorat qilish uchun"
     ],
-    "answer": "A) Tarmoq kuchlanishi nazorati uchun"
+    "answer": " Tarmoq kuchlanishi nazorati uchun"
   },
   {
     "question": "Qaysi datchik bilan birga ko’prik logometr sxema ishlatiladi:",
     "options": [
-      "A) Taxogeneratorli    datchik",
-      "B) Qarshilik termometrii",
-      "C) Termopara",
-      "D) P`yezoelektrik datchik"
+      " Taxogeneratorli    datchik",
+      " Qarshilik termometrii",
+      " Termopara",
+      " P`yezoelektrik datchik"
     ],
-    "answer": "A) Taxogeneratorli    datchik"
+    "answer": " Taxogeneratorli    datchik"
   },
   {
     "question": "Datchik uchun muxim ko’rsatkichni aniqlang:",
     "options": [
-      "A) Sezgirlik",
-      "B) Konstruksiyasining soddaligi",
-      "C) Boqiylik",
-      "D) Aniqlik"
+      " Sezgirlik",
+      " Konstruksiyasining soddaligi",
+      " Boqiylik",
+      " Aniqlik"
     ],
-    "answer": "A) Sezgirlik"
+    "answer": " Sezgirlik"
   },
   {
     "question": "Kuchaytiruvchi elementning axamiyatli parametrini ko’rsating:",
     "options": [
-      "A) Quvvat buyicha kuchaytirish koeffisiyenti",
-      "B) Mustaxkamlik",
-      "C) Xarakatlanuvchi qismning mavjudligi",
-      "D) Ishga tushirish sxemasining soddaligi"
+      " Quvvat buyicha kuchaytirish koeffisiyenti",
+      " Mustaxkamlik",
+      " Xarakatlanuvchi qismning mavjudligi",
+      " Ishga tushirish sxemasining soddaligi"
     ],
-    "answer": "A) Quvvat buyicha kuchaytirish koeffisiyenti"
+    "answer": " Quvvat buyicha kuchaytirish koeffisiyenti"
   },
 
   {
     "question": "Avtomatik boshqarish uchun uzilishni xosil qiluvchi bajaruvchi mexanizm elementini ko’rsating:",
     "options": [
-      "A) Shagoviy dvigatel`",
-      "B) LATR",
-      "C) Reostat",
-      "D) Toyinish  drosseli"
+      " Shagoviy dvigatel`",
+      " LATR",
+      " Reostat",
+      " Toyinish  drosseli"
     ],
-    "answer": "A) Shagoviy dvigatel`"
+    "answer": " Shagoviy dvigatel`"
   },
   {
     "question": "Elektromagnit  mufta avtomatlashtirishning qaysi elementiga kiradi:",
     "options": [
-      "A) Ijro mexanizimi",
-      "B) Elementlar tasnifi",
-      "C) O’zgartiruvchi",
-      "D) Sezgirlik"
+      " Ijro mexanizimi",
+      " Elementlar tasnifi",
+      " O’zgartiruvchi",
+      " Sezgirlik"
     ],
-    "answer": "A) Ijro mexanizimi"
+    "answer": " Ijro mexanizimi"
   },
   {
     "question": "Elektrmagnit servodvigatelga qaysi qurilma kiradi:",
     "options": [
-      "A) Shagoviy dvigatel`",
-      "B) Rele",
-      "C) Solenoidli yuritma",
-      "D) Kuchaytirgich"
+      " Shagoviy dvigatel`",
+      " Rele",
+      " Solenoidli yuritma",
+      " Kuchaytirgich"
     ],
-    "answer": "A) Shagoviy dvigatel`"
+    "answer": " Shagoviy dvigatel`"
   },
   {
     "question": "Xromnikelli termoparada eng yuqori temperaturasi nechaga teng:",
     "options": [
-      "A) 800 c",
-      "B) 1300 c",
-      "C) 1600 c",
-      "D) 400 c"
+      " 800 c",
+      " 1300 c",
+      " 1600 c",
+      " 400 c"
     ],
-    "answer": "A) 800 c"
+    "answer": " 800 c"
   },
   {
     "question": "Namlikni o’zgarishga boglik ravishda aktiv qarshilikning o’zgarishi qaysi prinsipga asoslangan:",
     "options": [
-      "A) Konduktometrik",
-      "B) Psixrometrik",
-      "C) Gigrometrik",
-      "D) Sigimi"
+      " Konduktometrik",
+      " Psixrometrik",
+      " Gigrometrik",
+      " Sigimi"
     ],
-    "answer": "A) Konduktometrik"
+    "answer": " Konduktometrik"
   },
   {
     "question": "Magnit kuchaytirgich qaysi statik parametr orqali aniqlanadi:",
     "options": [
-      "A) Kuchaytirish koeffisiyenti",
-      "B) Sezgirlik",
-      "C) Turgunlik",
-      "D) Mustaxkamlik"
+      " Kuchaytirish koeffisiyenti",
+      " Sezgirlik",
+      " Turgunlik",
+      " Mustaxkamlik"
     ],
-    "answer": "A) Kuchaytirish koeffisiyenti"
+    "answer": " Kuchaytirish koeffisiyenti"
   },
   {
     "question": "Qaysi dinamik parametr magnit kuchaytirgich ishini aniqlamaydi:",
     "options": [
-      "A) Tebranuvchanlik",
-      "B) Magnit oqimi",
-      "C) Vaqt doimiysi",
-      "D) Kechikish"
+      " Tebranuvchanlik",
+      " Magnit oqimi",
+      " Vaqt doimiysi",
+      " Kechikish"
     ],
-    "answer": "A) Tebranuvchanlik"
+    "answer": " Tebranuvchanlik"
   },
   {
     "question": "Qaysi faktor magnit kuchaytirgichga ta`sir qilmaydi:",
     "options": [
-      "A) Atrof muxit temperaturasi",
-      "B) Materialning magnitlilik xususiyati",
-      "C) Tarmoq kuchlanishi",
-      "D) Yuklama kuchlanishi"
+      " Atrof muxit temperaturasi",
+      " Materialning magnitlilik xususiyati",
+      " Tarmoq kuchlanishi",
+      " Yuklama kuchlanishi"
     ],
-    "answer": "A) Atrof muxit temperaturasi"
+    "answer": " Atrof muxit temperaturasi"
   },
   {
     "question": "Reversiv magnit kuchaytirgich uchun qanday sxemadan foydalaniladi:",
     "options": [
-      "A) Differensial",
-      "B) Murakkab",
-      "C) Oddiy",
-      "D) Kompensasion"
+      " Differensial",
+      " Murakkab",
+      " Oddiy",
+      " Kompensasion"
     ],
-    "answer": "A) Differensial"
+    "answer": " Differensial"
   },
   {
     "question": "Kontaktsiz magnit relesi qaysi asosda quriladi:",
     "options": [
-      "A) Magnit kuchaytirgichi asosida",
-      "B) Elektromagnit relesi",
-      "C) Gerkonniy rele",
-      "D) Induksion rele"
+      " Magnit kuchaytirgichi asosida",
+      " Elektromagnit relesi",
+      " Gerkonniy rele",
+      " Induksion rele"
     ],
-    "answer": "A) Magnit kuchaytirgichi asosida"
+    "answer": " Magnit kuchaytirgichi asosida"
   },
   {
     "question": "Magnit kuchaytirgich xossasini qanday konchtruktiv xolat yaxshilamaydi:",
     "options": [
-      "A) Umumiy chulgamdan foydalanish",
-      "B) Magnit zanjirida xavo bo’shligini yo’q qilish",
-      "C) Magnitutkazuvchanlik formasi",
-      "D) Maxsus magnit utkazuvchanli elementni qo`llash"
+      " Umumiy chulgamdan foydalanish",
+      " Magnit zanjirida xavo bo’shligini yo’q qilish",
+      " Magnitutkazuvchanlik formasi",
+      " Maxsus magnit utkazuvchanli elementni qo`llash"
     ],
-    "answer": "A) Umumiy chulgamdan foydalanish"
+    "answer": " Umumiy chulgamdan foydalanish"
   },
   {
     "question": "Qutblar soni p=2 va uch fazali tokning chatotasi f = 50 Gs bo`lsa, magnit maydonining aylanish chastotasi n1 nimaga teng:",
     "options": [
-      "A) n1 = 1500 ayl/min",
-      "B) n1 = 100 ayl/min",
-      "C) n1 = 750 ayl/min",
-      "D) n1 = 3000 ayl/min"
+      " n1 = 1500 ayl/min",
+      " n1 = 100 ayl/min",
+      " n1 = 750 ayl/min",
+      " n1 = 3000 ayl/min"
     ],
-    "answer": "A) n1 = 1500 ayl/min"
+    "answer": " n1 = 1500 ayl/min"
   },
   {
     "question": "Uch fazali sistema simmetrik rejimda ishlamoqda. Yuklama yulduz sxemasida neytral simsiz ulangan. Agar A faza qisqa tutashtirilgan bo`lsa,   va   nimaga teng bo`ladi:",
     "options": [
-      "A) 2 marta kamayadi",
-      "B) marta oshadi",
-      "C) marta kamayadi",
-      "D) o`zgarmaydi"
+      " 2 marta kamayadi",
+      " marta oshadi",
+      " marta kamayadi",
+      " o`zgarmaydi"
     ],
-    "answer": "A) 2 marta kamayadi"
+    "answer": " 2 marta kamayadi"
   },
   {
     "question": "Qanday yarim o`tkazgichli asbob p-n o`tishga ega bo`lmaydi:",
     "options": [
-      "A) Rezistor",
-      "B) Diod",
-      "C) Tranzistor",
-      "D) Tiristor"
+      " Rezistor",
+      " Diod",
+      " Tranzistor",
+      " Tiristor"
     ],
-    "answer": "A) Rezistor"
+    "answer": " Rezistor"
   },
   {
     "question": "Fotorezistor nima:",
     "options": [
-      "A) Yorug`lik ta`sirida qarshiligi o`zgaruvchan  asboblar",
-      "B) Kuchlanishli o`zgaruvchan asboblar",
-      "C) O`zgaruvchanligi o`zgaruvchi asboblar",
-      "D) Chastota o`zgaruvchi asboblar"
+      " Yorug`lik ta`sirida qarshiligi o`zgaruvchan  asboblar",
+      " Kuchlanishli o`zgaruvchan asboblar",
+      " O`zgaruvchanligi o`zgaruvchi asboblar",
+      " Chastota o`zgaruvchi asboblar"
     ],
-    "answer": "A) Yorug`lik ta`sirida qarshiligi o`zgaruvchan  asboblar"
+    "answer": " Yorug`lik ta`sirida qarshiligi o`zgaruvchan  asboblar"
   },
   {
     "question": "Elektr mashinalari qanday rejimlarda ishlaydi:",
     "options": [
-      "A) Dvigatel, generator va tormoz rejimida",
-      "B) Qisqa vaqtli, tormoz tejimida",
-      "C) Oraliq, davomiy va tezlik rejimida",
-      "D) Dvigatel, qisqa vaqtli, tormoz tejimida"
+      " Dvigatel, generator va tormoz rejimida",
+      " Qisqa vaqtli, tormoz tejimida",
+      " Oraliq, davomiy va tezlik rejimida",
+      " Dvigatel, qisqa vaqtli, tormoz tejimida"
     ],
-    "answer": "A) Dvigatel, generator va tormoz rejimida"
+    "answer": " Dvigatel, generator va tormoz rejimida"
   },
   {
     "question": "O`zgarmas tok dvigateli magnit maydonining qiymati:",
     "options": [
-      "A) qo`zg`atish tokiga bog`liq",
-      "B) Yakorning burchak tezligiga bog`liq",
-      "C) yakor tokiga bog`liq",
-      "D) Dvigatelning EYuk siga bog`liq"
+      " qo`zg`atish tokiga bog`liq",
+      " Yakorning burchak tezligiga bog`liq",
+      " yakor tokiga bog`liq",
+      " Dvigatelning EYuk siga bog`liq"
     ],
-    "answer": "A) qo`zg`atish tokiga bog`liq"
+    "answer": " qo`zg`atish tokiga bog`liq"
   },
   {
     "question": "O`zgarmas tok dvigatelini revers qilish qanday amalga oshiriladi:",
     "options": [
-      "A) Kuchlanishning qutbini o`zgartirish",
-      "B) Yakor chulg`ami toki yo`nalishini o`zgartirish",
-      "C) Quzg`atish chulg`ami toki yo`nalishini o`zgartirish",
-      "D) Mumkin emas"
+      " Kuchlanishning qutbini o`zgartirish",
+      " Yakor chulg`ami toki yo`nalishini o`zgartirish",
+      " Quzg`atish chulg`ami toki yo`nalishini o`zgartirish",
+      " Mumkin emas"
     ],
-    "answer": "A) Kuchlanishning qutbini o`zgartirish"
+    "answer": " Kuchlanishning qutbini o`zgartirish"
   },
   {
     "question": "Mexanik tavsiflarning qanday ko`rinishlari bor:",
     "options": [
-      "A) Tabiiy va sun`iy",
-      "B) Tashqi va yuklamali",
-      "C) Xaqiqiy va rostlanuvchi",
-      "D) Yuklamali va rostlanuvchi"
+      " Tabiiy va sun`iy",
+      " Tashqi va yuklamali",
+      " Xaqiqiy va rostlanuvchi",
+      " Yuklamali va rostlanuvchi"
     ],
-    "answer": "A) Tabiiy va sun`iy"
+    "answer": " Tabiiy va sun`iy"
   },
   {
     "question": "Elektrodvigatel qanday qismlardan tuzilgan:",
     "options": [
-      "A) Aylanuvchi - rotor, qo`zg`almas- stator",
-      "B) Stator va yakor`",
-      "C) Magnitli o`tkazgich va rotor",
-      "D) Magnitli o`tkazgich va stator"
+      " Aylanuvchi - rotor, qo`zg`almas- stator",
+      " Stator va yakor`",
+      " Magnitli o`tkazgich va rotor",
+      " Magnitli o`tkazgich va stator"
     ],
-    "answer": "A) Aylanuvchi - rotor, qo`zg`almas- stator"
+    "answer": " Aylanuvchi - rotor, qo`zg`almas- stator"
   },
   {
     "question": "O`zgarmas tok dvigateli … bo`lmasa aylantiruvchi moment xosil qila olmaydi:",
     "options": [
-      "A) Yakor zanjirida qo`shimcha rezistor",
-      "B) Inersiya momenti",
-      "C) Magnit oqimi va yakor toki",
-      "D) Burchak tezligi"
+      " Yakor zanjirida qo`shimcha rezistor",
+      " Inersiya momenti",
+      " Magnit oqimi va yakor toki",
+      " Burchak tezligi"
     ],
-    "answer": "A) Yakor zanjirida qo`shimcha rezistor"
+    "answer": " Yakor zanjirida qo`shimcha rezistor"
   },
   {
     "question": "O`zgarmas tok generatori uchun qanday qo`zg`atish usullari mavjud? To`laroq javobni aniqlang:",
     "options": [
-      "A) Mustaqil, parallel, ketma-ket va aralash",
-      "B) Parallel, ketma-ket",
-      "C) Ketma-ket va aralash",
-      "D) Mustaqil va aralash"
+      " Mustaqil, parallel, ketma-ket va aralash",
+      " Parallel, ketma-ket",
+      " Ketma-ket va aralash",
+      " Mustaqil va aralash"
     ],
-    "answer": "A) Mustaqil, parallel, ketma-ket va aralash"
+    "answer": " Mustaqil, parallel, ketma-ket va aralash"
   },
   {
     "question": "Agar o`zgarmas tok dvigateli validagi yuklama oshsa, yakor toki:",
     "options": [
-      "A) Oshadi",
-      "B) O`zgarmaydi",
-      "C) Kamayadi",
-      "D) olga teng bo`ladi"
+      " Oshadi",
+      " O`zgarmaydi",
+      " Kamayadi",
+      " olga teng bo`ladi"
     ],
-    "answer": "A) Oshadi"
+    "answer": " Oshadi"
   },
   {
     "question": "Agar o`zgarmas tok dvigatelida qo`zg`atish zanjirida uzilish sodir bo`lsa, salt ishlash rejimida bursak tezligi qanday o`zgaradi:",
     "options": [
-      "A) Dvigatel to`xtaydi",
-      "B) Burchak tezligi oshadi",
-      "C) Burchak tezligi kamayadi",
-      "D) Burchak tezligi o`zgarmaydi"
+      " Dvigatel to`xtaydi",
+      " Burchak tezligi oshadi",
+      " Burchak tezligi kamayadi",
+      " Burchak tezligi o`zgarmaydi"
     ],
-    "answer": "A) Dvigatel to`xtaydi"
+    "answer": " Dvigatel to`xtaydi"
   },
   {
     "question": "Qanday ishchi tavsifdan triodning kuchaytirish koeffisiyenti aniqlanadi:",
     "options": [
-      "A) Anod-to`rli tavsifidan",
-      "B) Ayrim bir tavsifdan",
-      "C) To`rli tavsifidan",
-      "D) Xech qanday tavsifdan"
+      " Anod-to`rli tavsifidan",
+      " Ayrim bir tavsifdan",
+      " To`rli tavsifidan",
+      " Xech qanday tavsifdan"
     ],
-    "answer": "A) Anod-to`rli tavsifidan"
+    "answer": " Anod-to`rli tavsifidan"
   },
   {
     "question": "O`zgarmas tok mashinasining qaysi bir qismi o`zgaruvchan EYuk ni o`zgarmas EYuk ga aylantirib beradi:",
     "options": [
-      "A) Kollektor va cho`tkalar",
-      "B) Yakor",
-      "C) Cho`tkalar",
-      "D) Qo`zg`atish chulg`ami"
+      " Kollektor va cho`tkalar",
+      " Yakor",
+      " Cho`tkalar",
+      " Qo`zg`atish chulg`ami"
     ],
-    "answer": "A) Kollektor va cho`tkalar"
+    "answer": " Kollektor va cho`tkalar"
   },
   {
     "question": "Tranzistorni qanday maqsadlarda ishlatmagan ma`qul:",
     "options": [
-      "A) To`grilagich sifatida",
-      "B) Generator sxemalarida",
-      "C) Quvvat kuchaytirgichi sxemalarida",
-      "D) Kuchlanish kuchaytirgichi sxemalarida"
+      " To`grilagich sifatida",
+      " Generator sxemalarida",
+      " Quvvat kuchaytirgichi sxemalarida",
+      " Kuchlanish kuchaytirgichi sxemalarida"
     ],
-    "answer": "A) To`grilagich sifatida"
+    "answer": " To`grilagich sifatida"
   },
   {
     "question": "O`zgarmas tok dvigateli yakor tokining qiymati:",
     "options": [
-      "A) Manbadan olinayotgan kuchlanishga bog`liq",
-      "B) Yakorning burchak tezligiga bog`liq",
-      "C) qo`zg`atish tokiga bog`liq",
-      "D) Dvigatelning EYuk siga bog`liq"
+      " Manbadan olinayotgan kuchlanishga bog`liq",
+      " Yakorning burchak tezligiga bog`liq",
+      " qo`zg`atish tokiga bog`liq",
+      " Dvigatelning EYuk siga bog`liq"
     ],
-    "answer": "A) Manbadan olinayotgan kuchlanishga bog`liq"
+    "answer": " Manbadan olinayotgan kuchlanishga bog`liq"
   },
   {
     "question": "O`zgarmas tok dvigateli EYuk ning qiymati:",
     "options": [
-      "A) Yakorning burchak tezligiga bog`liq",
-      "B) yakor tokiga bog`liq",
-      "C) qo`zg`atish tokiga bog`liq",
-      "D) Dvigatelning EYuk siga bog`liq"
+      " Yakorning burchak tezligiga bog`liq",
+      " yakor tokiga bog`liq",
+      " qo`zg`atish tokiga bog`liq",
+      " Dvigatelning EYuk siga bog`liq"
     ],
-    "answer": "A) Yakorning burchak tezligiga bog`liq"
+    "answer": " Yakorning burchak tezligiga bog`liq"
   },
   {
     "question": "Asinxron dvigatellarni «revers» (aylanish yo`nalishini o`zgartirish) qanday amalga oshiriladi:",
     "options": [
-      "A) Statordagi ikkita chulg`amni ulanishini o`zgartirish yo`li bilan",
-      "B) Zanjirdagi kuchlanish o`zgartirish yo`li bilan",
-      "C) Dvigatelga qo`yilgan yukni kamaytirish",
-      "D) Statordagi uchchala chulg`amni ulanishini o`zgartirish yo`li bilan"
+      " Statordagi ikkita chulg`amni ulanishini o`zgartirish yo`li bilan",
+      " Zanjirdagi kuchlanish o`zgartirish yo`li bilan",
+      " Dvigatelga qo`yilgan yukni kamaytirish",
+      " Statordagi uchchala chulg`amni ulanishini o`zgartirish yo`li bilan"
     ],
-    "answer": "A) Statordagi ikkita chulg`amni ulanishini o`zgartirish yo`li bilan"
+    "answer": " Statordagi ikkita chulg`amni ulanishini o`zgartirish yo`li bilan"
   },
   {
     "question": "Asinxron dvigatelining ishga tushirilgandagi sirpanishi nimaga teng:",
     "options": [
-      "A) 1",
-      "B) nol",
-      "C) 0,5",
-      "D) Cheksiz"
+      " 1",
+      " nol",
+      " 0,5",
+      " Cheksiz"
     ],
-    "answer": "A) 1"
+    "answer": " 1"
   },
   {
     "question": "Asinxron dvigatelning ishga tushirish toki stator chulg`ami uchburchakdan yulduzga o`zgartirilganda qanday o`zgaradi:",
     "options": [
-      "A) 1.73 marta tok kamayadi",
-      "B) Ikkala holatda ham tok o`zgarmaydi",
-      "C) 1.73 marta tok ortadi",
-      "D) 3 marta tok ortadi"
+      " 1.73 marta tok kamayadi",
+      " Ikkala holatda ham tok o`zgarmaydi",
+      " 1.73 marta tok ortadi",
+      " 3 marta tok ortadi"
     ],
-    "answer": "A) 1.73 marta tok kamayadi"
+    "answer": " 1.73 marta tok kamayadi"
   },
   {
     "question": "Parallel qo`zg`atishli dvigatelni qanday qilib teskari tomonga aylantirish qilinadi:",
     "options": [
-      "A) Yakor yoki qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi",
-      "B) Dvigatel qismlaridagi kuchlanish qutblarini o`zgartiriladi",
-      "C) Yakor va qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi",
-      "D) Dvigatel validagi nagruzka oshiriladi"
+      " Yakor yoki qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi",
+      " Dvigatel qismlaridagi kuchlanish qutblarini o`zgartiriladi",
+      " Yakor va qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi",
+      " Dvigatel validagi nagruzka oshiriladi"
     ],
-    "answer": "A) Yakor yoki qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi"
+    "answer": " Yakor yoki qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi"
   },
   {
     "question": "Asinxron dvigatel magnit maydonining aylanish tezligi nimalar orqali aniqlanadi:",
     "options": [
-      "A) O`zgaruvchan tok chastotasi va dvigatelning qutblar soni orqali",
-      "B) Tarmoq kuchlanishi orqali",
-      "C) Dvigatel yuklamasi orqali",
-      "D) Rotorning aylanish tezligi orqali"
+      " O`zgaruvchan tok chastotasi va dvigatelning qutblar soni orqali",
+      " Tarmoq kuchlanishi orqali",
+      " Dvigatel yuklamasi orqali",
+      " Rotorning aylanish tezligi orqali"
     ],
-    "answer": "A) O`zgaruvchan tok chastotasi va dvigatelning qutblar soni orqali"
+    "answer": " O`zgaruvchan tok chastotasi va dvigatelning qutblar soni orqali"
   },
   {
     "question": "Keltirilgan jumlalardan qaysi biri asinxron dvigatelning M maksimal momenti uchun to`g`ri:",
     "options": [
-      "A) M moment rotorning aktiv qarshiligi qiymatiga to`g`ri proporsional",
-      "B) M moment rotorning aktiv qarshiligi qiymatiga teskari proporsional",
-      "C) M moment rotorning aktiv qarshiligi qiymatiga bog`liq emas",
-      "D) M moment bilan rotorning aktiv qarshiligi kvadrat holda bog`liq"
+      " M moment rotorning aktiv qarshiligi qiymatiga to`g`ri proporsional",
+      " M moment rotorning aktiv qarshiligi qiymatiga teskari proporsional",
+      " M moment rotorning aktiv qarshiligi qiymatiga bog`liq emas",
+      " M moment bilan rotorning aktiv qarshiligi kvadrat holda bog`liq"
     ],
-    "answer": "A) M moment rotorning aktiv qarshiligi qiymatiga to`g`ri proporsional"
+    "answer": " M moment rotorning aktiv qarshiligi qiymatiga to`g`ri proporsional"
   },
   {
     "question": "Keltirilgan tezliklardan qaysi biri asinxron dvigatelning normal rejimdagi tezligiga to`g`ri keladi:",
     "options": [
-      "A) 750 ayl/min",
-      "B) 3150 ayl/min",
-      "C) 1550 ayl/min",
-      "D) 1020 ayl/min"
+      " 750 ayl/min",
+      " 3150 ayl/min",
+      " 1550 ayl/min",
+      " 1020 ayl/min"
     ],
-    "answer": "A) 750 ayl/min"
+    "answer": " 750 ayl/min"
   },
   {
     "question": "Tarmoq chastotasi f bo`lsa aylanayotgan rotorning EYuk si qancha bo`ladi:",
     "options": [
-      "A) fS",
-      "B) F",
-      "C) 2f",
-      "D) nol`"
+      " fS",
+      " F",
+      " 2f",
+      " nol`"
     ],
-    "answer": "A) fS"
+    "answer": " fS"
   },
   {
     "question": "Elektr mashinalari qanday rejimlarda ishlashi mumkin:",
     "options": [
-      "A) Dvigatel, generator va tormoz rejimida",
-      "B) Qisqa vaqtli, tormoz tejimida",
-      "C) Oraliq, davomiy va tezlik rejimida",
-      "D) Dvigatel, qisqa vaqtli, tormoz tejimida"
+      " Dvigatel, generator va tormoz rejimida",
+      " Qisqa vaqtli, tormoz tejimida",
+      " Oraliq, davomiy va tezlik rejimida",
+      " Dvigatel, qisqa vaqtli, tormoz tejimida"
     ],
-    "answer": "A) Dvigatel, generator va tormoz rejimida"
+    "answer": " Dvigatel, generator va tormoz rejimida"
   },
   {
     "question": "Asinxron dvigatel generator rejimida ishlashi mumkinmi:",
     "options": [
-      "A) Ha",
-      "B) Bo`lishi mumkin emas",
-      "C) Yo`q",
-      "D) Xech qachon"
+      " Ha",
+      " Bo`lishi mumkin emas",
+      " Yo`q",
+      " Xech qachon"
     ],
-    "answer": "A) Ha"
+    "answer": " Ha"
   },
   {
     "question": "Asinxron dvigatelining magnit maydonining sinxron tezligi formulasi qaysi javobda to`g`ri yozilgan:",
     "options": [
-      "A) n1 = (60*f) / p",
-      "B) n1 = 6*f / 60",
-      "C) n1 = f / p",
-      "D) n1 = (60 * p) / f"
+      " n1 = (60*f) / p",
+      " n1 = 6*f / 60",
+      " n1 = f / p",
+      " n1 = (60 * p) / f"
     ],
-    "answer": "A) n1 = (60*f) / p"
+    "answer": " n1 = (60*f) / p"
   },
   {
     "question": "Agarda f=50 Gs, qutblar soni p=6 ga teng bo`lsa, n1 magnit maydonini aylanish chastotasi nimaga teng bo`ladi:",
     "options": [
-      "A) 500",
-      "B) 600",
-      "C) 1250",
-      "D) 750"
+      " 500",
+      " 600",
+      " 1250",
+      " 750"
     ],
-    "answer": "A) 500"
+    "answer": " 500"
   },
   {
     "question": "Elektrodvigatelni to`xtatishda qanday usullar ishlatiladi:",
     "options": [
-      "A) Elektrodinami, generatorli, teskari ulash",
-      "B) majburiy, qo`l yordamida, mexanik",
-      "C) teskari ulash, magnitli",
-      "D) Mexanik va qo`l yordamida"
+      " Elektrodinami, generatorli, teskari ulash",
+      " majburiy, qo`l yordamida, mexanik",
+      " teskari ulash, magnitli",
+      " Mexanik va qo`l yordamida"
     ],
-    "answer": "A) Elektrodinami, generatorli, teskari ulash"
+    "answer": " Elektrodinami, generatorli, teskari ulash"
   },
   {
     "question": "Magnit maydoni 1000 ayl/min va sirpanish S=1 bo`lsa, rotorning aylanish chastotasi nimaga teng:",
     "options": [
-      "A) 0",
-      "B) 600",
-      "C) 1250",
-      "D) 750"
+      " 0",
+      " 600",
+      " 1250",
+      " 750"
     ],
-    "answer": "A) 0"
+    "answer": " 0"
   },
   {
     "question": "Magnit maydoni 600 ayl/min va sirpanish S=0 bo`lsa, rotorning aylanish chastotasi nimaga teng:",
     "options": [
-      "A) 600",
-      "B) 900",
-      "C) 1250",
-      "D) 750"
+      " 600",
+      " 900",
+      " 1250",
+      " 750"
     ],
-    "answer": "A) 600"
+    "answer": " 600"
   },
   {
     "question": "Transformator qanday qismlardan iborat",
     "options": [
-      "A) Po’lat o’zak (sterjen) va birlamchi va ikkilamchi chulg’amlardan",
-      "B) Po’lat o’zak va metal plastinkalardan",
-      "C) Po’lat o’zak va g’altakdan",
-      "D) G’altak va chulg’amlardan"
+      " Po’lat o’zak (sterjen) va birlamchi va ikkilamchi chulg’amlardan",
+      " Po’lat o’zak va metal plastinkalardan",
+      " Po’lat o’zak va g’altakdan",
+      " G’altak va chulg’amlardan"
     ],
-    "answer": "A) Po’lat o’zak (sterjen) va birlamchi va ikkilamchi chulg’amlardan"
+    "answer": " Po’lat o’zak (sterjen) va birlamchi va ikkilamchi chulg’amlardan"
   },
   {
     "question": "Transformatorni kim va qachon ixtiro qilgan",
     "options": [
-      "A) 1876 yilda Yablochkov P. N",
-      "B) 1889 yilda Dolivo-Dobrovolskiy M. O",
-      "C) 1880 yilda Usagin",
-      "D) 1821 yilda Maksvel"
+      " 1876 yilda Yablochkov P. N",
+      " 1889 yilda Dolivo-Dobrovolskiy M. O",
+      " 1880 yilda Usagin",
+      " 1821 yilda Maksvel"
     ],
-    "answer": "A) 1876 yilda Yablochkov P. N"
+    "answer": " 1876 yilda Yablochkov P. N"
   },
   {
     "question": "O’zgaruvchan tok mashinalari necha xil bo’ladi?",
     "options": [
-      "A) Sinxron, asinxron, kollektorli",
-      "B) Asinxron, reduktorli",
-      "C) Kollektorli, parallel ko’zg’atish chulg’amli",
-      "D) Kollektorli, yakorli"
+      " Sinxron, asinxron, kollektorli",
+      " Asinxron, reduktorli",
+      " Kollektorli, parallel ko’zg’atish chulg’amli",
+      " Kollektorli, yakorli"
     ],
-    "answer": "A) Sinxron, asinxron, kollektorli"
+    "answer": " Sinxron, asinxron, kollektorli"
   },
   {
     "question": "Elektr motorni tormozlashning qanday usullari bor",
     "options": [
-      "A) Generatroli,qarshi qo’shish bilan, elektrodinamik",
-      "B) Gidravlik, elektrodinamik, qo’shimcha kuch bilan",
-      "C) Elektrodinamik, teskari ulab, qarshi qo’shib",
-      "D) Qo’shimcha kuch bilan, kolodkalar yordamida, gidravlik."
+      " Generatroli,qarshi qo’shish bilan, elektrodinamik",
+      " Gidravlik, elektrodinamik, qo’shimcha kuch bilan",
+      " Elektrodinamik, teskari ulab, qarshi qo’shib",
+      " Qo’shimcha kuch bilan, kolodkalar yordamida, gidravlik."
     ],
-    "answer": "A) Generatroli,qarshi qo’shish bilan, elektrodinamik"
+    "answer": " Generatroli,qarshi qo’shish bilan, elektrodinamik"
   },
   {
     "question": "Transformator nagruzkada ishlaganda uning ikkilamchi chulg’ami uchlari qanday xolatda bo’ladi?",
     "options": [
-      "A) Yuklamaga ulangan bo’ladi",
-      "B) Qisqa tutashtirilgan",
-      "C) Ochiq xolda bo’ladi",
-      "D) To’g’ri javob yo’q."
+      " Yuklamaga ulangan bo’ladi",
+      " Qisqa tutashtirilgan",
+      " Ochiq xolda bo’ladi",
+      " To’g’ri javob yo’q."
     ],
-    "answer": "A) Yuklamaga ulangan bo’ladi"
+    "answer": " Yuklamaga ulangan bo’ladi"
   },
   {
     "question": "Transformator salt ishlaganda ikkilamchi chulg’amdagi tok kuchi nechaga teng bo’ladi?",
     "options": [
-      "A) 0",
-      "B) 127",
-      "C) 220",
-      "D) 380"
+      " 0",
+      " 127",
+      " 220",
+      " 380"
     ],
-    "answer": "A) 0"
+    "answer": " 0"
   },
   {
     "question": "Elektr motor ish rejimlari qaysi xarf bilan belgilanadi?",
     "options": [
-      "A) S",
-      "B) I",
-      "C) R",
-      "D) F"
+      " S",
+      " I",
+      " R",
+      " F"
     ],
-    "answer": "A) S"
+    "answer": " S"
   },
   {
     "question": "O’lchov transformatorlarining qanday turlari mavjud?",
     "options": [
-      "A) Tok va kuchlanish",
-      "B) Quvvat, tezlik, tok",
-      "C) Tok va quvvat",
-      "D) Tezlik va quvvat"
+      " Tok va kuchlanish",
+      " Quvvat, tezlik, tok",
+      " Tok va quvvat",
+      " Tezlik va quvvat"
     ],
-    "answer": "A) Tok va kuchlanish"
+    "answer": " Tok va kuchlanish"
+  },
+  
+  
+  {
+    "question": "O‘zgarmas tok generatori ishlashining asosida elektrotexnikaning qanday qonuni yotadi?",
+    "options": [
+      "Elektromagnit induksiya qonuni",
+      "Amper qonuni",
+      "Kirxgofning 1 qonuni",
+      "Lens qoidasi"
+    ],
+    "answer": "Elektromagnit induksiya qonuni"
+  },
+  {
+    "question": "Ayon qutbli sinxron generatorning yakor chulg‘amida hosil kilinayotgan EYUK shakli sinusoidal bo‘lishi uchun uning havo oralig‘i qanday olinadi?",
+    "options": [
+      "Qutb uchliklari o‘rtasida kichik va chetlarida nisbatan katta",
+      "Rotor butun aylanasi bo‘ylab bir xil",
+      "Qutb uchliklari o‘rtasida katta va chetlarida kichkina",
+      "Javob uchun ma’lumot yetarli emas"
+    ],
+    "answer": "Qutb uchliklari o‘rtasida kichik va chetlarida nisbatan katta"
+  },
+  {
+    "question": "O‘zgarmas tok mashinasi yakor chulg‘ami o‘tkazgichlaridan tok o‘tganda ularda oqayotgan magnit oqim yo‘nalishi qaysi qoida bo‘yicha aniqlanadi?",
+    "options": [
+      "Parma qoidasi",
+      "O‘ng qo‘l qoidasi",
+      "Chap qo‘l qoidasi",
+      "Amper qonuni"
+    ],
+    "answer": "Parma qoidasi"
+  },
+  {
+    "question": "Uch fazali sinxron generatorning stator chulg‘amida 3000 ayl/min chastotada aylanma magnit maydon hosil bo‘lsa, uning rotori qanday chastotada aylanadi?",
+    "options": [
+      "3000 ayl/min",
+      "Masala noaniq, chunki yakor chulg‘amidagi tok chastotasi noma’lum",
+      "Masala noaniq, chunki rotor qutblari soni noma’lum",
+      "1500 ayl/min"
+    ],
+    "answer": "3000 ayl/min"
+  },
+  {
+    "question": "Yakor toki Ia 2 marta oshsa parallel qo‘zg‘atishli o‘zgarmas tok motorining aylantiruvchi momenti qanday o‘zgaradi?",
+    "options": [
+      "2 marta oshadi",
+      "O‘zgarmaydi",
+      "Aniqlab bo‘lmaydi, chunki mashina qutblari berilmagan",
+      "4 marta oshadi"
+    ],
+    "answer": "2 marta oshadi"
+  },
+  {
+    "question": "Ikki juft qutbli sinxron generatorning rotori 1500 ayl/min chastota bilan aylanmoqda. Yakor chulg‘amida hosil qilingan asosiy EYUK ga mos vektor qanday chastota bilan aylanadi?",
+    "options": [
+      "50 Gs",
+      "100 Gs",
+      "25 Gs",
+      "1000 Gs"
+    ],
+    "answer": "50 Gs"
+  },
+  {
+    "question": "O‘zgarmas tok generatori yakor chulg‘ami o‘tkazgichlarida hosil bo‘lgan EYUK yo‘nalishi qaysi qoida bo‘yicha aniqlanadi?",
+    "options": [
+      "O‘ng qo‘l qoidasi",
+      "Chap qo‘l qoidasi",
+      "Parma qoidasi",
+      "Amper qonuni"
+    ],
+    "answer": "O‘ng qo‘l qoidasi"
+  },
+  {
+    "question": "Gidrogeneratorlarda (a), turbogeneratorlarda (b) qanday rotorlar qo‘llaniladi?",
+    "options": [
+      "a) ayon qutbli, b) noayon qutbli",
+      "a) noayon qutbli, b) ayon qutbli",
+      "Rotorni tanlash generatorning quvvatiga bog‘liq",
+      "a) ayon qutbli, b) ayon qutbli"
+    ],
+    "answer": "a) ayon qutbli, b) noayon qutbli"
+  },
+  {
+    "question": "Elektr mashinaning qanday qismini stator deb ataladi?",
+    "options": [
+      "Mashinaning qo‘zg‘almas qismi",
+      "EYUK hosil bo‘ladigan qismi",
+      "Qo‘zg‘atish magnit oqimi hosil qilinadigan qismi",
+      "Mashinaning aylanadigan qismi"
+    ],
+    "answer": "Mashinaning qo‘zg‘almas qismi"
+  },
+  {
+    "question": "Sinxron generatorning yuklama toki induktiv xarakterda bo‘lganda, uning yakor reaksiyasi qanday bo‘ladi?",
+    "options": [
+      "Bo‘ylama magnitsizlovchi",
+      "Ko‘ndalang",
+      "Bo‘ylama magnitlovchi",
+      "Ko‘ndalang magnitlovchi"
+    ],
+    "answer": "Bo‘ylama magnitsizlovchi"
+  },
+  {
+    "question": "O‘zgarmas tok motorining muvozanat tenglamasi M – MD = M0 + M2 bo‘lsa, motorning aylanish chastotasi qanday o‘zgaradi?",
+    "options": [
+      "Oshadi",
+      "O‘zgarmaydi",
+      "Kamayadi",
+      "Aniqlab bo‘lmaydi, chunki mashina qutblari berilmagan"
+    ],
+    "answer": "Oshadi"
+  },
+  {
+    "question": "Sinxron generatorning induktiv yuklamasi oshirilganda, uning chiqish klemmalarida kuchlanish qanday o‘zgaradi?",
+    "options": [
+      "Kamayadi",
+      "O‘zgarmaydi",
+      "Oshadi",
+      "Avvaliga oshib, keyin kamayadi"
+    ],
+    "answer": "Kamayadi"
+  },
+  {
+    "question": "O‘zgarmas tok generatori yakor chulg‘ami simlarida hosil bo‘lgan EYUK yo‘nalishi qanday qoida bo‘yicha aniqlanadi?",
+    "options": [
+      "O‘ng qo‘l qoidasi",
+      "Chap qo‘l qoidasi",
+      "Parma qoidasi",
+      "Amper qonuni"
+    ],
+    "answer": "O‘ng qo‘l qoidasi"
+  },
+  {
+    "question": "Sinxron motor yuklamasi ortishi bilan mexanik tavsifi qanday o‘zgaradi?",
+    "options": [
+      "O‘zgarmaydi",
+      "Oshadi",
+      "To‘g‘ri chizikli ko‘rinishda kamayadi",
+      "Egri chiziqli ko‘rinishda kamayadi"
+    ],
+    "answer": "O‘zgarmaydi"
+  },
+  {
+    "question": "O‘zgarmas tok motorining yakor chulg‘amida EYUK kamaysa, yakor toki va elektr tarmog‘idan oladigan quvvat qanday o‘zgaradi?",
+    "options": [
+      "Tok va quvvat oshadi",
+      "Tok oshadi, quvvat kamayadi",
+      "Tok va quvvat kamayadi",
+      "Tok kamayadi, quvvat oshadi"
+    ],
+    "answer": "Tok va quvvat oshadi"
+  },
+  {
+    "question": "Uch fazali sinxron generatorning yuklamasi aktiv xarakterga ega. Yakor chulg‘ami g‘altagining qutbga nisbatan qanday holatida undagi tok oniy qiymati ekstremal bo‘ladi?",
+    "options": [
+      "Gʻaltak tomonlari qutblar o‘rtasining yaqinida bo‘lganda",
+      "Gʻaltak o‘rtasi shimoliy qutblar ustida bo‘lganda",
+      "Javob uchun ma’lumot yetarli emas",
+      "Gʻaltak o‘rtasi janubiy qutblar ustida bo‘lganda"
+    ],
+    "answer": "Gʻaltak tomonlari qutblar o‘rtasining yaqinida bo‘lganda"
+  },
+  {
+    "question": "O‘zgaruvchan tokli elektr mashinasining qanday qismi yakor deyiladi?",
+    "options": [
+      "Asosiy EYUK hosil bo‘ladigan qismi",
+      "Qo‘zg‘almas qismi",
+      "Rotori",
+      "Stator"
+    ],
+    "answer": "Asosiy EYUK hosil bo‘ladigan qismi"
+  },
+  {
+    "question": "Magnit zanjiri to‘yinmagan sinxron mashinaning yuklama toki aktiv xarakterga ega bo‘lganda yakor reaksiyasi asosiy magnit oqim umumiy maydoni qiymatiga qanday ta’sir qiladi?",
+    "options": [
+      "Ta’sir qilmaydi",
+      "Kamaytiradi",
+      "Oshiradi",
+      "Avval kamayib keyin oshadi"
+    ],
+    "answer": "Ta’sir qilmaydi"
+  },
+  {
+    "question": "O‘zgarmas tok generatorida yakor reaksiyasi nima?",
+    "options": [
+      "Yakor magnit maydonining qutblar hosil qilgan asosiy magnit maydonga ta’siri",
+      "Generatorning yuklamasi oshganda asosiy magnit maydonning buzilishi",
+      "Yakor chulg‘ami MYUKning asosiy magnit maydoniga ta’siri",
+      "Yuklama oshishi bilan mashina magnit maydoni oqimining kamayishi"
+    ],
+    "answer": "Yakor magnit maydonining qutblar hosil qilgan asosiy magnit maydonga ta’siri"
+  },
+  {
+    "question": "Uch fazali sinxron generatorning stator chulg‘amida 3000 ayl/min chastotada aylanma magnit maydon hosil bo‘lsa, uning rotori qanday chastotada aylanadi?",
+    "options": [
+      "3000 ayl/min",
+      "2915 ayl/min.",
+      "1450 ayl/min.",
+      "1500 ayl/min"
+    ],
+    "answer": "3000 ayl/min"
+  },
+  {
+    "question": "Elektromagnit induksiya qonuni to‘g‘ri ifodalangan formulalar keltirilgan satrni ko‘rsating.",
+    "options": [
+      "e = – w∙dF/dt ; e = B∙l∙v",
+      "e = – w∙dF/dt ; F = I∙l B",
+      "F = VS ; F = I∙l B",
+      "E = w∙dF/dt ; F = VS"
+    ],
+    "answer": "e = – w∙dF/dt ; e = B∙l∙v"
+  },
+  {
+    "question": "Sinxron generatori chiqish klemmalaridagi kuchlanishning yuksiz ishlash EYUK dan farqlanishi qanday sabablar tufayli sodir bo‘ladi?",
+    "options": [
+      "Yuqorida keltirilgan barcha sabablarning bir vaqtda ta’siri",
+      "Yakor reaksiyasi",
+      "Tarqoq induktiv qarshilikda kuchlanish pasayishi",
+      "Yakor chulg‘ami aktiv qarshiligida kuchlanish pasayishi"
+    ],
+    "answer": "Yuqorida keltirilgan barcha sabablarning bir vaqtda ta’siri"
+  },
+  {
+    "question": "O‘zgarmas tok generatori elektr tarmog‘iga uzatayotgan tok miqdori ortsa, generator validagi aylantiruvchi moment qanday o‘zgaradi?",
+    "options": [
+      "Ortadi",
+      "O‘zgarmaydi",
+      "Kamayadi",
+      "Aniqlashning imkoni yo‘q, chunki kuchlanish noma’lum"
+    ],
+    "answer": "Ortadi"
+  },
+  {
+    "question": "Sinxron generatorining aktiv-sig‘im (aralash) xarakterdagi yuklamasi ortsa, uning umumiy magnit maydoni qanday o‘zgaradi?",
+    "options": [
+      "Ko‘payadi",
+      "Kamayadi",
+      "O‘zgarmaydi",
+      "Aktiv va sig‘imiy xarakterdagi yuklamalarning nisbatiga bog‘liq"
+    ],
+    "answer": "Ko‘payadi"
+  },
+  {
+    "question": "Qo‘zg‘atish chulg‘amining magnit oqimi o‘zgarmas bo‘lib, yakor chulg‘amida tok ortsa, o‘zgarmas tok motorining aylantiruvchi momenti qanday o‘zgaradi?",
+    "options": [
+      "Oshadi",
+      "O‘zgarmaydi",
+      "Kamayadi",
+      "Aniqlab bo‘lmaydi, chunki kuchlanish berilmagan"
+    ],
+    "answer": "Oshadi"
+  },
+  {
+    "question": "Parallel qo‘zg‘otishli o‘zgarmas tok motorining validagi mexanik yuklama ortsa, yakorning aylanish chastotasi qanday o‘zgaradi?",
+    "options": [
+      "Kamayadi",
+      "O‘zgarmaydi",
+      "Ortadi",
+      "Aniqlab bo‘lmaydi, chunki kuchlanish berilmagan"
+    ],
+    "answer": "Kamayadi"
+  },
+  {
+    "question": "Sinxron generatorning yuklama toki ortganda uning kuchlanishi o‘zgarmay qolishi uchun qo‘zg‘atish toki qanday o‘zgartirilishi kerak?",
+    "options": [
+      "Aniqlab bo‘lmaydi, chunki yuklamaning xarakteri ko‘rsatilmagan",
+      "Kamaytiriladi",
+      "O‘zgartirilmaydi",
+      "Oshiriladi"
+    ],
+    "answer": "Aniqlab bo‘lmaydi, chunki yuklamaning xarakteri ko‘rsatilmagan"
+  },
+  {
+    "question": "Amper qonunining matematik ifodasini ko‘rsating.",
+    "options": [
+      "F = I∙l∙B",
+      "Ye = B∙l∙v",
+      "e = – w∙dF/dt",
+      "F = V/S"
+    ],
+    "answer": "F = I∙l∙B"
+  },
+  {
+    "question": "Sinxron generatorning bo‘ylama va ko‘ndalang magnitsizlovchi yakor reaksiyasi qanday xarakterdagi yuklamaga mos keladi?",
+    "options": [
+      "Aktiv-induktiv",
+      "Aktiv",
+      "Induktiv",
+      "Aktiv-sig‘imiy"
+    ],
+    "answer": "Aktiv-induktiv"
+  },
+  {
+    "question": "O‘zgarmas tok mashinasining yakor chulg‘ami o‘ramlari ketma-ket ulangan. Generator chiqish klemmalaridagi natijaviy EYUK pulsasiyasini nimaning hisobiga kamaytirish mumkin?",
+    "options": [
+      "O‘ramlar soni oshiriladi va ular yakor aylanasi bo‘yicha tekis taqsimlanadi",
+      "O‘ramlar sonini oshirib",
+      "Yakor aylanasi bo‘yicha o‘ramlarni tekis taqsimlab",
+      "Javob uchun ma’lumot yetarli emas"
+    ],
+    "answer": "O‘ramlar soni oshiriladi va ular yakor aylanasi bo‘yicha tekis taqsimlanadi"
+  },
+  {
+    "question": "Sinxron motorning qaysi qismida ishga tushirish chulg‘ami joylashtiriladi?",
+    "options": [
+      "Qutb uchligida",
+      "Yakor o‘zagida",
+      "Yakor chulg‘amining pazdan tashqari qismlarida",
+      "Statorda"
+    ],
+    "answer": "Qutb uchligida"
+  },
+  {
+    "question": "O‘zgarmas tok motorining aylanish chastotasi kamaydi. Yakor chulg‘amida hosil bo‘ladigan EYUK qanday o‘zgardi?",
+    "options": [
+      "Kamaydi",
+      "O‘zgarmadi",
+      "Oshdi",
+      "Ishorasi teskariga o‘zgardi"
+    ],
+    "answer": "Kamaydi"
+  },
+  {
+    "question": "Sinxron generator yuklamasi sof induktiv xarakterda bo‘lganda, uning yakor reaksiyasi qanday bo‘ladi?",
+    "options": [
+      "Ko‘ndalang magnitsizlovchi",
+      "Bo‘ylama magnitsizlovchi",
+      "Bo‘ylama magnitlovchi",
+      "Ko‘ndalang magnitlovchi"
+    ],
+    "answer": "Ko‘ndalang magnitsizlovchi"
+  },
+  {
+    "question": "O‘zgarmas tok generatorida energiya isroflarining qanday turlari mavjud?",
+    "options": [
+      "Yuqorida ko‘rsatilgan isroflarning barcha turlari",
+      "Ishqalanishdagi isroflar, po‘lat o‘zakdagi isroflar",
+      "Yakor va qo‘zg‘atish chulg‘amlaridagi isroflar",
+      "Cho‘tka kontaktlaridagi isroflar, qo‘shimcha isroflar"
+    ],
+    "answer": "Yuqorida ko‘rsatilgan isroflarning barcha turlari"
+  },
+  {
+    "question": "Elektr mashinaning qanday qismini stator deb ataladi?",
+    "options": [
+      "Mashinaning qo‘zg‘almas qismi",
+      "EYUK hosil bo‘ladigan qismi",
+      "Qo‘zg‘atish magnit oqimi hosil qilinadigan qismi",
+      "Mashinaning aylanadigan qismi"
+    ],
+    "answer": "Mashinaning qo‘zg‘almas qismi"
+  },
+  {
+    "question": "Sinxron generatorning sig‘im xarakterli yuklamasi ortganda, uning chiqish klemmalari kuchlanishi o‘zgarmas bo‘lishi uchun qo‘zg‘atish tokiga qanday ta’sir qilinadi?",
+    "options": [
+      "Kamaytiriladi",
+      "Oshiriladi",
+      "O‘zgartirilmaydi",
+      "Avval oshiriladi, keyin kamaytiriladi"
+    ],
+    "answer": "Kamaytiriladi"
+  },
+  {
+    "question": "O‘zgarmas tok generatori tarmoqqa 8 kVt quvvat bermoqda. Generatorda quvvat isroflari yig‘indisi 2 kVt. Generatorning FIK ni (%) da aniqlang.",
+    "options": [
+      "80",
+      "25",
+      "92",
+      "85"
+    ],
+    "answer": "80"
+  },
+  {
+    "question": "Sinxron generatorning yuklama toki ortganda uning kuchlanishi o‘zgarmay qolishi uchun qo‘zg‘atish toki qanday o‘zgartirilishi kerak?",
+    "options": [
+      "Javob uchun ma’lumotlar yetarli emas",
+      "Kamaytiriladi",
+      "O‘zgartirilmaydi",
+      "Oshiriladi"
+    ],
+    "answer": "Javob uchun ma’lumotlar yetarli emas"
+  },
+  {
+    "question": "O‘zgarmas tok generatorining yakor chulg‘amida o‘ramlarida qanday EYUK hosil bo‘ladi?",
+    "options": [
+      "O‘zgaruvchan",
+      "Qiymat jihatdan o‘zgarmas",
+      "Yo‘nalishi jihatdan o‘zgarmas",
+      "Qiymati va yo‘nalishi jihatdan o‘zgarmas"
+    ],
+    "answer": "O‘zgaruvchan"
+  },
+  {
+    "question": "Turbogeneratorlarda qanday rotor qo‘llaniladi?",
+    "options": [
+      "Ayon qutbli",
+      "Noayon qutbli",
+      "Rotorni tanlash generator tokiga bog‘liq",
+      "Rotorni tanlash generator quvvatiga bog‘liq"
+    ],
+    "answer": "Ayon qutbli"
+  },
+  {
+    "question": "Yuksiz ishlash rejimidagi sinxron motorning foydali ish koeffitsiyenti nimaga teng?",
+    "options": [
+      "0 ga",
+      "Juda kichik qiymatga",
+      "Maksimal qiymatga",
+      "0,5 ga"
+    ],
+    "answer": "0 ga"
+  },
+  {
+    "question": "Quyidagi shartlardan qaysi biri generatorning o‘z-o‘zini qo‘zg‘atish shartlariga tegishli emas?",
+    "options": [
+      "Yakorning aylanish chastotasi nominalga teng bo‘lishi",
+      "Qoldiq magnit oqimning mavjudligi",
+      "Qo‘zg‘atish chulg‘ami ulanish ishorasining to‘g‘riligi (to‘g‘ri ulanishi)",
+      "Qo‘zg‘atish zanjiri qarshiligini to‘g‘ri tanlash (ya’ni r < rkr)"
+    ],
+    "answer": "Yakorning aylanish chastotasi nominalga teng bo‘lishi"
+  },
+  {
+    "question": "Sinxron motorning mexanik tavsifsi yuklama oshishi bilan qanday o‘zgaradi?",
+    "options": [
+      "Ortadi",
+      "O‘zgarmaydi",
+      "To‘g‘ri chiziqli ko‘rinishda kamayadi",
+      "Egri chiziqli ko‘rinishda kamayadi"
+    ],
+    "answer": "Ortadi"
+  },
+  {
+    "question": "Parallel qo‘zg‘atishli o‘zgarmas tok generatorining yuklamasi ortganda: a) bosh qutblarning magnit oqimi, b) generatorning natijaviy magnit oqimi qanday o‘zgaradi?",
+    "options": [
+      "a) Kamayadi; b) kamayadi",
+      "a) Oshadi; b) kamayadi",
+      "a) Kamayadi; b) o‘zgarmaydi",
+      "a) O‘zgarmaydi; b) o‘zgarmaydi"
+    ],
+    "answer": "a) Kamayadi; b) kamayadi"
+  },
+  {
+    "question": "Sinxron motorni ishga tushirishning qaysi usuli qo‘llanilmaydi?",
+    "options": [
+      "Uchchala usuldan biri (yordamchi motor, chastota usuli, dempfer) ekspluatatsiya shartiga qarab",
+      "Yordamchi motor yordamida",
+      "Chastota usuli",
+      "Rotor chulg‘ami so‘ndiruvchi qarshilik ulash bilan asinxron usulda"
+    ],
+    "answer": "Uchchala usuldan biri (yordamchi motor, chastota usuli, dempfer) ekspluatatsiya shartiga qarab"
+  },
+  {
+    "question": "O‘zgarmas tok generatoriga birlamchi motordan berilayotgan quvvat 50 kVt, generatorning tarmoqqa berayotgan quvvati 45 kVt. Generatorning FIK ni (%) da toping.",
+    "options": [
+      "90",
+      "75",
+      "92",
+      "80"
+    ],
+    "answer": "90"
+  },
+  {
+    "question": "Ikki juft qutbli sinxron motor stator chulg‘amiga berilgan tok chastotasi f=50 Gs. Rotorning aylanish chastotasini aniqlang.",
+    "options": [
+      "1500 ayl/min",
+      "2850 ayl/min",
+      "1450 ayl/min",
+      "3000 ayl/min"
+    ],
+    "answer": "1500 ayl/min"
+  },
+  {
+    "question": "Generator yuklamasi 2 marta ortsa yakor chulg‘amida isroflar qanday o‘zgaradi?",
+    "options": [
+      "4 marta oshadi",
+      "O‘zgarmaydi",
+      "2 marta oshadi",
+      "2 marta kamayadi"
+    ],
+    "answer": "4 marta oshadi"
+  },
+  {
+    "question": "Sinxron motor tuzilishi jihatdan asinxron motordan prinsipial ravishda nima bilan farq qilmaydi (qutblar soni bir xil)?",
+    "options": [
+      "Stator chulg‘ami",
+      "Rotor chulg‘ami",
+      "Val uzunligi",
+      "Rotor magnit o‘zagi"
+    ],
+    "answer": "Stator chulg‘ami"
+  },
+  {
+    "question": "O‘zgarmas tok motorining quyida keltirilgan: a) mexanik tavsifi va b) ish tavsifsini ko‘rsating.",
+    "options": [
+      "a) n = f(M); b) Ia = f(P2)",
+      "a) n = f(P2); b) n = f(M)",
+      "a) n = f(P2); b) M = f(P2)",
+      "a) n = f(M0); b) M0 = f(P2)"
+    ],
+    "answer": "a) n = f(M); b) Ia = f(P2)"
+  },
+  {
+    "question": "Cheksiz katta quvvatli tarmoqqa ulangan sinxron motorning validagi mexanik yuk ortsa, motorning aylanish chastotasi qanday o‘zgaradi?",
+    "options": [
+      "O‘zgarmaydi",
+      "Ko‘payadi",
+      "Kamayadi",
+      "Oldin kamayib, keyin oshadi"
+    ],
+    "answer": "O‘zgarmaydi"
+  },
+  {
+    "question": "O‘zgarmas tok motorini ta’minlovchi kuchlanish o‘zgarmas bo‘lib, uning validagi yuk ortganda yakor aylanish chastotasi kamaysa, yakor chulg‘ami EYUK o‘zgaradimi?",
+    "options": [
+      "Kamayadi",
+      "O‘zgarmaydi",
+      "Oshadi",
+      "Yakor chulg‘amida EYUK hosil bo‘lmaydi"
+    ],
+    "answer": "Kamayadi"
+  },
+  {
+    "question": "Sinxron motorning ish tavsiflari tarkibidagi bog‘lanish motor yuklamasi ortishi bilan qanday o‘zgaradi?",
+    "options": [
+      "Ortadi",
+      "Kamayadi",
+      "Magnit zanjiri to‘yinishi tufayli keskin o‘zgaradi",
+      "O‘zgarmaydi"
+    ],
+    "answer": "Ortadi"
+  },
+  {
+    "question": "O‘zgarmas tok motorining yakor chulg‘amida EYUK kamaydi. Yakor toki va elektr tarmog‘idan oladigan quvvat qanday o‘zgaradi?",
+    "options": [
+      "Tok va quvvat ortdi",
+      "Tok va quvvat kamaydi",
+      "Tok oshdi, quvvat kamaydi",
+      "Tok kamaydi, quvvat oshdi"
+    ],
+    "answer": "Tok va quvvat ortdi"
+  },
+  {
+    "question": "Sinxron motor ishlayotgan paytda dempfer (ishga tushirish) chulg‘ami qanday vazifani bajaradi?",
+    "options": [
+      "Sinxron motorni asinxron ishga tushirish",
+      "Rotor tebranishlarini tinchlantiradi",
+      "Bo‘ylama o‘k bo‘ylab yakor reaksiyasini kamaytirish",
+      "Qutbdagi asosiy magnit maydonini oshirish"
+    ],
+    "answer": "Sinxron motorni asinxron ishga tushirish"
+  },
+  {
+    "question": "Kollektorning asosiy vazifasi nimadan iborat?",
+    "options": [
+      "Chulg‘am seksiyalaridagi o‘zgaruvchan tokni o‘zgarmas tokka o‘zgartirish",
+      "Yakor chulg‘amini mahkamlash",
+      "Aylanuvchi yakor chulg‘amini mashinaning qo‘zg‘almas qismidagi klemmalar bilan elektr ulash",
+      "Yakor chulg‘amiga cho‘tka qo‘yish"
+    ],
+    "answer": "Chulg‘am seksiyalaridagi o‘zgaruvchan tokni o‘zgarmas tokka o‘zgartirish"
+  },
+  {
+    "question": "Sinxron generatorning aktiv xarakterdagi yuklamasi oshsa, chiqish klemmalaridagi kuchlanish o‘zgarmas bo‘lishi uchun qo‘zg‘atish tokini qanday o‘zgartirish kerak?",
+    "options": [
+      "Oshirish",
+      "O‘zgartirilmaydi",
+      "Kamaytirish",
+      "Javob uchun ma’lumot yetarli emas"
+    ],
+    "answer": "Oshirish"
+  },
+  {
+    "question": "Yakorning pazlar soni Z=12 ta. Yakor chulg‘ami ikki qatlamli: a) chulg‘am seksiyalari soni S va b) kollektor plastinalari soni K ni hisoblang.",
+    "options": [
+      "a) 6; b) 12",
+      "a) 12; b) 12",
+      "a) 6; b) 6",
+      "a) 12; b) 6"
+    ],
+    "answer": "a) 6; b) 12"
+  },
+  {
+    "question": "Quyidagi qaysi shartlar bajarilganida Iq = f(Ia) bog‘liqlik sinxron generatorning rostlash tavfisi bo‘la oladi?",
+    "options": [
+      "Yuqoridagi hamma shartlar bajarilsa",
+      "f = const",
+      "cosφ = const",
+      "U = const"
+    ],
+    "answer": "Yuqoridagi hamma shartlar bajarilsa"
+  },
+  {
+    "question": "Mustaqil qo‘zg‘atishli generatorning yuklamasi oshsa: a) bosh qutblarning magnit oqimi va b) generatorning natijaviy magnit oqimi qanday o‘zgaradi?",
+    "options": [
+      "a) O‘zgarmaydi; b) kamayadi",
+      "a) O‘zgarmaydi; b) oshadi",
+      "a) Kamayadi; b) kamayadi",
+      "a) Oshadi; b) o‘zgarmaydi"
+    ],
+    "answer": "a) O‘zgarmaydi; b) kamayadi"
+  },
+  {
+    "question": "O‘zgarmas tok generatori ishlashining asosida elektrotexnikaning qanday qonuni yotadi?",
+    "options": [
+      "Elektromagnit induksiya qonuni",
+      "Amper qonuni",
+      "Kirxgofning 1 qonuni",
+      "Lens qoidasi"
+    ],
+    "answer": "Elektromagnit induksiya qonuni"
+  },
+  {
+    "question": "Ayon qutbli sinxron generatorning yakor chulg‘amida hosil kilinayotgan EYUK shakli sinusoidal bo‘lishi uchun uning havo oralig‘i qanday olinadi?",
+    "options": [
+      "Qutb uchliklari o‘rtasida katta va chetlarida kichkina",
+      "Rotor butun aylanasi bo‘ylab bir xil",
+      "Qutb uchliklari o‘rtasida kichik va chetlarida nisbatan katta",
+      "Javob uchun ma’lumot yetarli emas"
+    ],
+    "answer": "Qutb uchliklari o‘rtasida katta va chetlarida kichkina"
+  },
+  {
+    "question": "O‘zgarmas tok mashinasi yakor chulg‘ami o‘tkazgichlaridan tok o‘tganda ularga ta’sir etuvchi kuchning yo‘nalishi qaysi qoida bo‘yicha aniqlanadi?",
+    "options": [
+      "Chap qo‘l qoidasi",
+      "O‘ng qo‘l qoidasi",
+      "Parma qoidasi",
+      "Amper qonuni"
+    ],
+    "answer": "Chap qo‘l qoidasi"
+  },
+  {
+    "question": "Uch fazali sinxron generatorning stator chulg‘amida 3000 ayl/min chastotada aylanma magnit maydon hosil bo‘lsa, uning rotori qanday chastotada aylanadi?",
+    "options": [
+      "3000 ayl/min",
+      "Masala noaniq, chunki yakor chulg‘amidagi tok chastotasi noma’lum",
+      "Masala noaniq, chunki rotor qutblari soni noma’lum",
+      "1500 ayl/min"
+    ],
+    "answer": "3000 ayl/min"
+  },
+  {
+    "question": "Yakor toki Ia 2 marta oshsa parallel qo‘zg‘atishli o‘zgarmas tok motorining aylantiruvchi momenti qanday o‘zgaradi?",
+    "options": [
+      "2 marta oshadi",
+      "O‘zgarmaydi",
+      "Aniqlab bo‘lmaydi, chunki mashina qutblari berilmagan",
+      "4 marta oshadi"
+    ],
+    "answer": "2 marta oshadi"
+  },
+  {
+    "question": "Ikki qutbli sinxron generatorning rotori 1500 ayl/min chastota bilan aylanmoqda. Yakor chulg‘amida hosil qilingan asosiy EYUK ga mos vektor qanday chastota bilan aylanadi?",
+    "options": [
+      "50 ayl/s",
+      "100 ayl/s",
+      "25 ayl/s",
+      "1000 ayl/s"
+    ],
+    "answer": "50 ayl/s"
+  },
+  {
+    "question": "O‘zgarmas tok mashinasi yakor chulg‘ami o‘tkazgichlaridan tok o‘tganda ularga ta’sir etuvchi kuchning yo‘nalishi qaysi qoida bo‘yicha aniqlanadi?",
+    "options": [
+      "Chap qo‘l qoidasi",
+      "O‘ng qo‘l qoidasi",
+      "Parma qoidasi",
+      "Amper qonuni"
+    ],
+    "answer": "Chap qo‘l qoidasi"
+  },
+  {
+    "question": "Gidrogeneratorlarda (a), turbogeneratorlarda (b) qanday rotorlar qo‘llaniladi?",
+    "options": [
+      "a) ayon qutbli, b) noayon qutbli",
+      "a) noayon qutbli, b) ayon qutbli",
+      "Rotorni tanlash generatorning quvvatiga bog‘liq",
+      "a) ayon qutbli, b) ayon qutbli"
+    ],
+    "answer": "a) ayon qutbli, b) noayon qutbli"
+  },
+  {
+    "question": "Elektr mashinaning qanday qismini stator deb ataladi?",
+    "options": [
+      "Mashinaning qo‘zg‘almas qismi",
+      "EYUK hosil bo‘ladigan qismi",
+      "Qo‘zg‘atish magnit oqimi hosil qilinadigan qismi",
+      "Mashinaning aylanadigan qismi"
+    ],
+    "answer": "Mashinaning qo‘zg‘almas qismi"
+  },
+  {
+    "question": "Sinxron generatorning yuklama toki induktiv xarakterda bo‘lganda, uning yakor reaksiyasi qanday bo‘ladi?",
+    "options": [
+      "Bo‘ylama magnitsizlovchi",
+      "Ko‘ndalang",
+      "Bo‘ylama magnitlovchi",
+      "Ko‘ndalang magnitlovchi"
+    ],
+    "answer": "Bo‘ylama magnitsizlovchi"
+  },
+  {
+    "question": "O‘zgarmas tok motorining muvozanat tenglamasi M – MD = M0 + M2 bo‘lsa, motorning aylanish chastotasi qanday o‘zgaradi?",
+    "options": [
+      "Oshadi",
+      "O‘zgarmaydi",
+      "Kamayadi",
+      "Aniqlab bo‘lmaydi, chunki mashina qutblari berilmagan"
+    ],
+    "answer": "Oshadi"
+  },
+  {
+    "question": "Sinxron generatorning induktiv yuklamasi oshirilganda, uning chiqish klemmalarida kuchlanish qanday o‘zgaradi?",
+    "options": [
+      "Kamayadi",
+      "O‘zgarmaydi",
+      "Oshadi",
+      "Avvaliga oshib, keyin kamayadi"
+    ],
+    "answer": "Kamayadi"
+  },
+  {
+    "question": "O‘zgarmas tok generatori yakor chulg‘ami simlarida hosil bo‘lgan EYUK yo‘nalishi qanday qoida bo‘yicha aniqlanadi?",
+    "options": [
+      "O‘ng qo‘l qoidasi",
+      "Chap qo‘l qoidasi",
+      "Parma qoidasi",
+      "Amper qonuni"
+    ],
+    "answer": "O‘ng qo‘l qoidasi"
+  },
+  {
+    "question": "Sinxron motorning mexanik tavsifi yuklama oshishi bilan qanday o‘zgaradi?",
+    "options": [
+      "Egri chiziqli ko‘rinishda kamayadi",
+      "Oshadi",
+      "To‘g‘ri chizikli ko‘rinishda kamayadi",
+      "O‘zgarmaydi"
+    ],
+    "answer": "Egri chiziqli ko‘rinishda kamayadi"
+  },
+  {
+    "question": "O‘zgarmas tok motorining yakor chulg‘amida EYUK kamaysa, yakor toki va elektr tarmog‘idan oladigan quvvat qanday o‘zgaradi?",
+    "options": [
+      "Tok va quvvat oshadi",
+      "Tok va quvvat kamayadi",
+      "Tok oshadi, quvvat kamayadi",
+      "Tok kamayadi, quvvat oshadi"
+    ],
+    "answer": "Tok va quvvat oshadi"
+  },
+  {
+    "question": "Sinxron generatorni tarmoqqa parallel ulashda qaysi shart bajarilishi shart?",
+    "options": [
+      "Generatorda hosil bo‘layotgan kuchlanishning amplitudasi, fazasi va chastotasi tarmoqnikiga mos bo‘lishi",
+      "Yuklamaning ko‘rsatkichlari muhim emas, har qanday sharoitda ulash mumkin",
+      "Asosiy magnit maydon yo‘nalishi tarmoqniki bilan 180° faza farqiga ega bo‘lishi",
+      "Generatordan olinadigan tok cheklovsiz bo‘lishi"
+    ],
+    "answer": "Generatorda hosil bo‘layotgan kuchlanishning amplitudasi, fazasi va chastotasi tarmoqnikiga mos bo‘lishi"
+  },
+  {
+    "question": "O‘zgarmas tok generatorlari quvvatni oshirish uchun qanday usuldan foydalaniladi?",
+    "options": [
+      "Bir nechta generatorni parallel ulash",
+      "Tarmoq chastotasini ikki marta oshirish",
+      "Generator validagi aylanish chastotasini istalgancha o‘zgartirish",
+      "Yakor chulg‘amlarini ketma-ket ulanganda quvvat chegarasi cheksiz bo‘ladi"
+    ],
+    "answer": "Bir nechta generatorni parallel ulash"
+  },
+  {
+    "question": "Sinxron generatorning “asinxron” rejimga o‘tib qolishiga nima sabab bo‘lishi mumkin?",
+    "options": [
+      "Rotor qutblarining uyg‘unlashmagan (nosinxron) holati yoki noto‘g‘ri sozlanishi",
+      "Tarmoq chulg‘amida kuchlanish 10% ga oshganda avtomatik tarzda asinxron rejim vujudga keladi",
+      "Yakor chulg‘amlarining faqat bitta fazasiga kuchlanish berilganda",
+      "Avtomatik ravishda asinxron generatsiya rejimi tanlanadi"
+    ],
+    "answer": "Rotor qutblarining uyg‘unlashmagan (nosinxron) holati yoki noto‘g‘ri sozlanishi"
+  },
+  {
+    "question": "O‘zgarmas tok motorining ishga tushirish toki qanday kamaytiriladi?",
+    "options": [
+      "Ishga tushirish zanjiriga oldindan qarshilik yoki reostat ulash orqali",
+      "Har doim nominal kuchlanish bilan ta’minlash orqali",
+      "Generatorni motor bilan ketma-ket ulash orqali",
+      "Qo‘zg‘atish chulg‘amida sig‘im xususiyati hosil qilish orqali"
+    ],
+    "answer": "Ishga tushirish zanjiriga oldindan qarshilik yoki reostat ulash orqali"
+  },
+  {
+    "question": "Sinxron motorning tormozlanish usullaridan biri qaysi?",
+    "options": [
+      "Qutb juftlarini teskari ulab, motorni “elektr tormoz” rejimida ishlatish",
+      "Yuklamani keskin oshirib, motorni o‘z-o‘zidan tormozlash",
+      "Valni qo‘shimcha rezonans chulg‘amiga ulash",
+      "Rotor tishlarini mexanik yo‘l bilan kamaytirish"
+    ],
+    "answer": "Qutb juftlarini teskari ulab, motorni “elektr tormoz” rejimida ishlatish"
   }
+
+
 
 
 
