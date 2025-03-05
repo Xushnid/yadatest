@@ -1,5 +1,6 @@
 // Test ma'lumotlari
 const questions = [
+	
        {
     "question": "Deformasiyani o’lchash uchun qaysi o’zgartirgich qo’llaniladi:",
     "options": [
