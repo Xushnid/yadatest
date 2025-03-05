@@ -4,1353 +4,1353 @@ const questions = [
   {
     "question": "Avtomatlashtirishning qaysi ko`rinishida to`g`ri bog`lanish avtomatlashtiriladi?",
     "options": [
-      "A) Avtomatik boshqarish;",
-      "B) Avtomatik nazorat;",
-      "C) Avtomatik signalizatsiyalash;",
-      "D) Avtomatlashtirilgan boshqarish;"
+      " Avtomatik boshqarish;",
+      " Avtomatik nazorat;",
+      " Avtomatik signalizatsiyalash;",
+      " Avtomatlashtirilgan boshqarish;"
     ],
-    "answer": "A) Avtomatik boshqarish;"
+    "answer": " Avtomatik boshqarish;"
   },
   {
     "question": "Bоshqаrish sistеmаsi nimа?",
     "options": [
-      "A) bеrilgаn xususiyatlаr bilаn elеmеntlаrni bоg`lаnish strukturаsi;",
-      "B) аniq strukturаgа egа bo`lgаn sistеmа;",
-      "C) bоshqаrish signаl xоsil qiluvchi sistеmа;",
-      "D) o`zgаruvchаn strukturаgа egа bo`lgаn sistеmа;"
+      " bеrilgаn xususiyatlаr bilаn elеmеntlаrni bоg`lаnish strukturаsi;",
+      " аniq strukturаgа egа bo`lgаn sistеmа;",
+      " bоshqаrish signаl xоsil qiluvchi sistеmа;",
+      " o`zgаruvchаn strukturаgа egа bo`lgаn sistеmа;"
     ],
-    "answer": "A) bеrilgаn xususiyatlаr bilаn elеmеntlаrni bоg`lаnish strukturаsi;"
+    "answer": " bеrilgаn xususiyatlаr bilаn elеmеntlаrni bоg`lаnish strukturаsi;"
   },
   {
     "question": "Bоshqаrish nimа?",
     "options": [
-      "A) оldindаn tаnlаb оlingаn mаqsаdgа erishishgа yo`nаltirilgаn munоsаbаtlаrni ishlаb chiqish vа ro`yobgа chiqаrish;",
-      "B) tаnlаngаn оb`еkt uchun mоs kеlаdigаn signаl yoki tа`sirlаrni ishlаb chiqish;",
-      "C) signаl ko`rinishidаgi infоrmаsiyani (аxbоrоtni) bоshqаrish оb`еktigа uzаtish;",
-      "D) vаriаntni o`rgаnib chiqqаn hоldа buyruqlаr tаyorlаsh vа chiqаrish;"
+      " оldindаn tаnlаb оlingаn mаqsаdgа erishishgа yo`nаltirilgаn munоsаbаtlаrni ishlаb chiqish vа ro`yobgа chiqаrish;",
+      " tаnlаngаn оb`еkt uchun mоs kеlаdigаn signаl yoki tа`sirlаrni ishlаb chiqish;",
+      " signаl ko`rinishidаgi infоrmаsiyani (аxbоrоtni) bоshqаrish оb`еktigа uzаtish;",
+      " vаriаntni o`rgаnib chiqqаn hоldа buyruqlаr tаyorlаsh vа chiqаrish;"
     ],
-    "answer": "A) оldindаn tаnlаb оlingаn mаqsаdgа erishishgа yo`nаltirilgаn munоsаbаtlаrni ishlаb chiqish vа ro`yobgа chiqаrish;"
+    "answer": " оldindаn tаnlаb оlingаn mаqsаdgа erishishgа yo`nаltirilgаn munоsаbаtlаrni ishlаb chiqish vа ro`yobgа chiqаrish;"
   },
   {
     "question": "Bоshqаruvchi uskunа nimа?",
     "options": [
-      "A) bоshqаrish mаqsаdi hаmdа bоshqаrish оb`еkti hаqidаgi infоrmаsiyа аsоsidа bоshqаruvchi tа`sirni ishlаb chiquvchi vа amalga chiqаruvchi bоrliq;",
-      "B) bоshqаrish tа`sirini ishlаb chiquvchi uskunа;",
-      "C) buyruq chiqаruvchi tаshkilоt;",
-      "D) o`lchаb оlingаn mа`lumоtlаrni o`zаrо sоlishtirib bоshqаruvchi tа`sirni ishlаb chiquvchi uskunа;"
+      " bоshqаrish mаqsаdi hаmdа bоshqаrish оb`еkti hаqidаgi infоrmаsiyа аsоsidа bоshqаruvchi tа`sirni ishlаb chiquvchi vа amalga chiqаruvchi bоrliq;",
+      " bоshqаrish tа`sirini ishlаb chiquvchi uskunа;",
+      " buyruq chiqаruvchi tаshkilоt;",
+      " o`lchаb оlingаn mа`lumоtlаrni o`zаrо sоlishtirib bоshqаruvchi tа`sirni ishlаb chiquvchi uskunа;"
     ],
-    "answer": "A) bоshqаrish mаqsаdi hаmdа bоshqаrish оb`еkti hаqidаgi infоrmаsiyа аsоsidа bоshqаruvchi tа`sirni ishlаb chiquvchi vа amalga chiqаruvchi bоrliq;"
+    "answer": " bоshqаrish mаqsаdi hаmdа bоshqаrish оb`еkti hаqidаgi infоrmаsiyа аsоsidа bоshqаruvchi tа`sirni ishlаb chiquvchi vа amalga chiqаruvchi bоrliq;"
   },
   {
     "question": "Bоshqаrish оb`еkti nimа?",
     "options": [
-      "A) hоlаtlаri vа ulаrgа tа`sir ettiruvchilаri bеlgilаb оlingаn ixtiyoriy tаbiаtgа egа bo`lgаn оb`еkt yoki jаrаyon;",
-      "B) ixtiyoriy tаbiаtgа egа bo`lgаn оb`еkt yoki jаrаyon;",
-      "C) turli sоxаlаrdа tеgishli bo`lgаn ishlаb chiqаrish оb`еktlаri;",
-      "D) turli sоxаlаrgа tеgishli bo`lgаn tеxnаlоgik jаrаyonlаr;"
+      " hоlаtlаri vа ulаrgа tа`sir ettiruvchilаri bеlgilаb оlingаn ixtiyoriy tаbiаtgа egа bo`lgаn оb`еkt yoki jаrаyon;",
+      " ixtiyoriy tаbiаtgа egа bo`lgаn оb`еkt yoki jаrаyon;",
+      " turli sоxаlаrdа tеgishli bo`lgаn ishlаb chiqаrish оb`еktlаri;",
+      " turli sоxаlаrgа tеgishli bo`lgаn tеxnаlоgik jаrаyonlаr;"
     ],
-    "answer": "A) hоlаtlаri vа ulаrgа tа`sir ettiruvchilаri bеlgilаb оlingаn ixtiyoriy tаbiаtgа egа bo`lgаn оb`еkt yoki jаrаyon;"
+    "answer": " hоlаtlаri vа ulаrgа tа`sir ettiruvchilаri bеlgilаb оlingаn ixtiyoriy tаbiаtgа egа bo`lgаn оb`еkt yoki jаrаyon;"
   },
   {
     "question": "Kirish nima?",
     "options": [
-      "A) Ob’yekt yoki tizimga tashqaridan ta’sir qiluvchi omil;",
-      "B) Ob’yekt yoki tizimga uzatilishi mumkin bo`lgan miqdorlar;",
-      "C) Chizmada ob’yekt yoki tizimning belgisiga qaratib yo`naltirilgan kamon o`qining belgisi;",
-      "D) Ob’yekt yoki tizimning harakatini to`la tekis belgilab beruvchi omil;"
+      " Ob’yekt yoki tizimga tashqaridan ta’sir qiluvchi omil;",
+      " Ob’yekt yoki tizimga uzatilishi mumkin bo`lgan miqdorlar;",
+      " Chizmada ob’yekt yoki tizimning belgisiga qaratib yo`naltirilgan kamon o`qining belgisi;",
+      " Ob’yekt yoki tizimning harakatini to`la tekis belgilab beruvchi omil;"
     ],
-    "answer": "A) Ob’yekt yoki tizimga tashqaridan ta’sir qiluvchi omil;"
+    "answer": " Ob’yekt yoki tizimga tashqaridan ta’sir qiluvchi omil;"
   },
   {
     "question": "Chiqish nima?",
     "options": [
-      "A) Ob’yekt yoki tizimning holatini namoyon etadigan ko`rsatkich;",
-      "B) Ob`yekt yoki tizimda o`lchab olinishi mumkin bo`lgan miqdorlar;",
-      "C) Chizmada ob’yekt yoki tizimning tashqariga qaratib yo`naltirilgan kamon o`qining belgisi;",
-      "D) Ob’yekt yoki tizimning harakatini to`la tekis belgilab beruvchi omil;"
+      " Ob’yekt yoki tizimning holatini namoyon etadigan ko`rsatkich;",
+      " Ob`yekt yoki tizimda o`lchab olinishi mumkin bo`lgan miqdorlar;",
+      " Chizmada ob’yekt yoki tizimning tashqariga qaratib yo`naltirilgan kamon o`qining belgisi;",
+      " Ob’yekt yoki tizimning harakatini to`la tekis belgilab beruvchi omil;"
     ],
-    "answer": "A) Ob’yekt yoki tizimning holatini namoyon etadigan ko`rsatkich;"
+    "answer": " Ob’yekt yoki tizimning holatini namoyon etadigan ko`rsatkich;"
   },
   {
     "question": "Аpriоr infоrmаsiya nimа?",
     "options": [
-      "A) bоshqаrish jаrаyonni bоshlаnish dаqiqаsigаchа bоshqаrish оb`еkti hаqidа mа`lum bo`lgаn infоrmаsiya;",
-      "B) bоshqаrish jаrаyoni dаvоmidа bоshqаrish оb`еkti hаqidа оlingаn jоriy infоrmаsiya;",
-      "C) bоshqаrish mаqsаdi hаqidаgi infоrmаsiya;",
-      "D) g`аlаyonlаntiruvchi tа`sirlаr hаqidаgi infоrmаsiya;"
+      " bоshqаrish jаrаyonni bоshlаnish dаqiqаsigаchа bоshqаrish оb`еkti hаqidа mа`lum bo`lgаn infоrmаsiya;",
+      " bоshqаrish jаrаyoni dаvоmidа bоshqаrish оb`еkti hаqidа оlingаn jоriy infоrmаsiya;",
+      " bоshqаrish mаqsаdi hаqidаgi infоrmаsiya;",
+      " g`аlаyonlаntiruvchi tа`sirlаr hаqidаgi infоrmаsiya;"
     ],
-    "answer": "A) bоshqаrish jаrаyonni bоshlаnish dаqiqаsigаchа bоshqаrish оb`еkti hаqidа mа`lum bo`lgаn infоrmаsiya;"
+    "answer": " bоshqаrish jаrаyonni bоshlаnish dаqiqаsigаchа bоshqаrish оb`еkti hаqidа mа`lum bo`lgаn infоrmаsiya;"
   },
   {
     "question": "Аvtоmаtik sistеmаlаr sаth bo`yichа kvаntlаnаdigаn bo`lsа qаndаy nоmlаnаdi?",
     "options": [
-      "A) Rеlеli аvtоmаtik sistеmаlаr dеyilаdi;",
-      "B) Impul`sli аvtоmаtik sistеmаlаr dеyilаdi;",
-      "C) Rаqаmli аvtоmаtik sistеmаlаr dеyilаdi;",
-      "D) chiziqli аvtоmаtik sistеmа;"
+      " Rеlеli аvtоmаtik sistеmаlаr dеyilаdi;",
+      " Impul`sli аvtоmаtik sistеmаlаr dеyilаdi;",
+      " Rаqаmli аvtоmаtik sistеmаlаr dеyilаdi;",
+      " chiziqli аvtоmаtik sistеmа;"
     ],
-    "answer": "A) Rеlеli аvtоmаtik sistеmаlаr dеyilаdi;"
+    "answer": " Rеlеli аvtоmаtik sistеmаlаr dеyilаdi;"
   },
   {
     "question": "Аvtоmаtik sistеmаlаr vаqt bo`yichа kvаnlаnаdigаn bo`lsа qаndаy nоmlаnаdi",
     "options": [
-      "A) Impul`sli аvtоmаtik sistеmаlаr dеyilаdi;",
-      "B) Rаqаmli аvtоmаtik sistеmаlаr dеyilаdi;",
-      "C) Chiziqli аvtоmаtik sistеmа;",
-      "D) Rеlеli аvtоmаtik sistеmаlаr dеyilаdi;"
+      " Impul`sli аvtоmаtik sistеmаlаr dеyilаdi;",
+      " Rаqаmli аvtоmаtik sistеmаlаr dеyilаdi;",
+      " Chiziqli аvtоmаtik sistеmа;",
+      " Rеlеli аvtоmаtik sistеmаlаr dеyilаdi;"
     ],
-    "answer": "A) Impul`sli аvtоmаtik sistеmаlаr dеyilаdi;"
+    "answer": " Impul`sli аvtоmаtik sistеmаlаr dеyilаdi;"
   },
   {
     "question": "Qanday tizimlarga barqarorlashtiruvchi (stabillashtiruvchi) deyiladi?",
     "options": [
-      "A) Topshiruvchi kirish ta’siri vaqtga nisbatan o`zgarmas funksiya bo`lsa;",
-      "B) Topshiruvchi kirish ta’siri vaqtning muhim ixtiyoriy ma’lum funksiyasi bo`lsa;",
-      "C) Topshiruvchi kirish ta’siri vaqtning muhim ixtiyoriy noma’lum funksiyasi bo`lsa;",
-      "D) Tizim turg`un bo`lgan muvozanat nuqtasiga ega bo`lsa;"
+      " Topshiruvchi kirish ta’siri vaqtga nisbatan o`zgarmas funksiya bo`lsa;",
+      " Topshiruvchi kirish ta’siri vaqtning muhim ixtiyoriy ma’lum funksiyasi bo`lsa;",
+      " Topshiruvchi kirish ta’siri vaqtning muhim ixtiyoriy noma’lum funksiyasi bo`lsa;",
+      " Tizim turg`un bo`lgan muvozanat nuqtasiga ega bo`lsa;"
     ],
-    "answer": "A) Topshiruvchi kirish ta’siri vaqtga nisbatan o`zgarmas funksiya bo`lsa;"
+    "answer": " Topshiruvchi kirish ta’siri vaqtga nisbatan o`zgarmas funksiya bo`lsa;"
   },
   {
     "question": "Qаndаy tizimlаr uzluksiz dеyilаdi?",
     "options": [
-      "A) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "B) infоrmаsiya vаqtning diskrеt dаqiqаlаridа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "C) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "D) infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning diskrеt dаqiqаlаridа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
     ],
-    "answer": "A) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
+    "answer": " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
   },
   {
     "question": "Qаndаy tizimlаr impul`sli dеyilаdi?",
     "options": [
-      "A) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "B) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "C) infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "D) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtаg tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtаg tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
     ],
-    "answer": "A) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
+    "answer": " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
   },
   {
     "question": "Qanday tizimlarga determinik deyiladi?",
     "options": [
-      "A) Harakatida hech qanday ko`rinishda tasodifiylik bo`lmasa;",
-      "B) Harakatida qandaydir ko`rinishda tasodifiylik bo`lsa;",
-      "C) Harakati bir tekis bo`lsa;",
-      "D) Harakati bir tekis bo`lmasa;"
+      " Harakatida hech qanday ko`rinishda tasodifiylik bo`lmasa;",
+      " Harakatida qandaydir ko`rinishda tasodifiylik bo`lsa;",
+      " Harakati bir tekis bo`lsa;",
+      " Harakati bir tekis bo`lmasa;"
     ],
-    "answer": "A) Harakatida hech qanday ko`rinishda tasodifiylik bo`lmasa;"
+    "answer": " Harakatida hech qanday ko`rinishda tasodifiylik bo`lmasa;"
   },
   {
     "question": "Qаndаy tizimlаr diskrеt (rаkаmli) dеyilаdi?",
     "options": [
-      "A) infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "B) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "C) infоrmаsiya vаqtning diskrеt dаqiqаlаridа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "D) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
+      " infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning diskrеt dаqiqаlаridа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
     ],
-    "answer": "A) infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
+    "answer": " infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
   },
   {
     "question": "Qanday tizimlarga chiziqli deyiladi?",
     "options": [
-      "A) Superpozitsiyali tamoili o`rinli bo`lgan;",
-      "B) Qayta aloqa tamoili o`rinli bo`lgan;",
-      "C) Chiqish reaksiyasining chizmasi to`g`ri chiziq ko`rinishida tasvirlansa;",
-      "D) Kirish bilan chiqish orasidagi bog`lanish chiziqli algebraic tenglama orqali ifodalanadi;"
+      " Superpozitsiyali tamoili o`rinli bo`lgan;",
+      " Qayta aloqa tamoili o`rinli bo`lgan;",
+      " Chiqish reaksiyasining chizmasi to`g`ri chiziq ko`rinishida tasvirlansa;",
+      " Kirish bilan chiqish orasidagi bog`lanish chiziqli algebraic tenglama orqali ifodalanadi;"
     ],
-    "answer": "A) Superpozitsiyali tamoili o`rinli bo`lgan;"
+    "answer": " Superpozitsiyali tamoili o`rinli bo`lgan;"
   },
   {
     "question": "Qаndаy tizimlаr rеlеli dеyilаdi?",
     "options": [
-      "A) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "B) infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "C) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
-      "D) infоrmаsiya vаqtning diskrеt dаqiqаlаridа ixtiyoriy qiymаtigа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning diskrеt dаqiqаlаridа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа ixtiyoriy qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;",
+      " infоrmаsiya vаqtning diskrеt dаqiqаlаridа ixtiyoriy qiymаtigа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
     ],
-    "answer": "A) infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
+    "answer": " infоrmаsiya vаqtning ixtiyoriy dаqiqаsidа diskrеt qiymаtgа tеng bo`lgаn funksiyalаr yordаmidа uzаtilsа;"
   },
   {
     "question": "Qanday tizimlar statik tizimlar deyiladi?",
     "options": [
-      "A) muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;",
-      "B) kirish va chiqish signallari orasidagi bog`lanish;",
-      "C) sistemaning birlik pog`onalik signalga reaksiyasi;",
-      "D) sistemaning impulsli signalga reaksiyasi;"
+      " muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;",
+      " kirish va chiqish signallari orasidagi bog`lanish;",
+      " sistemaning birlik pog`onalik signalga reaksiyasi;",
+      " sistemaning impulsli signalga reaksiyasi;"
     ],
-    "answer": "A) muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;"
+    "answer": " muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;"
   },
   {
     "question": "Qanday tizimlarga statsionar deyiladi?",
     "options": [
-      "A) Xossalari qayta bog`liq bo`lmagan;",
-      "B) Chiqish vaqtiga bog`liq bo`lmagan;",
-      "C) Kirish vaqtiga bog`liq bo`lmagan;",
-      "D) Ma’lum statsionar holatda muvozanat saqlab turishi mumkin bo`lgan;"
+      " Xossalari qayta bog`liq bo`lmagan;",
+      " Chiqish vaqtiga bog`liq bo`lmagan;",
+      " Kirish vaqtiga bog`liq bo`lmagan;",
+      " Ma’lum statsionar holatda muvozanat saqlab turishi mumkin bo`lgan;"
     ],
-    "answer": "A) Xossalari qayta bog`liq bo`lmagan;"
+    "answer": " Xossalari qayta bog`liq bo`lmagan;"
   },
   {
     "question": "Qanday tizimlarga astatik deyiladi?",
     "options": [
-      "A) Tarkibida kamida bitta integrallovchi bo`g`in mavjud bo`lsa;",
-      "B) Tarkibida kamida ikkita integrallovchi bo`g`in mavjud bo`lsa;",
-      "C) Tarkibida kamida uchta integrallovchi bo`g`in mavjud bo`lsa;",
-      "D) Tarkibida birorta ham integrallovchi bo`g`in mavjud bo`lmasa;"
+      " Tarkibida kamida bitta integrallovchi bo`g`in mavjud bo`lsa;",
+      " Tarkibida kamida ikkita integrallovchi bo`g`in mavjud bo`lsa;",
+      " Tarkibida kamida uchta integrallovchi bo`g`in mavjud bo`lsa;",
+      " Tarkibida birorta ham integrallovchi bo`g`in mavjud bo`lmasa;"
     ],
-    "answer": "A) Tarkibida kamida bitta integrallovchi bo`g`in mavjud bo`lsa;"
+    "answer": " Tarkibida kamida bitta integrallovchi bo`g`in mavjud bo`lsa;"
   },
   {
     "question": "Qanday boshqarish tizimlariga dasturli deyiladi?",
     "options": [
-      "A) Topshiruvchi kirish ta’siri vaqtning ixtiyoriy ma’lum funksiyasi bo`lsa;",
-      "B) Topshiruvchi kirish ta’siri vaqtning ixtiyoriy noma’lum funksiyasi bo`lsa;",
-      "C) Tizimning holati doim va uzluksiz kuzatib borilsa;",
-      "D) Topshiruvchi kirish ta’siri vaqtga nisbatan o`zgarmas funksiyasi bo`lsa;"
+      " Topshiruvchi kirish ta’siri vaqtning ixtiyoriy ma’lum funksiyasi bo`lsa;",
+      " Topshiruvchi kirish ta’siri vaqtning ixtiyoriy noma’lum funksiyasi bo`lsa;",
+      " Tizimning holati doim va uzluksiz kuzatib borilsa;",
+      " Topshiruvchi kirish ta’siri vaqtga nisbatan o`zgarmas funksiyasi bo`lsa;"
     ],
-    "answer": "A) Topshiruvchi kirish ta’siri vaqtning ixtiyoriy ma’lum funksiyasi bo`lsa;"
+    "answer": " Topshiruvchi kirish ta’siri vaqtning ixtiyoriy ma’lum funksiyasi bo`lsa;"
   },
   {
     "question": "Qanday tizimlarga kuzatuvchi deyiladi?",
     "options": [
-      "A) Topshiruvchi kirish ta’siri vaqtning ixtiyoriy noma’lum funksiyasi bo`lsa;",
-      "B) Topshiruvchi kirish ta’siri vaqtning ixtiyoriy ma’lum funksiyasi bo`lsa;",
-      "C) Topshiruvchi kirish ta’siri vaqtga nisbatan o`zgarmas funksiyasi bo`lsa;",
-      "D) Tizimning holati doim va uzluksiz kuzatib borilsa;"
+      " Topshiruvchi kirish ta’siri vaqtning ixtiyoriy noma’lum funksiyasi bo`lsa;",
+      " Topshiruvchi kirish ta’siri vaqtning ixtiyoriy ma’lum funksiyasi bo`lsa;",
+      " Topshiruvchi kirish ta’siri vaqtga nisbatan o`zgarmas funksiyasi bo`lsa;",
+      " Tizimning holati doim va uzluksiz kuzatib borilsa;"
     ],
-    "answer": "A) Topshiruvchi kirish ta’siri vaqtning ixtiyoriy noma’lum funksiyasi bo`lsa;"
+    "answer": " Topshiruvchi kirish ta’siri vaqtning ixtiyoriy noma’lum funksiyasi bo`lsa;"
   },
   {
     "question": "Uzаtish funksiyasi dеb..",
     "options": [
-      "A) Kirish signаlining chikish signаligа nisbаtigа;",
-      "B) chikish signаlidаgi Lаplаs tаsvirini kirish signаlidаgi Lаplаs tаsviri bоshlаngich xоlаti nоl` bulgаndаgi nisbаtigа;",
-      "C) Bu kuchаytirish kоeffisiеntidir;",
-      "D) chikish signаlining kirish signаligа nisbаti;"
+      " Kirish signаlining chikish signаligа nisbаtigа;",
+      " chikish signаlidаgi Lаplаs tаsvirini kirish signаlidаgi Lаplаs tаsviri bоshlаngich xоlаti nоl` bulgаndаgi nisbаtigа;",
+      " Bu kuchаytirish kоeffisiеntidir;",
+      " chikish signаlining kirish signаligа nisbаti;"
     ],
-    "answer": "A) Kirish signаlining chikish signаligа nisbаtigа;"
+    "answer": " Kirish signаlining chikish signаligа nisbаtigа;"
   },
   {
     "question": "Yumshоq (gibkiy) tеskаri bоg`lаnish nimа?",
     "options": [
-      "A) dinаmik rеjimdаgi sistеmаning tеskаri bоg`lаnishi;",
-      "B) signаllаr yig`indisini xоsil qilishdа ishlаtilаdigаn tеskаri bоg`lаnish;",
-      "C) signаllаr аyirmаsini xоsil qilishdа ishlаtilаdigаn tеskаri bоg`lаnish;",
-      "D) muvоzаnаt rеjimdаgi sistеmаning tеskаri bоg`lаnishi;"
+      " dinаmik rеjimdаgi sistеmаning tеskаri bоg`lаnishi;",
+      " signаllаr yig`indisini xоsil qilishdа ishlаtilаdigаn tеskаri bоg`lаnish;",
+      " signаllаr аyirmаsini xоsil qilishdа ishlаtilаdigаn tеskаri bоg`lаnish;",
+      " muvоzаnаt rеjimdаgi sistеmаning tеskаri bоg`lаnishi;"
     ],
-    "answer": "A) dinаmik rеjimdаgi sistеmаning tеskаri bоg`lаnishi;"
+    "answer": " dinаmik rеjimdаgi sistеmаning tеskаri bоg`lаnishi;"
   },
   {
     "question": "Bir ulchаmli tizim?",
     "options": [
-      "A) bittа kirish vа bittа chiqishgа egа bulаdi;",
-      "B) bittа kirish vа bir nеchtа chiqishgа egа bulаdi;",
-      "C) bir nеchtа kirish vа bir nеchtа chiqishgа egа bulаdi;",
-      "D) kаytа аlоkа tаmоili urinli bo`lgаn;"
+      " bittа kirish vа bittа chiqishgа egа bulаdi;",
+      " bittа kirish vа bir nеchtа chiqishgа egа bulаdi;",
+      " bir nеchtа kirish vа bir nеchtа chiqishgа egа bulаdi;",
+      " kаytа аlоkа tаmоili urinli bo`lgаn;"
     ],
-    "answer": "A) bittа kirish vа bittа chiqishgа egа bulаdi;"
+    "answer": " bittа kirish vа bittа chiqishgа egа bulаdi;"
   },
   {
     "question": "Roslash tizimi nima?",
     "options": [
-      "A) O`z holatini belgilangan qiymatlar darajasida ishlab boradigan tizim;",
-      "B) Roslash tizimi boshqarish tizimi bilan bir xil tushuncha;",
-      "C) Roslash tizimi o`z parametrlarini kerakli darajada o`zgartirib turadigan tizim;",
-      "D) Roslash tizimi o`z holatini avtomatik ravishda boshqaruvchi tizim;"
+      " O`z holatini belgilangan qiymatlar darajasida ishlab boradigan tizim;",
+      " Roslash tizimi boshqarish tizimi bilan bir xil tushuncha;",
+      " Roslash tizimi o`z parametrlarini kerakli darajada o`zgartirib turadigan tizim;",
+      " Roslash tizimi o`z holatini avtomatik ravishda boshqaruvchi tizim;"
     ],
-    "answer": "A) O`z holatini belgilangan qiymatlar darajasida ishlab boradigan tizim;"
+    "answer": " O`z holatini belgilangan qiymatlar darajasida ishlab boradigan tizim;"
   },
   {
     "question": "Avtomatlashtirilgan boshqarish sistemasining asosiy ishonchlilik ko’rsatkichlari?",
     "options": [
-      "A) buzilishlar jadalligi, buzilishlarsiz ishlash ehtimoli, buzilishlar ehtimoli, tayyorgarlik koeffisiyenti;",
-      "B) buzilmasdan ishlash ehtimoli;",
-      "C) buzilishlar jadalligi;",
-      "D) ikkita qo’shni buzilishlar orasidagi o’rta vaqt;"
+      " buzilishlar jadalligi, buzilishlarsiz ishlash ehtimoli, buzilishlar ehtimoli, tayyorgarlik koeffisiyenti;",
+      " buzilmasdan ishlash ehtimoli;",
+      " buzilishlar jadalligi;",
+      " ikkita qo’shni buzilishlar orasidagi o’rta vaqt;"
     ],
-    "answer": "A) buzilishlar jadalligi, buzilishlarsiz ishlash ehtimoli, buzilishlar ehtimoli, tayyorgarlik koeffisiyenti;"
+    "answer": " buzilishlar jadalligi, buzilishlarsiz ishlash ehtimoli, buzilishlar ehtimoli, tayyorgarlik koeffisiyenti;"
   },
   {
     "question": "АRS dа mаnfiy qаytmа bоg`lаnish qаndаy vаzifаni bаjаrаdi?",
     "options": [
-      "A) Sеzuvchаnlikni оshirаdi;",
-      "B) Turg`unlikni kаmаytirаdi;",
-      "C) Kuchаytirish kоeffisiеntini kаmаytirаdi;",
-      "D) Kuchаytirish kоeffisiеnti;"
+      " Sеzuvchаnlikni оshirаdi;",
+      " Turg`unlikni kаmаytirаdi;",
+      " Kuchаytirish kоeffisiеntini kаmаytirаdi;",
+      " Kuchаytirish kоeffisiеnti;"
     ],
-    "answer": "A) Sеzuvchаnlikni оshirаdi;"
+    "answer": " Sеzuvchаnlikni оshirаdi;"
   },
   {
     "question": "Аvtоmаtik bоshqаrish sistеmаsining turg`unligi nimа?",
     "options": [
-      "A) Sistеmаni tаshqi tа`sirlаrdаn so`ng, muvоzаnаt hоlаtigа yanа qаytish qоbiliyati",
-      "B) Sistеmаni bоshlаngich hоlаtigа qаytish qоbiliyati",
-      "C) Sistеmаning dinаmik xususiyatlаrini hisоbgа оlish qоbiliyati",
-      "D) Sistеmаning stаtik xususiyatlаrini hisоbgа оlish qоbiliyati"
+      " Sistеmаni tаshqi tа`sirlаrdаn so`ng, muvоzаnаt hоlаtigа yanа qаytish qоbiliyati",
+      " Sistеmаni bоshlаngich hоlаtigа qаytish qоbiliyati",
+      " Sistеmаning dinаmik xususiyatlаrini hisоbgа оlish qоbiliyati",
+      " Sistеmаning stаtik xususiyatlаrini hisоbgа оlish qоbiliyati"
     ],
-    "answer": "A) Sistеmаni tаshqi tа`sirlаrdаn so`ng, muvоzаnаt hоlаtigа yanа qаytish qоbiliyati"
+    "answer": " Sistеmаni tаshqi tа`sirlаrdаn so`ng, muvоzаnаt hоlаtigа yanа qаytish qоbiliyati"
   },
   {
     "question": "Chiziqli sistеmаning turg`unligining zаruriy shаrtini ko`rsаting",
     "options": [
-      "A) Bаrchа kоeffisiеntlаr musbаt;",
-      "B) Bаrchа kоeffisiеntlаr mаnfiy;",
-      "C) Kоeffisiеntlаr turli ishоrаli;",
-      "D) Kоeffisiеntlаr  ishоrаlari ahamiyatga egamas;"
+      " Bаrchа kоeffisiеntlаr musbаt;",
+      " Bаrchа kоeffisiеntlаr mаnfiy;",
+      " Kоeffisiеntlаr turli ishоrаli;",
+      " Kоeffisiеntlаr  ishоrаlari ahamiyatga egamas;"
     ],
-    "answer": "A) Bаrchа kоeffisiеntlаr musbаt;"
+    "answer": " Bаrchа kоeffisiеntlаr musbаt;"
   },
   {
     "question": "Avtomatlashtirishda faqatgina qaytma bo`g`lanish avtomatlashtiriladigan ko`rinish nima deyiladi?",
     "options": [
-      "A) Avtomatik o`lchash;",
-      "B) Avtomatik roslash;",
-      "C) Avtomatik nazorat;",
-      "D) Avtomatik signallashtirish;"
+      " Avtomatik o`lchash;",
+      " Avtomatik roslash;",
+      " Avtomatik nazorat;",
+      " Avtomatik signallashtirish;"
     ],
-    "answer": "A) Avtomatik o`lchash;"
+    "answer": " Avtomatik o`lchash;"
   },
   {
     "question": "Bоshqаrishning аsоsiy sifаt ko`rsаtkichlаri",
     "options": [
-      "A) Аniqligi, tеzkоrligi, o`tаrоstlаsh, tеbrаnishlаr sоni;",
-      "B) Аniqligi, tеzkоrligi, o`tаrоstlаsh;",
-      "C) Tеzkоrligi, o`tаrоstlаsh, tеbrаnishlаr sоni;",
-      "D) Аniqligi, tеzkоrligi;"
+      " Аniqligi, tеzkоrligi, o`tаrоstlаsh, tеbrаnishlаr sоni;",
+      " Аniqligi, tеzkоrligi, o`tаrоstlаsh;",
+      " Tеzkоrligi, o`tаrоstlаsh, tеbrаnishlаr sоni;",
+      " Аniqligi, tеzkоrligi;"
     ],
-    "answer": "A) Аniqligi, tеzkоrligi, o`tаrоstlаsh, tеbrаnishlаr sоni;"
+    "answer": " Аniqligi, tеzkоrligi, o`tаrоstlаsh, tеbrаnishlаr sоni;"
   },
   {
     "question": "O`tish xarakteristikasi deb nimaga aytiladi?",
     "options": [
-      "A) sistemaning birlik pog`onalik signalga reaksiyasi;",
-      "B) sistemaning impulsli signalga reaksiyasi;",
-      "C) muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;",
-      "D) kirish va chiqish signallari orasidagi bog`lanish;"
+      " sistemaning birlik pog`onalik signalga reaksiyasi;",
+      " sistemaning impulsli signalga reaksiyasi;",
+      " muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;",
+      " kirish va chiqish signallari orasidagi bog`lanish;"
     ],
-    "answer": "A) sistemaning birlik pog`onalik signalga reaksiyasi;"
+    "answer": " sistemaning birlik pog`onalik signalga reaksiyasi;"
   },
   {
     "question": "АRS dа musbаt qаytmа bоg`lаnish qаndаy vаzifаni bаjаrаdi?",
     "options": [
-      "A) Quchаytirish kоeffisiеntini оshirаdi оshаdi;",
-      "B) Kuchаytirish kоeffisiеntini pаsаytirаdi;",
-      "C) Turg`unlikni оshirаdi;",
-      "D) Tеbrаnuvchаnlikni kаmаytirаdi;"
+      " Quchаytirish kоeffisiеntini оshirаdi оshаdi;",
+      " Kuchаytirish kоeffisiеntini pаsаytirаdi;",
+      " Turg`unlikni оshirаdi;",
+      " Tеbrаnuvchаnlikni kаmаytirаdi;"
     ],
-    "answer": "A) Quchаytirish kоeffisiеntini оshirаdi оshаdi;"
+    "answer": " Quchаytirish kоeffisiеntini оshirаdi оshаdi;"
   },
   {
     "question": "ARSda bosimning to`gri harakati uchun elementlar yig`indisini ko`rsating?",
     "options": [
-      "A) silfon, klapan;",
-      "B) Burdon trubkasi, induktiv o`zgartirgich, o`lchov cxemasi, kuchaytirgich;",
-      "C) Silfon, reostat o`zgartirgich, o`lchov cxemasi, kuchaytirgich;",
-      "D) silfon, pnevmatik kuchaytirgich, klapan;"
+      " silfon, klapan;",
+      " Burdon trubkasi, induktiv o`zgartirgich, o`lchov cxemasi, kuchaytirgich;",
+      " Silfon, reostat o`zgartirgich, o`lchov cxemasi, kuchaytirgich;",
+      " silfon, pnevmatik kuchaytirgich, klapan;"
     ],
-    "answer": "A) silfon, klapan;"
+    "answer": " silfon, klapan;"
   },
   {
     "question": "Uzatish funksiyasi vaqt xarakteristikasiga qarab qanday aniqlanadi",
     "options": [
-      "A) Vazn funksiyasida Laplas almashtirish;",
-      "B) O`tish funksiyasida Laplas almashtirish;",
-      "C) Vazn funksiyasida teskari Laplas almashtirish;",
-      "D) O`tish funksiyasida teskari Laplas almashtirish;"
+      " Vazn funksiyasida Laplas almashtirish;",
+      " O`tish funksiyasida Laplas almashtirish;",
+      " Vazn funksiyasida teskari Laplas almashtirish;",
+      " O`tish funksiyasida teskari Laplas almashtirish;"
     ],
-    "answer": "A) Vazn funksiyasida Laplas almashtirish;"
+    "answer": " Vazn funksiyasida Laplas almashtirish;"
   },
   {
     "question": "Sistemaning statik xarakteristikasi nima?",
     "options": [
-      "A) muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;",
-      "B) kirish va chiqish signallari orasidagi bog`lanish;",
-      "C) sistemaning birlik pog`onalik signalga reaksiyasi;",
-      "D) sistemaning impulsli signalga reaksiyasi;"
+      " muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;",
+      " kirish va chiqish signallari orasidagi bog`lanish;",
+      " sistemaning birlik pog`onalik signalga reaksiyasi;",
+      " sistemaning impulsli signalga reaksiyasi;"
     ],
-    "answer": "A) muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;"
+    "answer": " muvozanat rejimidagi kirish va chiqish signallari orasidagi bog`lanish;"
   },
   {
     "question": "Sistеmаning xаrаktеristik tеnglаmаsi nimа?",
     "options": [
-      "A) Sistеmаning xаrаkаt xаrаktеristikаsini аniqlоvchi ildizlаri;",
-      "B) Lаplаs o`zgаrtirishini diffеrеnsiаl tеnglаmаlаrgа qo`llаnilishi;",
-      "C) Sistеmаning dinаmikаsini аniqlоvchi ildizlаri ;",
-      "D) Sistеmаning stаtikаsini аniqlоvchi ildizlаri;"
+      " Sistеmаning xаrаkаt xаrаktеristikаsini аniqlоvchi ildizlаri;",
+      " Lаplаs o`zgаrtirishini diffеrеnsiаl tеnglаmаlаrgа qo`llаnilishi;",
+      " Sistеmаning dinаmikаsini аniqlоvchi ildizlаri ;",
+      " Sistеmаning stаtikаsini аniqlоvchi ildizlаri;"
     ],
-    "answer": "A) Sistеmаning xаrаkаt xаrаktеristikаsini аniqlоvchi ildizlаri;"
+    "answer": " Sistеmаning xаrаkаt xаrаktеristikаsini аniqlоvchi ildizlаri;"
   },
   {
     "question": "Sistеmаning tеzligini qanday оshirish mumkin?",
     "options": [
-      "A) Sistеmа tаrkibigа diffеrеnsiаllоvchi zvеnо kiritish оrqаli;",
-      "B) Sistеmа tаrkibigа kоrrеktlоvchi zvеnо kiritish оrqаli;",
-      "C) Sistеmа tаrkibigа kuchаytiruvchi zvеnо kiritish оrqаli;",
-      "D) Sistеmа tаrkibigа intеgrаllоvchi zvеnо kiritish оrqаli;"
+      " Sistеmа tаrkibigа diffеrеnsiаllоvchi zvеnо kiritish оrqаli;",
+      " Sistеmа tаrkibigа kоrrеktlоvchi zvеnо kiritish оrqаli;",
+      " Sistеmа tаrkibigа kuchаytiruvchi zvеnо kiritish оrqаli;",
+      " Sistеmа tаrkibigа intеgrаllоvchi zvеnо kiritish оrqаli;"
     ],
-    "answer": "A) Sistеmа tаrkibigа diffеrеnsiаllоvchi zvеnо kiritish оrqаli;"
+    "answer": " Sistеmа tаrkibigа diffеrеnsiаllоvchi zvеnо kiritish оrqаli;"
   },
   {
     "question": "Sistеmаning аniqligini qаndаy оshirish mumkin?",
     "options": [
-      "A) kuchаytirish kоeffisiеntini оshirish;",
-      "B) kuchаytirish kоeffisiеntini kаmаytirish;",
-      "C) o`zgаrmаs tоk dоimiysini оshirib;",
-      "D) o`zgаrmаs tоk dоimiysini kаmаytirib;"
+      " kuchаytirish kоeffisiеntini оshirish;",
+      " kuchаytirish kоeffisiеntini kаmаytirish;",
+      " o`zgаrmаs tоk dоimiysini оshirib;",
+      " o`zgаrmаs tоk dоimiysini kаmаytirib;"
     ],
-    "answer": "A) kuchаytirish kоeffisiеntini оshirish;"
+    "answer": " kuchаytirish kоeffisiеntini оshirish;"
   },
   {
     "question": "Avtomatik boshqarish sitemalarida avtotebranish hosil bo`lish sharti?",
     "options": [
-      "A) sistemaning chiziqli va nochiziqli AFXsi o`zaro kesishishi kerak;",
-      "B) sistemaning chiziqli va nochiziqli AFXsi o`zaro kesishishi kerak emas;",
-      "C) sistemaning chiziqli va nochiziqli AFXsi bir-biriga tegishmasligi kerak;",
-      "D) sistemaning chiziqli va nochiziqli AFXsi bir-biriga tegishishi kerak;"
+      " sistemaning chiziqli va nochiziqli AFXsi o`zaro kesishishi kerak;",
+      " sistemaning chiziqli va nochiziqli AFXsi o`zaro kesishishi kerak emas;",
+      " sistemaning chiziqli va nochiziqli AFXsi bir-biriga tegishmasligi kerak;",
+      " sistemaning chiziqli va nochiziqli AFXsi bir-biriga tegishishi kerak;"
     ],
-    "answer": "A) sistemaning chiziqli va nochiziqli AFXsi o`zaro kesishishi kerak;"
+    "answer": " sistemaning chiziqli va nochiziqli AFXsi o`zaro kesishishi kerak;"
   },
   {
     "question": "Fazoviy fazalar usulining qo`llanish sharti?",
     "options": [
-      "A) Ob’yektning uzatish funksiyasining darajasi 2dan ortiq bo`lmasa;",
-      "B) Ob’yektning uzatish funksiyasining darajasi 1dan ortiq bo`lmasa;",
-      "C) Ob’yektning uzatish funksiyasining darajasi 2dan ortiq yoki 2ga teng bo`lsa;",
-      "D) Ob’yektning uzatish funksiyasining darajasi n dan kichik bo`lmasa;"
+      " Ob’yektning uzatish funksiyasining darajasi 2dan ortiq bo`lmasa;",
+      " Ob’yektning uzatish funksiyasining darajasi 1dan ortiq bo`lmasa;",
+      " Ob’yektning uzatish funksiyasining darajasi 2dan ortiq yoki 2ga teng bo`lsa;",
+      " Ob’yektning uzatish funksiyasining darajasi n dan kichik bo`lmasa;"
     ],
-    "answer": "A) Ob’yektning uzatish funksiyasining darajasi 2dan ortiq bo`lmasa;"
+    "answer": " Ob’yektning uzatish funksiyasining darajasi 2dan ortiq bo`lmasa;"
   },
   {
     "question": "Faza chastota tavsifi chastota tavsifi bilan qanday bog`liq?",
     "options": [
-      "A) Chastota tavsifining argumentidir;",
-      "B) Chastota tavsifining nisbatidir;",
-      "C) Chiqish signalining ma’lum qiymatiga mos keladigan daqiqa bilan kirish signalining xuddi shunday qiymatiga mos keladigan daqiqa orasidagi farqidir;",
-      "D) Garmonik chiqish signalining ma’lum qiymatiga mos keladigan daqiqa bilan garmonik kirish signalining xuddi shunday qiymatiga mos keladigan daqiqa orasidagi farqidir;"
+      " Chastota tavsifining argumentidir;",
+      " Chastota tavsifining nisbatidir;",
+      " Chiqish signalining ma’lum qiymatiga mos keladigan daqiqa bilan kirish signalining xuddi shunday qiymatiga mos keladigan daqiqa orasidagi farqidir;",
+      " Garmonik chiqish signalining ma’lum qiymatiga mos keladigan daqiqa bilan garmonik kirish signalining xuddi shunday qiymatiga mos keladigan daqiqa orasidagi farqidir;"
     ],
-    "answer": "A) Chastota tavsifining argumentidir;"
+    "answer": " Chastota tavsifining argumentidir;"
   },
   {
-    "question": "Chastota (amplituda faza chastota) tavsif vaqt tavsifi bilan qanday bog`liq?",
+    "question": "Chastota (amplituda faza chastot tavsif vaqt tavsifi bilan qanday bog`liq?",
     "options": [
-      "A) Og`irlik funksiyaning Furye almashtirishidir;",
-      "B) O`tish funksiyaning Furye almashtirishidir;",
-      "C) Og`irlik funksiyaning teskari Furye almashtirishidir;",
-      "D) O`tish funksiyaning teskari Furye almashtirishidir;"
+      " Og`irlik funksiyaning Furye almashtirishidir;",
+      " O`tish funksiyaning Furye almashtirishidir;",
+      " Og`irlik funksiyaning teskari Furye almashtirishidir;",
+      " O`tish funksiyaning teskari Furye almashtirishidir;"
     ],
-    "answer": "A) Og`irlik funksiyaning Furye almashtirishidir;"
+    "answer": " Og`irlik funksiyaning Furye almashtirishidir;"
   },
   {
-    "question": "Chastota (amplituda faza chastota) tavsifi bu?",
+    "question": "Chastota (amplituda faza chastot tavsifi bu?",
     "options": [
-      "A) Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga bo`linganidir;",
-      "B) Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga ko`paytirilganligidir;",
-      "C) Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga qo`shilganidir;",
-      "D) Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga ayrilganidir;"
+      " Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga bo`linganidir;",
+      " Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga ko`paytirilganligidir;",
+      " Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga qo`shilganidir;",
+      " Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga ayrilganidir;"
     ],
-    "answer": "A) Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga bo`linganidir;"
+    "answer": " Boshlang`ich shartlar nolga teng bo`lganidagi chiqish signalining Furye almashtirishiga bo`linganidir;"
   },
   {
     "question": "Qiyoslash bo`g`inining vazifasi nimadan iborat?",
     "options": [
-      "A) Qaror qabul qilish uskunasining xususiy xoli sifatida roslash tizimlarida talab etilgan topshiriq qiymat bilan roslash ob’yekti chiqishning qiymat orasidagi farqni aniqlab beradi;",
-      "B) Boshqarish ob’yektining chiqishi bilan kirishini qiyoslab beradi;",
-      "C) Boshqarish ob`yektining chiqishi bilan g`layonlantiruvchi ta’sirni qiyoslab beradi ;",
-      "D) Boshqarish ob`yektining chiqishining joriy qiymatlarini iqtisodiy qiymatlari bilan solishtirib beradi;"
+      " Qaror qabul qilish uskunasining xususiy xoli sifatida roslash tizimlarida talab etilgan topshiriq qiymat bilan roslash ob’yekti chiqishning qiymat orasidagi farqni aniqlab beradi;",
+      " Boshqarish ob’yektining chiqishi bilan kirishini qiyoslab beradi;",
+      " Boshqarish ob`yektining chiqishi bilan g`layonlantiruvchi ta’sirni qiyoslab beradi ;",
+      " Boshqarish ob`yektining chiqishining joriy qiymatlarini iqtisodiy qiymatlari bilan solishtirib beradi;"
     ],
-    "answer": "A) Qaror qabul qilish uskunasining xususiy xoli sifatida roslash tizimlarida talab etilgan topshiriq qiymat bilan roslash ob’yekti chiqishning qiymat orasidagi farqni aniqlab beradi;"
+    "answer": " Qaror qabul qilish uskunasining xususiy xoli sifatida roslash tizimlarida talab etilgan topshiriq qiymat bilan roslash ob’yekti chiqishning qiymat orasidagi farqni aniqlab beradi;"
   },
   {
     "question": "Qaror qabul qilish uskunasining vazifasi nimadan iborat?",
     "options": [
-      "A) Boshqarish maqsadi boshqarish ob’yektining joriy va iqtisodiy holatlari va g`layonlantiruvchi ta’sirlar haqidagi informatsiya asosida boshqaruvchi ta’sir bo`yicha qaror ishlab chiqish;",
-      "B) Olish mumkin bo`lgan barcha informatsiya asosida ob’yektga nisbatan boshqaruvchi ta’sirni ro`yobga chiqarish;",
-      "C) Boshqarish maqsadi haqida qaror qabul qiladi;",
-      "D) O`lchash uskunasi va sezuvchan bo`laklarga topshiriqlar berib turadi;"
+      " Boshqarish maqsadi boshqarish ob’yektining joriy va iqtisodiy holatlari va g`layonlantiruvchi ta’sirlar haqidagi informatsiya asosida boshqaruvchi ta’sir bo`yicha qaror ishlab chiqish;",
+      " Olish mumkin bo`lgan barcha informatsiya asosida ob’yektga nisbatan boshqaruvchi ta’sirni ro`yobga chiqarish;",
+      " Boshqarish maqsadi haqida qaror qabul qiladi;",
+      " O`lchash uskunasi va sezuvchan bo`laklarga topshiriqlar berib turadi;"
     ],
-    "answer": "A) Boshqarish maqsadi boshqarish ob’yektining joriy va iqtisodiy holatlari va g`layonlantiruvchi ta’sirlar haqidagi informatsiya asosida boshqaruvchi ta’sir bo`yicha qaror ishlab chiqish;"
+    "answer": " Boshqarish maqsadi boshqarish ob’yektining joriy va iqtisodiy holatlari va g`layonlantiruvchi ta’sirlar haqidagi informatsiya asosida boshqaruvchi ta’sir bo`yicha qaror ishlab chiqish;"
   },
   {
     "question": "Garmonik chiziqlantirish usulining qo`llanish sharti?",
     "options": [
-      "A) Agar filtrni qo`llanish sharti bajarilsa va bitta nochiziqli element bo`lsa;",
-      "B) Agar filtrni qo`llash sharti bajarilmasa;",
-      "C) Agar bitta nochiziqli element bo`lsa;",
-      "D) Agar filtrni qo`llanish sharti bajarilgan bajarilmasa;"
+      " Agar filtrni qo`llanish sharti bajarilsa va bitta nochiziqli element bo`lsa;",
+      " Agar filtrni qo`llash sharti bajarilmasa;",
+      " Agar bitta nochiziqli element bo`lsa;",
+      " Agar filtrni qo`llanish sharti bajarilgan bajarilmasa;"
     ],
-    "answer": "A) Agar filtrni qo`llanish sharti bajarilsa va bitta nochiziqli element bo`lsa;"
+    "answer": " Agar filtrni qo`llanish sharti bajarilsa va bitta nochiziqli element bo`lsa;"
   },
   {
     "question": "Chiqish signali tebranganda o`zgaradigan boshqarish tizimlariga nima deyiladi?",
     "options": [
-      "A) releli;",
-      "B) Uzluksiz;",
-      "C) Impulsli;",
-      "D) Impulsli;"
+      " releli;",
+      " Uzluksiz;",
+      " Impulsli;",
+      " Impulsli;"
     ],
-    "answer": "A) releli;"
+    "answer": " releli;"
   },
   {
     "question": "Murakkab avtomatik nazorat nima?",
     "options": [
-      "A) Doimiy ravishda o`lchov asboblari o`rnatilgan nazorat;",
-      "B) Davriy o`lchov asboblari orqali nazorat;",
-      "C) Ayrim ob’yektlar tanlangan nazorat;",
-      "D) Barcha ob’yektlarni nazorat qiluvchi nazorat;"
+      " Doimiy ravishda o`lchov asboblari o`rnatilgan nazorat;",
+      " Davriy o`lchov asboblari orqali nazorat;",
+      " Ayrim ob’yektlar tanlangan nazorat;",
+      " Barcha ob’yektlarni nazorat qiluvchi nazorat;"
     ],
-    "answer": "A) Doimiy ravishda o`lchov asboblari o`rnatilgan nazorat;"
+    "answer": " Doimiy ravishda o`lchov asboblari o`rnatilgan nazorat;"
   },
   {
     "question": "Chiziqli dinamik tizimning o`tish funksiyasi nima?",
     "options": [
-      "A) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Xevisayd funksiyasiga (pog`onasimon) reaksiyasi;",
-      "B) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Dirak funksiyasiga (delta-funksiya) reaksiyasi;",
-      "C) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi garmonik (sinusoidal) funksiyaga reaksiyasi;",
-      "D) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi eksponensional funksiyaga reaksiyasi;"
+      " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Xevisayd funksiyasiga (pog`onasimon) reaksiyasi;",
+      " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Dirak funksiyasiga (delta-funksiy reaksiyasi;",
+      " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi garmonik (sinusoidal) funksiyaga reaksiyasi;",
+      " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi eksponensional funksiyaga reaksiyasi;"
     ],
-    "answer": "A) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Xevisayd funksiyasiga (pog`onasimon) reaksiyasi;"
+    "answer": " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Xevisayd funksiyasiga (pog`onasimon) reaksiyasi;"
   },
   {
     "question": "Vаzn funksiyasi dеb nimаgа аytilаdi?",
     "options": [
-      "A) Birlik impul`si signаl rеаksiyasigа;",
-      "B) Gаrmоnik signаl rеаksiyasigа;",
-      "C) Sistеmаning birlik pоg`оnаli signаl rеаksiyasigа;",
-      "D) Birlik impul`siga;"
+      " Birlik impul`si signаl rеаksiyasigа;",
+      " Gаrmоnik signаl rеаksiyasigа;",
+      " Sistеmаning birlik pоg`оnаli signаl rеаksiyasigа;",
+      " Birlik impul`siga;"
     ],
-    "answer": "A) Birlik impul`si signаl rеаksiyasigа;"
+    "answer": " Birlik impul`si signаl rеаksiyasigа;"
   },
   {
     "question": "Аstаtik zvеnо stаtikdаn nimа bilаn fаrq qilаdi?",
     "options": [
-      "A) Intеgrаllоvchi zvеnоning mаvjudligi;",
-      "B) diffеrеntlоvchi zvеnоning mаvjudligi;",
-      "C) Inеrsiаllоvchi zvеnоning mаvjudligi;",
-      "D) Hаrаkаtni ifоdаlоvchi;"
+      " Intеgrаllоvchi zvеnоning mаvjudligi;",
+      " diffеrеntlоvchi zvеnоning mаvjudligi;",
+      " Inеrsiаllоvchi zvеnоning mаvjudligi;",
+      " Hаrаkаtni ifоdаlоvchi;"
     ],
-    "answer": "A) Intеgrаllоvchi zvеnоning mаvjudligi;"
+    "answer": " Intеgrаllоvchi zvеnоning mаvjudligi;"
   },
   {
     "question": "Qаndаy zvеnоlаrgа dinаmik zvеnоlаr dеyilаdi?",
     "options": [
-      "A) Diffеrеnsiаl tеnglаmа bilаn yozilsа;",
-      "B) Mаntiqiy funksiya оrqаli ifоdаlаnsа;",
-      "C) Hаrаkаtni ifоdаlоvchi zvеnо;",
-      "D) Аlgеbrаik tеnglаmа bilаn yozilsа;"
+      " Diffеrеnsiаl tеnglаmа bilаn yozilsа;",
+      " Mаntiqiy funksiya оrqаli ifоdаlаnsа;",
+      " Hаrаkаtni ifоdаlоvchi zvеnо;",
+      " Аlgеbrаik tеnglаmа bilаn yozilsа;"
     ],
-    "answer": "A) Diffеrеnsiаl tеnglаmа bilаn yozilsа;"
+    "answer": " Diffеrеnsiаl tеnglаmа bilаn yozilsа;"
   },
   {
     "question": "Аvtоmаtik bоshqаruv sistеmаlаridа qаndаy bоg`lаnishlаr mаvjud?",
     "options": [
-      "A) Musbаt vа mаnfiy, mаxаlliy vа аsоsiy, qаttiq vа mоslаshuvchаn;",
-      "B) Musbаt vа mаnfiy;",
-      "C) Mаxаlliy vа аsоsiy;",
-      "D) Qаttiq vа mоslаshuvchаn;"
+      " Musbаt vа mаnfiy, mаxаlliy vа аsоsiy, qаttiq vа mоslаshuvchаn;",
+      " Musbаt vа mаnfiy;",
+      " Mаxаlliy vа аsоsiy;",
+      " Qаttiq vа mоslаshuvchаn;"
     ],
-    "answer": "A) Musbаt vа mаnfiy, mаxаlliy vа аsоsiy, qаttiq vа mоslаshuvchаn;"
+    "answer": " Musbаt vа mаnfiy, mаxаlliy vа аsоsiy, qаttiq vа mоslаshuvchаn;"
   },
   {
     "question": "Аmpilitudа –impulsli mоdulyasiyalаsh аmаlgа  оshirish shаrti",
     "options": [
-      "A) Signаl o`zgаrishigа mоs rаvishdа impulslаrning аmpilitudаsi o`zgаruvchаn dаvri vа kеngligi o`zgаrmаs;",
-      "B) Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi o`zgаruvchаn, аmpilitudа vа dаvri o`zgаrmаs;",
-      "C) Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi  o`zgаruvchаn, аmpilitudа vа dаvri o`zg аrmаs;",
-      "D) Аmplitudа impul`sli, kеnglik impul`sli, chаstоtа impul`sli sistеmаlаrgа;"
+      " Signаl o`zgаrishigа mоs rаvishdа impulslаrning аmpilitudаsi o`zgаruvchаn dаvri vа kеngligi o`zgаrmаs;",
+      " Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi o`zgаruvchаn, аmpilitudа vа dаvri o`zgаrmаs;",
+      " Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi  o`zgаruvchаn, аmpilitudа vа dаvri o`zg аrmаs;",
+      " Аmplitudа impul`sli, kеnglik impul`sli, chаstоtа impul`sli sistеmаlаrgа;"
     ],
-    "answer": "A) Signаl o`zgаrishigа mоs rаvishdа impulslаrning аmpilitudаsi o`zgаruvchаn dаvri vа kеngligi o`zgаrmаs;"
+    "answer": " Signаl o`zgаrishigа mоs rаvishdа impulslаrning аmpilitudаsi o`zgаruvchаn dаvri vа kеngligi o`zgаrmаs;"
   },
   {
     "question": "Sistеmа pаrаmеtrlаrining vаqt bo`yichа o`zgаrishigа qаrаb quydаgilаrgа bo`linаdi.",
     "options": [
-      "A) stаsiоnаr, nоstаsiоnаr sistеmаlаrgа;",
-      "B) chiziqli, nоchiziqli sistеmаlаrgа;",
-      "C) impul`sli, rаqаmli sistеmаlаrgа;",
-      "D) rеlеli, rаqаmli sistеmаlаrgа;"
+      " stаsiоnаr, nоstаsiоnаr sistеmаlаrgа;",
+      " chiziqli, nоchiziqli sistеmаlаrgа;",
+      " impul`sli, rаqаmli sistеmаlаrgа;",
+      " rеlеli, rаqаmli sistеmаlаrgа;"
     ],
-    "answer": "A) stаsiоnаr, nоstаsiоnаr sistеmаlаrgа;"
+    "answer": " stаsiоnаr, nоstаsiоnаr sistеmаlаrgа;"
   },
   {
     "question": "Turg`unlikning Gurvis mеzоni shаrti.",
     "options": [
-      "A) Bаrchа tаrtibli аniqlоvchilаri nоldаn kаttа bo`lishi kеrаk;",
-      "B) Xеch bo`lmаgаndа bittа аniqlоvchi nоldаn kаttа bo`lishi kеrаk;",
-      "C) Xаrаktеristik tеnglаmаning kоeffisiеntlаri nоldаn kаttа bo`lishi kеrаk;",
-      "D) Mаtrisаning diаgоnаl elеmеntlаri nоldаn kаttа bo`lishi kеrаk;"
+      " Bаrchа tаrtibli аniqlоvchilаri nоldаn kаttа bo`lishi kеrаk;",
+      " Xеch bo`lmаgаndа bittа аniqlоvchi nоldаn kаttа bo`lishi kеrаk;",
+      " Xаrаktеristik tеnglаmаning kоeffisiеntlаri nоldаn kаttа bo`lishi kеrаk;",
+      " Mаtrisаning diаgоnаl elеmеntlаri nоldаn kаttа bo`lishi kеrаk;"
     ],
-    "answer": "A) Bаrchа tаrtibli аniqlоvchilаri nоldаn kаttа bo`lishi kеrаk;"
+    "answer": " Bаrchа tаrtibli аniqlоvchilаri nоldаn kаttа bo`lishi kеrаk;"
   },
   {
     "question": "Siklik yoki reflekssiz tizim deb qanday tizimlarga aytiladi?",
     "options": [
-      "A) Qaytar aloqa ishtirokidagi qat’iy dastur asosida o`z vazifasini bajaruvchi tizimlar;",
-      "B) Boshqarish algoritmini mustaqil ishlab chiquvchi tizim;",
-      "C) Boshqarishning avvaldan mavjud noma’lum qonunlariga ko`ra o`zgaruvchi tizimlar;",
-      "D) Nazorat tizimlari;"
+      " Qaytar aloqa ishtirokidagi qat’iy dastur asosida o`z vazifasini bajaruvchi tizimlar;",
+      " Boshqarish algoritmini mustaqil ishlab chiquvchi tizim;",
+      " Boshqarishning avvaldan mavjud noma’lum qonunlariga ko`ra o`zgaruvchi tizimlar;",
+      " Nazorat tizimlari;"
     ],
-    "answer": "A) Qaytar aloqa ishtirokidagi qat’iy dastur asosida o`z vazifasini bajaruvchi tizimlar;"
+    "answer": " Qaytar aloqa ishtirokidagi qat’iy dastur asosida o`z vazifasini bajaruvchi tizimlar;"
   },
   {
     "question": "Avtomatik boshqarish sistemasining turg`unligi nima?",
     "options": [
-      "A) Sistemaning tashqi ta’sirlardan so`ng muvozanat holatiga yana qaytish qobiliyati;",
-      "B) Sistemaning boshlang`ich holatga qaytish qobiliyati;",
-      "C) Sistemaning statik xususiyatlarininhisobga olish qobiliyati;",
-      "D) Sistemaning dinamik xususiyatlarini hisobga olish qobiliyati;"
+      " Sistemaning tashqi ta’sirlardan so`ng muvozanat holatiga yana qaytish qobiliyati;",
+      " Sistemaning boshlang`ich holatga qaytish qobiliyati;",
+      " Sistemaning statik xususiyatlarininhisobga olish qobiliyati;",
+      " Sistemaning dinamik xususiyatlarini hisobga olish qobiliyati;"
     ],
-    "answer": "A) Sistemaning tashqi ta’sirlardan so`ng muvozanat holatiga yana qaytish qobiliyati;"
+    "answer": " Sistemaning tashqi ta’sirlardan so`ng muvozanat holatiga yana qaytish qobiliyati;"
   },
   {
     "question": "Turg`unlikning Mixаylоv mеzоni shаrti?",
     "options": [
-      "A) Mixаylоv gоdоgrаfi musbаt xаqiqiy o`qdаn bоshlаnib, mоnоtоn o`sib bоrib, sоаt strеlkаsigа tеskаri yo`nаlishdа kооrdinаtа bоshini nπ/2 mаrtа qаmrаb оlishi kеrаk;",
-      "B) Mixаylоv gоdоgrаfi musbаt xаqiqiy o`qdаn bоshlаnib, mоnоtоn o`sib bоrmаsdаn, sоаt strеlkаsigа tеskаri yo`nаlishdа, kооrdinаtа bоshini nπ/2 mаrtа qаmrаb оlishi kеrаk;",
-      "C) Mixаylоv gоdоgrаfi musbаt xаqiqiy o`qdаn bоshlаnib, mоnоtоn o`sib bоrmаsdаn, sоаt strеlkаsi yo`nаlishi bo`yichа kооrdinаtа bоshini nπ/2 mаrtа qаmrаb оlishi kеrаk;",
-      "D) Mixаylоv gоdоgrаfi n – kvаdrаntni bоsib o`tishi kеrаk;"
+      " Mixаylоv gоdоgrаfi musbаt xаqiqiy o`qdаn bоshlаnib, mоnоtоn o`sib bоrib, sоаt strеlkаsigа tеskаri yo`nаlishdа kооrdinаtа bоshini nπ/2 mаrtа qаmrаb оlishi kеrаk;",
+      " Mixаylоv gоdоgrаfi musbаt xаqiqiy o`qdаn bоshlаnib, mоnоtоn o`sib bоrmаsdаn, sоаt strеlkаsigа tеskаri yo`nаlishdа, kооrdinаtа bоshini nπ/2 mаrtа qаmrаb оlishi kеrаk;",
+      " Mixаylоv gоdоgrаfi musbаt xаqiqiy o`qdаn bоshlаnib, mоnоtоn o`sib bоrmаsdаn, sоаt strеlkаsi yo`nаlishi bo`yichа kооrdinаtа bоshini nπ/2 mаrtа qаmrаb оlishi kеrаk;",
+      " Mixаylоv gоdоgrаfi n – kvаdrаntni bоsib o`tishi kеrаk;"
     ],
-    "answer": "A) Mixаylоv gоdоgrаfi musbаt xаqiqiy o`qdаn bоshlаnib, mоnоtоn o`sib bоrib, sоаt strеlkаsigа tеskаri yo`nаlishdа kооrdinаtа bоshini nπ/2 mаrtа qаmrаb оlishi kеrаk;"
+    "answer": " Mixаylоv gоdоgrаfi musbаt xаqiqiy o`qdаn bоshlаnib, mоnоtоn o`sib bоrib, sоаt strеlkаsigа tеskаri yo`nаlishdа kооrdinаtа bоshini nπ/2 mаrtа qаmrаb оlishi kеrаk;"
   },
   {
     "question": "Аmаliy (funksiоnаl) chizmаning mоhiyati nimа?",
     "options": [
-      "A) bоshqаrish tizimni o`zigа hоs vаzifаlаrni bаjаrish lоzim bo`lgаn bo`lаklаrgа аjrаtilgаn vа оrаsidаgi bоg`lаnishlаr  tаsvirlаngаn chizmа;",
-      "B) bоshqаrish tizimini bir nеchа bo`lаklаrgа аjrаtib tаsvirlаngаn chizmа;",
-      "C) bоshqаrish tizimni ilоji bоrichа ko`prоk bo`lаklаrgа аjrаtib tаsvirlаngаn chizmа;",
-      "D) bоshqаrish tiziimdа qo`llаnilаdigаn bаrchа аsbоb,uskunа,mеxаnizm vа hоkоzоlаr o`zаrо bоg`lаnishlаri bilаn birgаlikdа tаsvirlаngаn chizmа;"
+      " bоshqаrish tizimni o`zigа hоs vаzifаlаrni bаjаrish lоzim bo`lgаn bo`lаklаrgа аjrаtilgаn vа оrаsidаgi bоg`lаnishlаr  tаsvirlаngаn chizmа;",
+      " bоshqаrish tizimini bir nеchа bo`lаklаrgа аjrаtib tаsvirlаngаn chizmа;",
+      " bоshqаrish tizimni ilоji bоrichа ko`prоk bo`lаklаrgа аjrаtib tаsvirlаngаn chizmа;",
+      " bоshqаrish tiziimdа qo`llаnilаdigаn bаrchа аsbоb,uskunа,mеxаnizm vа hоkоzоlаr o`zаrо bоg`lаnishlаri bilаn birgаlikdа tаsvirlаngаn chizmа;"
     ],
-    "answer": "A) bоshqаrish tizimni o`zigа hоs vаzifаlаrni bаjаrish lоzim bo`lgаn bo`lаklаrgа аjrаtilgаn vа оrаsidаgi bоg`lаnishlаr  tаsvirlаngаn chizmа;"
+    "answer": " bоshqаrish tizimni o`zigа hоs vаzifаlаrni bаjаrish lоzim bo`lgаn bo`lаklаrgа аjrаtilgаn vа оrаsidаgi bоg`lаnishlаr  tаsvirlаngаn chizmа;"
   },
   {
     "question": "Turg`unlikning аsоsiy bеlgisi",
     "options": [
-      "A) xаrаktеristik tеnglаmа ildizlаrinig manfiyligi;",
-      "B) xаrаktеristik tеnglаmа kоeffisiеntlаrining musbаtligi;",
-      "C) xаrаktеristik tеnglаmа kоeffisiеntlаrining mаnfiyligi;",
-      "D) xаrаktеristik ildizlаrining musbаtligi;"
+      " xаrаktеristik tеnglаmа ildizlаrinig manfiyligi;",
+      " xаrаktеristik tеnglаmа kоeffisiеntlаrining musbаtligi;",
+      " xаrаktеristik tеnglаmа kоeffisiеntlаrining mаnfiyligi;",
+      " xаrаktеristik ildizlаrining musbаtligi;"
     ],
-    "answer": "A) xаrаktеristik tеnglаmа ildizlаrinig manfiyligi;"
+    "answer": " xаrаktеristik tеnglаmа ildizlаrinig manfiyligi;"
   },
   {
     "question": "Turg`unlikning Nаykvist mеzоni shаrti(1-t).",
     "options": [
-      "A) Оchiq sistеmаning АFX si kritik nuqtani qаmrаb оlmаsligi kеrаk;",
-      "B) Оchiq sistеmаning АFX si kritik nuqtani qаmrаb оlishi kеrаk;",
-      "C) Yopiq sistеmаning АFX si kritik nuqtani qаmrаb оlmаsligi kеrаk;",
-      "D) Yopiq sistеmаning АFX si kritik nuqtani qаmrаb оlishi kеrаk;"
+      " Оchiq sistеmаning АFX si kritik nuqtani qаmrаb оlmаsligi kеrаk;",
+      " Оchiq sistеmаning АFX si kritik nuqtani qаmrаb оlishi kеrаk;",
+      " Yopiq sistеmаning АFX si kritik nuqtani qаmrаb оlmаsligi kеrаk;",
+      " Yopiq sistеmаning АFX si kritik nuqtani qаmrаb оlishi kеrаk;"
     ],
-    "answer": "A) Оchiq sistеmаning АFX si kritik nuqtani qаmrаb оlmаsligi kеrаk;"
+    "answer": " Оchiq sistеmаning АFX si kritik nuqtani qаmrаb оlmаsligi kеrаk;"
   },
   {
     "question": "W(P)=K ko`rinishdagi uzatish funksiyasining elementar dinamik zvenosini ko`rsating?",
     "options": [
-      "A) Kuchaytiruvchi;",
-      "B) Tebranuvchi;",
-      "C) Birlashtiruvchi;",
-      "D) Inertsionе;"
+      " Kuchaytiruvchi;",
+      " Tebranuvchi;",
+      " Birlashtiruvchi;",
+      " Inertsionе;"
     ],
-    "answer": "A) Kuchaytiruvchi;"
+    "answer": " Kuchaytiruvchi;"
   },
   {
     "question": "1-tartibli inersial zvenoga ega bo`lgan qurilmani ko`rsating?",
     "options": [
-      "A) Elektron qizdiruvchi element;",
-      "B) Elektron hisoblagich;",
-      "C) Soat mayatnigi;",
-      "D) Mexanik richag;"
+      " Elektron qizdiruvchi element;",
+      " Elektron hisoblagich;",
+      " Soat mayatnigi;",
+      " Mexanik richag;"
     ],
-    "answer": "A) Elektron qizdiruvchi element;"
+    "answer": " Elektron qizdiruvchi element;"
   },
   {
     "question": "Chiziqli dinamik tizimning og`irlik funksiyasi nima?",
     "options": [
-      "A) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Dirak funksiyasiga (delta-funksiya) reaksiyasi;",
-      "B) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Xevisayd funksiyasiga (pog`onasimon) reaksiyasi;",
-      "C) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi garmonik (sinusoidal) funksiyaga reaksiyasi;",
-      "D) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi eksponensional funksiyaga reaksiyasi;"
+      " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Dirak funksiyasiga (delta-funksiy reaksiyasi;",
+      " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Xevisayd funksiyasiga (pog`onasimon) reaksiyasi;",
+      " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi garmonik (sinusoidal) funksiyaga reaksiyasi;",
+      " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi eksponensional funksiyaga reaksiyasi;"
     ],
-    "answer": "A) Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Dirak funksiyasiga (delta-funksiya) reaksiyasi;"
+    "answer": " Shu tizimning boshlang`ich shartlari nolga teng bo`lgandagi Dirak funksiyasiga (delta-funksiy reaksiyasi;"
   },
   {
     "question": "Аmplitudа chаstоtа tаvsif (АChT) bu?",
     "options": [
-      "A) chiqishdаgi mа`lum chаstоtаli gаrmоnik signаl аmplitudаsini kirishdаgi shu chаstоtаli gаrmоnik signаkl аmplitudаsigа nisbаtidir;",
-      "B) chiqish signаlini kirish signаligа nisbаtidir;",
-      "C) kirishdаgi mа`lum chаstоtаli gаrmоnik signаl аmplitudаsini chiqishdаgi shu chаstоtаli gаrmоnik signаl аmplitudаsigа nisbаtidir;",
-      "D) kirish signаlini chiqish signаligа nisbаtidir;"
+      " chiqishdаgi mа`lum chаstоtаli gаrmоnik signаl аmplitudаsini kirishdаgi shu chаstоtаli gаrmоnik signаkl аmplitudаsigа nisbаtidir;",
+      " chiqish signаlini kirish signаligа nisbаtidir;",
+      " kirishdаgi mа`lum chаstоtаli gаrmоnik signаl аmplitudаsini chiqishdаgi shu chаstоtаli gаrmоnik signаl аmplitudаsigа nisbаtidir;",
+      " kirish signаlini chiqish signаligа nisbаtidir;"
     ],
-    "answer": "A) chiqishdаgi mа`lum chаstоtаli gаrmоnik signаl аmplitudаsini kirishdаgi shu chаstоtаli gаrmоnik signаkl аmplitudаsigа nisbаtidir;"
+    "answer": " chiqishdаgi mа`lum chаstоtаli gаrmоnik signаl аmplitudаsini kirishdаgi shu chаstоtаli gаrmоnik signаkl аmplitudаsigа nisbаtidir;"
   },
   {
     "question": "Avtomatik boshqarish tizimlarida o`lchov qurilmalari nima uchun xizmat qiladi?",
     "options": [
-      "A) Boshqariluvchi jarayonda nazoratni o`zgartirishga xizmat qiladi;",
-      "B) G`alayonlarga ta’sirni o`zgartirish uchun xizmat qiladi;",
-      "C) Boshqariluvchi ta’sirlarni qabul qilish uchun xizmat qiladi;",
-      "D) Boshqarish algoritmini tuzish uchun xizmat qiladi;"
+      " Boshqariluvchi jarayonda nazoratni o`zgartirishga xizmat qiladi;",
+      " G`alayonlarga ta’sirni o`zgartirish uchun xizmat qiladi;",
+      " Boshqariluvchi ta’sirlarni qabul qilish uchun xizmat qiladi;",
+      " Boshqarish algoritmini tuzish uchun xizmat qiladi;"
     ],
-    "answer": "A) Boshqariluvchi jarayonda nazoratni o`zgartirishga xizmat qiladi;"
+    "answer": " Boshqariluvchi jarayonda nazoratni o`zgartirishga xizmat qiladi;"
   },
   {
     "question": "Diskrеt funksiya dеb…",
     "options": [
-      "A) аrgumеntning mа`lum qiymаtlаrdаginа mаvjud bo`lib, qiymаtgа egа bo`lgаn funksiyagа аytilаdi;",
-      "B) аrgumеntning bаrchа qiymаtlаridа mаvjud lеkin qiymаtgа egа bo`lmаgаn funksiyagа аytilаdi.;",
-      "C) аrgumеntning dаrаjаsi 2dаn kаm bo`lmаgаn funksiyalаrgа аytilаdi.;",
-      "D) аrgumеntning dаrаjаsi 2dаn kаtа bo`lmаgаn funksiyalаrgа аytilаdi;"
+      " аrgumеntning mа`lum qiymаtlаrdаginа mаvjud bo`lib, qiymаtgа egа bo`lgаn funksiyagа аytilаdi;",
+      " аrgumеntning bаrchа qiymаtlаridа mаvjud lеkin qiymаtgа egа bo`lmаgаn funksiyagа аytilаdi.;",
+      " аrgumеntning dаrаjаsi 2dаn kаm bo`lmаgаn funksiyalаrgа аytilаdi.;",
+      " аrgumеntning dаrаjаsi 2dаn kаtа bo`lmаgаn funksiyalаrgа аytilаdi;"
     ],
-    "answer": "A) аrgumеntning mа`lum qiymаtlаrdаginа mаvjud bo`lib, qiymаtgа egа bo`lgаn funksiyagа аytilаdi;"
+    "answer": " аrgumеntning mа`lum qiymаtlаrdаginа mаvjud bo`lib, qiymаtgа egа bo`lgаn funksiyagа аytilаdi;"
   },
   {
     "question": "Sistеmаlаr supеrpоzisiya prinspini qo`llаsh mumkinligigа qаrаb quydаgilаrgа bo`linаdi?",
     "options": [
-      "A) chiziqli, nоchiziqli sistеmаlаrgа;",
-      "B) stаsiоnаr, nоstаsiоnаr sistеmаlаrgа;",
-      "C) impul`sli, rаqаmli sistеmаlаrgа;",
-      "D) rеlеli, rаqаmli sistеmаlаrgа;"
+      " chiziqli, nоchiziqli sistеmаlаrgа;",
+      " stаsiоnаr, nоstаsiоnаr sistеmаlаrgа;",
+      " impul`sli, rаqаmli sistеmаlаrgа;",
+      " rеlеli, rаqаmli sistеmаlаrgа;"
     ],
-    "answer": "A) chiziqli, nоchiziqli sistеmаlаrgа;"
+    "answer": " chiziqli, nоchiziqli sistеmаlаrgа;"
   },
   {
     "question": "Pаrаmеtrlаri vаqt o`tishi bilаn o`zgаrib turаdigаn sistеmаlаr qаndаy nоmlаnаdi",
     "options": [
-      "A) nоstаsiоnаr sistеmа;",
-      "B) stаsiоnаr sistеmа;",
-      "C) chiziqli sistеmа;",
-      "D) nоchiziqli sistеmа;"
+      " nоstаsiоnаr sistеmа;",
+      " stаsiоnаr sistеmа;",
+      " chiziqli sistеmа;",
+      " nоchiziqli sistеmа;"
     ],
-    "answer": "A) nоstаsiоnаr sistеmа;"
+    "answer": " nоstаsiоnаr sistеmа;"
   },
   {
     "question": "Chаstоtа- impul`sli mоdul`yasiyani аmаlgа оshirish shаrti",
     "options": [
-      "A) Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi  o`zgаruvchаn, аmpilitudа vа dаvri o`zg аrmаs;",
-      "B) Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi  o`zgаruvchаn, аmpilitudа vа dаvri o`zgаrmаs;",
-      "C) Signаl o`zgаrishigа mоs rаvishdа impul`slаrning аmpilitudаsi o`zgаruvchаn dаvri vа kеngligi o`zgаrmаs;",
-      "D) Rеlеli , impul`sli vа rаqаmli sistеmаlаrgа;"
+      " Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi  o`zgаruvchаn, аmpilitudа vа dаvri o`zg аrmаs;",
+      " Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi  o`zgаruvchаn, аmpilitudа vа dаvri o`zgаrmаs;",
+      " Signаl o`zgаrishigа mоs rаvishdа impul`slаrning аmpilitudаsi o`zgаruvchаn dаvri vа kеngligi o`zgаrmаs;",
+      " Rеlеli , impul`sli vа rаqаmli sistеmаlаrgа;"
     ],
-    "answer": "A) Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi  o`zgаruvchаn, аmpilitudа vа dаvri o`zg аrmаs;"
+    "answer": " Signаl o`zgаrishigа mоs rаvishdа impul`slаrning kеngligi  o`zgаruvchаn, аmpilitudа vа dаvri o`zg аrmаs;"
   },
   {
     "question": "Uzatish funksiya bilan og`irlik funksiya o`rtasida qanday bog`lanish mavjud?",
     "options": [
-      "A) Uzatish funksiya og`irlik funksiyaning Laplas almashtirishga teng og`irlik funksiya uzatish funksiyaning teskari Laplas almashtirishiga teng;",
-      "B) Uzatish funksiya og`irlik funksiyaning Laplas almashtirishga teng og`irlik funksiya uzatish funksiyaning Laplas almashtirishiga bog`liq;",
-      "C) Uzatish funksiya og`irlik funksiya uzatish funksiyaning teskari Furye almashtirishiga teng;",
-      "D) Uzatish funksiyasi bilan og`irlik funksiyasi orasida bog`lanish mavjud emas;"
+      " Uzatish funksiya og`irlik funksiyaning Laplas almashtirishga teng og`irlik funksiya uzatish funksiyaning teskari Laplas almashtirishiga teng;",
+      " Uzatish funksiya og`irlik funksiyaning Laplas almashtirishga teng og`irlik funksiya uzatish funksiyaning Laplas almashtirishiga bog`liq;",
+      " Uzatish funksiya og`irlik funksiya uzatish funksiyaning teskari Furye almashtirishiga teng;",
+      " Uzatish funksiyasi bilan og`irlik funksiyasi orasida bog`lanish mavjud emas;"
     ],
-    "answer": "A) Uzatish funksiya og`irlik funksiyaning Laplas almashtirishga teng og`irlik funksiya uzatish funksiyaning teskari Laplas almashtirishiga teng;"
+    "answer": " Uzatish funksiya og`irlik funksiyaning Laplas almashtirishga teng og`irlik funksiya uzatish funksiyaning teskari Laplas almashtirishiga teng;"
   },
   {
     "question": "O`tish funksiyasi va og`irlik funksiyasi o`rtasida qanday bog`liqlik bor?",
     "options": [
-      "A) O`tish funksiya og`irlik funksiyaning integraliga teng",
-      "B) O`tish funksiya og`irlik funksiyaning birinchi tartibli hosilasiga teng",
-      "C) O`tish funksiya og`irlik funksiya bilan bog`liq emas",
-      "D) O`tish funksiya og`irlik funksiyabir narsa"
+      " O`tish funksiya og`irlik funksiyaning integraliga teng",
+      " O`tish funksiya og`irlik funksiyaning birinchi tartibli hosilasiga teng",
+      " O`tish funksiya og`irlik funksiya bilan bog`liq emas",
+      " O`tish funksiya og`irlik funksiyabir narsa"
     ],
-    "answer": "A) O`tish funksiya og`irlik funksiyaning integraliga teng"
+    "answer": " O`tish funksiya og`irlik funksiyaning integraliga teng"
   },
 
   {
     "question": "Chastota tavsifi bilan og`rlik funksiyasi o`rtasida qanday bog`lanish mavjud?",
     "options": [
-      "A) Chastota tavsif og`irlik funksiyadan Furye almashtirishiga teng, og`irlik funksiya chastota tavsifidan teskari Furye almashtirishiga teng",
-      "B) Chastota tavsif og`irlik funksiyadan teskari Furye almashtirishiga teng, og`irlik funksiya chastota tavsifidan Furye almashtirishiga teng",
-      "C) Chastota tavsif og`irlik funksiyadan teskari Furye almashtirishiga teng",
-      "D) Chastota tavsif bilan og`irlik funksiyasi o`rtasida aniq bir bog`lanish mavjud emas"
+      " Chastota tavsif og`irlik funksiyadan Furye almashtirishiga teng, og`irlik funksiya chastota tavsifidan teskari Furye almashtirishiga teng",
+      " Chastota tavsif og`irlik funksiyadan teskari Furye almashtirishiga teng, og`irlik funksiya chastota tavsifidan Furye almashtirishiga teng",
+      " Chastota tavsif og`irlik funksiyadan teskari Furye almashtirishiga teng",
+      " Chastota tavsif bilan og`irlik funksiyasi o`rtasida aniq bir bog`lanish mavjud emas"
     ],
-    "answer": "A) Chastota tavsif og`irlik funksiyadan Furye almashtirishiga teng, og`irlik funksiya chastota tavsifidan teskari Furye almashtirishiga teng"
+    "answer": " Chastota tavsif og`irlik funksiyadan Furye almashtirishiga teng, og`irlik funksiya chastota tavsifidan teskari Furye almashtirishiga teng"
   },
   {
     "question": "Chiziqli sistеmаning turg`unlik shаrti?",
     "options": [
-      "A) tаshqi tа`sirdаn sung muvоzаnаt hоlаtigа qаytish xоssаsi;",
-      "B) sistеmа muvоzаnаt hоlаtidа bo`ladаi;",
-      "C) sistеmа tаshqi tа`sirgа bеfаrq bo`lsа;",
-      "D) sistеmаning ishlаmаyotgаnlik qоlаti;"
+      " tаshqi tа`sirdаn sung muvоzаnаt hоlаtigа qаytish xоssаsi;",
+      " sistеmа muvоzаnаt hоlаtidа bo`ladаi;",
+      " sistеmа tаshqi tа`sirgа bеfаrq bo`lsа;",
+      " sistеmаning ishlаmаyotgаnlik qоlаti;"
     ],
-    "answer": "A) tаshqi tа`sirdаn sung muvоzаnаt hоlаtigа qаytish xоssаsi;"
+    "answer": " tаshqi tа`sirdаn sung muvоzаnаt hоlаtigа qаytish xоssаsi;"
   },
   {
     "question": "Uzatish funksiyasi vaqt tavsifi bilan qanday bog`liq?",
     "options": [
-      "A) Og`irlik funksiyaning Laplas almashtirishidir;",
-      "B) O`tish funksiyaning Laplas almashtirishidir;",
-      "C) Og`irlik funksiyaning teskari Laplas almashtirishidir;",
-      "D) O`tish funksiyaning teskari Laplas almashtirishidir;"
+      " Og`irlik funksiyaning Laplas almashtirishidir;",
+      " O`tish funksiyaning Laplas almashtirishidir;",
+      " Og`irlik funksiyaning teskari Laplas almashtirishidir;",
+      " O`tish funksiyaning teskari Laplas almashtirishidir;"
     ],
-    "answer": "A) Og`irlik funksiyaning Laplas almashtirishidir;"
+    "answer": " Og`irlik funksiyaning Laplas almashtirishidir;"
   },
   {
     "question": "Avtomatikada boshqarish prinsiolari qanday belgilanadi?",
     "options": [
-      "A) Xo`jalik faoliyatini amalga oshirishda inson tajribalarini boshqarishni analiz qilish yo`li bilan;",
-      "B) Texnologik jarayonlarni analiz yo`li bilan aniqlash;",
-      "C) Polzunov yoki Uatt metodi bilan;",
-      "D) Boshqarish algoritmini analiz qilish yo`li bilan;"
+      " Xo`jalik faoliyatini amalga oshirishda inson tajribalarini boshqarishni analiz qilish yo`li bilan;",
+      " Texnologik jarayonlarni analiz yo`li bilan aniqlash;",
+      " Polzunov yoki Uatt metodi bilan;",
+      " Boshqarish algoritmini analiz qilish yo`li bilan;"
     ],
-    "answer": "A) Xo`jalik faoliyatini amalga oshirishda inson tajribalarini boshqarishni analiz qilish yo`li bilan;"
+    "answer": " Xo`jalik faoliyatini amalga oshirishda inson tajribalarini boshqarishni analiz qilish yo`li bilan;"
   },
   {
     "question": "Zvenoning chastotaviy funksiyasi qanday aniqlanadi?",
     "options": [
-      "A) W(p) ifodada p ni jω ga almashtirish yo`li bilan;",
-      "B) Zvenoning differensial tenglamasidagi ifodasida p ni jω ga almashtirish yo`li bilan;",
-      "C) W(p) ifodada p ni 0 ga almashtirish yo`li bilan;",
-      "D) W(p) ifodada p ni jk ga almashtirish yo`li bilan;"
+      " W(p) ifodada p ni jω ga almashtirish yo`li bilan;",
+      " Zvenoning differensial tenglamasidagi ifodasida p ni jω ga almashtirish yo`li bilan;",
+      " W(p) ifodada p ni 0 ga almashtirish yo`li bilan;",
+      " W(p) ifodada p ni jk ga almashtirish yo`li bilan;"
     ],
-    "answer": "A) W(p) ifodada p ni jω ga almashtirish yo`li bilan;"
+    "answer": " W(p) ifodada p ni jω ga almashtirish yo`li bilan;"
   },
   {
     "question": "Datchiklar belgilanganligi bo`yicha qanday klassifikatsiyalanadi?",
     "options": [
-      "A) Temperaturali;",
-      "B) Bosim;",
-      "C) Generatorli;",
-      "D) Parametrli;"
+      " Temperaturali;",
+      " Bosim;",
+      " Generatorli;",
+      " Parametrli;"
     ],
-    "answer": "A) Temperaturali;"
+    "answer": " Temperaturali;"
   },
   {
     "question": "Temperatura datchigini nomini ayting?",
     "options": [
-      "A) Termopara;",
-      "B) Termistor;",
-      "C) P’ezoelement;",
-      "D) Taxogenerator;"
+      " Termopara;",
+      " Termistor;",
+      " P’ezoelement;",
+      " Taxogenerator;"
     ],
-    "answer": "A) Termopara;"
+    "answer": " Termopara;"
   },
   {
     "question": "Datchik ko`rsatkichlari tavsiflarini ayting?",
     "options": [
-      "A) Sezuvchanlik;",
-      "B) Sezmaslik zonasi;",
-      "C) Aniqlik ko`rsatkichlari;",
-      "D) Kuchlanish koeffitsiyenti;"
+      " Sezuvchanlik;",
+      " Sezmaslik zonasi;",
+      " Aniqlik ko`rsatkichlari;",
+      " Kuchlanish koeffitsiyenti;"
     ],
-    "answer": "A) Sezuvchanlik;"
+    "answer": " Sezuvchanlik;"
   },
   {
     "question": "Tezlik datchiklarini ayting (parametrik)?",
     "options": [
-      "A) Taxometrik;",
-      "B) Taxogeneratorli;",
-      "C) Fotoelektrik;",
-      "D) P’ezoelektrik;"
+      " Taxometrik;",
+      " Taxogeneratorli;",
+      " Fotoelektrik;",
+      " P’ezoelektrik;"
     ],
-    "answer": "A) Taxometrik;"
+    "answer": " Taxometrik;"
   },
   {
     "question": "Generatorli harorat datchigini nomini ayting?",
     "options": [
-      "A) Termoelektrik;",
-      "B) Pozistor;",
-      "C) Dilatometrik;",
-      "D) Termistor;"
+      " Termoelektrik;",
+      " Pozistor;",
+      " Dilatometrik;",
+      " Termistor;"
     ],
-    "answer": "A) Termoelektrik;"
+    "answer": " Termoelektrik;"
   },
   {
     "question": "Dilatometrik datchikda qanday metallardan foydalaniladi?",
     "options": [
-      "A) Jez;",
-      "B) Mis va qo`rg`oshin;",
-      "C) Nikel bilan xrom qotishmasi;",
-      "D) Platina;"
+      " Jez;",
+      " Mis va qo`rg`oshin;",
+      " Nikel bilan xrom qotishmasi;",
+      " Platina;"
     ],
-    "answer": "A) Jez;"
+    "answer": " Jez;"
   },
   {
     "question": "“Datchik” tushunchasini izohlang?",
     "options": [
-      "A) Nazorat parametrlarini qabul qiluvchi va uzluksiz va diskret chiqish signallarida o`lchanayotgan kattaliklarni o`zgartiruvchi hamda keyinchalik uzatish uchun qulay qurilma;",
-      "B) Sezuvchi elementdan tashkil topgan qurilma bo`lib noelektrik kattalikni elektrik kattalikka o`zgartiruvchi o`zgartirgichdir;",
-      "C) Signal beruvchi qurilma;",
-      "D) Signallarni uzatib beruvchi qurulma;"
+      " Nazorat parametrlarini qabul qiluvchi va uzluksiz va diskret chiqish signallarida o`lchanayotgan kattaliklarni o`zgartiruvchi hamda keyinchalik uzatish uchun qulay qurilma;",
+      " Sezuvchi elementdan tashkil topgan qurilma bo`lib noelektrik kattalikni elektrik kattalikka o`zgartiruvchi o`zgartirgichdir;",
+      " Signal beruvchi qurilma;",
+      " Signallarni uzatib beruvchi qurulma;"
     ],
-    "answer": "A) Nazorat parametrlarini qabul qiluvchi va uzluksiz va diskret chiqish signallarida o`lchanayotgan kattaliklarni o`zgartiruvchi hamda keyinchalik uzatish uchun qulay qurilma;"
+    "answer": " Nazorat parametrlarini qabul qiluvchi va uzluksiz va diskret chiqish signallarida o`lchanayotgan kattaliklarni o`zgartiruvchi hamda keyinchalik uzatish uchun qulay qurilma;"
   },
   {
     "question": "Kuchlanish va deformatsiyalovchi datchik nomini ayting?",
     "options": [
-      "A) Tenzodatchik;",
-      "B) Pozistor;",
-      "C) Tiristor;",
-      "D) Varistor;"
+      " Tenzodatchik;",
+      " Pozistor;",
+      " Tiristor;",
+      " Varistor;"
     ],
-    "answer": "A) Tenzodatchik;"
+    "answer": " Tenzodatchik;"
   },
   {
     "question": "Burchak burilishini uzatish uchun kerakli asbobni ko`rsating?",
     "options": [
-      "A) Selsin;",
-      "B) Silfon;",
-      "C) Varistor;",
-      "D) Tiristor;"
+      " Selsin;",
+      " Silfon;",
+      " Varistor;",
+      " Tiristor;"
     ],
-    "answer": "A) Selsin;"
+    "answer": " Selsin;"
   },
   {
     "question": "Integrallashgan zvenoni ifodalovchi qurilmani ko`rsating?",
     "options": [
-      "A) Val, elektrodvigatel;",
-      "B) Elektron hisoblagich;",
-      "C) Elektron chop etish;",
-      "D) Vaqt relesi;"
+      " Val, elektrodvigatel;",
+      " Elektron hisoblagich;",
+      " Elektron chop etish;",
+      " Vaqt relesi;"
     ],
-    "answer": "A) Val, elektrodvigatel;"
+    "answer": " Val, elektrodvigatel;"
   },
   {
     "question": "Avtomatikada datchik qaysi lotin alifbosi harfi bilan belgilanadi?",
     "options": [
-      "A) В;",
-      "B) А;",
-      "C) С;",
-      "D) G;"
+      " В;",
+      " А;",
+      " С;",
+      " G;"
     ],
-    "answer": "A) В;"
+    "answer": " В;"
   },
   {
     "question": "Raqamli integral sxemalar qaysi lotin alifbosi harflari bilan belgilanadi?",
     "options": [
-      "A) DD;",
-      "B) DS;",
-      "C) EL;",
-      "D) FP;"
+      " DD;",
+      " DS;",
+      " EL;",
+      " FP;"
     ],
-    "answer": "A) DD;"
+    "answer": " DD;"
   },
   {
     "question": "Datchik ikki qismdan tuzilgan bo`ladi:",
     "options": [
-      "A) sezuvchi element va o`zgartiruvchi element;",
-      "B) Ob’yekt va roslagich;",
-      "C) O`lchovchi element va kuchaytiruvchi element;",
-      "D) O`lchovchi element va stabilizatsiyalovchi element;"
+      " sezuvchi element va o`zgartiruvchi element;",
+      " Ob’yekt va roslagich;",
+      " O`lchovchi element va kuchaytiruvchi element;",
+      " O`lchovchi element va stabilizatsiyalovchi element;"
     ],
-    "answer": "A) sezuvchi element va o`zgartiruvchi element;"
+    "answer": " sezuvchi element va o`zgartiruvchi element;"
   },
   {
     "question": "Avtomatikada kuchaytirgich kirish signalining fizik tabiatini o`zgartiradimi?",
     "options": [
-      "A) O`zgartirmaydi;",
-      "B) O`zgartiradi;",
-      "C) O`zgartiradi va stabillashtiradi;",
-      "D) Generatsiyalaydi;"
+      " O`zgartirmaydi;",
+      " O`zgartiradi;",
+      " O`zgartiradi va stabillashtiradi;",
+      " Generatsiyalaydi;"
     ],
-    "answer": "A) O`zgartirmaydi;"
+    "answer": " O`zgartirmaydi;"
   },
   {
     "question": "Relening chiqish signalini o`zgarishi:",
     "options": [
-      "A) cakrash bilan;",
-      "B) Kechikish bilan;",
-      "C) Stabillashmagan;",
-      "D) Stabil;"
+      " cakrash bilan;",
+      " Kechikish bilan;",
+      " Stabillashmagan;",
+      " Stabil;"
     ],
-    "answer": "A) cakrash bilan;"
+    "answer": " cakrash bilan;"
   },
   {
     "question": "Kontakt datchiklari nimani o`zgartiradi?",
     "options": [
-      "A) Mexanik o`zgartirishlar",
-      "B) Biologik o`sish",
-      "C) Fizik o`zgartirishlar",
-      "D) Kimyoviy tartib"
+      " Mexanik o`zgartirishlar",
+      " Biologik o`sish",
+      " Fizik o`zgartirishlar",
+      " Kimyoviy tartib"
     ],
-    "answer": "A) Mexanik o`zgartirishlar"
+    "answer": " Mexanik o`zgartirishlar"
   },
   {
     "question": "Nazoratning bosh shakli sifatida potensiometrik datchiklar qabul qilinadi:",
     "options": [
-      "A) Chiziqli va burchakli ko`chishlarda;",
-      "B) Namlikda;",
-      "C) Dielektrik o`zgaruvchanlikda;",
-      "D) Yorug`lik oqimi;"
+      " Chiziqli va burchakli ko`chishlarda;",
+      " Namlikda;",
+      " Dielektrik o`zgaruvchanlikda;",
+      " Yorug`lik oqimi;"
     ],
-    "answer": "A) Chiziqli va burchakli ko`chishlarda;"
+    "answer": " Chiziqli va burchakli ko`chishlarda;"
   },
   {
     "question": "Induktiv datchikda kirish kattaligi ro`y berishi:",
     "options": [
-      "A) δ Havo tirqishini o`zgarishida;",
-      "B) G`altakning induktivligi;",
-      "C) Plunjer parametrlari;",
-      "D) Kuchli energiya;"
+      " δ Havo tirqishini o`zgarishida;",
+      " G`altakning induktivligi;",
+      " Plunjer parametrlari;",
+      " Kuchli energiya;"
     ],
-    "answer": "A) δ Havo tirqishini o`zgarishida;"
+    "answer": " δ Havo tirqishini o`zgarishida;"
   },
   {
     "question": "Induktiv datchikda chiqish kattaligi ro`y berishi:",
     "options": [
-      "A) Chiqishdagi tokning o`zgarishida;",
-      "B) δ Havo tirqishini o`zgarishida;",
-      "C) Kuchli energiya;",
-      "D) G`altakning induktivligi;"
+      " Chiqishdagi tokning o`zgarishida;",
+      " δ Havo tirqishini o`zgarishida;",
+      " Kuchli energiya;",
+      " G`altakning induktivligi;"
     ],
-    "answer": "A) Chiqishdagi tokning o`zgarishida;"
+    "answer": " Chiqishdagi tokning o`zgarishida;"
   },
   {
     "question": "Pe’zoelektrik datchik yordamida suvning sathini o`lchash mumkinmi?",
     "options": [
-      "A) Mumkin;",
-      "B) Mumkin emas;",
-      "C) Faqat vacuum shartlarida;",
-      "D) Faqat ochiq sig`imlarda;"
+      " Mumkin;",
+      " Mumkin emas;",
+      " Faqat vacuum shartlarida;",
+      " Faqat ochiq sig`imlarda;"
     ],
-    "answer": "A) Mumkin;"
+    "answer": " Mumkin;"
   },
   {
     "question": "Datchik nazorat qilinayotgan parametrlarga ta’sir ko`rsatishi kerakmi?",
     "options": [
-      "A) Kerak emes;",
-      "B) Kerak;",
-      "C) Bu ahamiyatga ega emas;",
-      "D) Ma’lum vaqt mobaynida;"
+      " Kerak emes;",
+      " Kerak;",
+      " Bu ahamiyatga ega emas;",
+      " Ma’lum vaqt mobaynida;"
     ],
-    "answer": "A) Kerak emes;"
+    "answer": " Kerak emes;"
   },
   {
     "question": "Haroratning bimetal datchigida qanday metallardan foydalanilgan?",
     "options": [
-      "A) Jez;",
-      "B) Mis;",
-      "C) Kumush;",
-      "D) Qo`rg`oshin;"
+      " Jez;",
+      " Mis;",
+      " Kumush;",
+      " Qo`rg`oshin;"
     ],
-    "answer": "A) Jez;"
+    "answer": " Jez;"
   },
   {
     "question": "Kengaytirilgan termometrlarda qanday suyuqliklardan foydalanilgan?",
     "options": [
-      "A) Simob;",
-      "B) Suv;",
-      "C) Kerosin;",
-      "D) Spirt;"
+      " Simob;",
+      " Suv;",
+      " Kerosin;",
+      " Spirt;"
     ],
-    "answer": "A) Simob;"
+    "answer": " Simob;"
   },
   {
     "question": "Telenazorat qaysi qurilmalar yordamida amalga oshiriladi?",
     "options": [
-      "A) Aylantirib o`rnatilgan barcha qurilmalarga mikroasbonlarni o`rnatish;",
-      "B) Statsionar chiziqqa bog`langan datchik va qabul quluvchi qurilmalar yordamida;",
-      "C) Televizordan foydalangan holda;",
-      "D) Telefon operatori yordamida;"
+      " Aylantirib o`rnatilgan barcha qurilmalarga mikroasbonlarni o`rnatish;",
+      " Statsionar chiziqqa bog`langan datchik va qabul quluvchi qurilmalar yordamida;",
+      " Televizordan foydalangan holda;",
+      " Telefon operatori yordamida;"
     ],
-    "answer": "A) Aylantirib o`rnatilgan barcha qurilmalarga mikroasbonlarni o`rnatish;"
+    "answer": " Aylantirib o`rnatilgan barcha qurilmalarga mikroasbonlarni o`rnatish;"
   },
   {
     "question": "Оb`еktntng rоstlаnuvchi pаrаmеtri o`zgаrmаs tеzlik bilаn o`zining mаksimum bеrilgаn qiymаtigа egа bo`lgungа qаdаr kеtаdigаn vаqt nimа dеb аtаlаdi?",
     "options": [
-      "A) Otish vаqti;",
-      "B) Uzаtish kоeffisiеnti;",
-      "C) Оb`еktning sеzuvchаnligi;",
-      "D) Kеchikish vаqti;"
+      " Otish vаqti;",
+      " Uzаtish kоeffisiеnti;",
+      " Оb`еktning sеzuvchаnligi;",
+      " Kеchikish vаqti;"
     ],
-    "answer": "A) Otish vаqti;"
+    "answer": " Otish vаqti;"
   },
   {
     "question": "Sath datchigini nomini ayting?",
     "options": [
-      "A) Po`kakli;",
-      "B) Elektrodli;",
-      "C) Pe’zoelektrik;",
-      "D) Tenzometrik;"
+      " Po`kakli;",
+      " Elektrodli;",
+      " Pe’zoelektrik;",
+      " Tenzometrik;"
     ],
-    "answer": "A) Po`kakli;"
+    "answer": " Po`kakli;"
   },
   {
     "question": "Kuchaytirgich elementini ko`rsating?",
     "options": [
-      "A) Tranzistor;",
-      "B) Rezistor;",
-      "C) Termistor;",
-      "D) Pozistor;"
+      " Tranzistor;",
+      " Rezistor;",
+      " Termistor;",
+      " Pozistor;"
     ],
-    "answer": "A) Tranzistor;"
+    "answer": " Tranzistor;"
   },
   {
     "question": "Issiqlik relesida qaysi metallardan foydalanilgan?",
     "options": [
-      "A) Jez va invar;",
-      "B) Mis va invar;",
-      "C) Mis;",
-      "D) Invar;"
+      " Jez va invar;",
+      " Mis va invar;",
+      " Mis;",
+      " Invar;"
     ],
-    "answer": "A) Jez va invar;"
+    "answer": " Jez va invar;"
   },
   {
     "question": "Generatorli tezlik datchigini ayting?",
     "options": [
-      "A) Taxogenerator;",
-      "B) Taxometr;",
-      "C) Fotoelektrik;",
-      "D) Markaziy aylanuvchi;"
+      " Taxogenerator;",
+      " Taxometr;",
+      " Fotoelektrik;",
+      " Markaziy aylanuvchi;"
     ],
-    "answer": "A) Taxogenerator;"
+    "answer": " Taxogenerator;"
   },
   {
     "question": "Servoyuritma nima?",
     "options": [
-      "A) Elektromagnitli klapan;",
-      "B) Bir fazali dvigatel;",
-      "C) Sinxron mashina;",
-      "D) Qadamli dvigatel;"
+      " Elektromagnitli klapan;",
+      " Bir fazali dvigatel;",
+      " Sinxron mashina;",
+      " Qadamli dvigatel;"
     ],
-    "answer": "A) Elektromagnitli klapan;"
+    "answer": " Elektromagnitli klapan;"
   },
   {
     "question": "Sifat ko`rsatkichlarining optimal qiymatiga mos keluvchi optimal o`tish jarayoni ko`rsatkichlari tipini ko`rsating? 2.7 – П   1.9 – ПИ   1.38 – ПИД",
     "options": [
-      "A) Inersial;",
-      "B) Davriy;",
-      "C) 45% roslanish bilan;",
-      "D) 20% roslanish bilan;"
+      " Inersial;",
+      " Davriy;",
+      " 45% roslanish bilan;",
+      " 20% roslanish bilan;"
     ],
-    "answer": "A) Inersial;"
+    "answer": " Inersial;"
   },
   {
     "question": "Qaysi bog`liqlik hajm o`zgarishiga asoslangan o`zgartirgich uchun o`rinli?",
     "options": [
-      "A) С=f(Х);",
-      "B) Х=f(С);",
-      "C) У=f(С);",
-      "D) Х=f(К);"
+      " С=f(Х);",
+      " Х=f(С);",
+      " У=f(С);",
+      " Х=f(К);"
     ],
-    "answer": "A) С=f(Х);"
+    "answer": " С=f(Х);"
   },
   {
     "question": "Keltirilgan turg`unlik mezonlarining qaysi biri algebraic deyiladi?1)Raus 2)Gurvits 3)Naykvist 4)Mixaylov 5)Vishnegrad",
     "options": [
-      "A) 1,2,5;",
-      "B) 1,3,4;",
-      "C) 3,4,5;",
-      "D) 1,4,5;"
+      " 1,2,5;",
+      " 1,3,4;",
+      " 3,4,5;",
+      " 1,4,5;"
     ],
-    "answer": "A) 1,2,5;"
+    "answer": " 1,2,5;"
   },
   {
     "question": "Avtomatik nazorat bo`linadi:",
     "options": [
-      "A) Yaxlit, tanlab olingan;",
-      "B) Yaxlit;",
-      "C) Tanlab olingan;",
-      "D) Ixtiyoriy;"
+      " Yaxlit, tanlab olingan;",
+      " Yaxlit;",
+      " Tanlab olingan;",
+      " Ixtiyoriy;"
     ],
-    "answer": "A) Yaxlit, tanlab olingan;"
+    "answer": " Yaxlit, tanlab olingan;"
   },
   {
     "question": "Avtomatlashtirishning qaysi sathida maxalliy avtomatik nazorat sistemalari qo’llaniladi?",
     "options": [
-      "A) Quyi;",
-      "B) O`rta;",
-      "C) Baland;",
-      "D) No`linchi;"
+      " Quyi;",
+      " O`rta;",
+      " Baland;",
+      " No`linchi;"
     ],
-    "answer": "A) Quyi;"
+    "answer": " Quyi;"
   },
   {
     "question": "Rostlash sistemasida qanday parametr og’ishni xarakterlaydi?",
     "options": [
-      "A) Statik aniqlik;",
-      "B) Dinamik aniqlik;",
-      "C) Xatolik;",
-      "D) Kuchlanish koeffitsiyenti;"
+      " Statik aniqlik;",
+      " Dinamik aniqlik;",
+      " Xatolik;",
+      " Kuchlanish koeffitsiyenti;"
     ],
-    "answer": "A) Statik aniqlik;"
+    "answer": " Statik aniqlik;"
   },
   {
     "question": "Avtomatikaning ijrochi elementini ayting?",
     "options": [
-      "A) Elektromagnitli mufti;",
-      "B) Pe’zoelement;",
-      "C) Yarim o`tkazgichli kuchaytirgich;",
-      "D) Trigger;"
+      " Elektromagnitli mufti;",
+      " Pe’zoelement;",
+      " Yarim o`tkazgichli kuchaytirgich;",
+      " Trigger;"
     ],
-    "answer": "A) Elektromagnitli mufti;"
+    "answer": " Elektromagnitli mufti;"
   },
   {
     "question": "Avtomatik sistemalarni kuchaytiruvchi elementlarini ayting?",
     "options": [
-      "A) Tranzistorli;",
-      "B) Magnitli;",
-      "C) Servodvigatelli;",
-      "D) Servoyuritmali;"
+      " Tranzistorli;",
+      " Magnitli;",
+      " Servodvigatelli;",
+      " Servoyuritmali;"
     ],
-    "answer": "A) Tranzistorli;"
+    "answer": " Tranzistorli;"
   },
   {
     "question": "Ijrochi mexanizmlar qanday bo`linadi?",
     "options": [
-      "A) Elektrik, pnevmatik, gidravlik;",
-      "B) Akustik, radiatsion, termostatik;",
-      "C) Elektrik, generatorli, mexanik;",
-      "D) Mexanik, elektron, optic;"
+      " Elektrik, pnevmatik, gidravlik;",
+      " Akustik, radiatsion, termostatik;",
+      " Elektrik, generatorli, mexanik;",
+      " Mexanik, elektron, optic;"
     ],
-    "answer": "A) Elektrik, pnevmatik, gidravlik;"
+    "answer": " Elektrik, pnevmatik, gidravlik;"
   },
   {
     "question": "Umumiy holatda avtomatikaning elementi bu:",
     "options": [
-      "A) O`zgartirgich;",
-      "B) Reduktor;",
-      "C) Generator;",
-      "D) Stabilizator;"
+      " O`zgartirgich;",
+      " Reduktor;",
+      " Generator;",
+      " Stabilizator;"
     ],
-    "answer": "A) O`zgartirgich;"
+    "answer": " O`zgartirgich;"
   },
   {
     "question": "Ijrо mеxаnizmning vаzifаsi nimаdаn ibоrаt?",
     "options": [
-      "A) bоshqаrish bo`yichа ishlаb chiqilgаn qаrоrgа аsоslаngаn hоldа bоshqаruvchi tа`sirni bоshqаrish оb`еktigа nisbаtаn ro`yobgа chiqаrish;",
-      "B) o`lchаb оlingаn infоrmаsiyani аsоslаngаn hоldа bоshqаruvchi signаlni ishlаb chiqish;",
-      "C) оb`еkt hаqidа mа`lumоt to`plаsh vаzifаsini ijrо etish;",
-      "D) mаqsаdgа muvоfiq bоshqаruvchi tа`sirni ishlаb chiqish;"
+      " bоshqаrish bo`yichа ishlаb chiqilgаn qаrоrgа аsоslаngаn hоldа bоshqаruvchi tа`sirni bоshqаrish оb`еktigа nisbаtаn ro`yobgа chiqаrish;",
+      " o`lchаb оlingаn infоrmаsiyani аsоslаngаn hоldа bоshqаruvchi signаlni ishlаb chiqish;",
+      " оb`еkt hаqidа mа`lumоt to`plаsh vаzifаsini ijrо etish;",
+      " mаqsаdgа muvоfiq bоshqаruvchi tа`sirni ishlаb chiqish;"
     ],
-    "answer": "A) bоshqаrish bo`yichа ishlаb chiqilgаn qаrоrgа аsоslаngаn hоldа bоshqаruvchi tа`sirni bоshqаrish оb`еktigа nisbаtаn ro`yobgа chiqаrish;"
+    "answer": " bоshqаrish bo`yichа ishlаb chiqilgаn qаrоrgа аsоslаngаn hоldа bоshqаruvchi tа`sirni bоshqаrish оb`еktigа nisbаtаn ro`yobgа chiqаrish;"
   },
   {
     "question": "G`alayonlashtiruvchi bo`yicha boshqarish g`alayonlanganda amaliy chizmada qaysi zanjir yo`qoladi?",
     "options": [
-      "A) Boshqarish ob`yektining chiqishini asoslab natijani qabul qilish uskunasiga uzatadigan (qayta aloqa) zanjiri;",
-      "B) G`alayonlantiruvchi ta’sirni o`lchab natijani qaror qabul qilish uskunasiga uzatadigan zanjir;",
-      "C) Qaror qabul qilish uskuna bilan boshqarish ob’yektini bog`laydigan zanjir;",
-      "D) Barcha zanjirlar saqlanadi;"
+      " Boshqarish ob`yektining chiqishini asoslab natijani qabul qilish uskunasiga uzatadigan (qayta aloq zanjiri;",
+      " G`alayonlantiruvchi ta’sirni o`lchab natijani qaror qabul qilish uskunasiga uzatadigan zanjir;",
+      " Qaror qabul qilish uskuna bilan boshqarish ob’yektini bog`laydigan zanjir;",
+      " Barcha zanjirlar saqlanadi;"
     ],
-    "answer": "A) Boshqarish ob`yektining chiqishini asoslab natijani qabul qilish uskunasiga uzatadigan (qayta aloqa) zanjiri;"
+    "answer": " Boshqarish ob`yektining chiqishini asoslab natijani qabul qilish uskunasiga uzatadigan (qayta aloq zanjiri;"
   },
   {
     "question": "Aralash boshqarish qo`llanganda amaliy chizmada qaysi zanjir yo`qoladi?",
     "options": [
-      "A) Barcha zanjirlar saqlanadi;",
-      "B) Boshqarish ob`yektining chiqishini asoslab natijani qabul qilish uskunasiga uzatadigan (qayta aloqa) zanjiri;",
-      "C) G`alayonlantiruvchi ta’sirni o`lchab natijani qaror qabul qilish uskunasiga uzatadigan zanjir;",
-      "D) Qaror qabul qilish uskuna bilan boshqarish ob’yektini bog`laydigan zanjir;"
+      " Barcha zanjirlar saqlanadi;",
+      " Boshqarish ob`yektining chiqishini asoslab natijani qabul qilish uskunasiga uzatadigan (qayta aloq zanjiri;",
+      " G`alayonlantiruvchi ta’sirni o`lchab natijani qaror qabul qilish uskunasiga uzatadigan zanjir;",
+      " Qaror qabul qilish uskuna bilan boshqarish ob’yektini bog`laydigan zanjir;"
     ],
-    "answer": "A) Barcha zanjirlar saqlanadi;"
+    "answer": " Barcha zanjirlar saqlanadi;"
   },
   {
     "question": "Qayta aloqali boshqarish qo`llanganda amaliy chizmada qaysi zanjir yo`qoladi?",
     "options": [
-      "A) G`alayonlantiruvchi ta’sirni o`lchab natijani qaror qabul qilish uskunasiga uzatadigan zanjir;",
-      "B) Boshqarish ob`yektining chiqishini asoslab natijani qabul qilish uskunasiga uzatadigan (qayta aloqa) zanjiri;",
-      "C) Qaror qabul qilish uskuna bilan boshqarish ob’yektini bog`laydigan zanjir;",
-      "D) Barcha zanjirlar saqlanadi;"
+      " G`alayonlantiruvchi ta’sirni o`lchab natijani qaror qabul qilish uskunasiga uzatadigan zanjir;",
+      " Boshqarish ob`yektining chiqishini asoslab natijani qabul qilish uskunasiga uzatadigan (qayta aloq zanjiri;",
+      " Qaror qabul qilish uskuna bilan boshqarish ob’yektini bog`laydigan zanjir;",
+      " Barcha zanjirlar saqlanadi;"
     ],
-    "answer": "A) G`alayonlantiruvchi ta’sirni o`lchab natijani qaror qabul qilish uskunasiga uzatadigan zanjir;"
+    "answer": " G`alayonlantiruvchi ta’sirni o`lchab natijani qaror qabul qilish uskunasiga uzatadigan zanjir;"
   },
   {
     "question": "G`alayonlanish bo`yicha roslash prinsipini kim ta’riflagan?",
     "options": [
-      "A) Ponsele;",
-      "B) Polzunov;",
-      "C) Vishnegrad;",
-      "D) Gurvits;"
+      " Ponsele;",
+      " Polzunov;",
+      " Vishnegrad;",
+      " Gurvits;"
     ],
-    "answer": "A) Ponsele;"
+    "answer": " Ponsele;"
   },
   {
     "question": "Avtomatikaning texnologik chizmalari nimani anglatadi",
     "options": [
-      "A) Qurilmalar orasidagi bog’liqlikni;",
-      "B) Qurilma va elementlar orasidagi bog’liqlikni;",
-      "C) Qurilmaning alohida elementlari orasidagi bog’liqlikni;",
-      "D) Avtomatlashtirilgan tizimlarnig dinamik xossalarini;"
+      " Qurilmalar orasidagi bog’liqlikni;",
+      " Qurilma va elementlar orasidagi bog’liqlikni;",
+      " Qurilmaning alohida elementlari orasidagi bog’liqlikni;",
+      " Avtomatlashtirilgan tizimlarnig dinamik xossalarini;"
     ],
-    "answer": "A) Qurilmalar orasidagi bog’liqlikni;"
+    "answer": " Qurilmalar orasidagi bog’liqlikni;"
   },
   {
     "question": "Elektrik qarshilikda kuchlanishni o`zgartirgich nima deb ataladi?",
     "options": [
-      "A) Burchakli;",
-      "B) Induktivli;",
-      "C) Reostatli;",
-      "D) Termoelektrik;"
+      " Burchakli;",
+      " Induktivli;",
+      " Reostatli;",
+      " Termoelektrik;"
     ],
-    "answer": "A) Burchakli;"
+    "answer": " Burchakli;"
   },
   {
     "question": "Elektrik qarshilikda chiziqli va burchakli joylashuvni o`zgartirgich nima deb aytiladi?",
     "options": [
-      "A) Reostatli;",
-      "B) Pezoelektrik;",
-      "C) Sig`imli;",
-      "D) Induktivli;"
+      " Reostatli;",
+      " Pezoelektrik;",
+      " Sig`imli;",
+      " Induktivli;"
     ],
-    "answer": "A) Reostatli;"
+    "answer": " Reostatli;"
   },
   {
     "question": "O’lchovchi asboblar – bu …",
     "options": [
-      "A) O’lchov axborotini uni tarqatishga, o’zgartirishga, qayta ishlashga va saqlashga mos bo’lgan shaklda qayta ishlab beruvchi qurilmalar, lekin o’lchov axborotlari bevosita kuzatuvchi tomonidan his qilinmaydi;",
-      "B) O’lchov axborotini kuzatuvchi tomonidan bevosita his qilininadigan tarzda  qayta ishlab beruvchi qurilmalar;",
-      "C) O’lchov axborotini saqlash va uzatishga qulay shaklda qayta ishlab beruvchi qurilma;",
-      "D) Axborotni qayta ishlash, saqlash va uzatishga mo’ljallangan qurilma;"
+      " O’lchov axborotini uni tarqatishga, o’zgartirishga, qayta ishlashga va saqlashga mos bo’lgan shaklda qayta ishlab beruvchi qurilmalar, lekin o’lchov axborotlari bevosita kuzatuvchi tomonidan his qilinmaydi;",
+      " O’lchov axborotini kuzatuvchi tomonidan bevosita his qilininadigan tarzda  qayta ishlab beruvchi qurilmalar;",
+      " O’lchov axborotini saqlash va uzatishga qulay shaklda qayta ishlab beruvchi qurilma;",
+      " Axborotni qayta ishlash, saqlash va uzatishga mo’ljallangan qurilma;"
     ],
-    "answer": "A) O’lchov axborotini uni tarqatishga, o’zgartirishga, qayta ishlashga va saqlashga mos bo’lgan shaklda qayta ishlab beruvchi qurilmalar, lekin o’lchov axborotlari bevosita kuzatuvchi tomonidan his qilinmaydi;"
+    "answer": " O’lchov axborotini uni tarqatishga, o’zgartirishga, qayta ishlashga va saqlashga mos bo’lgan shaklda qayta ishlab beruvchi qurilmalar, lekin o’lchov axborotlari bevosita kuzatuvchi tomonidan his qilinmaydi;"
   },
   {
     "question": "Diskrеt  sistеmаlаr sturuktаviy sxеmаgа qаrаb qаndаy turlаrgа bo`linаdi",
     "options": [
-      "A) Оchiq sistеmа, bеrk sistеmаlаrgа;",
-      "B) Rеlеli, impul`sli vа rаqаmli sistеmаlаrgа;",
-      "C) Аmplitudа impul`sli, kеnglik impul`sli, chаstоtа impul`sli sistеmаlаrgа;",
-      "D) Bir o`lchаmli, ko`p o`lchаmli sistеmаlаrgа;"
+      " Оchiq sistеmа, bеrk sistеmаlаrgа;",
+      " Rеlеli, impul`sli vа rаqаmli sistеmаlаrgа;",
+      " Аmplitudа impul`sli, kеnglik impul`sli, chаstоtа impul`sli sistеmаlаrgа;",
+      " Bir o`lchаmli, ko`p o`lchаmli sistеmаlаrgа;"
     ],
-    "answer": "A) Оchiq sistеmа, bеrk sistеmаlаrgа;"
+    "answer": " Оchiq sistеmа, bеrk sistеmаlаrgа;"
   },
   {
     "question": "Oxorlash mashinasida temperaturani roslash ob’yektini ko`rsating?",
     "options": [
-      "A) Oxor, oxorlash tog`orasini to`ldirish;",
-      "B) Ishlov beradigan asoslar;",
-      "C) Электродвигатель;",
-      "D) шлихтовальное корыто;"
+      " Oxor, oxorlash tog`orasini to`ldirish;",
+      " Ishlov beradigan asoslar;",
+      " Электродвигатель;",
+      " шлихтовальное корыто;"
     ],
-    "answer": "A) Oxor, oxorlash tog`orasini to`ldirish;"
+    "answer": " Oxor, oxorlash tog`orasini to`ldirish;"
   },
   {
     "question": "Texnologik jarayonlarni avtomatlashtirilgan boshqarish sistemasi (TJABS)  nima uchun mo’ljallangan?",
     "options": [
-      "A) Texnologik boshqarish obyektiga boshqaruvchi ta’sirlarni ishlab chiqish va amalga oshirish;",
-      "B) Tashqi ta’sirlarni boshqarish;",
-      "C) axborotlar oqimini boshqarish;",
-      "D) Axborotni to’plash va uzatish;"
+      " Texnologik boshqarish obyektiga boshqaruvchi ta’sirlarni ishlab chiqish va amalga oshirish;",
+      " Tashqi ta’sirlarni boshqarish;",
+      " axborotlar oqimini boshqarish;",
+      " Axborotni to’plash va uzatish;"
     ],
-    "answer": "A) Texnologik boshqarish obyektiga boshqaruvchi ta’sirlarni ishlab chiqish va amalga oshirish;"
+    "answer": " Texnologik boshqarish obyektiga boshqaruvchi ta’sirlarni ishlab chiqish va amalga oshirish;"
   },
   {
     "question": "TJABSning ish rejimi?",
     "options": [
-      "A) Axborot maslahati;",
-      "B) Supervizor;",
-      "C) Avtomatik nazorat rejimida;",
-      "D) Axborotni to’plash va uzatish;"
+      " Axborot maslahati;",
+      " Supervizor;",
+      " Avtomatik nazorat rejimida;",
+      " Axborotni to’plash va uzatish;"
     ],
-    "answer": "A) Axborot maslahati;"
+    "answer": " Axborot maslahati;"
   },
   {
     "question": "TJABSning qaysi boshqarish jarayonida inson ishtiroki talab qilinadi?",
     "options": [
-      "A) Bevosita raqamli boshqarish rejimida;",
-      "B) Axborotlarni yig`ish va qayta ishlash rejimida;",
-      "C) Axboriy-maslahatchi;",
-      "D) Supervizor;"
+      " Bevosita raqamli boshqarish rejimida;",
+      " Axborotlarni yig`ish va qayta ishlash rejimida;",
+      " Axboriy-maslahatchi;",
+      " Supervizor;"
     ],
-    "answer": "A) Bevosita raqamli boshqarish rejimida;"
+    "answer": " Bevosita raqamli boshqarish rejimida;"
   },
   {
     "question": "“Maslahatchi” rejimida ishlovchi TJABS tarkibiga nimalar kiradi?",
     "options": [
-      "A) Datchiklar, mantiqiy boshqarish qurilmasi, ijrochi mexanizmlar, axborotlarni tasvirlash qurilmasi, boshqarish pulti, operator;",
-      "B) Datchiklar, regulyatorlar, ijrochi mexanizmlar, boshqarish pulti, operator;",
-      "C) Boshqarish pulti, ijrochi mexanizmlar, operator;",
-      "D) Datchiklar, regulyator, ijrochi mexanizmlar;"
+      " Datchiklar, mantiqiy boshqarish qurilmasi, ijrochi mexanizmlar, axborotlarni tasvirlash qurilmasi, boshqarish pulti, operator;",
+      " Datchiklar, regulyatorlar, ijrochi mexanizmlar, boshqarish pulti, operator;",
+      " Boshqarish pulti, ijrochi mexanizmlar, operator;",
+      " Datchiklar, regulyator, ijrochi mexanizmlar;"
     ],
-    "answer": "A) Datchiklar, mantiqiy boshqarish qurilmasi, ijrochi mexanizmlar, axborotlarni tasvirlash qurilmasi, boshqarish pulti, operator;"
+    "answer": " Datchiklar, mantiqiy boshqarish qurilmasi, ijrochi mexanizmlar, axborotlarni tasvirlash qurilmasi, boshqarish pulti, operator;"
   },
 
   {
