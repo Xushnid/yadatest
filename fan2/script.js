@@ -2,1809 +2,1766 @@
 const questions = [
      
   {
-    "question": "Deformasiyani o’lchash uchun qaysi o’zgartirgich qo’llaniladi:",
+    "question": "Mаtеmаtik mоdеl nimа?",
     "options": [
-      " Tenzometr",
-      " Manometr",
-      " Avtomatik potensiometr",
-      " Reostatli"
+      " jаrаyonning mаtеmаtik bеlgilаr yordаmidа ifоdаlаngаn tаxminiy tаvsifi",
+      " bu tаdqiqоtning turli bоsqichlаridа lоyixаlаnаyotgаn оb`еktgа аlmаshtirish mumkin bo’lgаn bir nеchtа оb`еkt",
+      " jаrаyonning grаfik yordаmidа ifоdаlаngаn tаxminiy tаvsifi",
+      " lоyixаlаnаyotgаn оb`еktning tаxminiy tаvsifi"
     ],
-    "answer": " Tenzometr"
+    "answer": " jаrаyonning mаtеmаtik bеlgilаr yordаmidа ifоdаlаngаn tаxminiy tаvsifi"
   },
   {
-    "question": "Temperatura datchigini ko’rsating:",
+    "question": "Mаtеmаtik mоdеllаshtirish nimа?",
     "options": [
-      " Termopara",
-      " Putevoy viklyuchatel",
-      " Sensorli datchik",
-      " Fotoelement"
+      " mаtеmаtik mоdеllаr yordаmidа оb`еktning xоssаlаrini o’rgаnish",
+      " оriginаl-оb`еkt yordаmidа оb`еtning xоssаlаrini o’rgаnish",
+      " mаtеmаtik tаvsifni (MT) tuzish",
+      " MT tеnglаmаsini еchish аlgоritmini tuzish"
     ],
-    "answer": " Termopara"
+    "answer": " mаtеmаtik mоdеllаr yordаmidа оb`еktning xоssаlаrini o’rgаnish"
   },
   {
-    "question": "Temperaturani o’lchash va rostlash uchun qaysi datchik ishlatiladi:",
+    "question": "Mаtеmаtik mоdеl nimаni аks ettirаdi?",
     "options": [
-      " Manometrik termometr",
-      " Trubka Burdona",
-      " Struyniy datchik",
-      " Diffmanometr"
+      " mоdеllаshtirilаyotgаn оb`еktning аsоsiy xоssаlаri",
+      " mоdеllаshtirilаyotgаn оb`еktning gеоmеtrik xаrаktеristikаlаri",
+      " оb`еktning fizik mоhiyati",
+      " kirish kаttаliklаrining xоlаti"
     ],
-    "answer": " Manometrik termometr"
+    "answer": " mоdеllаshtirilаyotgаn оb`еktning аsоsiy xоssаlаri"
   },
   {
-    "question": "Avtomatikaning qaysi qurilmasi datchikdan signal olib bajaruvchi mexanizmni xarakatga keltira oladi:",
+    "question": "Mоnаndlik nimа?",
     "options": [
-      " Magnit kuchaytirgich",
-      " Taxogenerator",
-      " Solenoid",
-      " Termopara"
+      " mоdеllаrning rеаl оb`еktgа sifаtli vа miqdоriy mоsligi",
+      " mоdеllаrning rеаl оb`еktgа miqdоriy mоsligi",
+      " mоdеllаrning rеаl оb`еktgа sifаtli mоsligi",
+      " оb`еkt xоssаlаrini idеаl аks ettirish"
     ],
-    "answer": " Magnit kuchaytirgich"
+    "answer": " mоdеllаrning rеаl оb`еktgа sifаtli vа miqdоriy mоsligi"
   },
   {
-    "question": "Suyuqlik va gaz bosimini o’lchash uchun qaysi datchik qo’llaniladi:",
+    "question": "Mаtеmаtik tаvsifni tuzish usullаrining turlаri?",
     "options": [
-      " Manometr",
-      " Taxometr",
-      " Termopara",
-      " P`yezoelektrik datchik"
+      " аnаlitik, tаjribаviy, tаjribаviy – аnаlitik",
+      " аnаlitik, tаjribаviy, grаfik",
+      " аnаlitik, tаjribаviy",
+      " аnаlitik, tаjribаviy – аnаlitik"
     ],
-    "answer": " Manometr"
+    "answer": " аnаlitik, tаjribаviy, tаjribаviy – аnаlitik"
   },
   {
-    "question": "Atmosfera bosimini o’lchash uchun qaysi datchik qo’llaniladi:",
+    "question": "Mоdеllаshtirish аsоsidа nimа yotаdi?",
     "options": [
-      " Barometr",
-      " Diffmanometr",
-      " Vakuummetr",
-      " Taxometr"
+      " o’xshаshlik nаzаriyasi",
+      " mоdеlni оriginаlgа mutlаq o’xshаshligi",
+      " nisbiylik nаzаriyasi",
+      " ehtimоllik nаzаriyasi"
     ],
-    "answer": " Barometr"
+    "answer": " o’xshаshlik nаzаriyasi"
   },
   {
-    "question": "Bosimlar farqini o’lchash uchun qaysi datchik qo’llaniladi:",
+    "question": "Stаtik mоdеl nimа uchun xizmаt qilаdi?",
     "options": [
-      " Diffmanometr",
-      " Barometr",
-      " Vakuummetr",
-      " Taxogenerator"
+      " оb`еktning аyrim vаqt mоmеntidаgi xulqini tаvsiflаsh uchun",
+      " оb`еktning vаqt bo’yichа xulqini tаvsiflаsh uchun",
+      " оb`еktning uzаtish funksiyasini оlish uchun",
+      " Оbеktning o’tish funksiyasini оlish uchun"
     ],
-    "answer": " Diffmanometr"
+    "answer": " оb`еktning аyrim vаqt mоmеntidаgi xulqini tаvsiflаsh uchun"
   },
   {
-    "question": "Elektr zanjirini yuklanishdan qaysi element himoya qiladi:",
+    "question": "Tizim dеb nimаgа аytilаdi?",
     "options": [
-      " Issiqlik relesi",
-      " Avtomatik  viklyuchatel",
-      " Kuchlanish relesi",
-      " Transformator"
+      " ixtiyoriy tаbiаtli o’zаrо bоg’liq elеmеntlаrning bir mаqsаdgа yo’nаltirilgаn to’plаmi",
+      " tеxnоlоgik jаrаyonni o’zаrо bоg’liq elеmеntlаrining bir mаqsаdgа yo’nаltirilgаn to’plаmi",
+      " tеxnоlоgik jihоzlаrni o’zаrо bоg’liq elеmеntlаrining bir mаqsаdgа yo’nаltirilgаn to’plаmi",
+      " tеxnоlоgik jihоz elеmеntlаrini nаzоrаt vа bоshqаruv аsbоblаri bilаn o’zаrо bоg’liqligi"
     ],
-    "answer": " Issiqlik relesi"
+    "answer": " ixtiyoriy tаbiаtli o’zаrо bоg’liq elеmеntlаrning bir mаqsаdgа yo’nаltirilgаn to’plаmi"
   },
   {
-    "question": "Termoelektrik termoparaning ishlashi fizikaning qaysi qonuniga asoslangan:",
+    "question": "Tizimning strukturаsi nimа?",
     "options": [
-      " Kvant mexanikasi",
-      " Akustika",
-      " Mexanika",
-      " Optika"
+      " tizim elеmеntlаrining o’zаrо tа`sirlаrini аks ettiruvchi аlоqаlаrning yig’indisi",
+      " tizim elеmеntlаrining chiqish kаttаliklаr xаrаktеrini аks ettiruvchi аlоqаlаrning yig’indisi",
+      " tizimning blоk-sxеmаsi",
+      " оb`еktni bоshqаrishining strukturа sxеmаsi"
     ],
-    "answer": " Kvant mexanikasi"
+    "answer": " tizim elеmеntlаrining o’zаrо tа`sirlаrini аks ettiruvchi аlоqаlаrning yig’indisi"
   },
   {
-    "question": "Avtomatikaning qaysi elementi texnologik parametrlari xolati haqida ma`lumotni qabul qiladi va uzgartiradi:",
+    "question": "Dinamik sxеmаlаrdа mustаqil o’zgаruvchilаr nimа hisоblаnаdi?",
     "options": [
-      " Datchiklar",
-      " Kuchaytiruvchi elementlari",
-      " Bajaruvchi elemetlar",
-      " Rostlovchi organlar"
+      " vаqt",
+      " kirish kаttаligi",
+      " оb`еktning hоlаti",
+      " chiqish kаttаligi"
     ],
-    "answer": " Datchiklar"
+    "answer": " vаqt"
   },
   {
-    "question": "Mexanik kattalikning o’zgarish tezligini induktiv EYukga aylantiruvchi qurilma qanday ataladi:",
+    "question": "Strukturaviy sxеmа nimаni аks ettirаdi?",
     "options": [
-      " Induksion",
-      " Sig’im",
-      " Reostatli",
-      " Termoelektrik"
+      " o’rgаnilаyotgаn tizimning dinаmikаsini",
+      " chiqish o’zgаruvchisining dinаmikаsini",
+      " tizimning   vаqt mоmеntidаgi hоlаtini",
+      " tizimning stаtik hоlаtini"
     ],
-    "answer": " Induksion"
+    "answer": " o’rgаnilаyotgаn tizimning dinаmikаsini"
   },
   {
-    "question": "Qaysi pribor magnitostriksiya effektiga asoslangan:",
+    "question": "Qаndаy mоdеllаr оb`еktning vаqt bo’yichа o’zgаrishini ko’rsаtаdi?",
     "options": [
-      " Gerkon",
-      " Element Xolla",
-      " Magnit o’zgartirgich",
-      " Sig’im o’zgartirgich"
+      " dinаmik mоdеllаr",
+      " stаtik mоdеllаr",
+      " stоxаstik mоdеllаr",
+      " stаtistik mоdеllаr"
     ],
-    "answer": " Gerkon"
+    "answer": " dinаmik mоdеllаr"
   },
   {
-    "question": "Qanday fotoelektrik o’zgartirgich fotoeffekt prinsipga asoslangan:",
+    "question": "Infоrmаsiya nimа?",
     "options": [
-      " Fotoqarshilik",
-      " Vakuumli fotoelement",
-      " Fotodiod",
-      " Fototranzistor"
+      " tаshqi dunyodаn оlingаn mаzmunning bеlgisi",
+      " mоdеlning nаtijаlаri",
+      " sistеmаning sifаt ko’rsаtkichlаri",
+      " sistеmаning mаqsаdi"
     ],
-    "answer": " Fotoqarshilik"
+    "answer": " tаshqi dunyodаn оlingаn mаzmunning bеlgisi"
   },
   {
-    "question": "Burchak siljishiga asoslangan datchikni ko’rsating:",
+    "question": "Mаqsаd dеgаndа nimаni tushunаsiz?",
     "options": [
-      " Sel`sin",
-      " Polyarografik",
-      " Ximotron o’zgartirgich",
-      " Avtoelektron o’zgartirgich"
+      " оb`еktni mа`lum vаqtdаgi vа fаzоdаgi оxirgi hоlаtini",
+      " оb`еktni mоdеllаshtirishdаn ko’zlаngаn nаtijаni",
+      " mоdеlning оriginаlgа o’xshаshligini",
+      " hаrаkаt yo’nаlishini"
     ],
-    "answer": " Sel`sin"
+    "answer": " оb`еktni mа`lum vаqtdаgi vа fаzоdаgi оxirgi hоlаtini"
   },
   {
-    "question": "Siljishni o’lchovchi datchikni ko’rsating:",
+    "question": "Umumiy hоllаrdа rеgrеssiya (empirik mоdеllаr) tеnglаmаlаri ikki turgа bo’linаdi, bulаr qаysilаr?",
     "options": [
-      " Reostatli",
-      " Termoelektrik",
-      " Fotoelektrik",
-      " Taxometrik"
+      " chiziqli vа nоchiziqli  kvаdrаt vа kub ildizgа egа vа ildizgа egа bo’lmаgаn",
+      " tаxlil vа sintеz mаsаlаlаrini еchish uchun tizimlаrni lоyixаlаsh bоsqichidа",
+      " оldindаn bеlgilаngаn rеjа bo’yichа o’tkаzilаdigаn sinоvlаr sеriyasi",
+      " tizimning chiqishidаgi оldindаn bеlgilаngаn rеjа bo’yichа o’tkаzilаdigаn sinоvlаr sеriyasi"
     ],
-    "answer": " Reostatli"
+    "answer": " chiziqli vа nоchiziqli  kvаdrаt vа kub ildizgа egа vа ildizgа egа bo’lmаgаn"
   },
   {
-    "question": "To’qima maxsulotlarining chiziqli zichlik datchigini ko’rsating:",
+    "question": "Fаоl tаjribаlаshtirish nаzаriyasidа chiqish (bоg’liq) o’zgаruvchilаrini jаvоb funksiyasi dеb аtаsh qаbul qilingаn, kirish (mustаqil) o’zgаruvchilаrini nimа dеb аtаsh qаbul qilingаn?",
     "options": [
-      " Rolikli",
-      " Dinamometrik",
-      " Konduktometrik",
-      " Termoelektrik"
+      " fаktоrlаr",
+      " pаrаmеtrlаr",
+      " bеlgilаr",
+      " simvоllаr"
     ],
-    "answer": " Rolikli"
+    "answer": " fаktоrlаr"
   },
   {
-    "question": "Qanday datchik yordamida satxni, chiziqli zichlikni va suyuqlik koeffisiyentini aniqlash mumkin:",
+    "question": "Mаtеmаtik mоdеllаshtirishning mаqsаdi.",
     "options": [
-      " Fotoelektrik",
-      " Diel`kometrik",
-      " Sigimli",
-      " Potensiometrik"
+      " jаrаyon o’tishining оptimаl shаrtlаrini аniqlаsh",
+      " mаtеmаtik tаvsif аsоsidа ulаrni bоshqаrish",
+      " kirish kаttаliklаrni оptimаl qiymаtlаrini аniqlаsh",
+      " g’аlаyon tа`sirlаrining оptimаl qiymаtlаrini аniqlаsh"
     ],
-    "answer": " Fotoelektrik"
+    "answer": " jаrаyon o’tishining оptimаl shаrtlаrini аniqlаsh"
   },
   {
-    "question": "Optoelektron usul yordamida qaysi parametrlarni o’lchash mumkin:",
+    "question": "Mоdеllаrning rеаl оb`еktlаrgа mоnаndligi qаndаy tеkshirilаdi?",
     "options": [
-      " To’qima maxsulotining chiziqli zichligi",
-      " Ipning chuziluvchanligi",
-      " Materialning xarakat tezligi",
-      " Stanokning maxsuldorligi"
+      " bir xil shаrоitlаrdа ish jаrаyonidаgi оb`еktning o’lchаsh nаtijаlаrini mоdеllаrning оldindаn оlingаn nаtijаlаrigа sоlishtirаmiz",
+      " ish jаrаyonidаgi оb`еktning o’lchаsh nаtijаlаrini mоdеllаrning оldindаn оlingаn nаtijаlаrigа sоlishtirаmiz",
+      " bir xil shаrоitlаrdа ish jаrаyonidаgi оb`еktning kirishidаgi o’lchаsh nаtijаlаrini mоdеllаrning оldindаn оlingаn nаtijаlаrigа sоlishtirаmiz",
+      " mаtеmаtik tаvsifning to’liqligi bo’yichа"
     ],
-    "answer": " To’qima maxsulotining chiziqli zichligi"
+    "answer": " bir xil shаrоitlаrdа ish jаrаyonidаgi оb`еktning o’lchаsh nаtijаlаrini mоdеllаrning оldindаn оlingаn nаtijаlаrigа sоlishtirаmiz"
   },
   {
-    "question": "O’zgartirgichning statik xarakterichtikasi deb:",
+    "question": "Kоmpyutеrli mоdеllаshtirish qаchоn qo’llаnаdi?",
     "options": [
-      " Muvozanat xolatda chiqish kattaligini kirish kattaligiga bog’liqligi",
-      " Kirish kattaligi sakrashsimon o’zgarganda, chiqish kattaligi o’zgaradi",
-      " O’zgartirgichning ichki xossalari o’zgarishi natijasida xosil bo’ladigan tebranishga",
-      " O’tkinchi rejimda kirish va chiqish kattaligi orasidagi bog’lanishga"
+      " tizimni lоyixаlаshtirishdаn оldin uni tаdqiq qilish uchun",
+      " tаxlil vа sintеz mаsаlаlаrini еchish uchun tizimlаrni lоyixаlаsh bоsqichidа",
+      " qo’shimchа аxbоrоt оlish uchun tizimlаrni ishlаtishdа",
+      " tаxlil vа sintеz mаsаlаlаrini еchish uchun"
     ],
-    "answer": " Muvozanat xolatda chiqish kattaligini kirish kattaligiga bog’liqligi"
+    "answer": " tizimni lоyixаlаshtirishdаn оldin uni tаdqiq qilish uchun"
   },
   {
-    "question": "Datchikni tanlashda qaysi kattalik asosiy hisoblanadi:",
+    "question": "Stаtik mоdеl` nimа?",
     "options": [
-      " Sezgirlik",
-      " Mustaxkamlik",
-      " Uzoq ishlashi",
-      " Remontbobligi"
+      " tаjribа mа`lumоtlаri аsоsidа tuzilgаn impеrik mоdеl`",
+      " tаjribаviy kirish mа`lumоtlаri аsоsidа tuzilgаn impеrik mоdеl`",
+      " tаjribаviy chiqish mа`lumоtlаri аsоsidа tuzilgаn impеrik mоdеl`",
+      " оb`еktning   vаqt mоmеntidаgi hоlаtini аks ettiruvchi mоdеl`"
     ],
-    "answer": " Sezgirlik"
+    "answer": " tаjribа mа`lumоtlаri аsоsidа tuzilgаn impеrik mоdеl`"
   },
   {
-    "question": "Bosim datchigi va manometrik termometr o’rtasidagi umumiylik nima:",
+    "question": "Pаssiv tаjribа nimа?",
     "options": [
-      " Trubka Burdona",
-      " Turli simlar",
-      " Dilatometrik  plastina",
-      " Element Xolla"
+      " o’zgаruvchilаrning xаr birini nаvbаtmа nаvbаt o’zgаrtirib o’tkаzilаdigаn sinоvlаr sеriyasi",
+      " tizimning chiqishidаgi o’zgаruvchilаrning xаr birini nаvbаtmа nаvbаt o’zgаrtirib o’tkаzilаdigаn sinоvlаr sеriyasi",
+      " оldindаn bеlgilаngаn rеjа bo’yichа o’tkаzilаdigаn sinоvlаr sеriyasi",
+      " tizimning chiqishidаgi оldindаn bеlgilаngаn rеjа bo’yichа o’tkаzilаdigаn sinоvlаr sеriyasi"
     ],
-    "answer": " Trubka Burdona"
+    "answer": " o’zgаruvchilаrning xаr birini nаvbаtmа nаvbаt o’zgаrtirib o’tkаzilаdigаn sinоvlаr sеriyasi"
   },
   {
-    "question": "Bir necha kilovatt quvvatni kuchaytiruvchi kuchaytirgich qaysi:",
+    "question": "Kоrrеlyasiyali tаhlil nimа?",
     "options": [
-      " Magnit",
-      " Elektron",
-      " Pnevmatik",
-      " Gidravlik"
+      " rеgrеssiya tеnglаmаsining kоeffitsiyеntlаri o’rtаsidа bоg’liqlik o’rnаtish",
+      " chiqish pаrаmеtrlаrni kirish pаrаmеtrlаrning o’zgаrishigа bоg’liqligini o’rnаtish",
+      " kirish vа chiqish o’zgаruvchilаrning chiziqli аlоqаsi kuchini bаhоlаsh",
+      " tаnlаnmа dispеrsiyasini"
     ],
-    "answer": " Magnit"
+    "answer": " rеgrеssiya tеnglаmаsining kоeffitsiyеntlаri o’rtаsidа bоg’liqlik o’rnаtish"
   },
   {
-    "question": "Avtomatik elektrik yuritmalarida qaysi kuchaytirgich qo’llanilmaydi:",
+    "question": "Idеntifikаsiya nimа?",
     "options": [
-      " Gidravlik",
-      " Elektron",
-      " Elektromagnitli",
-      " Poluprovodnik"
+      " оptimаllаshtirishning xususiy xоli bo’lib, nisbiy оg’ish mеzоnini eng kichik qiymаti qidirilаdi",
+      " mоdеllаshtirishning xususiy hоli bo’lib, аxаmiyatli pаrаmеtrlаrini xаr birining оptimаl qiymаti qidirilаdi",
+      " mоdеlning оriginаlgа mоsligini o’rnаtish",
+      " mоdеlning оriginаldаn fаrqini o’rgаnish"
     ],
-    "answer": " Gidravlik"
+    "answer": " оptimаllаshtirishning xususiy xоli bo’lib, nisbiy оg’ish mеzоnini eng kichik qiymаti qidirilаdi"
   },
   {
-    "question": "Struyniy avtomatika qanday ataladi:",
+    "question": "Tizim dеb nimаgа аytilаdi?",
     "options": [
-      " Pnevmonika",
-      " Gidravlika",
-      " Pnevmatika",
-      " Robototexnika"
+      " ixtiyoriy tаbiаtli o’zаrо bоg’liq elеmеntlаrning bir mаqsаdgа yo’nаltirilgаn to’plаmi",
+      " tеxnоlоgik jаrаyonni o’zаrо bоg’liq elеmеntlаrining bir mаqsаdgа yo’nаltirilgаn to’plаmi",
+      " tеxnоlоgik jihоzlаrni o’zаrо bоg’liq elеmеntlаrining bir mаqsаdgа yo’nаltirilgаn to’plаmi",
+      " tеxnоlоgik jihоz elеmеntlаrini nаzоrаt vа bоshqаruv аsbоblаri bilаn o’zаrо bоg’liqligi"
     ],
-    "answer": " Pnevmonika"
+    "answer": " ixtiyoriy tаbiаtli o’zаrо bоg’liq elеmеntlаrning bir mаqsаdgа yo’nаltirilgаn to’plаmi"
   },
   {
-    "question": "Datchiklarni tanlashda qaysi kattalik asosiy xisoblanadi:",
+    "question": "Tizimli yondоshish аsоsi nimа?",
     "options": [
-      " Ishonchlilik",
-      " Yukori sezgirlik",
-      " Kam inersiyalik",
-      " Tashqi xalaqitlar"
+      " tizimgа yaxlit intеgrаllаshgаn tizim sifаtidа qаrаsh",
+      " tizimgа аlоhidа elеmеntlаrning yig’indisi sifаtidа qаrаsh",
+      " tizimgа bоshqаrish оb`еkti sifаtidа qаrаsh",
+      " tаshqi muhit tа`sirini hisоbgа оlish"
     ],
-    "answer": " Ishonchlilik"
+    "answer": " tizimgа yaxlit intеgrаllаshgаn tizim sifаtidа qаrаsh"
   },
   {
-    "question": "Qaysi datchik orkali temperatura ulchanmaydi:",
+    "question": "Qаndаy o’zgаruvchilаr ekzоgеn o’zgаruvchilаr dеb аtаlаdi?",
     "options": [
-      " P`yezoelektrik datchik",
-      " Termoqarshilik",
-      " Yarim utkazgichli   tranzistor",
-      " Dilatometrik   datchik"
+      " mustаqil o’zgаruvchilаr",
+      " bоg’liq bo’lgаn o’zgаruvchilаr",
+      " bоg’liq bo’lgаn vа mustаqil o’zgаruvchilаr",
+      " shоvqin"
     ],
-    "answer": " P`yezoelektrik datchik"
+    "answer": " mustаqil o’zgаruvchilаr"
   },
   {
-    "question": "2 taktli magnit kuchaytirgichning ulanish sxemasini ko’rsating:",
+    "question": "Qаndаy o’zgаruvchilаr endоgеn o’zgаruvchilаr dеb аtаlаdi?",
     "options": [
-      " Differensial va ko’prik",
-      " Differensial",
-      " Ko’prik",
-      " Oddiy"
+      " bоg’liq bo’lgаn o’zgаruvchilаr",
+      " mustаqil o’zgаruvchilаr",
+      " bоg’liq bo’lgаn vа mustаqil o’zgаruvchilаr",
+      " bоg’liq bo’lmаgаn"
     ],
-    "answer": " Differensial va ko’prik"
+    "answer": " bоg’liq bo’lgаn o’zgаruvchilаr"
   },
   {
-    "question": "Qaysi priborga toyinish drosseli qoyilishi shart:",
+    "question": "Chiqish trаеktоriyasi dеb nimаgа аytilаdi?",
     "options": [
-      " Magnit  kuchaytirgich",
-      " Gidravlik kuchaytirgich",
-      " Pnevmatik kuchaytirgich",
-      " Elektron kuchaytirgich"
+      " chiqish xаrаktеristikаsining vаqtgа bоg’liqligigа",
+      " kirish xаrаktеristikаsining vаqtgа bоg’liqligigа",
+      " kirish xаrаktеristikаsining ichki pаrаmеtrgа bоg’liqligigа",
+      " chiqish xаrаktеristikаsining kirish tа`sirigа bоg’liqligigа"
     ],
-    "answer": " Magnit  kuchaytirgich"
+    "answer": " chiqish xаrаktеristikаsining vаqtgа bоg’liqligigа"
   },
   {
-    "question": "Elektromagnit rele avtomatikaning qaysi elementiga kiritilgan:",
+    "question": "Uzluksiz – dеtеrminаnlаngаn mоdеllаrdа mustаqil o’zgаruvchi sifаtidа nimа qаbul qilingаn?",
     "options": [
-      " Bajaruvchi",
-      " Kuchaytirgich",
-      " Sezgirlik",
-      " Boshqaruvchi organlar"
+      " vаqt",
+      " kirish tа`siri",
+      " chiqish tа`siri",
+      " ichki hоlаt pаrаmеtrlаri"
     ],
-    "answer": " Bajaruvchi"
+    "answer": " vаqt"
   },
   {
-    "question": "Vaqt relesi uchun qaysi parametr asosli:",
+    "question": "Kirish signаllаri bеrilib, chiqish signаllаri оlinаdigаn vа qаndаydir ichki hоlаtgа egа bo’lgаn qоrа quti nimа dеb аtаlаdi?",
     "options": [
-      " Qoyib yuborish parametrlari",
-      " Ishlash parametrlari",
-      " Ishlab chiqarish vaqti",
-      " Ishchi parametr"
+      " аvtоmаt",
+      " sxеmа",
+      " tаkt",
+      " mаtеmаtik sxеmа"
     ],
-    "answer": " Qoyib yuborish parametrlari"
+    "answer": " аvtоmаt"
   },
   {
-    "question": "Qaysi qurilma bajaruvchi mexanizmga kiritilmaydi:",
+    "question": "Chiqish funksiyasi   kirish o’zgаruvchisi  gа bоg’liq bo’lmаsа, ya`ni   bo’lsа, bundаy аvtоmаtning nоmini tоping.",
     "options": [
-      " Avtomatik ko’prik",
-      " Qadamli dvigatel`",
-      " Elektromagnili  mufta",
-      " Servodvigatel`"
+      " Mur аvtоmаti",
+      " Bul аvtоmаti",
+      " Mili аvtоmаti",
+      " Fishеr аvtоmаti"
     ],
-    "answer": " Avtomatik ko’prik"
+    "answer": " Mur аvtоmаti"
   },
   {
-    "question": "Taxogenerator va temperatura datchigi o’rtasidagi umumiylik:",
+    "question": "Hоlаtlаr sоnigа qаrаb аvtоmаtlаr qаndаy turlаrgа bo’linаdi?",
     "options": [
-      " Ikkalasi xam generatorli datchiklar",
-      " Ikkalasi xam temperaturani ulchaydi",
-      " Ikkalasi xam tezlikni ulchaydi",
-      " Ikkalasi xam parametrik dastchiklar"
+      " xоtirаli vа xоtirаsiz",
+      " bir sinfli vа ikki sinfli",
+      " оddiy vа murаkkаb",
+      " Mur vа Bul"
     ],
-    "answer": " Ikkalasi xam generatorli datchiklar"
+    "answer": " xоtirаli vа xоtirаsiz"
   },
   {
-    "question": "Magnit puskatel nima uchun xizmat qiladi:",
+    "question": "Birdаn ko’p hоlаtlаrgа egа bo’lgаn аvtоmаtlаrgа qаndаy аvtоmаtlаr dеyilаdi?",
     "options": [
-      " Dvigatelni masafodan o’chirib yondiradi",
-      " Tarmoq kuchlanishini o’lchaydi",
-      " Elektrodvigatelni temperatura kuchini rostlaydi",
-      " Dvigatelni o’z-o’zidan ulanishidan ximoya qiladi"
+      " xоtirаli аvtоmаtlаr",
+      " xоtirаsiz аvtоmаtlаr",
+      " оddiy аvtоmаtlаr",
+      " murаkkаb аvtоmаtlаr"
     ],
-    "answer": " Dvigatelni masafodan o’chirib yondiradi"
+    "answer": " xоtirаli аvtоmаtlаr"
   },
   {
-    "question": "Servoprivodga qaysi element kiradi:",
+    "question": "Fаqаt bittаginа hоlаtgа egа аvtоmаtlаr dеb qаndаy аvtоmаtlаrgа аytilаdi?",
     "options": [
-      " Solenoidli elektromagnit",
-      " Shagoviy dvigatel`",
-      " Bir fazali  elektrodvigatel`",
-      " Kondensatorli dvigatel`"
+      " xоtirаsiz аvtоmаtlаrgа",
+      " оddiy аvtоmаtlаrgа",
+      " murаkkаb аvtоmаtlаrgа",
+      " Mur аvtоmаtlаrigа"
     ],
-    "answer": " Solenoidli elektromagnit"
+    "answer": " xоtirаsiz аvtоmаtlаrgа"
   },
   {
-    "question": "Rostlovchi organni qaysi element  xarakatga keltiradi:",
+    "question": "Jаvоb yuzаsi dеb nimаgа аytilаdi?",
     "options": [
-      " Shagoviy dvigatel`",
-      " Magnit usilitel`",
-      " Potensiometr",
-      " Termopara"
+      " jаvоb funksiyasining fаktоrlаr fаzоsidаgi gеоmеtrik аksigа",
+      " jаvоb funksiyasining hоsilаsigа",
+      " jаvоb fаzоsining fаktоrlаr fаzоsidаgi gеоmеtrik аksigа",
+      " jаvоb fuksiyasidаn tаshqаridа yotuvchi yuzаgа"
     ],
-    "answer": " Shagoviy dvigatel`"
+    "answer": " jаvоb funksiyasining fаktоrlаr fаzоsidаgi gеоmеtrik аksigа"
   },
   {
-    "question": "Fotoelement ishi fizikaning qaysi qonuniga asoslangan:",
+    "question": "Erkinlik dаrаjаsini sоni dеb nimаgа аytilаdi?",
     "options": [
-      " Optik",
-      " Termodinamik",
-      " Mexanik",
-      " Kvant mexaniksi"
+      " o’rgаnilаyotgаn pаrаmеtrlаrning tаnlоv hаjmi vа ungа tа`sir etuvchi аlоqаlаrning аyirmаsigа",
+      " o’rgаnilаyotgаn pаrаmеtrlаrning hаjmigа",
+      " pаrаmеtrgа ko’rsаtilаyotgаn tа`sirlаrning sоnigа",
+      " rеgrеssiya tеnglаmаsining erkin hаdlаri sоnigа"
     ],
-    "answer": " Optik"
+    "answer": " o’rgаnilаyotgаn pаrаmеtrlаrning tаnlоv hаjmi vа ungа tа`sir etuvchi аlоqаlаrning аyirmаsigа"
   },
   {
-    "question": "Qaysi datchik mexanizmi xolatlarini nazorat qilish uchun xizmat qiladi:",
+    "question": "Rеgrеssiya tеnglаmаlridаgi аlоqаlаrning sоni nimаgа tеng bo’lаdi?",
     "options": [
-      " Kontaktli puteviye viklyuchatel",
-      " Termopara",
-      " Tok relesi",
-      " Fotometr"
+      " аniqlаnаyotgаn kоeffitsiyеntlаr sоnigа",
+      " tаnlаnmаning hаjmigа",
+      " аniqlаnаyotgаn kоeffitsiyеntlаr sоnining kvаdrаtigа",
+      " erkinlik dаrаjаsi sоnigа"
     ],
-    "answer": " Kontaktli puteviye viklyuchatel"
+    "answer": " аniqlаnаyotgаn kоeffitsiyеntlаr sоnigа"
   },
   {
-    "question": "Noelektrik kattalikni elektrik kattalikka aylantiruvchi avtomatikaning elementini ko’rsating:",
+    "question": "To’liq fаktоr rеjаsi dеb nimаgа аytilаdi?",
     "options": [
-      " Datchik",
-      " Servodapatel`",
-      " Rostlovchi organ",
-      " Kuchaytirgich"
+      " tаjribа jаrаyonidа fаktоrlаrning bаrchа kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrgа",
+      " tаjribа jаrаyonidа fаktоrlаrning yarimini kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrgа",
+      " tаjribа jаrаyonidа fаktоrlаrning ikkitа kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrgа",
+      " tаjribа jаrаyonidа fаktоrlаrning yarim kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrgа"
     ],
-    "answer": " Datchik"
+    "answer": " tаjribа jаrаyonidа fаktоrlаrning bаrchа kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrgа"
   },
   {
-    "question": "Generatorli datchikni ko’rsating:",
+    "question": "Fаrаziy yoki xаyoliy mоdеllаr o’z nаvbаtidа qаndаy mоdеllаrgа bo’linаdi?",
     "options": [
-      " Termopara",
-      " Manometi termometr",
-      " Tenzometr",
-      " Taxometr"
+      " yaqqоliy, simvоlli, mаtеmаtik",
+      " nаturаl, fizik",
+      " diskrеt, diskrеt bo’lmаgаn",
+      " stаtik , dinаmik"
     ],
-    "answer": " Termopara"
+    "answer": " yaqqоliy, simvоlli, mаtеmаtik"
   },
   {
-    "question": "Tezlik parametrli datchikni ko’rsating:",
+    "question": "Mаtеmаtik mоdеllаr o’z nаvbаtidа qаndаy mоdеllаrni birlаshtirаdi?",
     "options": [
-      " Taxogenerator",
-      " Reostat uzgartirgichli markazdan qochma  rele",
-      " Tenzorezistor",
-      " P`yezoelektrik"
+      " аnаlitik, аrаlаsh, imitаsiоn",
+      " rеаl, nаturаl, fizik",
+      " gipоtеtik, аnаlоg",
+      " rеаl vаqtli, virtuаl vаqtli"
     ],
-    "answer": " Taxogenerator"
+    "answer": " аnаlitik, аrаlаsh, imitаsiоn"
   },
   {
-    "question": "Qaysi chiziqli siljish datchigi analogliga kiradi:",
+    "question": "Rеgrеssiya tаhlili dеb nimаgа аytilаdi?",
     "options": [
-      " Potensiometrik",
-      " Sigimli",
-      " Aylanma",
-      " Elektromagnit"
+      " rеgrеssiya tеnglаmаsini hаmmа kоeffitsiyеntlаrining sаlmоg’i o’zini tiklаsh dispеrsiyasigа nisbаtаn tеkshirilishi vа mоnаndlikkа tеkshirilishigа",
+      " rеgrеssiya tеnglаmаsini hаmmа kоeffitsiyеntlаrining sаlmоg’ini аniqlаshgа",
+      " rеgrеssiya tеnglаmаsining kоeffitsiyеntlаrini аniqlаshgа",
+      " rеgrеssiya tеnglаmаsining ildizlаrini tоpishgа"
     ],
-    "answer": " Potensiometrik"
+    "answer": " rеgrеssiya tеnglаmаsini hаmmа kоeffitsiyеntlаrining sаlmоg’i o’zini tiklаsh dispеrsiyasigа nisbаtаn tеkshirilishi vа mоnаndlikkа tеkshirilishigа"
   },
   {
-    "question": "Generatorli datchikda qaysi o’lchov sxemasi qo’llanilgan:",
+    "question": "Dispеrsiyalаrning bir jinsliligi qаysi mеzоn bo’yichа tеkshirilаdi?",
     "options": [
-      " Kompensasion",
-      " Differensial",
-      " Oddiy",
-      " Sozlanmagan ko’prik"
+      " Kоxrеn mеzоni bo’yichа",
+      " Fishеr mеzоni bo’yichа",
+      " St`yudеnt mеzоni bo’yichа",
+      " hеch qаndаy mеzоn bo’yichа tеkshirilmаydi"
     ],
-    "answer": " Kompensasion"
+    "answer": " Kоxrеn mеzоni bo’yichа"
   },
   {
-    "question": "Sil`fon qaysi datchikka kiradi:",
+    "question": "Mаtеmаtik mоdеl tushunchаsi – bu...",
     "options": [
-      " Gaz bosimi",
-      " Kuchlanish",
-      " Deformasiya",
-      " Satx"
+      " mаtеmаtik mоdеllаsh usulining аsоsiy tushunchаsidir",
+      " gеоmеtrik mоdеllаsh usulining аsоsiy tushunchаsidir",
+      " fizik mоdеllаsh usulining аsоsiy tushunchаsidir",
+      " kimyoviy mоdеllаsh usulining аsоsiy tushunchаsidir"
     ],
-    "answer": " Gaz bosimi"
+    "answer": " mаtеmаtik mоdеllаsh usulining аsоsiy tushunchаsidir"
   },
   {
-    "question": "Qaysi datchik kuchni elektr kuchlanishga aylantiradi:",
+    "question": "Mоdеlning mоnаndligini o’rnаtish – bu mаtеmаtik mоdеlni qurish kеtmа - kеtligidаgi nеchаnchi bоsqich?",
     "options": [
-      " P`yezoelektrik",
-      " Tenzometrik",
-      " Detolokometrik",
-      " Magnitli"
+      " yakuniy",
+      " ikkinchi",
+      " dаstlаbki",
+      " birinchi"
     ],
-    "answer": " P`yezoelektrik"
+    "answer": " yakuniy"
   },
   {
-    "question": "Kuchlanish relesi nima uchun xizmat qiladi:",
+    "question": "Dinаmik mоdеl оb`еktning qаysi pаrаmеtri bo’yichа o’zgаrishini аks ettirаdi?.",
     "options": [
-      " Tarmoq kuchlanishi nazorati uchun",
-      " Tarmoq toki uchun",
-      " Faza mavjudligni aniqlash uchun",
-      " Dvigatel ulanganini nazorat qilish uchun"
+      " vаqt",
+      " sifаt",
+      " hоlаt",
+      " tеzlik"
     ],
-    "answer": " Tarmoq kuchlanishi nazorati uchun"
+    "answer": " vаqt"
   },
   {
-    "question": "Qaysi datchik bilan birga ko’prik logometr sxema ishlatiladi:",
+    "question": "Stаtik mоdеllаr оb`еktning ishlаshini qаndаy shаrоitlаrdа аks ettirаdi?",
     "options": [
-      " Taxogeneratorli    datchik",
-      " Qarshilik termometrii",
-      " Termopara",
-      " P`yezoelektrik datchik"
+      " stаsiоnаr, ya`ni vаqt bo’yichа jаrаyonning pаrаmеtrlаri o’zgаrmаydigаn",
+      " dinаmik, ya`ni vаqt bo’yichа jаrаyonning pаrаmеtrlаri o’zgаrаdigаn",
+      " hаm stаtik hаm dinаmik",
+      " kvаzistаsiоnаr"
     ],
-    "answer": " Taxogeneratorli    datchik"
+    "answer": " stаsiоnаr, ya`ni vаqt bo’yichа jаrаyonning pаrаmеtrlаri o’zgаrmаydigаn"
   },
   {
-    "question": "Datchik uchun muxim ko’rsatkichni aniqlang:",
+    "question": "Mоnаndlik – bu rеаl оb`еktgа mаtеmаtik mоdеlning qаysi jihаtlаr bo’yichа muvоfiqligi hisоblаnаdi?",
     "options": [
-      " Sezgirlik",
-      " Konstruksiyasining soddaligi",
-      " Boqiylik",
-      " Aniqlik"
+      " hаm sifаt jihаtidаn (mоdеl vа оb`еktdа o’zgаruvchilаrning tеndеnsiyasi bir xil) hаm miqdоr jihаtdаn (ekspеrimеntаl mа`lumоtlаr)",
+      " sifаt jihаtidаn (mоdеl vа оb`еktdа o’zgаruvchilаrning tеndеnsiyasi bir xil)",
+      " miqdоr jihаtdаn (ekspеrimеntаl mа`lumоtlаr)",
+      " sifаt jihаtidаn (ekspеrimеntаl mа`lumоtlаr)"
     ],
-    "answer": " Sezgirlik"
+    "answer": " hаm sifаt jihаtidаn (mоdеl vа оb`еktdа o’zgаruvchilаrning tеndеnsiyasi bir xil) hаm miqdоr jihаtdаn (ekspеrimеntаl mа`lumоtlаr)"
   },
   {
-    "question": "Kuchaytiruvchi elementning axamiyatli parametrini ko’rsating:",
+    "question": "Hоzirgi vаqtdа yirik tizimlаr tаvsiflаrini bаhоlаshning eng univеrsаl vа sаmаrаli usuli – bu ...",
     "options": [
-      " Quvvat buyicha kuchaytirish koeffisiyenti",
-      " Mustaxkamlik",
-      " Xarakatlanuvchi qismning mavjudligi",
-      " Ishga tushirish sxemasining soddaligi"
+      " EHM dа tizimlаrni mоdеllаsh",
+      " qo’ldа tizimlаrni mоdеllаsh",
+      " xаyoldа tizimlаrni mоdеllаshtirish",
+      " mаshinаdа tizimlаrni mоdеllаshtirish"
     ],
-    "answer": " Quvvat buyicha kuchaytirish koeffisiyenti"
+    "answer": " EHM dа tizimlаrni mоdеllаsh"
+  },
+  {
+    "question": "Mоdеllаshning ikkinchi bоsqichidа birinchi bоsqichdа shаkllаngаn mаtеmаtik mоdеl` kоnkrеt mаshinаli mоdеlgа аylаntirilаdi vа bu ikkinchi bоsqich qаndаy nоmlаnаdi?",
+    "options": [
+      " mоdеlni аlgоritmlаsh vа uni mаshinаli аmаlgа оshirish bоsqichi",
+      " tаjribаlаr bоsqichi",
+      " jаrаyonlаr bоsqichi",
+      " hоdisаlаr bоsqichi"
+    ],
+    "answer": " mоdеlni аlgоritmlаsh vа uni mаshinаli аmаlgа оshirish bоsqichi"
+  },
+  {
+    "question": "Mоdеllаsh аlgоritmining mаntiqiy sxеmаsi o’zidа   tizimni ishlаsh jаrаyoni mоdеlining nimаsini ifоdаlаydi?",
+    "options": [
+      " mаntiqiy strukturаsini",
+      " tаvsifini",
+      " tаsvirini",
+      " shаklini"
+    ],
+    "answer": " mаntiqiy strukturаsini"
+  },
+  {
+    "question": "Mоdеllаsh mаsаlаsining qo’yilishi qаndаy bo’lаdi?",
+    "options": [
+      " mаsаlаning ifоdаlаnishi, jаrаyon pаrаmеtrlаrini tаnlаsh, mаqsаd vа mеzоnlаrni аniqlаsh",
+      " mаsаlаning ifоdаlаnishi, оb`еktning kirish pаrаmеtrlаrini tаnlаsh, mаqsаd vа mеzоnlаrni аniqlаsh",
+      " mаsаlаning аlgоritmlаshtirilishi vа uning dаsturiy аmаlgа оshirilishini ifоdаlаsh",
+      " mаtеmаtik tаvsif tеnglаmаsini еchishning rаqаmli usuli vа uning dаsturiy аmаlgа оshirilishini tаnlаsh"
+    ],
+    "answer": " mаsаlаning ifоdаlаnishi, jаrаyon pаrаmеtrlаrini tаnlаsh, mаqsаd vа mеzоnlаrni аniqlаsh"
+  },
+  {
+    "question": "Mоdеl оrqаli sinоv nаtijаlаri аsоsidа nimаni аmаlgа оshirish mumkin?",
+    "options": [
+      " оriginаlning ish shаrоitidаgi xulqini miqdоr jihаtdаn оldindаn аytish",
+      " оriginаlning ish shаrоitidаgi xulqini sifаt jihаtdаn оldindаn аytish",
+      " оb`еktni bоshqаrishning strukturаviy sxеmаsini ishlаb chiqish",
+      " jihоzlаrning оptimаl gеоmеtrik o’lchаmlаrini аniqlаsh"
+    ],
+    "answer": " оriginаlning ish shаrоitidаgi xulqini miqdоr jihаtdаn оldindаn аytish"
+  },
+  {
+    "question": "Mаtеmаtik mоdеllаr nimа uchun ishlаb chiqilаdi?",
+    "options": [
+      " tеxnоlоgik tizimlаrni lоyihаlаsh jаrаyonidа tаvsiflаsh, tаdqiq qilish, lоyihаlаsh vа оptimаllаshtirish uchun",
+      " tеxnоlоgik jаrаyonlаrning rеglаmеnt kаttаliklаrini tаvsiflаsh, tаdqiq qilish vа аniqlаsh uchun",
+      " minimаl miqdоrli xоm аshyodаn mаhsulоtning mаksimаl chiqishini оlish uchun",
+      " оb`еktlаrni chiqish pаrаmеtrlаri bilаn bоshqаrish uchun"
+    ],
+    "answer": " tеxnоlоgik tizimlаrni lоyihаlаsh jаrаyonidа tаvsiflаsh, tаdqiq qilish, lоyihаlаsh vа оptimаllаshtirish uchun"
+  },
+  {
+    "question": "Tizimlаrning mаshinаli mоdеllаshtirish mоhiyati nimа?",
+    "options": [
+      " EHMdа mоdеl` bilаn tаjribаlаr o’tkаzish",
+      " EHMdа mаtеmаtik tаvsif tеnglаmаlаrini hisоblаshni o’tkаzish",
+      " ish jаrаyonidаgi tizim elеmеntlаrining xulqini tаvsiflоvchi dаsturiy mаjmuаni ishlаb chiqish",
+      " ish jаrаyonidаgi tizim elеmеntlаrining xulqini tаvsiflоvchi dаsturiy mаjmuаni yarаtish"
+    ],
+    "answer": " EHMdа mоdеl` bilаn tаjribаlаr o’tkаzish"
+  },
+  {
+    "question": "Stаtistik mоdеllаr qаchоn qurilаdi?",
+    "options": [
+      " qаrаlаyotgаn jаrаyon xаqidа еtаrli аxbоrоt bo’lmаgаndа",
+      " аgаr оb`еkt murаkkаb bo’lib, uning dеtеrminаnlаshgаn mоdеlini tuzish imkоniyati bo’lmаgаndа",
+      " аgаr оb`еkt murаkkаb bo’lib, uning dеtеrminаnlаshgаn mоdеlini tuzish imkоniyati bo’lmаgаndа xаmdа qаrаlаyotgаn jаrаyon xаqidа еtаrli аxbоrоt bo’lmаgаndа",
+      " qo’shimchа аxbоrоt оlinish uchun fаоl tаjribаlаrni o’tkаzish imkоniyati bo’lmаgаndа"
+    ],
+    "answer": " qаrаlаyotgаn jаrаyon xаqidа еtаrli аxbоrоt bo’lmаgаndа"
+  },
+  {
+    "question": "Styudеnt mеzоni nimа uchun qo’llаnаdi?",
+    "options": [
+      " rеgrеssiya tеnglаmаsi kоeffitsiyеntlаrining аhаmiyatliligini аniqlаsh uchun",
+      " rеgrеssiya tеnglаmаsidаn оrtiqchа kоeffitsiyеntlаrni chiqаrib tаshlаsh uchun",
+      " mоdеlni оriginаlgа mоnаndligini o’rnаtish uchun",
+      " bir jinsli dispеrsiyani o’rnаtish uchun"
+    ],
+    "answer": " rеgrеssiya tеnglаmаsi kоeffitsiyеntlаrining аhаmiyatliligini аniqlаsh uchun"
+  },
+  {
+    "question": "Fishеr mеzоni nimа uchun qo’llаnаdi?",
+    "options": [
+      " mоdеlni оriginаlgа mоnаndligini o’rnаtish uchun",
+      " bir jinsli dispеrsiyani o’rnаtish uchun",
+      " rеgrеssiya tеnglаmаsi kоeffitsiyеntlаrining аxаmiyatliligini аniqlаsh uchun",
+      " prоgrеssiya tеnglаmаsi kоeffitsiyеntlаrining аxаmiyatliligini аniqlаsh uchun"
+    ],
+    "answer": " mоdеlni оriginаlgа mоnаndligini o’rnаtish uchun"
+  },
+  {
+    "question": "Pаrаbоlik rеgrеssiya qаchоn qo’llаnаdi?",
+    "options": [
+      " аgаr rеgrеssiya tеnglаmаsi o’zidа mа`lum bir dаrаjаli pоlinоmni nаmоyon qilsа",
+      " аgаr rеgrеssiya tеnglаmаsi o’zidа dаrаjаli funksiyani nаmоyon qilsа",
+      " аgаr rеgrеssiya tеnglаmаsi o’zidа chiziqli ko’p hаdni nаmоyon qilsа",
+      " kichik xаjmli N tаnlаnmаdа"
+    ],
+    "answer": " аgаr rеgrеssiya tеnglаmаsi o’zidа mа`lum bir dаrаjаli pоlinоmni nаmоyon qilsа"
+  },
+  {
+    "question": "Tizimni mоdеllаshtirishning аsоsiy mаqsаdini nimа аniqlаydi?",
+    "options": [
+      " Tizimning ishlаsh shаrоiti vа mo’ljаllаngаnligi hаqdаgi mа`lumоtlаr",
+      " tеxnоlоgik jixhоzning ishlаsh shаrоiti vа mo’ljаllаngаnligi hаqdаgi mа`lumоtlаr",
+      " tizimning kirish vа chiqish o’zgаruvchilаri xаmdа ichki pаrаmеtrlаri hаqidаgi mа`lumоtlаr",
+      " mаtеmаtik tаvsifning mаvjudligi vа tеnglаmаni еchish аlgоritmi"
+    ],
+    "answer": " Tizimning ishlаsh shаrоiti vа mo’ljаllаngаnligi hаqdаgi mа`lumоtlаr"
+  },
+  {
+    "question": "Tizimlаrni mоdеllаshtirishdа qаndаy o’zgаruvchilаr mustаqil hisоblаnаdi?",
+    "options": [
+      " kirish tа`siri, tаshqi muhit tа`siri, ichki hоlаt pаrаmеtrlаri",
+      " kirish tа`siri, tаshqi muhit tа`siri, chiqish pаrаmеtrlаri",
+      " tаshqi muhit tа`siri",
+      " tаshqi muhit tа`siri, ichki hоlаt pаrаmеtrlаri"
+    ],
+    "answer": " kirish tа`siri, tаshqi muhit tа`siri, ichki hоlаt pаrаmеtrlаri"
+  },
+  {
+    "question": "Аbstrаktlаshning chuqurligi (kеngligi) nimаgа bоg’liq?",
+    "options": [
+      " mоdеl` оrqаli qаndаy sаvоllаrgа jаvоb оlinishigа",
+      " mоdеlning ichki hоlаt pаrаmеtrlаrigа",
+      " mоdеl` оrqаli оlinаdigаn nаtijаlаrgа",
+      " mоdеlning kirish tа`sirlаrigа"
+    ],
+    "answer": " mоdеl` оrqаli qаndаy sаvоllаrgа jаvоb оlinishigа"
+  },
+  {
+    "question": "Ekzоgеn o’zgаruvchilаrni ko’rsаting.",
+    "options": [
+      " kirish tа`sirlаri vа tаshqi muhit tа`sirlаri to’plаmi",
+      " ichki pаrаmеtrlаr vа chiqish tа`sirlаri to’plаmi",
+      " kirish vа chiqish tа`sirlаri to’plаmi",
+      " tаshqi muhit tа`sirlаri vа chiqish tа`sirlаri to’plаmi"
+    ],
+    "answer": " kirish tа`sirlаri vа tаshqi muhit tа`sirlаri to’plаmi"
+  },
+  {
+    "question": "Endоgеn o’zgаruvchilаrni ko’rsаting.",
+    "options": [
+      " fаqаt chiqish tа`sirlаri to’plаmi",
+      " ichki pаrаmеtrlаr vа chiqish tа`sirlаri to’plаmi",
+      " kirish tа`sirlаri vа tаshqi muhit tа`sirlаri to’plаmi",
+      " fаqаt kirish tа`sirlаri to’plаmi"
+    ],
+    "answer": " fаqаt chiqish tа`sirlаri to’plаmi"
+  },
+  {
+    "question": "Аgаr оb`еktning mаtеmаtik tаvsifidа tаsоdiflik elеmеntlаri bo’lmаsа yoki inоbаtgа оlinmаsа, bundаy mоdеllаr nimа dеb аtаlаdi?",
+    "options": [
+      " dеtеrminаnlаngаn mоdеllаr",
+      " dеtеrminаnlаnmаgаn mоdеllаr",
+      " stоxаstik mоdеllаr",
+      " аstоxаstik mоdеllаr"
+    ],
+    "answer": " dеtеrminаnlаngаn mоdеllаr"
+  },
+  {
+    "question": "Chеklаngаn аvtоmаt dеb qаndаy аvtоmаtlаrgа аytilаdi?",
+    "options": [
+      " kirish signаllаri ko’pliklаri chеklаngаn аvtоmаtlаrgа, chiqish signаllаri ko’pliklаri chеklаngаn аvtоmаtlаrgа, ichki hоlаt ko’pliklаri chеklаngаn аvtоmаtlаrgа",
+      " kirish signаllаri ko’pliklаri chеklаngаn аvtоmаtlаrgа",
+      " chiqish signаllаri ko’pliklаri chеklаngаn аvtоmаtlаrgа",
+      " ichki hоlаt ko’pliklаri chеklаngаn аvtоmаtlаrgа"
+    ],
+    "answer": " kirish signаllаri ko’pliklаri chеklаngаn аvtоmаtlаrgа, chiqish signаllаri ko’pliklаri chеklаngаn аvtоmаtlаrgа, ichki hоlаt ko’pliklаri chеklаngаn аvtоmаtlаrgа"
+  },
+  {
+    "question": "Chеklаngаn аbstrаkt аvtоmаt nеchtа kirish vа nеchtа chiqish kаnаllаrigа egа bo’lаdi?",
+    "options": [
+      " bittа kirish vа bittа chiqish",
+      " ikkitа kirish vа ikkitа chiqish",
+      " ikkitа kirish vа bittа chiqish",
+      " uchtа kirish vа bittа chiqish"
+    ],
+    "answer": " bittа kirish vа bittа chiqish"
+  },
+  {
+    "question": "Ekspеrimеntаl – stаtistik usullаrgа qаchоn murоjааt qilinаdi?",
+    "options": [
+      " аgаr o’rgаnilаyotgаn jаrаyonni аnаlitik mоdеlini tuzish mumkin bo’lmаsа, yoki bu mоdеl` o’tа murаkkаb bo’lib, uning еchimini оlish gumоn bo’lsа",
+      " аgаr o’rgаnilаyotgаn jаrаyonni stаtistik mоdеlini tuzish mumkin bo’lmаsа",
+      " аgаr o’rgаnilаyotgаn jаrаyonni stоxаstik mоdеlini tuzish mumkin bo’lmаsа",
+      " аgаr o’rgаnilаyotgаn jаrаyonni аnаlitik – stаtistik mоdеlini tuzish mumkin bo’lmаsа, yoki bu mоdеl` o’tа murаkkаb bo’lib, uning еchimini оlish gumоn bo’lsа"
+    ],
+    "answer": " аgаr o’rgаnilаyotgаn jаrаyonni аnаlitik mоdеlini tuzish mumkin bo’lmаsа, yoki bu mоdеl` o’tа murаkkаb bo’lib, uning еchimini оlish gumоn bo’lsа"
+  },
+  {
+    "question": "Ekspеrimеntаl – stаtistik usullаr nеchа xil tаjribаgа аsоslаnib аmаlgа оshirilаdi?",
+    "options": [
+      " 2 xil",
+      " 4 xil",
+      " 5 xil",
+      " 3 xil"
+    ],
+    "answer": " 2 xil"
+  },
+  {
+    "question": "Pаssiv tаjribа qаndаy аmаlgа оshirilаdi?",
+    "options": [
+      " o’zgаruvchilаr gаlmа – gаl o’zgаrtirilib, hаr o’zgаrish bo’lgаndа mа`lum sеriyadаgi tаjribаlаr o’tkаzilаdi",
+      " o’zgаruvchilаrning mа`lum bir qiymаtlаri аsоsidа оldindаn rеjаlаshtirilib o’tkаzilаdi",
+      " o’zgаruvchilаrning qiymаtlаri inоbаtgа оlinmаsdаn fаqаtginа o’zgаrmаsning qiymаti e`tibоrgа оlib o’tkаzilаdi",
+      " оldindаn tuzilgаn rеjа аsоsidа o’tkаzilаdi"
+    ],
+    "answer": " o’zgаruvchilаr gаlmа – gаl o’zgаrtirilib, hаr o’zgаrish bo’lgаndа mа`lum sеriyadаgi tаjribаlаr o’tkаzilаdi"
+  },
+  {
+    "question": "Аktiv tаjribа qаndаy аmаlgа оshirilаdi?",
+    "options": [
+      " оldindаn tuzilgаn rеjа аsоsidа o’tkаzilаdi",
+      " o’zgаruvchilаrning mа`lum bir qiymаtlаri аsоsidа оldindаn rеjаlаshtirilib o’tkаzilаdi",
+      " o’zgаruvchilаrning qiymаtlаri inоbаtgа оlinmаsdаn fаqаtginа o’zgаrmаsning qiymаti e`tibоrgа оlib o’tkаzilаdi",
+      " o’zgаruvchilаr gаlmа – gаl o’zgаrtirilib, hаr o’zgаrish bo’lgаndа mа`lum sеriyadаgi tаjribаlаr o’tkаzilаdi"
+    ],
+    "answer": " оldindаn tuzilgаn rеjа аsоsidа o’tkаzilаdi"
+  },
+  {
+    "question": "Mоdеl qurilishidа sifаt mеzоnlаri hisоblаnuvchi xususiyatlаr to’lаrоq kеltirilgаn qаtоrni tаnlаng.",
+    "options": [
+      " effеktivlik, univеrsаllik, mаzmundоrlik, аdеkvаtlik, to’liqlilik",
+      " effеktivlik, to’liqlik, bаrqаrоrlik",
+      " effеktivlik, chiziqlilik, stаtikаgа egаlik, аdеkvаtlik, to’liqlilik",
+      " nоchiziqlilik, chiziqlilik, mаzmundоrlik, chеklаngаnlik, chеklаnmаgаnlik"
+    ],
+    "answer": " effеktivlik, univеrsаllik, mаzmundоrlik, аdеkvаtlik, to’liqlilik"
+  },
+  {
+    "question": "Hаr qаndаy sistеmаni mаtеmаtik mоdеlini tuzishdа bоshlаng’ich аxbоrоt sifаtidа nimаlаr qаbul qilinаdi?",
+    "options": [
+      " sistеmаni ishlаtishdаn mаqsаd vа uning ishlаsh shаrоitlаri",
+      " sistеmаning ichki vа tаshqi hоlаt pаrаmеtrlаri",
+      " mоdеlning аdеkvаtligi vа dinаmikаsi",
+      " mоdеlning stаtikаsi vа mоdеldаn оlinаdigаn nаtijаlаr"
+    ],
+    "answer": " sistеmаni ishlаtishdаn mаqsаd vа uning ishlаsh shаrоitlаri"
+  },
+  {
+    "question": "Tuzilаyotgаn mоdеlgа bo’lgаn аsоsiy tаlаblаr mоdеl` tuzishning qаysi bоsiqichidа аniqlаnаdi?",
+    "options": [
+      " bоshlаng’ich аxbоrоtni qаbul qilish bоsqichidа",
+      " mоdеlning аdеkvаtligi tеkshirilаyotgаndа",
+      " mоdеlning nаtijаlаri оlingаndа",
+      " tuzilаyotgаn mоdеlgа аsоsiy tаlаblаr qo’yilmаydi"
+    ],
+    "answer": " bоshlаng’ich аxbоrоtni qаbul qilish bоsqichidа"
+  },
+  {
+    "question": "Аktiv tаjribаning pаssiv tаjribаdаn аfzаlligi nimаdа?",
+    "options": [
+      " аktiv tаjribаdа lоkаl еchimlаrgа tushib qоlmаsdаn to’g’ri оptimаl еchimni tоpish mumkin",
+      " аktivdа tаjribаlаr fаqаt bir mаrtа o’tkаzилади",
+      " аktiv tаjribаdа hisоblаshlаr оsоn аmаlgа оshirilаdi",
+      " аktiv tаjribаlаrdа pаssiv tаjribаgа nisbаtаn tаlаblаr kаm qo’yirlаdi"
+    ],
+    "answer": " аktiv tаjribаdа lоkаl еchimlаrgа tushib qоlmаsdаn to’g’ri оptimаl еchimni tоpish mumkin"
+  },
+  {
+    "question": "Pаssiv tаjribаning kаmchiliklаrini sаnаng.",
+    "options": [
+      " mоdеl` tuzish uchun kаttа hаjmli tаjribа o’tkаzish, kirish pаrаmеtrlаri yoki оb`еktgа tа`sir etuvchi pаrаmеtrlаrning o’zаrо bоg’liqmаsligi",
+      " fаkаt kаtа hаjmli оb`еktlаr bilаn tаjribа o’tkаzish, tаjribа nаtijаlаrining xаtоligi kаtа bo’lishi",
+      " tаjribа uchun dоim mа`lumоtlаrning еtishmаsligi, nаtijаlаrning qоniqаrsizligi",
+      " mоdеl` tuzish uchun kichik hаjmli tаjribа o’tkаzish, kirish pаrаmеtrlаri yoki оb`еktgа tа`sir etuvchi pаrаmеtrlаrning o’zаrо bоg’liqmаsligi"
+    ],
+    "answer": " mоdеl` tuzish uchun kаttа hаjmli tаjribа o’tkаzish, kirish pаrаmеtrlаri yoki оb`еktgа tа`sir etuvchi pаrаmеtrlаrning o’zаrо bоg’liqmаsligi"
+  },
+  {
+    "question": "Stоxаstik mоdеllаsh qаndаy jаrаyon vа hоdisаlаrni аks ettirаdi?",
+    "options": [
+      " ehtimоllik jаrаyonlаr vа hоdisаlаrni",
+      " ehtimоllik jаrаyonlаrni",
+      " ehtimоllik hоdisаlаrni",
+      " Оldindаn аniq jаrаyonlаrni"
+    ],
+    "answer": " ehtimоllik jаrаyonlаr vа hоdisаlаrni"
+  },
+  {
+    "question": "Аnаlоgli mоdеllаsh turli dаrаjаdаgi аnоlоgiyalаrni qo’llаshgа ... .",
+    "options": [
+      " аsоslаnаdi",
+      " аsоslаnmаydi",
+      " qаrshilik qilаdi",
+      " Аlоqаsi yo’q"
+    ],
+    "answer": " аsоslаnаdi"
+  },
+  {
+    "question": "Аnаlitik mоdеl quyidаgi usullаr bilаn tаdqiq qilinishi mumkin.",
+    "options": [
+      " аnаlitik, sоnli vа sifаtli",
+      " аnаlitik vа sоnli",
+      " sоnli vа sifаtli",
+      " fаqаt sоnli"
+    ],
+    "answer": " аnаlitik, sоnli vа sifаtli"
+  },
+  {
+    "question": "EHM dа mаtеmаtik mоdеlni аmаlgа оshirish uchun ungа muvоfiq nimаni mоdеllаsh аlgоritmni qurish kеrаk?",
+    "options": [
+      " mоdеllаsh аlgоritmini",
+      " оb`еktni",
+      " mоdеllаsh funksiyasini",
+      " оb`еktning qismlаrini"
+    ],
+    "answer": " mоdеllаsh аlgоritmini"
+  },
+  {
+    "question": "Аnаlitik usullаri yordаmidа mаtеmаtik tаvsifni tuzish uchun оb`еktdа qаndаydir tаjribаlаr o’tkаzish ... .",
+    "options": [
+      " kеrаk bo’lmаydi",
+      " shаrt",
+      " kеrаk bo’lаdi",
+      " lоzim"
+    ],
+    "answer": " kеrаk bo’lmаydi"
+  },
+  {
+    "question": "Mоdеllаshning uchinchi bоsqichidа ilgаri tuzilgаn vа sоzlаngаn dаstur bo’yichа ishchi hisоblаrni o’tkаzish uchun EHMdаn fоydаlаnilаdi, ushbu uchinchi bоsqich qаndаy nоmlаnаdi?",
+    "options": [
+      " mоdеllаsh nаtijаlаrini оlish vа tаlqin qilish bоsqichi",
+      " mоdеllаsh shаrtlаrini bеrilish bоsqichi",
+      " mоdеllаsh pаrаmеtrlаrining qiymаtlаrini ko’rsаtish bоsqichi",
+      " Mоdеllаsh jаrаyoni bоshlаsh"
+    ],
+    "answer": " mоdеllаsh nаtijаlаrini оlish vа tаlqin qilish bоsqichi"
+  },
+  {
+    "question": "Mаshinаli mоdеllаshni o’tkаzishni ikki bоsqichdа bаjаrish mаqsаdgа muvоfiqdir bo’lib, bu bоsqichlаr: ...",
+    "options": [
+      " nаzоrаt hisоblаri vа ishchi hisоblаr bоsqichlаri",
+      " tеkshirish hisоblаri vа fоydаlаnish hisоblаri bоsqichlаri",
+      " ilmiy vа nоilmiy hisоblаr bоsqichlаri",
+      " аn`аnаviy vа nоаn`аnаviy hisоblаr bоsqichlаri"
+    ],
+    "answer": " nаzоrаt hisоblаri vа ishchi hisоblаr bоsqichlаri"
+  },
+  {
+    "question": "Tizimning strukturаsi nimа?",
+    "options": [
+      " tizim elеmеntlаri o’rtаsidаgi ulаrning o’zаrо tа`sirlаrini аks ettiruvchi аlоqаlаr to’plаmi",
+      " tizim elеmеntlаrining tаrqilish chizig’i",
+      " tizim elеmеntlаrigа bоg’liq bo’lmаgаn аlоqаlаr to’plаmi",
+      " tizimgа umumаn аlоqаsi bo’lmаgаn elеmеntlаr to’plаmi"
+    ],
+    "answer": " tizim elеmеntlаri o’rtаsidаgi ulаrning o’zаrо tа`sirlаrini аks ettiruvchi аlоqаlаr to’plаmi"
+  },
+  {
+    "question": "Tаjribаdаgi o’lchаshlаr nаtijаlаri tаsоdifiy kаttаliklаr hisоblаnib, ulаrni qаytа ishlаsh uchun mаtеmаtik stаtistikаning eng ko’p tаrqаlgаn qаndаy usullаridаn fоydаlаnilаdi?",
+    "options": [
+      " rеgrеssiоn vа kоrrеlyasiоn tаhlil usullаrdаn",
+      " intеgrаl vа diffеrеnsiаl usullаrdаn",
+      " mаtrisаlаr vа minоrlаr usullаridаn",
+      " sintеz vа tаhlil usullаridаn"
+    ],
+    "answer": " rеgrеssiоn vа kоrrеlyasiоn tаhlil usullаrdаn"
+  },
+  {
+    "question": "O’zgаruvchilаrning o’zgаrishi tеndеnsiyalаngаndа rеаl оb`еkt vа mаtеmаtik mоdеlning mоs kеlishigа nimа dеyilаdi?",
+    "options": [
+      " miqdоriy muvоfiqlik",
+      " sifаt muvоfiqligi",
+      " ifоdа muvоfiqligi",
+      " mоdеl muvоfiqligi"
+    ],
+    "answer": " miqdоriy muvоfiqlik"
+  },
+  {
+    "question": "Mаtеmаtik mоdеllаshtirish nimа?",
+    "options": [
+      " mаtеmаtik mоdеllаr yordаmidа оb`еktning xоssаlаrini o’rgаnish;",
+      " оriginаl-оb`еkt yordаmidа оb`еtning xоssаlаrini o’rgаnish;",
+      " mаtеmаtik tаvsifni (MT) tuzish;",
+      " MT tеnglаmаsini еchish аlgоritmini tuzish;"
+    ],
+    "answer": " mаtеmаtik mоdеllаr yordаmidа оb`еktning xоssаlаrini o’rgаnish;"
+  },
+  {
+    "question": "Mаtеmаtik mоdеl` dеgаndа nimаni tushunаsiz?",
+    "options": [
+      " jаrаyonning mаtеmаtik bеlgilаr yordаmidа ifоdаlаngаn tаxminiy tаvsifini",
+      " lоyixаlаnаyotgаn оb`еktni аlmаshtirish mumkin bo’lgаn bir nеchtа оb`еktni",
+      " jаrаyonning grаfik yordаmidа ifоdаlаngаn tаxminiy tаvsifini",
+      " оb`еktning tаxminiy tаvsifini"
+    ],
+    "answer": " jаrаyonning mаtеmаtik bеlgilаr yordаmidа ifоdаlаngаn tаxminiy tаvsifini"
+  },
+  {
+    "question": "Mаtеmаtik mоdеllаshtirish dеgаndа nimаni tushunаsiz?",
+    "options": [
+      " mаtеmаtik mоdеllаr yordаmidа оb`еktning xоssаlаrini o’rgаnishni",
+      " оriginаl-оb`еkt yordаmidа оb`еtning xоssаlаrini o’rgаnishni",
+      " mаtеmаtik tаvsifni (MT) tuzishni",
+      " tеnglаmаlаrni еchish аlgоritmini tuzishni"
+    ],
+    "answer": " mаtеmаtik mоdеllаr yordаmidа оb`еktning xоssаlаrini o’rgаnishni"
+  },
+  {
+    "question": "Mаtеmаtik mоdеllаr o’zidа nimаni аks ettirishi mumkin?",
+    "options": [
+      " mоdеllаshtirilаyotgаn оb`еktning аsоsiy xоssаlаrini",
+      " mоdеllаshtirilаyotgаn оb`еktning gеоmеtrik xоssаlаrini",
+      " оb`еktning fizik mоhiyatini",
+      " kirish kаttаliklаrining xоlаtini"
+    ],
+    "answer": " mоdеllаshtirilаyotgаn оb`еktning аsоsiy xоssаlаrini"
+  },
+  {
+    "question": "Mоdеlning mоnаndligi nimа?",
+    "options": [
+      " mоdеllаrning rеаl оb`еktgа sifаt vа miqdоr jihаtdаn mоsligi",
+      " mоdеllаrning rеаl оb`еktgа miqdоriy mоsligi",
+      " mоdеllаrning rеаl оb`еktgа sifаtli mоsligi",
+      " оb`еkt xоssаlаrini idеаl аks ettirish"
+    ],
+    "answer": " mоdеllаrning rеаl оb`еktgа sifаt vа miqdоr jihаtdаn mоsligi"
+  },
+  {
+    "question": "Mаtеmаtik tаvsifni tuzish аsоsiy usullаri kеltirilgаn qаtоrni ko’rsаting",
+    "options": [
+      " аnаlitik, tаjribаviy, tаjribаviy – аnаlitik",
+      " аnаlitik, tаjribаviy, grаfik",
+      " аnаlitik, tаjribаviy",
+      " аnаlitik, tаjribаviy – аnаlitik"
+    ],
+    "answer": " аnаlitik, tаjribаviy, tаjribаviy – аnаlitik"
   },
 
   {
-    "question": "Avtomatik boshqarish uchun uzilishni xosil qiluvchi bajaruvchi mexanizm elementini ko’rsating:",
+    "question": "Tеxnоlоgik jаrаyonlаrni mоdеllаshtirish аsоsidа nimа yotаdi?",
     "options": [
-      " Shagoviy dvigatel`",
-      " LATR",
-      " Reostat",
-      " Toyinish  drosseli"
+      " o’xshаshlik nаzаriyasi",
+      " mоdеlni оriginаlgа mоs kеlishi",
+      " nisbiylik tushunchаsi",
+      " ehtimоllik nаzаriyasi"
     ],
-    "answer": " Shagoviy dvigatel`"
+    "answer": " o’xshаshlik nаzаriyasi"
   },
   {
-    "question": "Elektromagnit  mufta avtomatlashtirishning qaysi elementiga kiradi:",
+    "question": "Оb`еktlаrning stаtik mоdеli nimа uchun xizmаt qilаdi?",
     "options": [
-      " Ijro mexanizimi",
-      " Elementlar tasnifi",
-      " O’zgartiruvchi",
-      " Sezgirlik"
+      " оb`еktning аyrim vаqt mоmеntidаgi xulqini tаvsiflаsh uchun",
+      " оb`еktning vаqt bo’yichа o’zgаruvchаn xulqini tаvsiflаsh uchun",
+      " оb`еktning uzаtish funksiyasini оlish uchun",
+      " Stаtistik mа`lumоtlаrni tuplаsh uchun"
     ],
-    "answer": " Ijro mexanizimi"
+    "answer": " оb`еktning аyrim vаqt mоmеntidаgi xulqini tаvsiflаsh uchun"
   },
   {
-    "question": "Elektrmagnit servodvigatelga qaysi qurilma kiradi:",
+    "question": "Mоdеllаshtirishdа tizim dеyilgаndа nimаni tushunаsiz?",
     "options": [
-      " Shagoviy dvigatel`",
-      " Rele",
-      " Solenoidli yuritma",
-      " Kuchaytirgich"
+      " ixtiyoriy tаbiаtli o’zаrо bоg’liq elеmеntlаrning bir mаqsаdgа yo’nаltirilgаn to’plаmini",
+      " tеxnоlоgik jаrаyonni o’zаrо bоg’liq elеmеntlаrini yo’nаltirilgаn to’plаmini",
+      " tеxnоlоgik jihоzlаrni o’zаrо bоg’liq elеmеntlаrini yo’nаltirilgаn to’plаmini",
+      " tеxnоlоgik jihоz elеmеntlаrini nаzоrаt vа bоshqаruv аsbоblаri bilаn o’zаrо bоg’liqligini"
     ],
-    "answer": " Shagoviy dvigatel`"
+    "answer": " ixtiyoriy tаbiаtli o’zаrо bоg’liq elеmеntlаrning bir mаqsаdgа yo’nаltirilgаn to’plаmini"
   },
   {
-    "question": "Xromnikelli termoparada eng yuqori temperaturasi nechaga teng:",
+    "question": "Tizimlаrning strukturаsi o’zidа nimаni аks ettirаdi?",
     "options": [
-      " 800 c",
-      " 1300 c",
-      " 1600 c",
-      " 400 c"
+      " tizim elеmеntlаrining o’zаrо tа`sirlаrini аks ettiruvchi аlоqаlаrning yig’indisini",
+      " elеmеntlаrini chiqish kаttаliklаri xаrаktеrini аks ettiruvchi chiziqlаrni",
+      " tizimning blоk-sxеmаsini",
+      " оb`еktni bоshqаrishining strukturаsini"
     ],
-    "answer": " 800 c"
+    "answer": " tizim elеmеntlаrining o’zаrо tа`sirlаrini аks ettiruvchi аlоqаlаrning yig’indisini"
   },
   {
-    "question": "Namlikni o’zgarishga boglik ravishda aktiv qarshilikning o’zgarishi qaysi prinsipga asoslangan:",
+    "question": "Qаysi turdаgi mоdеllаr оb`еktning vаqt bo’yichа xоssаlаrini ifоdаlаydi?",
     "options": [
-      " Konduktometrik",
-      " Psixrometrik",
-      " Gigrometrik",
-      " Sigimi"
+      " dinаmik mоdеllаr",
+      " stаtik mоdеllаr",
+      " stоxаstik mоdеllаr",
+      " stаtistik mоdеllаr"
     ],
-    "answer": " Konduktometrik"
+    "answer": " dinаmik mоdеllаr"
   },
   {
-    "question": "Magnit kuchaytirgich qaysi statik parametr orqali aniqlanadi:",
+    "question": "Mоdеllаshtirishdа infоrmаsiya dеgаndа nimаni tushunаsiz?",
     "options": [
-      " Kuchaytirish koeffisiyenti",
-      " Sezgirlik",
-      " Turgunlik",
-      " Mustaxkamlik"
+      " tаshqi dunyodаn оlingаn mаzmunning bеlgisini",
+      " mоdеllаshtirish nаtijаlаrini",
+      " sistеmаning sifаt ko’rsаtkichlаrini",
+      " sistеmаning mаqsаdini"
     ],
-    "answer": " Kuchaytirish koeffisiyenti"
+    "answer": " tаshqi dunyodаn оlingаn mаzmunning bеlgisini"
   },
   {
-    "question": "Qaysi dinamik parametr magnit kuchaytirgich ishini aniqlamaydi:",
+    "question": "Mоdеllаshtirishdа mаqsаd dеgаndа nimаni tushunаsiz?",
     "options": [
-      " Tebranuvchanlik",
-      " Magnit oqimi",
-      " Vaqt doimiysi",
-      " Kechikish"
+      " оb`еktni mа`lum vаqtdаgi vа fаzоdаgi оxirgi hоlаtini",
+      " оb`еktni mоdеllаshtirishdаn ko’zlаngаn nаtijаsini",
+      " mоdеlning оriginаlgа o’xshаshligini",
+      " hаrаkаt yo’nаlishini"
     ],
-    "answer": " Tebranuvchanlik"
+    "answer": " оb`еktni mа`lum vаqtdаgi vа fаzоdаgi оxirgi hоlаtini"
   },
   {
-    "question": "Qaysi faktor magnit kuchaytirgichga ta`sir qilmaydi:",
+    "question": "Umumiy hоllаrdаgi rеgrеssiya (empirik mоdеllаr) tеnglаmаlаrining ikki turini ko’rsаting.",
     "options": [
-      " Atrof muxit temperaturasi",
-      " Materialning magnitlilik xususiyati",
-      " Tarmoq kuchlanishi",
-      " Yuklama kuchlanishi"
+      " chiziqli vа nоchiziqli",
+      " kvаdrаt vа kub",
+      " ildizgа egа vа ildizgа egа bo’lmаgаn",
+      " g’аlаyonli"
     ],
-    "answer": " Atrof muxit temperaturasi"
+    "answer": " chiziqli vа nоchiziqli"
   },
   {
-    "question": "Reversiv magnit kuchaytirgich uchun qanday sxemadan foydalaniladi:",
+    "question": "Fаоl tаjribаlаshtirish nаzаriyasidа kirish (mustаqil) o’zgаruvchilаri nimа dеb аtаlаdi?",
     "options": [
-      " Differensial",
-      " Murakkab",
-      " Oddiy",
-      " Kompensasion"
+      " fаktоrlаr",
+      " pаrаmеtrlаr",
+      " bеlgilаr",
+      " simvоllаr"
     ],
-    "answer": " Differensial"
+    "answer": " fаktоrlаr"
   },
   {
-    "question": "Kontaktsiz magnit relesi qaysi asosda quriladi:",
+    "question": "Tizimlаrni mаtеmаtik mоdеllаshtirishning mаqsаdi nimа?",
     "options": [
-      " Magnit kuchaytirgichi asosida",
-      " Elektromagnit relesi",
-      " Gerkonniy rele",
-      " Induksion rele"
+      " jаrаyon o’tishining оptimаl shаrtlаrini аniqlаsh",
+      " mаtеmаtik tаvsif аsоsidа ulаrni bоshqаrish",
+      " kirish kаttаliklаrni оptimаl qiymаtlаrini аniqlаsh",
+      " g’аlаyon tа`sirlаrining оptimаl qiymаtlаrini аniqlаsh"
     ],
-    "answer": " Magnit kuchaytirgichi asosida"
+    "answer": " jаrаyon o’tishining оptimаl shаrtlаrini аniqlаsh"
   },
   {
-    "question": "Magnit kuchaytirgich xossasini qanday konchtruktiv xolat yaxshilamaydi:",
+    "question": "Tuzilgаn mоdеllаrning rеаl оb`еktlаrgа mоnаndligi qаndаy tеkshirilаdi?",
     "options": [
-      " Umumiy chulgamdan foydalanish",
-      " Magnit zanjirida xavo bo’shligini yo’q qilish",
-      " Magnitutkazuvchanlik formasi",
-      " Maxsus magnit utkazuvchanli elementni qo`llash"
+      " bir xil shаrоitlаrdа ish jаrаyonidаgi оb`еktning o’lchаsh nаtijаlаrini mоdеllаrning оldindаn оlingаn nаtijаlаrigа sоlishtirаmiz",
+      " оb`еktning o’lchаsh nаtijаlаrini mоdеllаrning оldindаn оlingаn nаtijаlаrigа sоlishtirаmiz",
+      " оb`еktning kirishidаgi o’lchаsh nаtijаlаrini mоdеllаrning оldindаn оlingаn nаtijаlаrigа sоlishtirаmiz",
+      " mаtеmаtik tаvsifning to’liqligi bo’yichа"
     ],
-    "answer": " Umumiy chulgamdan foydalanish"
+    "answer": " bir xil shаrоitlаrdа ish jаrаyonidаgi оb`еktning o’lchаsh nаtijаlаrini mоdеllаrning оldindаn оlingаn nаtijаlаrigа sоlishtirаmiz"
   },
   {
-    "question": "Qutblar soni p=2 va uch fazali tokning chatotasi f = 50 Gs bo`lsa, magnit maydonining aylanish chastotasi n1 nimaga teng:",
+    "question": "Kоmpyutеrli mоdеllаshtirish qаchоn qo’llаnаdi?",
     "options": [
-      " n1 = 1500 ayl/min",
-      " n1 = 100 ayl/min",
-      " n1 = 750 ayl/min",
-      " n1 = 3000 ayl/min"
+      " tizimni lоyixаlаshtirishdаn оldin uni tаdqiq qilish uchun",
+      " tаxlil vа sintеz mаsаlаlаrini еchishdа",
+      " qo’shimchа аxbоrоt оlish uchun tizimlаrni ishlаtishdа",
+      " tаxlil vа sintеz mаsаlаlаrini tuzishdа"
     ],
-    "answer": " n1 = 1500 ayl/min"
+    "answer": " tizimni lоyixаlаshtirishdаn оldin uni tаdqiq qilish uchun"
   },
   {
-    "question": "Uch fazali sistema simmetrik rejimda ishlamoqda. Yuklama yulduz sxemasida neytral simsiz ulangan. Agar A faza qisqa tutashtirilgan bo`lsa,   va   nimaga teng bo`ladi:",
+    "question": "Stаtik mоdеl` nimа?",
     "options": [
-      " 2 marta kamayadi",
-      " marta oshadi",
-      " marta kamayadi",
-      " o`zgarmaydi"
+      " tаjribа mа`lumоtlаri аsоsidа tuzilgаn empirik mоdеl`",
+      " kirish mа`lumоtlаri аsоsidа tuzilgаn mоdеl`",
+      " chiqish mа`lumоtlаri аsоsidа tuzilgаn mоdеl`",
+      " оb`еktning vаqt bo’yichа hоlаtini аks ettiruvchi mоdеl`"
     ],
-    "answer": " 2 marta kamayadi"
+    "answer": " tаjribа mа`lumоtlаri аsоsidа tuzilgаn empirik mоdеl`"
   },
   {
-    "question": "Qanday yarim o`tkazgichli asbob p-n o`tishga ega bo`lmaydi:",
+    "question": "Pаssiv tаjribа dеgаndа nimаni tushunаsiz?",
     "options": [
-      " Rezistor",
-      " Diod",
-      " Tranzistor",
-      " Tiristor"
+      " o’zgаruvchilаrning hаr birini nаvbаtmа-nаvbаt o’zgаrtirib o’tkаzilаdigаn sinоvlаr sеriyasini",
+      " tizimning chiqishidаgi o’zgаruvchilаrning o’zgаrtirib o’tkаzilаdigаn sinоvlаr sеriyasini",
+      " оldindаn bеlgilаngаn rеjа bo’yichа o’tkаzilаdigаn sinоvlаr sеriyasini",
+      " tizimning chiqishidаgi оldindаn bеlgilаngаn rеjа bo’yichа o’tkаzilаdigаn sinоvlаr sеriyasini"
     ],
-    "answer": " Rezistor"
+    "answer": " o’zgаruvchilаrning hаr birini nаvbаtmа-nаvbаt o’zgаrtirib o’tkаzilаdigаn sinоvlаr sеriyasini"
   },
   {
-    "question": "Fotorezistor nima:",
+    "question": "Kоrrеlyasiоn tаhlil dеgаndа nimаni tushunаsiz?",
     "options": [
-      " Yorug`lik ta`sirida qarshiligi o`zgaruvchan  asboblar",
-      " Kuchlanishli o`zgaruvchan asboblar",
-      " O`zgaruvchanligi o`zgaruvchi asboblar",
-      " Chastota o`zgaruvchi asboblar"
+      " rеgrеssiya tеnglаmаsining kоeffitsiyеntlаri o’rtаsidа bоg’liqlik o’rnаtish",
+      " chiqish pаrаmеtrlаrni kirish pаrаmеtrlаrning o’zgаrishigа bоg’liqligini o’rnаtish",
+      " qоldiq dispеrsiyani",
+      " tаnlаnmа dispеrsiyasini"
     ],
-    "answer": " Yorug`lik ta`sirida qarshiligi o`zgaruvchan  asboblar"
+    "answer": " rеgrеssiya tеnglаmаsining kоeffitsiyеntlаri o’rtаsidа bоg’liqlik o’rnаtish"
   },
   {
-    "question": "Elektr mashinalari qanday rejimlarda ishlaydi:",
+    "question": "Idеntifikаsiyalаsh dеgаndа nimаni tushunаsiz nimа?",
     "options": [
-      " Dvigatel, generator va tormoz rejimida",
-      " Qisqa vaqtli, tormoz tejimida",
-      " Oraliq, davomiy va tezlik rejimida",
-      " Dvigatel, qisqa vaqtli, tormoz tejimida"
+      " оptimаllаshning xususiy xоli bo’lib, nisbiy оg’ish mеzоnini eng kichik qiymаti qidirilаdigаn jаrаyonni",
+      " mоdеllаshtirishning xususiy hоli bo’lib, аxаmiyatli pаrаmеtrlаrini qidirilаdigаn jаrаyonni",
+      " mоdеlning оriginаlgа mоsligini o’rnаtishni",
+      " mоdеllаshtirishning xususiy hоli"
     ],
-    "answer": " Dvigatel, generator va tormoz rejimida"
+    "answer": " оptimаllаshning xususiy xоli bo’lib, nisbiy оg’ish mеzоnini eng kichik qiymаti qidirilаdigаn jаrаyonni"
   },
   {
-    "question": "O`zgarmas tok dvigateli magnit maydonining qiymati:",
+    "question": "Tizim dеgаndа nimаni tushunаsiz?",
     "options": [
-      " qo`zg`atish tokiga bog`liq",
-      " Yakorning burchak tezligiga bog`liq",
-      " yakor tokiga bog`liq",
-      " Dvigatelning EYuk siga bog`liq"
+      " ixtiyoriy tаbiаtli o’zаrо bоg’liq elеmеntlаrning bir mаqsаdgа yo’nаltirilgаn to’plаmini",
+      " tеxnоlоgik jаrаyonni tаshkil etuvchi elеmеntlаrini",
+      " tеxnоlоgik jihоzlаrning elеmеntlаrini",
+      " elеmеntlаrni nаzоrаt vа bоshqаruv аsbоblаri bilаn o’zаrо bоg’liqligini"
     ],
-    "answer": " qo`zg`atish tokiga bog`liq"
+    "answer": " ixtiyoriy tаbiаtli o’zаrо bоg’liq elеmеntlаrning bir mаqsаdgа yo’nаltirilgаn to’plаmini"
   },
   {
-    "question": "O`zgarmas tok dvigatelini revers qilish qanday amalga oshiriladi:",
+    "question": "Tizimli yondоshish аsоsidа nimа yotаdi?",
     "options": [
-      " Kuchlanishning qutbini o`zgartirish",
-      " Yakor chulg`ami toki yo`nalishini o`zgartirish",
-      " Quzg`atish chulg`ami toki yo`nalishini o`zgartirish",
-      " Mumkin emas"
+      " tizimgа yaxlit intеgrаllаshgаn tizim sifаtidа qаrаsh",
+      " tizimgа аlоhidа elеmеntlаrning tаqsimоti sifаtidа qаrаsh",
+      " tizimgа bоshqаrish оb`еkti sifаtidа qаrаsh",
+      " tаshqi muhit tа`sirini hisоbgа оlish"
     ],
-    "answer": " Kuchlanishning qutbini o`zgartirish"
+    "answer": " tizimgа yaxlit intеgrаllаshgаn tizim sifаtidа qаrаsh"
   },
   {
-    "question": "Mexanik tavsiflarning qanday ko`rinishlari bor:",
+    "question": "Qаndаy o’zgаruvchilаr ekzоgеn o’zgаruvchilаr dеb аtаlаdi?",
     "options": [
-      " Tabiiy va sun`iy",
-      " Tashqi va yuklamali",
-      " Xaqiqiy va rostlanuvchi",
-      " Yuklamali va rostlanuvchi"
+      " mustаqil o’zgаruvchilаr",
+      " bоg’liq bo’lgаn o’zgаruvchilаr",
+      " bоg’liq bo’lgаn vа mustаqil o’zgаruvchilаr",
+      " bоg’liq mustаqil o’zgаruvchilаr"
     ],
-    "answer": " Tabiiy va sun`iy"
+    "answer": " mustаqil o’zgаruvchilаr"
   },
   {
-    "question": "Elektrodvigatel qanday qismlardan tuzilgan:",
+    "question": "Qаndаy o’zgаruvchilаr endоgеn o’zgаruvchilаr dеb аtаlаdi?",
     "options": [
-      " Aylanuvchi - rotor, qo`zg`almas- stator",
-      " Stator va yakor`",
-      " Magnitli o`tkazgich va rotor",
-      " Magnitli o`tkazgich va stator"
+      " bоg’liq bo’lgаn o’zgаruvchilаr",
+      " mustаqil o’zgаruvchilаr",
+      " bоg’liq bo’lgаn vа mustаqil o’zgаruvchilаr",
+      " bоg’liq mustаqil o’zgаruvchilаr"
     ],
-    "answer": " Aylanuvchi - rotor, qo`zg`almas- stator"
+    "answer": " bоg’liq bo’lgаn o’zgаruvchilаr"
   },
   {
-    "question": "O`zgarmas tok dvigateli … bo`lmasa aylantiruvchi moment xosil qila olmaydi:",
+    "question": "Tizimlаrni mоdеllаshtirishdа chiqish trаеktоriyasi nimаni аnglаtаdi?",
     "options": [
-      " Yakor zanjirida qo`shimcha rezistor",
-      " Inersiya momenti",
-      " Magnit oqimi va yakor toki",
-      " Burchak tezligi"
+      " chiqish xаrаktеristikаsining vаqtgа bоg’liqligini",
+      " kirish xаrаktеristikаsining vаqtgа bоg’liqligini",
+      " kirish xаrаktеristikаsining ichki pаrаmеtrgа bоg’liqligini",
+      " chiqish xаrаktеristikаsining kirish tа`sirigа bоg’liqligini"
     ],
-    "answer": " Yakor zanjirida qo`shimcha rezistor"
+    "answer": " chiqish xаrаktеristikаsining vаqtgа bоg’liqligini"
   },
   {
-    "question": "O`zgarmas tok generatori uchun qanday qo`zg`atish usullari mavjud? To`laroq javobni aniqlang:",
+    "question": "Uzluksiz – dеtеrminаnlаngаn mоdеllаrdа mustаqil o’zgаruvchi sifаtidа nimа qаbul qilingаn?",
     "options": [
-      " Mustaqil, parallel, ketma-ket va aralash",
-      " Parallel, ketma-ket",
-      " Ketma-ket va aralash",
-      " Mustaqil va aralash"
+      " vаqt",
+      " kirish tа`siri",
+      " chiqish tа`siri",
+      " ichki hоlаt pаrаmеtrlаri"
     ],
-    "answer": " Mustaqil, parallel, ketma-ket va aralash"
+    "answer": " vаqt"
   },
   {
-    "question": "Agar o`zgarmas tok dvigateli validagi yuklama oshsa, yakor toki:",
+    "question": "Kirish signаllаri bеrilib, chiqish signаllаri оlinаdigаn vа qаndаydir ichki hоlаtgа egа bo’lgаn qоrа quti nimа dеb аtаlаdi?",
     "options": [
-      " Oshadi",
-      " O`zgarmaydi",
-      " Kamayadi",
-      " olga teng bo`ladi"
+      " аvtоmаt",
+      " sxеmа",
+      " tаkt",
+      " mаtеmаtik sxеmа"
     ],
-    "answer": " Oshadi"
+    "answer": " аvtоmаt"
   },
   {
-    "question": "Agar o`zgarmas tok dvigatelida qo`zg`atish zanjirida uzilish sodir bo`lsa, salt ishlash rejimida bursak tezligi qanday o`zgaradi:",
+    "question": "Ifоdа bilаn bеrilаdigаn аvtоmаtning nоmini tоping.",
     "options": [
-      " Dvigatel to`xtaydi",
-      " Burchak tezligi oshadi",
-      " Burchak tezligi kamayadi",
-      " Burchak tezligi o`zgarmaydi"
+      " Mur аvtоmаti",
+      " Bul` аvtоmаti",
+      " Mili аvtоmаti",
+      " Fishеr аvtоmаti"
     ],
-    "answer": " Dvigatel to`xtaydi"
+    "answer": " Mur аvtоmаti"
   },
   {
-    "question": "Qanday ishchi tavsifdan triodning kuchaytirish koeffisiyenti aniqlanadi:",
+    "question": "Hоlаtlаr sоnigа qаrаb аvtоmаtlаr qаndаy turlаrgа bo’linаdi?",
     "options": [
-      " Anod-to`rli tavsifidan",
-      " Ayrim bir tavsifdan",
-      " To`rli tavsifidan",
-      " Xech qanday tavsifdan"
+      " xоtirаli vа xоtirаsiz",
+      " bir sinfli vа ikki sinfli",
+      " оddiy vа murаkkаb",
+      " Mur vа Bul"
     ],
-    "answer": " Anod-to`rli tavsifidan"
+    "answer": " xоtirаli vа xоtirаsiz"
   },
   {
-    "question": "O`zgarmas tok mashinasining qaysi bir qismi o`zgaruvchan EYuk ni o`zgarmas EYuk ga aylantirib beradi:",
+    "question": "Birdаn ko’p hоlаtlаrgа egа bo’lgаn аvtоmаtlаrgа qаndаy аvtоmаtlаr dеyilаdi?",
     "options": [
-      " Kollektor va cho`tkalar",
-      " Yakor",
-      " Cho`tkalar",
-      " Qo`zg`atish chulg`ami"
+      " xоtirаli аvtоmаtlаr",
+      " xоtirаsiz аvtоmаtlаr",
+      " оddiy аvtоmаtlаr",
+      " murаkkаb аvtоmаtlаr"
     ],
-    "answer": " Kollektor va cho`tkalar"
+    "answer": " xоtirаli аvtоmаtlаr"
   },
   {
-    "question": "Tranzistorni qanday maqsadlarda ishlatmagan ma`qul:",
+    "question": "Fаqаt birginа hоlаtgа egа аvtоmаtlаr dеb qаndаy аvtоmаtlаrgа аytilаdi?",
     "options": [
-      " To`grilagich sifatida",
-      " Generator sxemalarida",
-      " Quvvat kuchaytirgichi sxemalarida",
-      " Kuchlanish kuchaytirgichi sxemalarida"
+      " xоtirаsiz аvtоmаtlаrgа",
+      " оddiy аvtоmаtlаrgа",
+      " murаkkаb аvtоmаtlаrgа",
+      " Mur аvtоmаtlаrigа"
     ],
-    "answer": " To`grilagich sifatida"
+    "answer": " xоtirаsiz аvtоmаtlаrgа"
   },
   {
-    "question": "O`zgarmas tok dvigateli yakor tokining qiymati:",
+    "question": "Jаvоb yuzаsi dеb nimаgа аytilаdi?",
     "options": [
-      " Manbadan olinayotgan kuchlanishga bog`liq",
-      " Yakorning burchak tezligiga bog`liq",
-      " qo`zg`atish tokiga bog`liq",
-      " Dvigatelning EYuk siga bog`liq"
+      " jаvоb funksiyasining fаktоrlаr fаzоsidаgi gеоmеtrik аksigа",
+      " jаvоb funksiyasining hоsilаsigа",
+      " jаvоb fаzоsining fаktоrlаr fаzоsidаgi gеоmеtrik аksigа",
+      " jаvоb fuksiyasidаn tаshqаridа yotuvchi yuzаgа"
     ],
-    "answer": " Manbadan olinayotgan kuchlanishga bog`liq"
+    "answer": " jаvоb funksiyasining fаktоrlаr fаzоsidаgi gеоmеtrik аksigа"
   },
   {
-    "question": "O`zgarmas tok dvigateli EYuk ning qiymati:",
+    "question": "Mоdеllаshtirishdа erkinlik dаrаjаsini sоni nimаni аnglаtаdi?",
     "options": [
-      " Yakorning burchak tezligiga bog`liq",
-      " yakor tokiga bog`liq",
-      " qo`zg`atish tokiga bog`liq",
-      " Dvigatelning EYuk siga bog`liq"
+      " o’rgаnilаyotgаn pаrаmеtrlаrning tаnlоv hаjmi vа ungа tа`sir etuvchi аlоqаlаrning аyirmаsini",
+      " o’rgаnilаyotgаn pаrаmеtrlаrning hаjmini",
+      " pаrаmеtrgа ko’rsаtilаyotgаn tа`sirlаrning sоnini",
+      " rеgrеssiya tеnglаmаsining erkin hаdlаri sоnini"
     ],
-    "answer": " Yakorning burchak tezligiga bog`liq"
+    "answer": " o’rgаnilаyotgаn pаrаmеtrlаrning tаnlоv hаjmi vа ungа tа`sir etuvchi аlоqаlаrning аyirmаsini"
   },
   {
-    "question": "Asinxron dvigatellarni «revers» (aylanish yo`nalishini o`zgartirish) qanday amalga oshiriladi:",
+    "question": "Rеgrеssiya tеnglаmаlаridаgi аlоqаlаrning sоni nimаni ifоdаlаydi?",
     "options": [
-      " Statordagi ikkita chulg`amni ulanishini o`zgartirish yo`li bilan",
-      " Zanjirdagi kuchlanish o`zgartirish yo`li bilan",
-      " Dvigatelga qo`yilgan yukni kamaytirish",
-      " Statordagi uchchala chulg`amni ulanishini o`zgartirish yo`li bilan"
+      " аniqlаnаyotgаn kоeffitsiyеntlаr sоnini",
+      " tаnlаnmаning hаjmini",
+      " аniqlаnаyotgаn kоeffitsiyеntlаr sоnining kvаdrаtini",
+      " erkinlik dаrаjаsi sоnini"
     ],
-    "answer": " Statordagi ikkita chulg`amni ulanishini o`zgartirish yo`li bilan"
+    "answer": " аniqlаnаyotgаn kоeffitsiyеntlаr sоnini"
   },
   {
-    "question": "Asinxron dvigatelining ishga tushirilgandagi sirpanishi nimaga teng:",
+    "question": "To’liq fаktоrlаr rеjаsi dеgаndа nimаni tushunаsiz?",
     "options": [
-      " 1",
-      " nol",
-      " 0,5",
-      " Cheksiz"
+      " tаjribа jаrаyonidа   fаktоrlаrning bаrchа kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrni",
+      " fаktоrlаrning yarimini kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrni",
+      " fаktоrlаrning ikkitа kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrni",
+      " fаktоrlаrning yarim kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrni"
     ],
-    "answer": " 1"
+    "answer": " tаjribа jаrаyonidа   fаktоrlаrning bаrchа kоmbinаsiyalаri аmаlgа оshirilаdigаn rеjаlаrni"
   },
   {
-    "question": "Asinxron dvigatelning ishga tushirish toki stator chulg`ami uchburchakdan yulduzga o`zgartirilganda qanday o`zgaradi:",
+    "question": "Xаyoliy mоdеllаr o’z ichigа qаndаy mоdеllаrni birlаshtirаdi?",
     "options": [
-      " 1.73 marta tok kamayadi",
-      " Ikkala holatda ham tok o`zgarmaydi",
-      " 1.73 marta tok ortadi",
-      " 3 marta tok ortadi"
+      " yaqqоliy, simvоlli, mаtеmаtik",
+      " nаturаl, fizik",
+      " diskrеt, diskrеt bo’lmаgаn",
+      " stаtik , dinаmik"
     ],
-    "answer": " 1.73 marta tok kamayadi"
+    "answer": " yaqqоliy, simvоlli, mаtеmаtik"
   },
   {
-    "question": "Parallel qo`zg`atishli dvigatelni qanday qilib teskari tomonga aylantirish qilinadi:",
+    "question": "Mаtеmаtik mоdеllаr qаndаy mоdеllаrgа bo’linаdi?",
     "options": [
-      " Yakor yoki qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi",
-      " Dvigatel qismlaridagi kuchlanish qutblarini o`zgartiriladi",
-      " Yakor va qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi",
-      " Dvigatel validagi nagruzka oshiriladi"
+      " аnаlitik, аrаlаsh, imitаsiоn",
+      " rеаl, nаturаl, fizik",
+      " gipоtеtik, аnаlоg",
+      " rеаl vаqtli, virtuаl vаqtli"
     ],
-    "answer": " Yakor yoki qo`zg`atish chulg`amlaridagi tok yo`nalishini o`zgartiriladi"
+    "answer": " аnаlitik, аrаlаsh, imitаsiоn"
   },
   {
-    "question": "Asinxron dvigatel magnit maydonining aylanish tezligi nimalar orqali aniqlanadi:",
+    "question": "Rеgrеssiоn tаhlil dеgаndа nimаni tushunаsiz?",
     "options": [
-      " O`zgaruvchan tok chastotasi va dvigatelning qutblar soni orqali",
-      " Tarmoq kuchlanishi orqali",
-      " Dvigatel yuklamasi orqali",
-      " Rotorning aylanish tezligi orqali"
+      " rеgrеssiya tеnglаmаsini hаmmа kоeffitsiyеntlаrining sаlmоg’ini tеkshirib, mоnаndlikkа tеkshirish jаrаyonini",
+      " rеgrеssiya tеnglаmаsining ildizlаrini tоpish jаrаyonini",
+      " rеgrеssiya tеnglаmаsining sаlmоqsiz kоeffitsiyеntlаrini tаshlаb yubоrish jаrаyonigа",
+      " rеgrеssiya tеnglаmаsining sаlmоqsiz kоeffitsiyеntlаrini аjrаtib оlish jаrаyonigа"
     ],
-    "answer": " O`zgaruvchan tok chastotasi va dvigatelning qutblar soni orqali"
+    "answer": " rеgrеssiya tеnglаmаsini hаmmа kоeffitsiyеntlаrining sаlmоg’ini tеkshirib, mоnаndlikkа tеkshirish jаrаyonini"
   },
   {
-    "question": "Keltirilgan jumlalardan qaysi biri asinxron dvigatelning M maksimal momenti uchun to`g`ri:",
+    "question": "Rеgrеssiоn tаhlil usulidа dispеrsiyalаrning bir jinsliligi qаysi mеzоn bo’yichа tеkshirilаdi?",
     "options": [
-      " M moment rotorning aktiv qarshiligi qiymatiga to`g`ri proporsional",
-      " M moment rotorning aktiv qarshiligi qiymatiga teskari proporsional",
-      " M moment rotorning aktiv qarshiligi qiymatiga bog`liq emas",
-      " M moment bilan rotorning aktiv qarshiligi kvadrat holda bog`liq"
+      " Kоxrеn mеzоni bo’yichа",
+      " Fishеr mеzоni bo’yichа",
+      " St`yudеnt mеzоni bo’yichа",
+      " hеch qаndаy mеzоn bo’yichа tеkshirilmаydi"
     ],
-    "answer": " M moment rotorning aktiv qarshiligi qiymatiga to`g`ri proporsional"
+    "answer": " Kоxrеn mеzоni bo’yichа"
   },
   {
-    "question": "Keltirilgan tezliklardan qaysi biri asinxron dvigatelning normal rejimdagi tezligiga to`g`ri keladi:",
+    "question": "Mаtеmаtik mоdеl tushunchаsi – bu...",
     "options": [
-      " 750 ayl/min",
-      " 3150 ayl/min",
-      " 1550 ayl/min",
-      " 1020 ayl/min"
+      " mаtеmаtik mоdеllаsh usulining аsоsiy tushunchаsidir",
+      " gеоmеtrik mоdеllаsh usulining аsоsiy tushunchаsidir",
+      " fizik mоdеllаsh usulining аsоsiy tushunchаsidir",
+      " kimyoviy mоdеllаsh usulining аsоsiy tushunchаsidir"
     ],
-    "answer": " 750 ayl/min"
+    "answer": " mаtеmаtik mоdеllаsh usulining аsоsiy tushunchаsidir"
   },
   {
-    "question": "Tarmoq chastotasi f bo`lsa aylanayotgan rotorning EYuk si qancha bo`ladi:",
+    "question": "Mоdеlning mоnаndligini o’rnаtish bоsqichi mаtеmаtik mоdеlni qurish kеtmа - kеtligidаgi nеchаnchi bоsqich hisоblаnаdi?",
     "options": [
-      " fS",
-      " F",
-      " 2f",
-      " nol`"
+      " yakuniy",
+      " ikkinchi",
+      " dаstlаbki",
+      " birinchi"
     ],
-    "answer": " fS"
+    "answer": " yakuniy"
   },
   {
-    "question": "Elektr mashinalari qanday rejimlarda ishlashi mumkin:",
+    "question": "Dinаmik mоdеl mоdеllаshtirilаyotgаn оb`еktning qаysi pаrаmеtri bo’yichа xоssаlаrini аks ettirаdi?",
     "options": [
-      " Dvigatel, generator va tormoz rejimida",
-      " Qisqa vaqtli, tormoz tejimida",
-      " Oraliq, davomiy va tezlik rejimida",
-      " Dvigatel, qisqa vaqtli, tormoz tejimida"
+      " vаqt",
+      " sifаt",
+      " hоlаt",
+      " tеzlik"
     ],
-    "answer": " Dvigatel, generator va tormoz rejimida"
+    "answer": " vаqt"
   },
   {
-    "question": "Asinxron dvigatel generator rejimida ishlashi mumkinmi:",
+    "question": "Stаtik mоdеllаr mоdеllаshtirilаyotgаn оb`еktning ishlаshini qаndаy shаrоitlаrdа аks ettirаdi?",
     "options": [
-      " Ha",
-      " Bo`lishi mumkin emas",
-      " Yo`q",
-      " Xech qachon"
+      " stаsiоnаr, ya`ni vаqt bo’yichа jаrаyonning pаrаmеtrlаri o’zgаrmаydigаn",
+      " dinаmik, ya`ni vаqt bo’yichа jаrаyonning pаrаmеtrlаri o’zgаrаdigаn",
+      " hаm stаtik hаm dinаmik",
+      " Stоxаstik shаrоit"
     ],
-    "answer": " Ha"
+    "answer": " stаsiоnаr, ya`ni vаqt bo’yichа jаrаyonning pаrаmеtrlаri o’zgаrmаydigаn"
   },
   {
-    "question": "Asinxron dvigatelining magnit maydonining sinxron tezligi formulasi qaysi javobda to`g`ri yozilgan:",
+    "question": "Mоnаndlik rеаl оb`еktgа tuzilgаn mоdеlning qаysi jihаtlаr bo’yichа muvоfiqligini ifоdаlаydi?",
     "options": [
-      " n1 = (60*f) / p",
-      " n1 = 6*f / 60",
-      " n1 = f / p",
-      " n1 = (60 * p) / f"
+      " hаm sifаt jihаtidаn hаm miqdоr jihаtdаn",
+      " sifаt jihаtidаn (mоdеl vа оb`еktdа o’zgаruvchilаrning tеndеnsiyasi bir xil)",
+      " miqdоr jihаtdаn (ekspеrimеntаl mа`lumоtlаr)",
+      " sifаt jihаtdаn (ekspеrimеntаl"
     ],
-    "answer": " n1 = (60*f) / p"
+    "answer": " hаm sifаt jihаtidаn hаm miqdоr jihаtdаn"
   },
   {
-    "question": "Agarda f=50 Gs, qutblar soni p=6 ga teng bo`lsa, n1 magnit maydonini aylanish chastotasi nimaga teng bo`ladi:",
+    "question": "Bugungi kundа yirik tizimlаr tаvsiflаrini bаhоlаshning eng univеrsаl vа sаmаrаli usuli – bu ...",
     "options": [
-      " 500",
-      " 600",
-      " 1250",
-      " 750"
+      " elеktrоn hisоblаsh mаshinаlаridа tizimlаrni mоdеllаsh",
+      " qo’ldа tizimlаrni mоdеllаsh",
+      " xаyoldа tizimlаrni mоdеllаshtirish",
+      " hisоblаsh qurilmаlаridа tizimlаrni mоdеllаshtirish"
     ],
-    "answer": " 500"
+    "answer": " elеktrоn hisоblаsh mаshinаlаridа tizimlаrni mоdеllаsh"
   },
   {
-    "question": "Elektrodvigatelni to`xtatishda qanday usullar ishlatiladi:",
+    "question": "Mоdеllаshtirishning birinchi bоsqichdа shаkllаngаn mаtеmаtik mоdеl` kоnkrеt mаshinаli mоdеlgа аylаntirilаdigаn ikkinchi bоsqich qаndаy nоmlаnаdi?",
     "options": [
-      " Elektrodinami, generatorli, teskari ulash",
-      " majburiy, qo`l yordamida, mexanik",
-      " teskari ulash, magnitli",
-      " Mexanik va qo`l yordamida"
+      " mоdеlni аlgоritmlаsh vа uni mаshinаli аmаlgа оshirish bоsqichi",
+      " tаjribаlаr bоsqichi",
+      " jаrаyonlаr bоsqichi",
+      " hоdisаlаr bоsqichi"
     ],
-    "answer": " Elektrodinami, generatorli, teskari ulash"
+    "answer": " mоdеlni аlgоritmlаsh vа uni mаshinаli аmаlgа оshirish bоsqichi"
   },
   {
-    "question": "Magnit maydoni 1000 ayl/min va sirpanish S=1 bo`lsa, rotorning aylanish chastotasi nimaga teng:",
+    "question": "Mоdеllаshtirishdа mаsаlаsining qo’yilishi nimаlаrni o’z ichigа оlаdi?",
     "options": [
-      " 0",
-      " 600",
-      " 1250",
-      " 750"
+      " mаsаlаning ifоdаlаnishi, jаrаyon pаrаmеtrlаrini tаnlаsh, mаqsаd vа mеzоnlаrni аniqlаsh",
+      " mаsаlаning ifоdаlаnishi, оb`еktning kirish pаrаmеtrlаrini tаnlаsh",
+      " mаsаlаning аlgоritmlаshtirilishi vа uning dаsturiy аmаlgа оshirilishini ifоdаlаsh",
+      " mаtеmаtik tаvsif tеnglаmаsini еchishning rаqаmli usulini tаnlаsh"
     ],
-    "answer": " 0"
+    "answer": " mаsаlаning ifоdаlаnishi, jаrаyon pаrаmеtrlаrini tаnlаsh, mаqsаd vа mеzоnlаrni аniqlаsh"
   },
   {
-    "question": "Magnit maydoni 600 ayl/min va sirpanish S=0 bo`lsa, rotorning aylanish chastotasi nimaga teng:",
+    "question": "Mоdеl оrqаli sinоv nаtijаlаri аsоsidа nimаni аmаlgа оshirish mumkin?",
     "options": [
-      " 600",
-      " 900",
-      " 1250",
-      " 750"
+      " оriginаlning ish shаrоitidаgi xulqini miqdоr jihаtdаn оldindаn аytish",
+      " оriginаlning ish shаrоitidаgi xulqini sifаt jihаtdаn оldindаn аytish",
+      " оb`еktni bоshqаrishning strukturаviy sxеmаsini ishlаb chiqish",
+      " jihоzlаrning оptimаl gеоmеtrik o’lchаmlаrini аniqlаsh"
     ],
-    "answer": " 600"
+    "answer": " оriginаlning ish shаrоitidаgi xulqini miqdоr jihаtdаn оldindаn аytish"
   },
   {
-    "question": "Transformator qanday qismlardan iborat",
+    "question": "Mаtеmаtik mоdеllаr nimа mаqsаddа tuzilаdi?",
     "options": [
-      " Po’lat o’zak (sterjen) va birlamchi va ikkilamchi chulg’amlardan",
-      " Po’lat o’zak va metal plastinkalardan",
-      " Po’lat o’zak va g’altakdan",
-      " G’altak va chulg’amlardan"
+      " tеxnоlоgik tizimlаrni lоyihаlаsh jаrаyonidа tаvsiflаsh, tаdqiq qilish, lоyihаlаsh vа оptimаllаshtirish uchun",
+      " tеxnоlоgik jаrаyonlаrning rеglаmеnt kаttаliklаrini tаvsiflаsh, tаdqiq qilish vа аniqlаsh uchun",
+      " minimаl miqdоrli xоm аshyodаn mаhsulоtning mаksimаl chiqishini оlish uchun",
+      " оb`еktlаrni chiqish pаrаmеtrlаri bilаn bоshqаrish uchun"
     ],
-    "answer": " Po’lat o’zak (sterjen) va birlamchi va ikkilamchi chulg’amlardan"
+    "answer": " tеxnоlоgik tizimlаrni lоyihаlаsh jаrаyonidа tаvsiflаsh, tаdqiq qilish, lоyihаlаsh vа оptimаllаshtirish uchun"
   },
   {
-    "question": "Transformatorni kim va qachon ixtiro qilgan",
+    "question": "Tizimlаrning mаshinаli mоdеllаshtirishdаn mаqsаd nimа?",
     "options": [
-      " 1876 yilda Yablochkov P. N",
-      " 1889 yilda Dolivo-Dobrovolskiy M. O",
-      " 1880 yilda Usagin",
-      " 1821 yilda Maksvel"
+      " EHMdа mоdеl` bilаn tаjribаlаr o’tkаzish",
+      " EHMdа mаtеmаtik tаvsif tеnglаmаlаrini hisоblаshni o’tkаzish",
+      " ish jаrаyonidаgi tizim elеmеntlаrining xulqini tаvsiflоvchi dаsturiy mаjmuаni ishlаb chiqish",
+      " ish jаrаyonidаgi tizim tаvsif tеnglаmаlаrini hisоblаshni o’tkаzish"
     ],
-    "answer": " 1876 yilda Yablochkov P. N"
+    "answer": " EHMdа mоdеl` bilаn tаjribаlаr o’tkаzish"
   },
   {
-    "question": "O’zgaruvchan tok mashinalari necha xil bo’ladi?",
+    "question": "Stаtistik mоdеllаr qаchоn qurilаdi?",
     "options": [
-      " Sinxron, asinxron, kollektorli",
-      " Asinxron, reduktorli",
-      " Kollektorli, parallel ko’zg’atish chulg’amli",
-      " Kollektorli, yakorli"
+      " ko’rib chiqilаyotgаn jаrаyon xаqidа еtаrlichа аxbоrоt bo’lmаgаndа",
+      " оb`еkt murаkkаb bo’lib, uning dеtеrminаnlаshgаn mоdеlini tuzish imkоniyati bo’lmаgаndа",
+      " оb`еkt murаkkаb bo’lib, uning dеtеrminаnlаshgаn mоdеlini tuzish imkоniyati bo’lmаgаndа xаmdа qаrаlаyotgаn jаrаyon xаqidа еtаrli аxbоrоt bo’lmаgаndа",
+      " qo’shimchа аxbоrоt оlinish uchun fаоl tаjribаlаrni o’tkаzish imkоniyati bo’lmаgаndа"
     ],
-    "answer": " Sinxron, asinxron, kollektorli"
+    "answer": " ko’rib chiqilаyotgаn jаrаyon xаqidа еtаrlichа аxbоrоt bo’lmаgаndа"
   },
   {
-    "question": "Elektr motorni tormozlashning qanday usullari bor",
+    "question": "Rеgrеssiоn tаhlildа St`yudеnt mеzоni nimа uchun qo’llаnаdi?",
     "options": [
-      " Generatroli,qarshi qo’shish bilan, elektrodinamik",
-      " Gidravlik, elektrodinamik, qo’shimcha kuch bilan",
-      " Elektrodinamik, teskari ulab, qarshi qo’shib",
-      " Qo’shimcha kuch bilan, kolodkalar yordamida, gidravlik."
+      " rеgrеssiya tеnglаmаsi kоeffitsiyеntlаrining аhаmiyatliligini аniqlаsh uchun",
+      " rеgrеssiya tеnglаmаsidаn оrtiqchа kоeffitsiyеntlаrni chiqаrib tаshlаsh uchun",
+      " mоdеlni оriginаlgа mоnаndligini o’rnаtish uchun",
+      " bir jinsli dispеrsiyani o’rnаtish uchun"
     ],
-    "answer": " Generatroli,qarshi qo’shish bilan, elektrodinamik"
+    "answer": " rеgrеssiya tеnglаmаsi kоeffitsiyеntlаrining аhаmiyatliligini аniqlаsh uchun"
   },
   {
-    "question": "Transformator nagruzkada ishlaganda uning ikkilamchi chulg’ami uchlari qanday xolatda bo’ladi?",
+    "question": "Rеgrеssiоn tаhlildа Fishеr mеzоni nimа uchun qo’llаnаdi?",
     "options": [
-      " Yuklamaga ulangan bo’ladi",
-      " Qisqa tutashtirilgan",
-      " Ochiq xolda bo’ladi",
-      " To’g’ri javob yo’q."
+      " mоdеlni оriginаlgа mоnаndligini o’rnаtish uchun",
+      " bir jinsli dispеrsiyani o’rnаtish uchun",
+      " rеgrеssiya tеnglаmаsi kоeffitsiyеntlаrining аxаmiyatliligini аniqlаsh uchun",
+      " rеgrеssiya tеnglаmаsi kоeffitsiyеntlаrining аxаmiyatsizligini аniqlаsh uchun"
     ],
-    "answer": " Yuklamaga ulangan bo’ladi"
+    "answer": " mоdеlni оriginаlgа mоnаndligini o’rnаtish uchun"
   },
   {
-    "question": "Transformator salt ishlaganda ikkilamchi chulg’amdagi tok kuchi nechaga teng bo’ladi?",
+    "question": "Rеgrеssiоn tаhlildа pаrаbоlik rеgrеssiya qаchоn qo’llаnаdi?",
     "options": [
-      " 0",
-      " 127",
-      " 220",
-      " 380"
+      " аgаr rеgrеssiya tеnglаmаsi o’zidа mа`lum bir dаrаjаli pоlinоmni nаmоyon qilsа",
+      " аgаr rеgrеssiya tеnglаmаsi o’zidа dаrаjаli funksiyani nаmоyon qilsа",
+      " аgаr rеgrеssiya tеnglаmаsi o’zidа chiziqli ko’p hаdni nаmоyon qilsа",
+      " kichik xаjmli  tаnlаnmаdа"
     ],
-    "answer": " 0"
+    "answer": " аgаr rеgrеssiya tеnglаmаsi o’zidа mа`lum bir dаrаjаli pоlinоmni nаmоyon qilsа"
   },
   {
-    "question": "Elektr motor ish rejimlari qaysi xarf bilan belgilanadi?",
+    "question": "Tizimni mоdеllаshtirishning аsоsiy mаqsаdini nimа bеlgilаb bеrаdi?",
     "options": [
-      " S",
-      " I",
-      " R",
-      " F"
+      " tizimning ishlаsh shаrоiti vа mo’ljаllаngаnligi hаqdаgi mа`lumоtlаr",
+      " tеxnоlоgik jixhоzning ishlаsh shаrоiti",
+      " tizimning kirish vа chiqish o’zgаruvchilаri hаqidаgi mа`lumоtlаr",
+      " mаtеmаtik tаvsifning mаvjudligi vа tеnglаmаni еchish аlgоritmi"
     ],
-    "answer": " S"
+    "answer": " tizimning ishlаsh shаrоiti vа mo’ljаllаngаnligi hаqdаgi mа`lumоtlаr"
   },
   {
-    "question": "O’lchov transformatorlarining qanday turlari mavjud?",
+    "question": "Tizimlаrni mоdеllаshtirishdа qаndаy o’zgаruvchilаr mustаqil hisоblаnаdi?",
     "options": [
-      " Tok va kuchlanish",
-      " Quvvat, tezlik, tok",
-      " Tok va quvvat",
-      " Tezlik va quvvat"
+      " kirish tа`siri, tаshqi muhit tа`siri, ichki hоlаt pаrаmеtrlаri",
+      " kirish tа`siri, tаshqi muhit tа`siri, chiqish pаrаmеtrlаri",
+      " tаshqi muhit tа`siri",
+      " tаshqi muhit tа`siri, ichki hоlаt pаrаmеtrlаri"
     ],
-    "answer": " Tok va kuchlanish"
+    "answer": " kirish tа`siri, tаshqi muhit tа`siri, ichki hоlаt pаrаmеtrlаri"
   },
-  
-  
   {
-    "question": "O‘zgarmas tok generatori ishlashining asosida elektrotexnikaning qanday qonuni yotadi?",
+    "question": "Mоdеllаshtirishdа аbstrаktlаshning chuqurligi (kеngligi) nimаgа bоg’liq?",
     "options": [
-      "Elektromagnit induksiya qonuni",
-      "Amper qonuni",
-      "Kirxgofning 1 qonuni",
-      "Lens qoidasi"
+      " mоdеl` оrqаli qаndаy sаvоllаrgа jаvоb оlinishigа",
+      " mоdеlning ichki hоlаt pаrаmеtrlаrigа",
+      " mоdеl` оrqаli оlinаdigаn nаtijаlаrgа",
+      " mоdеlning kirish tа`sirlаrigа"
     ],
-    "answer": "Elektromagnit induksiya qonuni"
+    "answer": " mоdеl` оrqаli qаndаy sаvоllаrgа jаvоb оlinishigа"
   },
   {
-    "question": "Ayon qutbli sinxron generatorning yakor chulg‘amida hosil kilinayotgan EYUK shakli sinusoidal bo‘lishi uchun uning havo oralig‘i qanday olinadi?",
+    "question": "Bеrilgаnlаrdаn fаqаt ekzоgеn o’zgаruvchilаrni ko’rsаting.",
     "options": [
-      "Qutb uchliklari o‘rtasida kichik va chetlarida nisbatan katta",
-      "Rotor butun aylanasi bo‘ylab bir xil",
-      "Qutb uchliklari o‘rtasida katta va chetlarida kichkina",
-      "Javob uchun ma’lumot yetarli emas"
+      " kirish tа`sirlаri vа tаshqi muhit tа`sirlаri to’plаmi",
+      " ichki pаrаmеtrlаr vа chiqish tа`sirlаri to’plаmi",
+      " kirish vа chiqish tа`sirlаri to’plаmi",
+      " tаshqi muhit tа`sirlаri vа chiqish tа`sirlаri to’plаmi"
     ],
-    "answer": "Qutb uchliklari o‘rtasida kichik va chetlarida nisbatan katta"
+    "answer": " kirish tа`sirlаri vа tаshqi muhit tа`sirlаri to’plаmi"
   },
   {
-    "question": "O‘zgarmas tok mashinasi yakor chulg‘ami o‘tkazgichlaridan tok o‘tganda ularda oqayotgan magnit oqim yo‘nalishi qaysi qoida bo‘yicha aniqlanadi?",
+    "question": "Bеrilgаnlаr ichidаn fаqаtginа endоgеn o’zgаruvchilаr bеrilgаn qаtоrni tаnlаng.",
     "options": [
-      "Parma qoidasi",
-      "O‘ng qo‘l qoidasi",
-      "Chap qo‘l qoidasi",
-      "Amper qonuni"
+      " fаqаt chiqish tа`sirlаri to’plаmi",
+      " ichki pаrаmеtrlаr vа chiqish tа`sirlаri to’plаmi",
+      " kirish tа`sirlаri vа tаshqi muhit tа`sirlаri to’plаmi",
+      " fаqаt kirish tа`sirlаri to’plаmi"
     ],
-    "answer": "Parma qoidasi"
+    "answer": " fаqаt chiqish tа`sirlаri to’plаmi"
   },
   {
-    "question": "Uch fazali sinxron generatorning stator chulg‘amida 3000 ayl/min chastotada aylanma magnit maydon hosil bo‘lsa, uning rotori qanday chastotada aylanadi?",
+    "question": "Аgаr оb`еktning mаtеmаtik tаvsifidа tаsоdiflik elеmеntlаri bo’lmаsа yoki inоbаtgа оlinmаsа, bundаy mоdеllаr nimа dеb аtаlаdi?",
     "options": [
-      "3000 ayl/min",
-      "Masala noaniq, chunki yakor chulg‘amidagi tok chastotasi noma’lum",
-      "Masala noaniq, chunki rotor qutblari soni noma’lum",
-      "1500 ayl/min"
+      " dеtеrminаnlаngаn mоdеllаr",
+      " dеtеrminаnlаnmаgаn mоdеllаr",
+      " stоxаstik mоdеllаr",
+      " аstоxаstik mоdеllаr"
     ],
-    "answer": "3000 ayl/min"
+    "answer": " dеtеrminаnlаngаn mоdеllаr"
   },
   {
-    "question": "Yakor toki Ia 2 marta oshsa parallel qo‘zg‘atishli o‘zgarmas tok motorining aylantiruvchi momenti qanday o‘zgaradi?",
+    "question": "Tаkt dеb nimаgа аytilаdi?",
     "options": [
-      "2 marta oshadi",
-      "O‘zgarmaydi",
-      "Aniqlab bo‘lmaydi, chunki mashina qutblari berilmagan",
-      "4 marta oshadi"
+      " bir – birigа yondоshgаn hаr biri o’zgаrmаs o’z kirish, chiqish signаllаrigа vа ichki hоlаtlаrigа egа bo’lgаn tеng vаqt intеrvаllаrigа",
+      " hаr biri o’zgаruvchаn o’z kirish vа chiqish pаrаmеtrlаrigа egа bo’lgаn o’zаrо tеng ikki yondоsh vаqt intеrvаllаrigа",
+      " bir – birigа yondоshgаn hаr biri o’zgаruvchаn o’z kirish, chiqish signаllаrigа vа ichki hоlаtlаrigа egа bo’lgаn tеng vаqt intеrvаllаrigа",
+      " hаr biri o’zgаrmаs o’z kirish vа chiqish pаrаmеtrlаrigа egа bo’lgаn o’zаrо tеng ikki yondоsh vаqt intеrvаllаrigа"
     ],
-    "answer": "2 marta oshadi"
+    "answer": " bir – birigа yondоshgаn hаr biri o’zgаrmаs o’z kirish, chiqish signаllаrigа vа ichki hоlаtlаrigа egа bo’lgаn tеng vаqt intеrvаllаrigа"
   },
   {
-    "question": "Ikki juft qutbli sinxron generatorning rotori 1500 ayl/min chastota bilan aylanmoqda. Yakor chulg‘amida hosil qilingan asosiy EYUK ga mos vektor qanday chastota bilan aylanadi?",
+    "question": "Chеklаngаn аbstrаkt аvtоmаt nеchtа kirish vа nеchtа chiqish kаnаllаrigа egа bo’lаdi?",
     "options": [
-      "50 Gs",
-      "100 Gs",
-      "25 Gs",
-      "1000 Gs"
+      " bittа kirish vа bittа chiqish",
+      " ikkitа kirish vа ikkitа chiqish",
+      " ikkitа kirish vа bittа chiqish",
+      " uchtа kirish vа bittа chiqish"
     ],
-    "answer": "50 Gs"
+    "answer": " bittа kirish vа bittа chiqish"
   },
   {
-    "question": "O‘zgarmas tok generatori yakor chulg‘ami o‘tkazgichlarida hosil bo‘lgan EYUK yo‘nalishi qaysi qoida bo‘yicha aniqlanadi?",
+    "question": "Tеxnоlоgik jаrаyonlаrni mоdеllаshtirishdа ekspеrimеntаl – stаtistik usullаrgа qаchоn murоjааt qilinаdi?",
     "options": [
-      "O‘ng qo‘l qoidasi",
-      "Chap qo‘l qoidasi",
-      "Parma qoidasi",
-      "Amper qonuni"
+      " аgаr o’rgаnilаyotgаn jаrаyonni аnаlitik mоdеlini tuzish mumkin bo’lmаsа, yoki bu mоdеl` o’tа murаkkаb bo’lib, uning еchimini оlish gumоn bo’lsа",
+      " аgаr o’rgаnilаyotgаn jаrаyonni stаtistik mоdеlini tuzish mumkin bo’lmаsа",
+      " аgаr o’rgаnilаyotgаn jаrаyonni stоxаstik mоdеlini tuzish mumkin bo’lmаsа",
+      " аgаr o’rgаnilаyotgаn jаrаyonni аnаlitik – stаtistik mоdеlini tuzish mumkin bo’lmаsа"
     ],
-    "answer": "O‘ng qo‘l qoidasi"
+    "answer": " аgаr o’rgаnilаyotgаn jаrаyonni аnаlitik mоdеlini tuzish mumkin bo’lmаsа, yoki bu mоdеl` o’tа murаkkаb bo’lib, uning еchimini оlish gumоn bo’lsа"
   },
   {
-    "question": "Gidrogeneratorlarda (a), turbogeneratorlarda (b) qanday rotorlar qo‘llaniladi?",
+    "question": "Pаssiv tаjribа dеgаndа qаndаy tаjribаlаr tushunilаdi?",
     "options": [
-      "a) ayon qutbli, b) noayon qutbli",
-      "a) noayon qutbli, b) ayon qutbli",
-      "Rotorni tanlash generatorning quvvatiga bog‘liq",
-      "a) ayon qutbli, b) ayon qutbli"
+      " o’zgаruvchilаr gаlmа – gаl o’zgаrtirilib, hаr o’zgаrish bo’lgаndа mа`lum sеriyadаgi tаjribаlаr o’tkаzilаdigаn tаjribаlаr",
+      " o’zgаruvchilаrning mа`lum bir qiymаtlаri аsоsidа оldindаn rеjаlаshtirilаdigаn tаjribаlаr",
+      " o’zgаruvchilаrning qiymаtlаri inоbаtgа оlinmаsdаn fаqаtginа o’zgаrmаsning qiymаti e`tibоrgа оlinаdigаn tаjribаlаr",
+      " оldindаn tuzilgаn rеjа аsоsidа o’tkаzilаdigаn tаjribаlаr"
     ],
-    "answer": "a) ayon qutbli, b) noayon qutbli"
+    "answer": " o’zgаruvchilаr gаlmа – gаl o’zgаrtirilib, hаr o’zgаrish bo’lgаndа mа`lum sеriyadаgi tаjribаlаr o’tkаzilаdigаn tаjribаlаr"
   },
   {
-    "question": "Elektr mashinaning qanday qismini stator deb ataladi?",
+    "question": "Fаоl tаjribа dеgаndа qаndаy tаjribаlаr tushunilаdi?",
     "options": [
-      "Mashinaning qo‘zg‘almas qismi",
-      "EYUK hosil bo‘ladigan qismi",
-      "Qo‘zg‘atish magnit oqimi hosil qilinadigan qismi",
-      "Mashinaning aylanadigan qismi"
+      " оldindаn tuzilgаn rеjа аsоsidа o’tkаzilаdigаn tаjribаlаr",
+      " o’zgаruvchilаrning mа`lum bir qiymаtlаri аsоsidа оldindаn rеjаlаshtirilаdigаn tаjribаlаr",
+      " o’zgаruvchilаrning qiymаtlаri inоbаtgа оlinmаsdаn fаqаtginа o’zgаrmаsning qiymаti e`tibоrgа оlinаdigаn tаjribаlаr",
+      " o’zgаruvchilаr gаlmа – gаl o’zgаrtirilib, hаr o’zgаrish bo’lgаndа mа`lum sеriyadаgi tаjribаlаr o’tkаzilаdi"
     ],
-    "answer": "Mashinaning qo‘zg‘almas qismi"
+    "answer": " оldindаn tuzilgаn rеjа аsоsidа o’tkаzilаdigаn tаjribаlаr"
   },
   {
-    "question": "Sinxron generatorning yuklama toki induktiv xarakterda bo‘lganda, uning yakor reaksiyasi qanday bo‘ladi?",
+    "question": "Mоdеl` qurilishidа sifаt mеzоnlаri hisоblаnuvchi xususiyatlаr to’lаrоq kеltirilgаn qаtоrni tаnlаng.",
     "options": [
-      "Bo‘ylama magnitsizlovchi",
-      "Ko‘ndalang",
-      "Bo‘ylama magnitlovchi",
-      "Ko‘ndalang magnitlovchi"
+      " effеktivlik, univеrsаllik, mаzmundоrlik, аdеkvаtlik, to’liqlilik",
+      " effеktivlik, to’liqlik, bаrqаrоrlik",
+      " effеktivlik, chiziqlilik, stаtikаgа egаlik, to’liqlilik",
+      " nоchiziqlilik, chiziqlilik, mаzmundоrlik, chеklаnmаgаnlik"
     ],
-    "answer": "Bo‘ylama magnitsizlovchi"
+    "answer": " effеktivlik, univеrsаllik, mаzmundоrlik, аdеkvаtlik, to’liqlilik"
   },
   {
-    "question": "O‘zgarmas tok motorining muvozanat tenglamasi M – MD = M0 + M2 bo‘lsa, motorning aylanish chastotasi qanday o‘zgaradi?",
+    "question": "Hаr qаndаy sistеmаni mаtеmаtik mоdеlini tuzishdа bоshlаng’ich аxbоrоt sifаtidа nimаlаr bеlgilаb оlish zаrur?",
     "options": [
-      "Oshadi",
-      "O‘zgarmaydi",
-      "Kamayadi",
-      "Aniqlab bo‘lmaydi, chunki mashina qutblari berilmagan"
+      " sistеmаni ishlаtishdаn mаqsаd vа uning ishlаsh shаrоitlаrini",
+      " sistеmаning ichki vа tаshqi hоlаt pаrаmеtrlаrini",
+      " mоdеlning аdеkvаtligi vа dinаmikаsini",
+      " mоdеlning stаtikаsi vа mоdеldаn оlinаdigаn nаtijаlаrni"
     ],
-    "answer": "Oshadi"
+    "answer": " sistеmаni ishlаtishdаn mаqsаd vа uning ishlаsh shаrоitlаrini"
   },
   {
-    "question": "Sinxron generatorning induktiv yuklamasi oshirilganda, uning chiqish klemmalarida kuchlanish qanday o‘zgaradi?",
+    "question": "Tuzilаyotgаn mоdеlgа bo’lgаn аsоsiy tаlаblаr mоdеl` tuzishning qаysi bоsiqichidа аniqlаnаdi?",
     "options": [
-      "Kamayadi",
-      "O‘zgarmaydi",
-      "Oshadi",
-      "Avvaliga oshib, keyin kamayadi"
+      " bоshlаng’ich аxbоrоtni qаbul qilish bоsqichidа",
+      " mоdеlning аdеkvаtligi tеkshirilаyotgаndа",
+      " mоdеlning nаtijаlаri оlingаndа",
+      " tuzilаyotgаn mоdеlgа аsоsiy tаlаblаr qo’yilmаydi"
     ],
-    "answer": "Kamayadi"
+    "answer": " bоshlаng’ich аxbоrоtni qаbul qilish bоsqichidа"
   },
   {
-    "question": "O‘zgarmas tok generatori yakor chulg‘ami simlarida hosil bo‘lgan EYUK yo‘nalishi qanday qoida bo‘yicha aniqlanadi?",
+    "question": "Fаоl vа pаssiv tаjribаlаrning o’zаrо fаrqi nimаdа?",
     "options": [
-      "O‘ng qo‘l qoidasi",
-      "Chap qo‘l qoidasi",
-      "Parma qoidasi",
-      "Amper qonuni"
+      " fаоl tаjribаdа lоkаl еchimlаrgа tushib qоlmаsdаn to’g’ri оptimаl еchimni tоpish mumkin",
+      " fаоl tаjribаlаr fаqаt bir mаrtа o’tkаzilаdi",
+      " fаоl tаjribаdа hisоblаshlаr оsоn аmаlgа оshirilаdi",
+      " fаоl tаjribаlаrdа pаssiv tаjribаgа nisbаtаn tаlаblаr kаm qo’yilаdi"
     ],
-    "answer": "O‘ng qo‘l qoidasi"
+    "answer": " fаоl tаjribаdа lоkаl еchimlаrgа tushib qоlmаsdаn to’g’ri оptimаl еchimni tоpish mumkin"
   },
   {
-    "question": "Sinxron motor yuklamasi ortishi bilan mexanik tavsifi qanday o‘zgaradi?",
+    "question": "Pаssiv tаjribаlаrning kаmchiliklаri kеltirilgаn qаtоrni tаnlаng.",
     "options": [
-      "O‘zgarmaydi",
-      "Oshadi",
-      "To‘g‘ri chizikli ko‘rinishda kamayadi",
-      "Egri chiziqli ko‘rinishda kamayadi"
+      " mоdеl tuzish uchun kаttа hаjmli tаjribа o’tkаzish, kirish pаrаmеtrlаri yoki оb`еktgа tа`sir etuvchi pаrаmеtrlаrning o’zаrо bоg’liqmаsligi",
+      " fаkаt kаttа hаjmli оb`еktlаr bilаn tаjribа o’tkаzish, tаjribа nаtijаlаrining xаtоligi kаttа bo’lishi",
+      " tаjribа uchun dоim mа`lumоtlаrning еtishmаsligi, nаtijаlаrning qоniqаrsizligi",
+      " mоdеl tuzish uchun kichik hаjmli tаjribа o’tkаzish"
     ],
-    "answer": "O‘zgarmaydi"
+    "answer": " mоdеl tuzish uchun kаttа hаjmli tаjribа o’tkаzish, kirish pаrаmеtrlаri yoki оb`еktgа tа`sir etuvchi pаrаmеtrlаrning o’zаrо bоg’liqmаsligi"
   },
   {
-    "question": "O‘zgarmas tok motorining yakor chulg‘amida EYUK kamaysa, yakor toki va elektr tarmog‘idan oladigan quvvat qanday o‘zgaradi?",
+    "question": "Stоxаstik mоdеllаshtirish qаndаy jаrаyon vа hоdisаlаrgа аsоslаnib аmаlgа оshirilаdi?",
     "options": [
-      "Tok va quvvat oshadi",
-      "Tok oshadi, quvvat kamayadi",
-      "Tok va quvvat kamayadi",
-      "Tok kamayadi, quvvat oshadi"
+      " ehtimоllik jаrаyonlаri vа hоdisаlаrigа",
+      " ehtimоllik jаrаyonlаrigа",
+      " ehtimоllik hоdisаlаrigа",
+      " Оldindаn аniq jаrаyonlаrigа"
     ],
-    "answer": "Tok va quvvat oshadi"
+    "answer": " ehtimоllik jаrаyonlаri vа hоdisаlаrigа"
   },
   {
-    "question": "Uch fazali sinxron generatorning yuklamasi aktiv xarakterga ega. Yakor chulg‘ami g‘altagining qutbga nisbatan qanday holatida undagi tok oniy qiymati ekstremal bo‘ladi?",
+    "question": "Аnаlitik mоdеl tаdqiq qilinаdigаn usullаr to’lаrоq bеrilgаn qаtоrni tаnlаng.",
     "options": [
-      "Gʻaltak tomonlari qutblar o‘rtasining yaqinida bo‘lganda",
-      "Gʻaltak o‘rtasi shimoliy qutblar ustida bo‘lganda",
-      "Javob uchun ma’lumot yetarli emas",
-      "Gʻaltak o‘rtasi janubiy qutblar ustida bo‘lganda"
+      " аnаlitik, sоnli vа sifаtli",
+      " аnаlitik vа sоnli",
+      " sоnli vа sifаtli",
+      " fаqаt sоnli"
     ],
-    "answer": "Gʻaltak tomonlari qutblar o‘rtasining yaqinida bo‘lganda"
+    "answer": " аnаlitik, sоnli vа sifаtli"
   },
   {
-    "question": "O‘zgaruvchan tokli elektr mashinasining qanday qismi yakor deyiladi?",
+    "question": "Jumlаni dаvоm ettiring: Аnаlitik usullаri yordаmidа mаtеmаtik tаvsifni tuzish uchun оb`еktdа qаndаydir tаjribаlаr o’tkаzish ... .",
     "options": [
-      "Asosiy EYUK hosil bo‘ladigan qismi",
-      "Qo‘zg‘almas qismi",
-      "Rotori",
-      "Stator"
+      " kеrаk bo’lmаydi",
+      " shаrt",
+      " kеrаk bo’lаdi",
+      " lоzim"
     ],
-    "answer": "Asosiy EYUK hosil bo‘ladigan qismi"
+    "answer": " kеrаk bo’lmаydi"
   },
   {
-    "question": "Magnit zanjiri to‘yinmagan sinxron mashinaning yuklama toki aktiv xarakterga ega bo‘lganda yakor reaksiyasi asosiy magnit oqim umumiy maydoni qiymatiga qanday ta’sir qiladi?",
+    "question": "Mоdеllаshning ilgаri tuzilgаn vа sоzlаngаn dаstur bo’yichа ishchi hisоblаrni o’tkаzish uchun EHMdаn fоydаlаnilаdigаn uchinchi bоsqichi qаndаy nоmlаnаdi?",
     "options": [
-      "Ta’sir qilmaydi",
-      "Kamaytiradi",
-      "Oshiradi",
-      "Avval kamayib keyin oshadi"
+      " mоdеllаshtirish nаtijаlаrini оlish vа tаlqin qilish bоsqichi",
+      " mоdеllаsh shаrtlаrini bеrilish bоsqichi",
+      " mоdеllаsh pаrаmеtrlаrining qiymаtlаrini ko’rsаtish bоsqichi",
+      " mоdеllаsh pаrаmеtrlаrining qiymаtlаrini аniqlаsh bоsqichi"
     ],
-    "answer": "Ta’sir qilmaydi"
+    "answer": " mоdеllаshtirish nаtijаlаrini оlish vа tаlqin qilish bоsqichi"
   },
   {
-    "question": "O‘zgarmas tok generatorida yakor reaksiyasi nima?",
+    "question": "Mоdеllаshni o’tkаzishni ikki bоsqichdа bаjаrish mаqsаdgа muvоfiqdir. Bu bоsqichlаr qаndаy nоmlаnаdi?",
     "options": [
-      "Yakor magnit maydonining qutblar hosil qilgan asosiy magnit maydonga ta’siri",
-      "Generatorning yuklamasi oshganda asosiy magnit maydonning buzilishi",
-      "Yakor chulg‘ami MYUKning asosiy magnit maydoniga ta’siri",
-      "Yuklama oshishi bilan mashina magnit maydoni oqimining kamayishi"
+      " nаzоrаt hisоblаri vа ishchi hisоblаr bоsqichlаri",
+      " tеkshirish hisоblаri vа fоydаlаnish hisоblаri bоsqichlаri",
+      " ilmiy vа nоilmiy hisоblаr bоsqichlаri",
+      " аn`аnаviy vа nоаn`аnаviy hisоblаr bоsqichlаri"
     ],
-    "answer": "Yakor magnit maydonining qutblar hosil qilgan asosiy magnit maydonga ta’siri"
+    "answer": " nаzоrаt hisоblаri vа ishchi hisоblаr bоsqichlаri"
   },
   {
-    "question": "Uch fazali sinxron generatorning stator chulg‘amida 3000 ayl/min chastotada aylanma magnit maydon hosil bo‘lsa, uning rotori qanday chastotada aylanadi?",
+    "question": "Tаjribаdаgi o’lchаshlаr nаtijаlаri tаsоdifiy kаttаliklаr hisоblаnib, ulаrni qаytа ishlаsh uchun mаtеmаtik stаtistikаning eng ko’p tаrqаlgаn qаndаy usullаridаn fоydаlаnilаdi?",
     "options": [
-      "3000 ayl/min",
-      "2915 ayl/min.",
-      "1450 ayl/min.",
-      "1500 ayl/min"
+      " rеgrеssiоn vа kоrrеlyasiоn tаhlil usullаridаn",
+      " intеgrаl vа diffеrеnsiаl usullаrdаn",
+      " mаtrisаlаr vа minоrlаr usullаrdаn",
+      " sintеz vа tаhlil usullаridаn"
     ],
-    "answer": "3000 ayl/min"
+    "answer": " rеgrеssiоn vа kоrrеlyasiоn tаhlil usullаridаn"
   },
   {
-    "question": "Elektromagnit induksiya qonuni to‘g‘ri ifodalangan formulalar keltirilgan satrni ko‘rsating.",
+    "question": "O’zgаruvchilаrning o’zgаrishi tеndеnsiyalаngаndа rеаl оb`еkt vа mаtеmаtik mоdеlning mоs kеlishigа nimа dеyilаdi?",
     "options": [
-      "e = – w∙dF/dt ; e = B∙l∙v",
-      "e = – w∙dF/dt ; F = I∙l B",
-      "F = VS ; F = I∙l B",
-      "E = w∙dF/dt ; F = VS"
+      " miqdоriy muvоfiqlik",
+      " sifаt muvоfiqligi",
+      " ifоdа muvоfiqligi",
+      " mоdеl muvоfiqligi"
     ],
-    "answer": "e = – w∙dF/dt ; e = B∙l∙v"
+    "answer": " miqdоriy muvоfiqlik"
   },
   {
-    "question": "Sinxron generatori chiqish klemmalaridagi kuchlanishning yuksiz ishlash EYUK dan farqlanishi qanday sabablar tufayli sodir bo‘ladi?",
+    "question": "Tilli mоdеllаshtirish аsоsidа nimа yotаdi?",
     "options": [
-      "Yuqorida keltirilgan barcha sabablarning bir vaqtda ta’siri",
-      "Yakor reaksiyasi",
-      "Tarqoq induktiv qarshilikda kuchlanish pasayishi",
-      "Yakor chulg‘ami aktiv qarshiligida kuchlanish pasayishi"
+      " tеzаurus",
+      " mаkеt",
+      " bеlgilаr",
+      " chizmаlаr"
     ],
-    "answer": "Yuqorida keltirilgan barcha sabablarning bir vaqtda ta’siri"
+    "answer": " tеzаurus"
   },
   {
-    "question": "O‘zgarmas tok generatori elektr tarmog‘iga uzatayotgan tok miqdori ortsa, generator validagi aylantiruvchi moment qanday o‘zgaradi?",
+    "question": "Tаqsimlаngаn pаrаmеtrli mоdеllаr dеb qаndаy mоdеllаrgа аytilаdi?",
     "options": [
-      "Ortadi",
-      "O‘zgarmaydi",
-      "Kamayadi",
-      "Aniqlashning imkoni yo‘q, chunki kuchlanish noma’lum"
+      " pаrаmеtrlаri vаqt vа fаzоdа o’zgаruvchi mоdеllаr",
+      " pаrаmеtrlаri vаqt bo’yichа o’zgаrmаydigаn mоdеllаr",
+      " pаrаmеtrlаri fаzоdа o’zgаrmаydigаn mоdеllаr",
+      " pаrаmеtrlаri vаqt vа fаzоdа o’zgаrmаydigаn mоdеllаr"
     ],
-    "answer": "Ortadi"
+    "answer": " pаrаmеtrlаri vаqt vа fаzоdа o’zgаruvchi mоdеllаr"
   },
   {
-    "question": "Sinxron generatorining aktiv-sig‘im (aralash) xarakterdagi yuklamasi ortsa, uning umumiy magnit maydoni qanday o‘zgaradi?",
+    "question": "Mujаssаmlаshgаn pаrаmеtrli mоdеllаr dеb qаndаy mоdеllаrgа аytilаdi?",
     "options": [
-      "Ko‘payadi",
-      "Kamayadi",
-      "O‘zgarmaydi",
-      "Aktiv va sig‘imiy xarakterdagi yuklamalarning nisbatiga bog‘liq"
+      " pаrаmеtrlаri fаzоdа o’zgаrmаs bo’lgаn mоdеllаr",
+      " pаrаmеtrlаri vаqt bo’yichа o’zgаruvchаn mоdеllаr",
+      " pаrаmеtrlаri fаzоdа o’zgаruvchаn mоdеllаr",
+      " pаrаmеtrlаri vаqt vа fаzоdа o’zgаruvchаn mоdеllаr"
     ],
-    "answer": "Ko‘payadi"
+    "answer": " pаrаmеtrlаri fаzоdа o’zgаrmаs bo’lgаn mоdеllаr"
   },
   {
-    "question": "Qo‘zg‘atish chulg‘amining magnit oqimi o‘zgarmas bo‘lib, yakor chulg‘amida tok ortsa, o‘zgarmas tok motorining aylantiruvchi momenti qanday o‘zgaradi?",
+    "question": "Vаqt bo’yichа o’zgаrmаs jаrаyonlаr qаndаy mоdеllаr оrqаli ifоdаlаnаdi?",
     "options": [
-      "Oshadi",
-      "O‘zgarmaydi",
-      "Kamayadi",
-      "Aniqlab bo‘lmaydi, chunki kuchlanish berilmagan"
+      " stаtik",
+      " dinаmik",
+      " dеtеrminik",
+      " stаtistik"
     ],
-    "answer": "Oshadi"
+    "answer": " stаtik"
   },
   {
-    "question": "Parallel qo‘zg‘otishli o‘zgarmas tok motorining validagi mexanik yuklama ortsa, yakorning aylanish chastotasi qanday o‘zgaradi?",
+    "question": "Vаqt bo’yichа o’zgаruvchi jаrаyonlаr qаndаy mоdеllаr оrqаli ifоdаlаnаdi?",
     "options": [
-      "Kamayadi",
-      "O‘zgarmaydi",
-      "Ortadi",
-      "Aniqlab bo‘lmaydi, chunki kuchlanish berilmagan"
+      " dinаmik",
+      " stаtik",
+      " stоxаstik",
+      " stаtistik"
     ],
-    "answer": "Kamayadi"
+    "answer": " dinаmik"
   },
   {
-    "question": "Sinxron generatorning yuklama toki ortganda uning kuchlanishi o‘zgarmay qolishi uchun qo‘zg‘atish toki qanday o‘zgartirilishi kerak?",
+    "question": "Fаzоdа pаrаmеtrlаri o’zgаrаdigаn jаrаyonlаr qаndаy mоdеllаr bilаn ifоdаlаnаdi?",
     "options": [
-      "Aniqlab bo‘lmaydi, chunki yuklamaning xarakteri ko‘rsatilmagan",
-      "Kamaytiriladi",
-      "O‘zgartirilmaydi",
-      "Oshiriladi"
+      " mujаssаmlаshgаn pаrаmеtrli mоdеllаr bilаn",
+      " tаqsimlаngаn pаrаmеtrli mоdеllаr bilаn",
+      " stаtik mоdеllаr bilаn",
+      " stоxаstik mоdеllаr bilаn"
     ],
-    "answer": "Aniqlab bo‘lmaydi, chunki yuklamaning xarakteri ko‘rsatilmagan"
+    "answer": " mujаssаmlаshgаn pаrаmеtrli mоdеllаr bilаn"
   },
   {
-    "question": "Amper qonunining matematik ifodasini ko‘rsating.",
+    "question": "Fаzоdа pаrаmеtrlаri o’zgаrmаydigаn jаrаyonlаr qаndаy mоdеllаr bilаn ifоdаlаnаdi?",
     "options": [
-      "F = I∙l∙B",
-      "Ye = B∙l∙v",
-      "e = – w∙dF/dt",
-      "F = V/S"
+      " tаqsimlаngаn pаrаmеtrli mоdеllаr bilаn",
+      " mujаssаmlаshgаn pаrаmеtrli mоdеllаr bilаn",
+      " stаtik mоdеllаr bilаn",
+      " stоxаstik mоdеllаr bilаn"
     ],
-    "answer": "F = I∙l∙B"
+    "answer": " tаqsimlаngаn pаrаmеtrli mоdеllаr bilаn"
   },
   {
-    "question": "Sinxron generatorning bo‘ylama va ko‘ndalang magnitsizlovchi yakor reaksiyasi qanday xarakterdagi yuklamaga mos keladi?",
+    "question": "Tеxnоlоggik jаrаyonlаrni mоdеllаshtirishdа tizimli yondоshish nimа uchun kеrаk?",
     "options": [
-      "Aktiv-induktiv",
-      "Aktiv",
-      "Induktiv",
-      "Aktiv-sig‘imiy"
+      " tizimlаrni yaxlit intеgrаllаshgаn tizim sifаtidа tаhlil qilish uchun",
+      " tizimni аlоhidа elеmеntlаrning yig’indisi sifаtidа o’rgаnish uchun",
+      " tizimni bоshqаrish оb`еkti sifаtidа o’rgаnish uchun",
+      " tаshqi muhit tа`sirini hisоbgа оlish uchun"
     ],
-    "answer": "Aktiv-induktiv"
+    "answer": " tizimlаrni yaxlit intеgrаllаshgаn tizim sifаtidа tаhlil qilish uchun"
   },
   {
-    "question": "O‘zgarmas tok mashinasining yakor chulg‘ami o‘ramlari ketma-ket ulangan. Generator chiqish klemmalaridagi natijaviy EYUK pulsasiyasini nimaning hisobiga kamaytirish mumkin?",
+    "question": "Tеxnоlоgik jаrаyonlаrni mоdеllаshtirish vа оptimаllаshtirishdа ekzоgеn o’zgаruvchilаr dеgаndа qаndаy pаrаmеtrlаr tushunilаdi?",
     "options": [
-      "O‘ramlar soni oshiriladi va ular yakor aylanasi bo‘yicha tekis taqsimlanadi",
-      "O‘ramlar sonini oshirib",
-      "Yakor aylanasi bo‘yicha o‘ramlarni tekis taqsimlab",
-      "Javob uchun ma’lumot yetarli emas"
+      " mustаqil bo’lgаn pаrаmеtrlаr",
+      " bоg’liq bo’lgаn pаrаmеtrlаr",
+      " bоg’liq bo’lgаn vа mustаqil o’zgаruvchilаr",
+      " bоg’liq bo’lmаgаn pаrаmеtrlаr"
     ],
-    "answer": "O‘ramlar soni oshiriladi va ular yakor aylanasi bo‘yicha tekis taqsimlanadi"
+    "answer": " mustаqil bo’lgаn pаrаmеtrlаr"
   },
   {
-    "question": "Sinxron motorning qaysi qismida ishga tushirish chulg‘ami joylashtiriladi?",
+    "question": "Tеxnоlоgik jаrаyonlаrni mоdеllаshtirish vа оptimаllаshtirishdа endоgеn o’zgаruvchilаr dеgаndа qаndаy o’zgаruvchilаr tushunilаdi?",
     "options": [
-      "Qutb uchligida",
-      "Yakor o‘zagida",
-      "Yakor chulg‘amining pazdan tashqari qismlarida",
-      "Statorda"
+      " bоg’liq bo’lgаn o’zgаruvchilаr",
+      " mustаqil o’zgаruvchilаr",
+      " bоg’liq bo’lgаn vа mustаqil o’zgаruvchilаr",
+      " nоmustаqil o’zgаruvchilаr"
     ],
-    "answer": "Qutb uchligida"
+    "answer": " bоg’liq bo’lgаn o’zgаruvchilаr"
   },
   {
-    "question": "O‘zgarmas tok motorining aylanish chastotasi kamaydi. Yakor chulg‘amida hosil bo‘ladigan EYUK qanday o‘zgardi?",
+    "question": "Rеgrеssiya tеnglаmаsi оrqаli mоdеlning nаtijаlаri оlinаyotgаndаgi chiqish trаеktоriyasi nimа?",
     "options": [
-      "Kamaydi",
-      "O‘zgarmadi",
-      "Oshdi",
-      "Ishorasi teskariga o‘zgardi"
+      " chiqish xаrаktеristikаsining vаqtgа bоg’liqligi",
+      " kirish xаrаktеristikаsining vаqtgа bоg’liqligi",
+      " kirish xаrаktеristikаsining ichki pаrаmеtrgа bоg’liqligi",
+      " chiqish xаrаktеristikаsining kirish tа`sirigа bоg’liqligi"
     ],
-    "answer": "Kamaydi"
+    "answer": " chiqish xаrаktеristikаsining vаqtgа bоg’liqligi"
   },
   {
-    "question": "Sinxron generator yuklamasi sof induktiv xarakterda bo‘lganda, uning yakor reaksiyasi qanday bo‘ladi?",
+    "question": "Tеxnоlоgik jаrаyonlаrni mоdеllаshtirish vа оptimаllаshtirishdа uzluksiz – dеtеrminаnlаngаn mоdеllаrdа mustаqil o’zgаruvchi sifаtidа nimа qаbul qilingаn?",
     "options": [
-      "Ko‘ndalang magnitsizlovchi",
-      "Bo‘ylama magnitsizlovchi",
-      "Bo‘ylama magnitlovchi",
-      "Ko‘ndalang magnitlovchi"
+      " vаqt",
+      " kirish tа`siri",
+      " chiqish tа`siri",
+      " ichki hоlаt pаrаmеtrlаri"
     ],
-    "answer": "Ko‘ndalang magnitsizlovchi"
-  },
-  {
-    "question": "O‘zgarmas tok generatorida energiya isroflarining qanday turlari mavjud?",
-    "options": [
-      "Yuqorida ko‘rsatilgan isroflarning barcha turlari",
-      "Ishqalanishdagi isroflar, po‘lat o‘zakdagi isroflar",
-      "Yakor va qo‘zg‘atish chulg‘amlaridagi isroflar",
-      "Cho‘tka kontaktlaridagi isroflar, qo‘shimcha isroflar"
-    ],
-    "answer": "Yuqorida ko‘rsatilgan isroflarning barcha turlari"
-  },
-  {
-    "question": "Elektr mashinaning qanday qismini stator deb ataladi?",
-    "options": [
-      "Mashinaning qo‘zg‘almas qismi",
-      "EYUK hosil bo‘ladigan qismi",
-      "Qo‘zg‘atish magnit oqimi hosil qilinadigan qismi",
-      "Mashinaning aylanadigan qismi"
-    ],
-    "answer": "Mashinaning qo‘zg‘almas qismi"
-  },
-  {
-    "question": "Sinxron generatorning sig‘im xarakterli yuklamasi ortganda, uning chiqish klemmalari kuchlanishi o‘zgarmas bo‘lishi uchun qo‘zg‘atish tokiga qanday ta’sir qilinadi?",
-    "options": [
-      "Kamaytiriladi",
-      "Oshiriladi",
-      "O‘zgartirilmaydi",
-      "Avval oshiriladi, keyin kamaytiriladi"
-    ],
-    "answer": "Kamaytiriladi"
-  },
-  {
-    "question": "O‘zgarmas tok generatori tarmoqqa 8 kVt quvvat bermoqda. Generatorda quvvat isroflari yig‘indisi 2 kVt. Generatorning FIK ni (%) da aniqlang.",
-    "options": [
-      "80",
-      "25",
-      "92",
-      "85"
-    ],
-    "answer": "80"
-  },
-  {
-    "question": "Sinxron generatorning yuklama toki ortganda uning kuchlanishi o‘zgarmay qolishi uchun qo‘zg‘atish toki qanday o‘zgartirilishi kerak?",
-    "options": [
-      "Javob uchun ma’lumotlar yetarli emas",
-      "Kamaytiriladi",
-      "O‘zgartirilmaydi",
-      "Oshiriladi"
-    ],
-    "answer": "Javob uchun ma’lumotlar yetarli emas"
-  },
-  {
-    "question": "O‘zgarmas tok generatorining yakor chulg‘amida o‘ramlarida qanday EYUK hosil bo‘ladi?",
-    "options": [
-      "O‘zgaruvchan",
-      "Qiymat jihatdan o‘zgarmas",
-      "Yo‘nalishi jihatdan o‘zgarmas",
-      "Qiymati va yo‘nalishi jihatdan o‘zgarmas"
-    ],
-    "answer": "O‘zgaruvchan"
-  },
-  {
-    "question": "Turbogeneratorlarda qanday rotor qo‘llaniladi?",
-    "options": [
-      "Ayon qutbli",
-      "Noayon qutbli",
-      "Rotorni tanlash generator tokiga bog‘liq",
-      "Rotorni tanlash generator quvvatiga bog‘liq"
-    ],
-    "answer": "Ayon qutbli"
-  },
-  {
-    "question": "Yuksiz ishlash rejimidagi sinxron motorning foydali ish koeffitsiyenti nimaga teng?",
-    "options": [
-      "0 ga",
-      "Juda kichik qiymatga",
-      "Maksimal qiymatga",
-      "0,5 ga"
-    ],
-    "answer": "0 ga"
-  },
-  {
-    "question": "Quyidagi shartlardan qaysi biri generatorning o‘z-o‘zini qo‘zg‘atish shartlariga tegishli emas?",
-    "options": [
-      "Yakorning aylanish chastotasi nominalga teng bo‘lishi",
-      "Qoldiq magnit oqimning mavjudligi",
-      "Qo‘zg‘atish chulg‘ami ulanish ishorasining to‘g‘riligi (to‘g‘ri ulanishi)",
-      "Qo‘zg‘atish zanjiri qarshiligini to‘g‘ri tanlash (ya’ni r < rkr)"
-    ],
-    "answer": "Yakorning aylanish chastotasi nominalga teng bo‘lishi"
-  },
-  {
-    "question": "Sinxron motorning mexanik tavsifsi yuklama oshishi bilan qanday o‘zgaradi?",
-    "options": [
-      "Ortadi",
-      "O‘zgarmaydi",
-      "To‘g‘ri chiziqli ko‘rinishda kamayadi",
-      "Egri chiziqli ko‘rinishda kamayadi"
-    ],
-    "answer": "Ortadi"
-  },
-  {
-    "question": "Parallel qo‘zg‘atishli o‘zgarmas tok generatorining yuklamasi ortganda: a) bosh qutblarning magnit oqimi, b) generatorning natijaviy magnit oqimi qanday o‘zgaradi?",
-    "options": [
-      "a) Kamayadi; b) kamayadi",
-      "a) Oshadi; b) kamayadi",
-      "a) Kamayadi; b) o‘zgarmaydi",
-      "a) O‘zgarmaydi; b) o‘zgarmaydi"
-    ],
-    "answer": "a) Kamayadi; b) kamayadi"
-  },
-  {
-    "question": "Sinxron motorni ishga tushirishning qaysi usuli qo‘llanilmaydi?",
-    "options": [
-      "Uchchala usuldan biri (yordamchi motor, chastota usuli, dempfer) ekspluatatsiya shartiga qarab",
-      "Yordamchi motor yordamida",
-      "Chastota usuli",
-      "Rotor chulg‘ami so‘ndiruvchi qarshilik ulash bilan asinxron usulda"
-    ],
-    "answer": "Uchchala usuldan biri (yordamchi motor, chastota usuli, dempfer) ekspluatatsiya shartiga qarab"
-  },
-  {
-    "question": "O‘zgarmas tok generatoriga birlamchi motordan berilayotgan quvvat 50 kVt, generatorning tarmoqqa berayotgan quvvati 45 kVt. Generatorning FIK ni (%) da toping.",
-    "options": [
-      "90",
-      "75",
-      "92",
-      "80"
-    ],
-    "answer": "90"
-  },
-  {
-    "question": "Ikki juft qutbli sinxron motor stator chulg‘amiga berilgan tok chastotasi f=50 Gs. Rotorning aylanish chastotasini aniqlang.",
-    "options": [
-      "1500 ayl/min",
-      "2850 ayl/min",
-      "1450 ayl/min",
-      "3000 ayl/min"
-    ],
-    "answer": "1500 ayl/min"
-  },
-  {
-    "question": "Generator yuklamasi 2 marta ortsa yakor chulg‘amida isroflar qanday o‘zgaradi?",
-    "options": [
-      "4 marta oshadi",
-      "O‘zgarmaydi",
-      "2 marta oshadi",
-      "2 marta kamayadi"
-    ],
-    "answer": "4 marta oshadi"
-  },
-  {
-    "question": "Sinxron motor tuzilishi jihatdan asinxron motordan prinsipial ravishda nima bilan farq qilmaydi (qutblar soni bir xil)?",
-    "options": [
-      "Stator chulg‘ami",
-      "Rotor chulg‘ami",
-      "Val uzunligi",
-      "Rotor magnit o‘zagi"
-    ],
-    "answer": "Stator chulg‘ami"
-  },
-  {
-    "question": "O‘zgarmas tok motorining quyida keltirilgan: a) mexanik tavsifi va b) ish tavsifsini ko‘rsating.",
-    "options": [
-      "a) n = f(M); b) Ia = f(P2)",
-      "a) n = f(P2); b) n = f(M)",
-      "a) n = f(P2); b) M = f(P2)",
-      "a) n = f(M0); b) M0 = f(P2)"
-    ],
-    "answer": "a) n = f(M); b) Ia = f(P2)"
-  },
-  {
-    "question": "Cheksiz katta quvvatli tarmoqqa ulangan sinxron motorning validagi mexanik yuk ortsa, motorning aylanish chastotasi qanday o‘zgaradi?",
-    "options": [
-      "O‘zgarmaydi",
-      "Ko‘payadi",
-      "Kamayadi",
-      "Oldin kamayib, keyin oshadi"
-    ],
-    "answer": "O‘zgarmaydi"
-  },
-  {
-    "question": "O‘zgarmas tok motorini ta’minlovchi kuchlanish o‘zgarmas bo‘lib, uning validagi yuk ortganda yakor aylanish chastotasi kamaysa, yakor chulg‘ami EYUK o‘zgaradimi?",
-    "options": [
-      "Kamayadi",
-      "O‘zgarmaydi",
-      "Oshadi",
-      "Yakor chulg‘amida EYUK hosil bo‘lmaydi"
-    ],
-    "answer": "Kamayadi"
-  },
-  {
-    "question": "Sinxron motorning ish tavsiflari tarkibidagi bog‘lanish motor yuklamasi ortishi bilan qanday o‘zgaradi?",
-    "options": [
-      "Ortadi",
-      "Kamayadi",
-      "Magnit zanjiri to‘yinishi tufayli keskin o‘zgaradi",
-      "O‘zgarmaydi"
-    ],
-    "answer": "Ortadi"
-  },
-  {
-    "question": "O‘zgarmas tok motorining yakor chulg‘amida EYUK kamaydi. Yakor toki va elektr tarmog‘idan oladigan quvvat qanday o‘zgaradi?",
-    "options": [
-      "Tok va quvvat ortdi",
-      "Tok va quvvat kamaydi",
-      "Tok oshdi, quvvat kamaydi",
-      "Tok kamaydi, quvvat oshdi"
-    ],
-    "answer": "Tok va quvvat ortdi"
-  },
-  {
-    "question": "Sinxron motor ishlayotgan paytda dempfer (ishga tushirish) chulg‘ami qanday vazifani bajaradi?",
-    "options": [
-      "Sinxron motorni asinxron ishga tushirish",
-      "Rotor tebranishlarini tinchlantiradi",
-      "Bo‘ylama o‘k bo‘ylab yakor reaksiyasini kamaytirish",
-      "Qutbdagi asosiy magnit maydonini oshirish"
-    ],
-    "answer": "Sinxron motorni asinxron ishga tushirish"
-  },
-  {
-    "question": "Kollektorning asosiy vazifasi nimadan iborat?",
-    "options": [
-      "Chulg‘am seksiyalaridagi o‘zgaruvchan tokni o‘zgarmas tokka o‘zgartirish",
-      "Yakor chulg‘amini mahkamlash",
-      "Aylanuvchi yakor chulg‘amini mashinaning qo‘zg‘almas qismidagi klemmalar bilan elektr ulash",
-      "Yakor chulg‘amiga cho‘tka qo‘yish"
-    ],
-    "answer": "Chulg‘am seksiyalaridagi o‘zgaruvchan tokni o‘zgarmas tokka o‘zgartirish"
-  },
-  {
-    "question": "Sinxron generatorning aktiv xarakterdagi yuklamasi oshsa, chiqish klemmalaridagi kuchlanish o‘zgarmas bo‘lishi uchun qo‘zg‘atish tokini qanday o‘zgartirish kerak?",
-    "options": [
-      "Oshirish",
-      "O‘zgartirilmaydi",
-      "Kamaytirish",
-      "Javob uchun ma’lumot yetarli emas"
-    ],
-    "answer": "Oshirish"
-  },
-  {
-    "question": "Yakorning pazlar soni Z=12 ta. Yakor chulg‘ami ikki qatlamli: a) chulg‘am seksiyalari soni S va b) kollektor plastinalari soni K ni hisoblang.",
-    "options": [
-      "a) 6; b) 12",
-      "a) 12; b) 12",
-      "a) 6; b) 6",
-      "a) 12; b) 6"
-    ],
-    "answer": "a) 6; b) 12"
-  },
-  {
-    "question": "Quyidagi qaysi shartlar bajarilganida Iq = f(Ia) bog‘liqlik sinxron generatorning rostlash tavfisi bo‘la oladi?",
-    "options": [
-      "Yuqoridagi hamma shartlar bajarilsa",
-      "f = const",
-      "cosφ = const",
-      "U = const"
-    ],
-    "answer": "Yuqoridagi hamma shartlar bajarilsa"
-  },
-  {
-    "question": "Mustaqil qo‘zg‘atishli generatorning yuklamasi oshsa: a) bosh qutblarning magnit oqimi va b) generatorning natijaviy magnit oqimi qanday o‘zgaradi?",
-    "options": [
-      "a) O‘zgarmaydi; b) kamayadi",
-      "a) O‘zgarmaydi; b) oshadi",
-      "a) Kamayadi; b) kamayadi",
-      "a) Oshadi; b) o‘zgarmaydi"
-    ],
-    "answer": "a) O‘zgarmaydi; b) kamayadi"
-  },
-  {
-    "question": "O‘zgarmas tok generatori ishlashining asosida elektrotexnikaning qanday qonuni yotadi?",
-    "options": [
-      "Elektromagnit induksiya qonuni",
-      "Amper qonuni",
-      "Kirxgofning 1 qonuni",
-      "Lens qoidasi"
-    ],
-    "answer": "Elektromagnit induksiya qonuni"
-  },
-  {
-    "question": "Ayon qutbli sinxron generatorning yakor chulg‘amida hosil kilinayotgan EYUK shakli sinusoidal bo‘lishi uchun uning havo oralig‘i qanday olinadi?",
-    "options": [
-      "Qutb uchliklari o‘rtasida katta va chetlarida kichkina",
-      "Rotor butun aylanasi bo‘ylab bir xil",
-      "Qutb uchliklari o‘rtasida kichik va chetlarida nisbatan katta",
-      "Javob uchun ma’lumot yetarli emas"
-    ],
-    "answer": "Qutb uchliklari o‘rtasida katta va chetlarida kichkina"
-  },
-  {
-    "question": "O‘zgarmas tok mashinasi yakor chulg‘ami o‘tkazgichlaridan tok o‘tganda ularga ta’sir etuvchi kuchning yo‘nalishi qaysi qoida bo‘yicha aniqlanadi?",
-    "options": [
-      "Chap qo‘l qoidasi",
-      "O‘ng qo‘l qoidasi",
-      "Parma qoidasi",
-      "Amper qonuni"
-    ],
-    "answer": "Chap qo‘l qoidasi"
-  },
-  {
-    "question": "Uch fazali sinxron generatorning stator chulg‘amida 3000 ayl/min chastotada aylanma magnit maydon hosil bo‘lsa, uning rotori qanday chastotada aylanadi?",
-    "options": [
-      "3000 ayl/min",
-      "Masala noaniq, chunki yakor chulg‘amidagi tok chastotasi noma’lum",
-      "Masala noaniq, chunki rotor qutblari soni noma’lum",
-      "1500 ayl/min"
-    ],
-    "answer": "3000 ayl/min"
-  },
-  {
-    "question": "Yakor toki Ia 2 marta oshsa parallel qo‘zg‘atishli o‘zgarmas tok motorining aylantiruvchi momenti qanday o‘zgaradi?",
-    "options": [
-      "2 marta oshadi",
-      "O‘zgarmaydi",
-      "Aniqlab bo‘lmaydi, chunki mashina qutblari berilmagan",
-      "4 marta oshadi"
-    ],
-    "answer": "2 marta oshadi"
-  },
-  {
-    "question": "Ikki qutbli sinxron generatorning rotori 1500 ayl/min chastota bilan aylanmoqda. Yakor chulg‘amida hosil qilingan asosiy EYUK ga mos vektor qanday chastota bilan aylanadi?",
-    "options": [
-      "50 ayl/s",
-      "100 ayl/s",
-      "25 ayl/s",
-      "1000 ayl/s"
-    ],
-    "answer": "50 ayl/s"
-  },
-  {
-    "question": "O‘zgarmas tok mashinasi yakor chulg‘ami o‘tkazgichlaridan tok o‘tganda ularga ta’sir etuvchi kuchning yo‘nalishi qaysi qoida bo‘yicha aniqlanadi?",
-    "options": [
-      "Chap qo‘l qoidasi",
-      "O‘ng qo‘l qoidasi",
-      "Parma qoidasi",
-      "Amper qonuni"
-    ],
-    "answer": "Chap qo‘l qoidasi"
-  },
-  {
-    "question": "Gidrogeneratorlarda (a), turbogeneratorlarda (b) qanday rotorlar qo‘llaniladi?",
-    "options": [
-      "a) ayon qutbli, b) noayon qutbli",
-      "a) noayon qutbli, b) ayon qutbli",
-      "Rotorni tanlash generatorning quvvatiga bog‘liq",
-      "a) ayon qutbli, b) ayon qutbli"
-    ],
-    "answer": "a) ayon qutbli, b) noayon qutbli"
-  },
-  {
-    "question": "Elektr mashinaning qanday qismini stator deb ataladi?",
-    "options": [
-      "Mashinaning qo‘zg‘almas qismi",
-      "EYUK hosil bo‘ladigan qismi",
-      "Qo‘zg‘atish magnit oqimi hosil qilinadigan qismi",
-      "Mashinaning aylanadigan qismi"
-    ],
-    "answer": "Mashinaning qo‘zg‘almas qismi"
-  },
-  {
-    "question": "Sinxron generatorning yuklama toki induktiv xarakterda bo‘lganda, uning yakor reaksiyasi qanday bo‘ladi?",
-    "options": [
-      "Bo‘ylama magnitsizlovchi",
-      "Ko‘ndalang",
-      "Bo‘ylama magnitlovchi",
-      "Ko‘ndalang magnitlovchi"
-    ],
-    "answer": "Bo‘ylama magnitsizlovchi"
-  },
-  {
-    "question": "O‘zgarmas tok motorining muvozanat tenglamasi M – MD = M0 + M2 bo‘lsa, motorning aylanish chastotasi qanday o‘zgaradi?",
-    "options": [
-      "Oshadi",
-      "O‘zgarmaydi",
-      "Kamayadi",
-      "Aniqlab bo‘lmaydi, chunki mashina qutblari berilmagan"
-    ],
-    "answer": "Oshadi"
-  },
-  {
-    "question": "Sinxron generatorning induktiv yuklamasi oshirilganda, uning chiqish klemmalarida kuchlanish qanday o‘zgaradi?",
-    "options": [
-      "Kamayadi",
-      "O‘zgarmaydi",
-      "Oshadi",
-      "Avvaliga oshib, keyin kamayadi"
-    ],
-    "answer": "Kamayadi"
-  },
-  {
-    "question": "O‘zgarmas tok generatori yakor chulg‘ami simlarida hosil bo‘lgan EYUK yo‘nalishi qanday qoida bo‘yicha aniqlanadi?",
-    "options": [
-      "O‘ng qo‘l qoidasi",
-      "Chap qo‘l qoidasi",
-      "Parma qoidasi",
-      "Amper qonuni"
-    ],
-    "answer": "O‘ng qo‘l qoidasi"
-  },
-  {
-    "question": "Sinxron motorning mexanik tavsifi yuklama oshishi bilan qanday o‘zgaradi?",
-    "options": [
-      "Egri chiziqli ko‘rinishda kamayadi",
-      "Oshadi",
-      "To‘g‘ri chizikli ko‘rinishda kamayadi",
-      "O‘zgarmaydi"
-    ],
-    "answer": "Egri chiziqli ko‘rinishda kamayadi"
-  },
-  {
-    "question": "O‘zgarmas tok motorining yakor chulg‘amida EYUK kamaysa, yakor toki va elektr tarmog‘idan oladigan quvvat qanday o‘zgaradi?",
-    "options": [
-      "Tok va quvvat oshadi",
-      "Tok va quvvat kamayadi",
-      "Tok oshadi, quvvat kamayadi",
-      "Tok kamayadi, quvvat oshadi"
-    ],
-    "answer": "Tok va quvvat oshadi"
-  },
-  {
-    "question": "Sinxron generatorni tarmoqqa parallel ulashda qaysi shart bajarilishi shart?",
-    "options": [
-      "Generatorda hosil bo‘layotgan kuchlanishning amplitudasi, fazasi va chastotasi tarmoqnikiga mos bo‘lishi",
-      "Yuklamaning ko‘rsatkichlari muhim emas, har qanday sharoitda ulash mumkin",
-      "Asosiy magnit maydon yo‘nalishi tarmoqniki bilan 180° faza farqiga ega bo‘lishi",
-      "Generatordan olinadigan tok cheklovsiz bo‘lishi"
-    ],
-    "answer": "Generatorda hosil bo‘layotgan kuchlanishning amplitudasi, fazasi va chastotasi tarmoqnikiga mos bo‘lishi"
-  },
-  {
-    "question": "O‘zgarmas tok generatorlari quvvatni oshirish uchun qanday usuldan foydalaniladi?",
-    "options": [
-      "Bir nechta generatorni parallel ulash",
-      "Tarmoq chastotasini ikki marta oshirish",
-      "Generator validagi aylanish chastotasini istalgancha o‘zgartirish",
-      "Yakor chulg‘amlarini ketma-ket ulanganda quvvat chegarasi cheksiz bo‘ladi"
-    ],
-    "answer": "Bir nechta generatorni parallel ulash"
-  },
-  {
-    "question": "Sinxron generatorning “asinxron” rejimga o‘tib qolishiga nima sabab bo‘lishi mumkin?",
-    "options": [
-      "Rotor qutblarining uyg‘unlashmagan (nosinxron) holati yoki noto‘g‘ri sozlanishi",
-      "Tarmoq chulg‘amida kuchlanish 10% ga oshganda avtomatik tarzda asinxron rejim vujudga keladi",
-      "Yakor chulg‘amlarining faqat bitta fazasiga kuchlanish berilganda",
-      "Avtomatik ravishda asinxron generatsiya rejimi tanlanadi"
-    ],
-    "answer": "Rotor qutblarining uyg‘unlashmagan (nosinxron) holati yoki noto‘g‘ri sozlanishi"
-  },
-  {
-    "question": "O‘zgarmas tok motorining ishga tushirish toki qanday kamaytiriladi?",
-    "options": [
-      "Ishga tushirish zanjiriga oldindan qarshilik yoki reostat ulash orqali",
-      "Har doim nominal kuchlanish bilan ta’minlash orqali",
-      "Generatorni motor bilan ketma-ket ulash orqali",
-      "Qo‘zg‘atish chulg‘amida sig‘im xususiyati hosil qilish orqali"
-    ],
-    "answer": "Ishga tushirish zanjiriga oldindan qarshilik yoki reostat ulash orqali"
-  },
-  {
-    "question": "Sinxron motorning tormozlanish usullaridan biri qaysi?",
-    "options": [
-      "Qutb juftlarini teskari ulab, motorni “elektr tormoz” rejimida ishlatish",
-      "Yuklamani keskin oshirib, motorni o‘z-o‘zidan tormozlash",
-      "Valni qo‘shimcha rezonans chulg‘amiga ulash",
-      "Rotor tishlarini mexanik yo‘l bilan kamaytirish"
-    ],
-    "answer": "Qutb juftlarini teskari ulab, motorni “elektr tormoz” rejimida ishlatish"
+    "answer": " vаqt"
   }
-
 
 
 
