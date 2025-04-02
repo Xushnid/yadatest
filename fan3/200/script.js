@@ -1812,7 +1812,13 @@ const questions = [
 	 // Qolgan savollarni shu yerda qo'shing...
 ];
 
-// Dasturni ishga tushirish
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const startBtn = document.getElementById('startBtn');
     const quizContainer = document.getElementById('quizContainer');
@@ -1822,13 +1828,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultDiv = document.getElementById('result');
     const restartBtn = document.getElementById('restartBtn');
 
+    const prevQuestionBtn = document.getElementById('prevQuestionBtn');
+    const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+
     let currentQuestionIndex = 0;
+
+    // Foydalanuchi tanlagan javoblarni saqlaymiz: { 0: "variant", 1: "variant", ... }
+    let userAnswers = {};
 
     // Testni boshlash
     startBtn.addEventListener('click', () => {
         currentQuestionIndex = 0;
         startBtn.style.display = 'none';
         quizContainer.style.display = 'block';
+
+        prevQuestionBtn.style.display = 'none'; 
+        nextQuestionBtn.style.display = 'inline-block'; 
+
         loadQuestion();
     });
 
@@ -1839,13 +1855,28 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        // "Oldingi savol" tugmasi holati
+        if (currentQuestionIndex === 0) {
+            prevQuestionBtn.style.display = 'none';
+        } else {
+            prevQuestionBtn.style.display = 'inline-block';
+        }
+
+        // "Keyingi savol" tugmasi matni
+        if (currentQuestionIndex === questions.length - 1) {
+            nextQuestionBtn.textContent = 'Testni yakunlash';
+        } else {
+            nextQuestionBtn.textContent = 'Keyingi savol';
+        }
+
         const currentQuestion = questions[currentQuestionIndex];
         questionBox.textContent = `${currentQuestionIndex + 1}. ${currentQuestion.question}`;
         optionsBox.innerHTML = '';
 
-        // Variantlarni tasodifiy tartibda aralashtirish
+        // Variantlarni aralashtirish
         const shuffledOptions = shuffleArray(currentQuestion.options);
 
+        // Radio variantlar yaratish
         shuffledOptions.forEach(option => {
             const label = document.createElement('label');
             label.innerHTML = `
@@ -1855,22 +1886,46 @@ document.addEventListener('DOMContentLoaded', () => {
             optionsBox.appendChild(label);
         });
 
-        feedbackDiv.style.display = 'none';
+        // Agar bu savolga avval javob bergan bo'lsa, o'sha javobni belgilab qo'yamiz
+        if (userAnswers[currentQuestionIndex]) {
+            const savedAnswer = userAnswers[currentQuestionIndex];
+            const allOptions = document.querySelectorAll('input[name="option"]');
+            allOptions.forEach((radio) => {
+                if (radio.value === savedAnswer) {
+                    radio.checked = true;
+                }
+            });
+            // Shuningdek, feedbackDiv ham ko‘rib chiqamiz:
+            if (savedAnswer === currentQuestion.answer) {
+                feedbackDiv.textContent = "🎉 To'g'ri javob!";
+                feedbackDiv.className = "feedback correct-feedback";
+                feedbackDiv.style.display = 'block';
+            } else {
+                feedbackDiv.textContent = "❌ Noto'g'ri javob! Qayta urinib ko'ring.";
+                feedbackDiv.className = "feedback wrong-feedback";
+                feedbackDiv.style.display = 'block';
+            }
+        } else {
+            // Hali javob belgilanmagan bo'lsa, feedback ko'rinmaydi
+            feedbackDiv.style.display = 'none';
+        }
     }
 
-    // Javobni tekshirish
+    // Radio button o'zgarganda javobni tekshirish
     optionsBox.addEventListener('change', () => {
-        const selectedAnswer = document.querySelector('input[name="option"]:checked').value;
+        const selectedRadio = document.querySelector('input[name="option"]:checked');
+        if (!selectedRadio) return; // Ehtiyot chorasi
+
+        const selectedAnswer = selectedRadio.value;
         const currentQuestion = questions[currentQuestionIndex];
+
+        // userAnswers massividagi saqlash
+        userAnswers[currentQuestionIndex] = selectedAnswer;
 
         if (selectedAnswer === currentQuestion.answer) {
             feedbackDiv.textContent = "🎉 To'g'ri javob!";
             feedbackDiv.className = "feedback correct-feedback";
             feedbackDiv.style.display = 'block';
-            setTimeout(() => {
-                currentQuestionIndex++;
-                loadQuestion();
-            }, 1000); // 1 soniya kutib, keyingi savolga o'tadi
         } else {
             feedbackDiv.textContent = "❌ Noto'g'ri javob! Qayta urinib ko'ring.";
             feedbackDiv.className = "feedback wrong-feedback";
@@ -1878,7 +1933,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Natijani ko'rsatish
+    // Oldingi savol
+    prevQuestionBtn.addEventListener('click', () => {
+        if (currentQuestionIndex > 0) {
+            currentQuestionIndex--;
+            loadQuestion();
+        }
+    });
+
+    // Keyingi savol
+    nextQuestionBtn.addEventListener('click', () => {
+        if (currentQuestionIndex === questions.length - 1) {
+            showResult();
+        } else {
+            currentQuestionIndex++;
+            loadQuestion();
+        }
+    });
+
+    // Natija
     function showResult() {
         quizContainer.style.display = 'none';
         resultDiv.style.display = 'block';
@@ -1888,9 +1961,11 @@ document.addEventListener('DOMContentLoaded', () => {
     restartBtn.addEventListener('click', () => {
         resultDiv.style.display = 'none';
         startBtn.style.display = 'block';
+        // userAnswers = {}; // agar qayta boshlasangiz, hammasini tozalashni xohlasangiz
+        // currentQuestionIndex = 0; 
     });
 
-    // Tasodifiy tartibda massivni aralashtirish funksiyasi
+    // Tasodifiy aralashtirish
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
