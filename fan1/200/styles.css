@@ -137,3 +137,28 @@ h1 {
     margin-top: 0; /* Sarlavha va tugma orasidagi masofani kamaytirish */
     color: #333;
 }
+
+
+
+/* Oldingi va Keyingi tugmachalarini bitta qatorda ko'rsatish */
+#prevQuestionBtn,
+#nextQuestionBtn {
+    display: inline-block;   /* Yonma-yon qilish uchun inline-block */
+    width: 48%;             /* Har biri konteyner kengligining 48% i, orada 4% bo‘sh joy */
+    margin-top: 10px;       /* Ozgina ustki oraliq */
+    /* Xohlovingizcha boshqa xususiyatlar ham qo‘shishingiz mumkin */
+}
+
+
+#nav-buttons {
+    display: flex;
+    justify-content: space-between; /* Tugmalarni chap va o‘ng tomonlarga ajratish */
+    gap: 10px;                      /* Tugmalar orasidagi oraliq */
+    margin-top: 10px;
+}
+
+/* #nav-buttons ichidagi har bir button uchun */
+#nav-buttons button {
+    width: 48%; 
+    /* Boshqa xohlovchi stil xususiyatlari shu yerda */
+}
