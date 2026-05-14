@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Portal - Asosiy Sahifa</title>
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --primary-dark: #2563eb;
+            --success: #22c55e;
+            --danger: #ef4444;
+            --warning-bg: #fff1f2;
+            --warning-border: #fda4af;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #0f172a;
+            --gray: #64748b;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-tap-highlight-color: transparent; }
+        
+        body { background-color: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column; }
+
+        /* Header */
+        header {
+            background: var(--card-bg);
+            padding: 15px 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo { font-weight: 800; font-size: 1.2rem; color: var(--primary); cursor: pointer; text-transform: uppercase; }
+        .nav-btn { background: transparent; border: 1px solid var(--gray); padding: 5px 12px; border-radius: 6px; color: var(--text); cursor: pointer; font-size: 0.85rem; display: none; }
+
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            width: 100%;
+        }
+
+        /* Screens */
+        .screen { display: none; }
+        .screen.active { display: block; animation: fadeEffect 0.3s; }
+        @keyframes fadeEffect { from {opacity: 0; transform: translateY(5px);} to {opacity: 1; transform: translateY(0);} }
+
+        /* Subjects Grid */
+        .subjects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* Subject Card */
+        .subject-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            text-decoration: none;
+            color: var(--text);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .subject-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary);
+        }
+
+        /* Card Decoration */
+        .icon-box {
+            width: 50px;
+            height: 50px;
+            background: #eff6ff;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .subject-card h3 { font-size: 1.4rem; margin-bottom: 8px; font-weight: 700; }
+        .subject-card p { color: var(--gray); font-size: 0.95rem; line-height: 1.5; margin-bottom: 25px; flex-grow: 1; }
+
+        .btn-link {
+            background: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .subject-card:hover .btn-link { background: var(--primary-dark); }
+
+        /* Sinov test card */
+        .sinov-card {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+            color: white;
+            cursor: pointer;
+            user-select: none;
+        }
+        .sinov-card:hover { border-color: #fbbf24; }
+        .sinov-card h3 { color: #fbbf24; }
+        .sinov-card p { color: #cbd5e1; }
+        .sinov-card .icon-box { background: rgba(255,255,255,0.15); color: #fbbf24; }
+        .sinov-card .btn-link { background: #fbbf24; color: #1e3a5f; }
+        .sinov-card:hover .btn-link { background: #f59e0b; }
+
+        /* Questions */
+        .question-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            margin-bottom: 15px;
+        }
+        .q-header { display: flex; justify-content: space-between; margin-bottom: 20px; font-size: 0.85rem; color: var(--gray); font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+        .q-text { font-size: 1.15rem; font-weight: 600; margin-bottom: 25px; line-height: 1.6; word-wrap: break-word; overflow-wrap: break-word; }
+        
+        .options-list { display: flex; flex-direction: column; gap: 10px; }
+        .option-btn {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            padding: 16px;
+            border-radius: 10px;
+            text-align: left;
+            cursor: pointer;
+            font-size: 1rem;
+            color: var(--text);
+            transition: all 0.2s;
+            position: relative;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
+            line-height: 1.5;
+        }
+        .option-btn:hover { border-color: #cbd5e1; background: #fff; }
+        .option-btn.selected { border-color: var(--primary); background: #eff6ff; color: var(--primary-dark); font-weight: 600; }
+
+        /* Exam Navigation Grid */
+        .exam-nav-grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 6px;
+            margin-top: 15px;
+        }
+        .grid-item {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #cbd5e1;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #475569;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+        .grid-item.active { background: #fff; border: 2px solid var(--primary); color: var(--primary); transform: scale(1.1); }
+        .grid-item.answered { background: var(--primary); color: #fff; border: none; }
+
+        /* Buttons */
+        .controls { display: flex; gap: 12px; margin-top: 25px; }
+        .btn {
+            flex: 1;
+            padding: 14px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: background 0.2s;
+        }
+        .btn-prev { background: #e2e8f0; color: #334155; }
+        .btn-next { background: var(--primary); color: #fff; }
+        .btn-finish { background: var(--danger); color: #fff; }
+
+        /* Results */
+        .result-summary { text-align: center; background: var(--card-bg); padding: 30px; border-radius: 16px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); margin-bottom: 25px; }
+        .score-display { font-size: 3rem; font-weight: 800; color: var(--primary); margin: 10px 0; }
+        
+        .result-item { background: var(--card-bg); border: 1px solid #e2e8f0; border-radius: 10px; padding: 15px; margin-bottom: 12px; }
+        .result-item.skipped { border: 2px solid var(--warning-border); background: var(--warning-bg); }
+        .skipped-label { color: var(--danger); font-weight: bold; font-size: 0.8rem; display: block; margin-bottom: 5px; text-transform: uppercase; }
+
+        .res-opt { padding: 10px; margin: 5px 0; border-radius: 6px; font-size: 0.95rem; border: 1px solid transparent; word-wrap: break-word; overflow-wrap: break-word; line-height: 1.4; }
+        .result-item h4 { word-wrap: break-word; overflow-wrap: break-word; line-height: 1.5; margin-bottom: 10px; }
+        .res-opt.is-correct { background: #dcfce7; color: #15803d; border-color: #86efac; font-weight: 600; }
+        .res-opt.user-wrong { background: #fee2e2; color: #b91c1c; border-color: #fca5a5; text-decoration: line-through; }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container { padding: 15px 10px; }
+            .question-card { padding: 18px 14px; }
+            .q-text { font-size: 1.05rem; margin-bottom: 18px; }
+            .option-btn { padding: 14px 12px; font-size: 0.93rem; }
+            .exam-nav-grid { grid-template-columns: repeat(8, 1fr); gap: 4px; }
+            .grid-item { font-size: 0.7rem; }
+            .result-summary { padding: 20px 15px; }
+            .score-display { font-size: 2.5rem; }
+            .result-item { padding: 12px 10px; }
+            .res-opt { padding: 8px; font-size: 0.88rem; }
+        }
+
+        @media (max-width: 480px) {
+            .subjects-grid { grid-template-columns: 1fr; }
+            .subject-card { padding: 20px; }
+            .subject-card h3 { font-size: 1.2rem; }
+            .subject-card p { font-size: 0.88rem; margin-bottom: 18px; }
+            .container { padding: 12px 8px; }
+            .question-card { padding: 15px 12px; border-radius: 10px; }
+            .q-header { margin-bottom: 14px; font-size: 0.78rem; flex-wrap: wrap; gap: 5px; }
+            .q-text { font-size: 0.95rem; margin-bottom: 15px; line-height: 1.5; }
+            .options-list { gap: 8px; }
+            .option-btn { padding: 12px 10px; font-size: 0.88rem; border-radius: 8px; line-height: 1.45; }
+            .exam-nav-grid { grid-template-columns: repeat(8, 1fr); gap: 3px; }
+            .grid-item { font-size: 0.6rem; border-radius: 3px; }
+            .controls { gap: 8px; margin-top: 18px; }
+            .btn { font-size: 0.85rem; padding: 12px 8px; border-radius: 8px; }
+            .result-summary { padding: 18px 12px; border-radius: 12px; }
+            .score-display { font-size: 2.2rem; }
+            .result-item { padding: 10px 8px; border-radius: 8px; }
+            .result-item h4 { font-size: 0.9rem; }
+            .res-opt { padding: 7px 8px; font-size: 0.82rem; }
+            .icon-box { width: 42px; height: 42px; font-size: 1.3rem; margin-bottom: 15px; }
+            .logo { font-size: 1rem; }
+            header { padding: 12px 15px; }
+        }
+
+        @media (max-width: 360px) {
+            .q-text { font-size: 0.88rem; }
+            .option-btn { padding: 10px 8px; font-size: 0.82rem; }
+            .exam-nav-grid { grid-template-columns: repeat(8, 1fr); gap: 2px; }
+            .grid-item { font-size: 0.55rem; }
+            .subject-card { padding: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo" onclick="goHome()">TEST PORTAL</div>
+        <button class="nav-btn" id="exit-btn" onclick="goHome()">Chiqish</button>
+    </header>
+
+    <div class="container">
+
+        <!-- 1. BOSH SAHIFA -->
+        <div id="home-screen" class="screen active">
+            <div class="subjects-grid">
+
+              
+
+                <!-- 1-TEST BLOGI -->
+                <a href="./test1/index.html" class="subject-card">
+                    <div class="icon-box">🎛️</div>
+                    <h3>Avtomatik boshqarish nazariyasi</h3>
+                    <p></p>
+                    <div class="btn-link">Testni boshlash</div>
+                </a>
+
+                <!-- 2-TEST BLOGI -->
+                <a href="./test2/index.html" class="subject-card">
+                    <div class="icon-box">�</div>
+                    <h3>Avtomatlashtirishning texnik vositalari</h3>
+                    <p></p>
+                    <div class="btn-link">Testni boshlash</div>
+                </a>
+
+                <!-- 3-TEST BLOGI -->
+                <a href="./test3/index.html" class="subject-card">
+                    <div class="icon-box">⚙️</div>
+                    <h3>Texnologik jarayonlarni avtomatlashtirish</h3>
+                    <p></p>
+                    <div class="btn-link">Testni boshlash</div>
+                </a>
+
+                 <!-- 4-TEST BLOGI -->
+                <a href="./test4/index.html" class="subject-card">
+                    <div class="icon-box">📊</div>
+                    <h3>Texnologik jarayonlarni identifikatsiyalash va modellashtirish</h3>
+                    <p></p>
+                    <div class="btn-link">Testni boshlash</div>
+                </a>
+
+                  <!-- SINOV TESTI -->
+                <div class="subject-card sinov-card" onclick="startSinovTest()">
+                    <div class="icon-box">🎯</div>
+                    <h3>Sinov testi</h3>
+                    <p>Barcha fanlardan aralash 50 ta savol. </p>
+                    <div class="btn-link">Sinovni boshlash</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 2. SINOV TEST SAHIFASI -->
+        <div id="exam-screen" class="screen">
+            <div class="question-card">
+                <div class="q-header">
+                    <span id="exam-counter">Savol: 1</span>
+                    <span style="color:var(--danger)">SINOV TEST</span>
+                </div>
+                <div id="exam-question-text" class="q-text">Savol...</div>
+                <div id="exam-options" class="options-list"></div>
+            </div>
+
+            <div id="exam-grid" class="exam-nav-grid"></div>
+
+            <div class="controls">
+                <button class="btn btn-prev" onclick="examPrev()">Orqaga</button>
+                <button class="btn btn-finish" onclick="finishExam()">Yakunlash</button>
+                <button class="btn btn-next" onclick="examNext()">Keyingi</button>
+            </div>
+        </div>
+
+        <!-- 3. NATIJA SAHIFASI -->
+        <div id="result-screen" class="screen">
+            <div class="result-summary">
+                <h3>Sizning Natijangiz</h3>
+                <div class="score-display"><span id="res-score">0</span> / <span id="res-total">0</span></div>
+                <p id="res-percent" style="color:var(--gray); font-weight:600;">0%</p>
+                <button class="btn btn-next" style="margin-top:20px;" onclick="goHome()">Bosh sahifaga qaytish</button>
+            </div>
+            <div id="detailed-results"></div>
+        </div>
+
+    </div>
+
+    <!-- Barcha test ma'lumotlarini yuklash -->
+    <script src="./data/test1.js"></script>
+    <script src="./data/test2.js"></script>
+    <script src="./data/test3.js"></script>
+    <script src="./data/test4.js"></script>
+
+    <script>
+        // ----------------------------------------------------
+        // SINOV TEST MANTIG'I
+        // 40 ta savol: test1 dan 13, test2 dan 13, test3 dan 14
+        // ----------------------------------------------------
+
+        let examData = [];
+        let examAnswers = {};
+        let examCurrentIndex = 0;
+
+        // Arrayni aralashtirish (Fisher-Yates)
+        function shuffle(array) {
+            let currentIndex = array.length, randomIndex;
+            while (currentIndex != 0) {
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex--;
+                [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+            }
+            return array;
+        }
+
+        // Massivdan random N ta element olish
+        function getRandomItems(arr, count) {
+            const shuffled = shuffle([...arr]);
+            return shuffled.slice(0, Math.min(count, shuffled.length));
+        }
+
+        // Ekranni almashtirish
+        function showScreen(id) {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+            document.getElementById('exit-btn').style.display = (id === 'home-screen') ? 'none' : 'block';
+            window.scrollTo(0, 0);
+        }
+
+        // Bosh sahifaga qaytish
+        function goHome() {
+            if (document.getElementById('home-screen').classList.contains('active')) return;
+            if (confirm("Bosh sahifaga qaytasizmi? Joriy jarayon bekor qilinadi.")) {
+                showScreen('home-screen');
+            }
+        }
+
+        // Sinov testni boshlash
+        function startSinovTest() {
+            // Har bir bazadan kerakli miqdorda random savollar olish
+            const from1 = getRandomItems(test1Data, 13);
+            const from2 = getRandomItems(test2Data, 12);
+            const from3 = getRandomItems(test3Data, 13);
+            const from4 = getRandomItems(test4Data, 12);
+
+            // Barchasini birlashtirib, umumiy aralashtiramiz
+            const combined = [...from1, ...from2, ...from3, ...from4];
+            examData = shuffle(combined).map(q => ({
+                ...q,
+                fixedOptions: shuffle([...q.options])
+            }));
+
+            examAnswers = {};
+            examCurrentIndex = 0;
+
+            renderExamGrid();
+            loadExamQuestion();
+            showScreen('exam-screen');
+        }
+
+        // Navigatsiya grid
+        function renderExamGrid() {
+            const grid = document.getElementById('exam-grid');
+            grid.innerHTML = '';
+            examData.forEach((_, idx) => {
+                const el = document.createElement('div');
+                let className = 'grid-item';
+                if (idx === examCurrentIndex) className += ' active';
+                if (examAnswers[idx] !== undefined) className += ' answered';
+                el.className = className;
+                el.innerText = idx + 1;
+                el.onclick = () => jumpToQuestion(idx);
+                grid.appendChild(el);
+            });
+        }
+
+        // Savolni ko'rsatish
+        function loadExamQuestion() {
+            const q = examData[examCurrentIndex];
+            const savedAnswer = examAnswers[examCurrentIndex];
+
+            document.getElementById('exam-counter').innerText = `Savol: ${examCurrentIndex + 1} / ${examData.length}`;
+            document.getElementById('exam-question-text').innerText = q.question;
+
+            const container = document.getElementById('exam-options');
+            container.innerHTML = '';
+
+            q.fixedOptions.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                if (savedAnswer === opt) btn.classList.add('selected');
+                btn.innerText = opt;
+                btn.onclick = () => selectExamAnswer(opt);
+                container.appendChild(btn);
+            });
+
+            renderExamGrid();
+        }
+
+        // Javob tanlash
+        function selectExamAnswer(optionValue) {
+            examAnswers[examCurrentIndex] = optionValue;
+            const buttons = document.querySelectorAll('#exam-options .option-btn');
+            buttons.forEach(btn => {
+                if (btn.innerText === optionValue) btn.classList.add('selected');
+                else btn.classList.remove('selected');
+            });
+            renderExamGrid();
+        }
+
+        function jumpToQuestion(index) {
+            examCurrentIndex = index;
+            loadExamQuestion();
+        }
+
+        function examNext() {
+            if (examCurrentIndex < examData.length - 1) {
+                examCurrentIndex++;
+                loadExamQuestion();
+            }
+        }
+
+        function examPrev() {
+            if (examCurrentIndex > 0) {
+                examCurrentIndex--;
+                loadExamQuestion();
+            }
+        }
+
+        // Test yakunlash
+        function finishExam() {
+            const total = examData.length;
+            const answeredCount = Object.keys(examAnswers).length;
+
+            let message = "Testni yakunlab natijalarni ko'rasizmi?";
+            if (answeredCount < total) {
+                message = `Diqqat! Siz ${total} ta savoldan faqat ${answeredCount} tasiga javob berdingiz.\n\nBaribir yakunlaysizmi?`;
+            }
+
+            if (confirm(message)) {
+                calculateResults();
+            }
+        }
+
+        // Natijalarni hisoblash
+        function calculateResults() {
+            let correctCount = 0;
+            const resultContainer = document.getElementById('detailed-results');
+            resultContainer.innerHTML = '';
+
+            examData.forEach((q, idx) => {
+                const userAnswer = examAnswers[idx];
+                const isCorrect = userAnswer === q.answer;
+                const isSkipped = userAnswer === undefined;
+
+                if (isCorrect) correctCount++;
+
+                const item = document.createElement('div');
+                item.className = 'result-item';
+                if (isSkipped) item.classList.add('skipped');
+
+                const skippedHtml = isSkipped ? '<span class="skipped-label">⚠️ Belgilanmagan</span>' : '';
+
+                let optionsHTML = '';
+                q.fixedOptions.forEach(opt => {
+                    let classStr = 'res-opt';
+                    let extra = '';
+                    if (opt === q.answer) {
+                        classStr += ' is-correct';
+                        extra = " (To'g'ri)";
+                    } else if (opt === userAnswer) {
+                        classStr += ' user-wrong';
+                    }
+                    optionsHTML += `<div class="${classStr}">${opt}${extra}</div>`;
+                });
+
+                item.innerHTML = `
+                    ${skippedHtml}
+                    <h4>${idx + 1}. ${q.question}</h4>
+                    ${optionsHTML}
+                `;
+                resultContainer.appendChild(item);
+            });
+
+            const total = examData.length;
+            document.getElementById('res-score').innerText = correctCount;
+            document.getElementById('res-total').innerText = total;
+            document.getElementById('res-percent').innerText = Math.round((correctCount / total) * 100) + '%';
+
+            showScreen('result-screen');
+        }
+    </script>
+
+</body>
+</html>
